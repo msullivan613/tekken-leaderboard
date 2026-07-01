@@ -40,12 +40,15 @@ describe.each(siteSlugs)('committed data files: %s', (slug) => {
 
   const playerIds = new Set(players.players.map((p) => p.id));
 
-  it('players.json: unique ids, known main characters', () => {
+  it('players.json: unique ids, known or null main characters', () => {
     expect(players.schemaVersion).toBe(1);
     const ids = players.players.map((p) => p.id);
     expect(new Set(ids).size).toBe(ids.length);
     for (const p of players.players) {
-      expect(isKnownCharacter(p.main_character)).toBe(true);
+      // main_character may be null (derived from ranks at runtime, issue #1).
+      if (p.main_character !== null) {
+        expect(isKnownCharacter(p.main_character)).toBe(true);
+      }
     }
   });
 

@@ -23,8 +23,10 @@ import { rankBySlug } from '@/data/ranks';
 
 export function PlayerProfilePage() {
   const { id = '' } = useParams();
-  const { playerById, players, pairs, stats, history, matches } = useData();
+  const { playerById, mainCharacterByPlayer, players, pairs, stats, history, matches } =
+    useData();
   const player = playerById.get(id);
+  const mainCharacter = mainCharacterByPlayer.get(id) ?? null;
   const [chartMode, setChartMode] = useState<'mmr' | 'rank'>('mmr');
 
   const myPairs = useMemo(() => pairsForPlayer(pairs, id), [pairs, id]);
@@ -62,10 +64,14 @@ export function PlayerProfilePage() {
             <span>{platformLabel(player.platform)}</span>
             <span className="inline-flex items-center gap-1.5">
               Main:{' '}
-              <span className="inline-flex items-center gap-1.5 text-fg">
-                <CharacterIcon slug={player.main_character} size={20} />
-                {characterDisplayName(player.main_character)}
-              </span>
+              {mainCharacter ? (
+                <span className="inline-flex items-center gap-1.5 text-fg">
+                  <CharacterIcon slug={mainCharacter} size={20} />
+                  {characterDisplayName(mainCharacter)}
+                </span>
+              ) : (
+                EMPTY
+              )}
             </span>
             <span>
               Peak: {peakRank ? <RankBadge rank={peakRank} /> : EMPTY}

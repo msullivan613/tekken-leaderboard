@@ -12,7 +12,9 @@ export interface Player {
   tekken_id: string | null; // dashed Polaris id (§7.1); null if unresolved
   player_tag: string; // display name (matches EWGF/Wavu handle)
   platform: Platform;
-  main_character: CharacterSlug;
+  // Hand-set main, or null → derive the "main" as the player's highest
+  // dan-ranked character from ranks.json (see resolveMainCharacters, issue #1).
+  main_character: CharacterSlug | null;
   peak_rank: string | null; // rank slug override/fallback, or null → derive
   // Optional profile picture, path under public/ (e.g. "avatars/nick.png").
   // When unset, the UI falls back to the main-character portrait, then to a

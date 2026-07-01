@@ -123,5 +123,8 @@ survive refresh — don't switch to BrowserRouter without adding the 404 redirec
 
 - Add a crew member by hand-editing `sites/<slug>/data/players.json`. Their `tekken_id` is the
   id in their `tknow.gg/player/<id>` URL; use `resolve-id` to confirm it before committing.
+- `main_character` may be set to a slug or left `null`. When `null`, the UI derives the player's
+  "main" as their highest dan-ranked character from `ranks.json` (`resolveMainCharacters` in
+  `src/lib/leaderboard.ts`, exposed via `useData().mainCharacterByPlayer`).
 - Reference spec sections in code comments (`§3.4` etc.) as the existing code does — but the
   spec is a design record, not ground truth for the tknow/multi-site points above.

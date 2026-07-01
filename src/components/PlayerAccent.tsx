@@ -34,12 +34,13 @@ export function PlayerAccent({
   character?: string;
   glow?: boolean;
 }) {
-  const { playerById } = useData();
+  const { playerById, mainCharacterByPlayer } = useData();
   const [broken, setBroken] = useState(false);
   const player = playerById.get(playerId);
   const displayTag = tag ?? player?.player_tag ?? playerId;
   const color = accentColor(playerId);
-  const src = avatarImageSrc(player?.avatar, character ?? player?.main_character);
+  const mainCharacter = character ?? mainCharacterByPlayer.get(playerId) ?? undefined;
+  const src = avatarImageSrc(player?.avatar, mainCharacter);
   const ring = glow ? `0 0 0 2px ${color}, 0 0 28px ${color}66` : `0 0 0 2px ${color}`;
 
   if (src && !broken) {

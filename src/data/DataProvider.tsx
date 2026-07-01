@@ -1,6 +1,10 @@
 import { createContext, useContext, useMemo, type ReactNode } from 'react';
 import { useJson } from './useJson';
-import { buildPairViewModels, type PairViewModel } from '@/lib/leaderboard';
+import {
+  buildPairViewModels,
+  resolveMainCharacters,
+  type PairViewModel,
+} from '@/lib/leaderboard';
 import type {
   GlickoFile,
   HistoryFile,
@@ -9,7 +13,7 @@ import type {
   RanksFile,
   StatsFile,
 } from '@/types/data-files';
-import type { Player } from '@/types/domain';
+import type { CharacterSlug, Player } from '@/types/domain';
 
 export interface DataContextValue {
   loading: boolean;
@@ -17,6 +21,8 @@ export interface DataContextValue {
   lastUpdated: string | null;
   players: Player[];
   playerById: Map<string, Player>;
+  /** Effective main character per player id, deriving null mains from ranks (§1). */
+  mainCharacterByPlayer: Map<string, CharacterSlug | null>;
   pairs: PairViewModel[];
   matches: MatchesFile | null;
   stats: StatsFile | null;
@@ -60,6 +66,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
       lastUpdated,
       players,
       playerById: new Map(players.map((p) => [p.id, p])),
+      mainCharacterByPlayer: resolveMainCharacters(playersQ.data, ranksQ.data),
       pairs,
       matches: matchesQ.data,
       stats: statsQ.data,
