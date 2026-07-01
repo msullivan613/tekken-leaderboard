@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-07-01T16:19:48.888Z",
+  "generatedAt": "2026-07-01T18:41:24.432Z",
   "pairs": [
+    {
+      "character": "lili",
+      "confidence": "provisional",
+      "games": 10,
+      "lastUpdated": "2026-03-18T22:34:30.000Z",
+      "pairId": "2GAa-6T8R-T3Ey:lili",
+      "playerId": "gnarlyidk",
+      "provisional": true,
+      "rating": 1214,
+      "sigmaSquared": 142
+    },
+    {
+      "character": "panda",
+      "confidence": "leaderboard",
+      "games": 335,
+      "lastUpdated": "2026-06-29T23:43:40.000Z",
+      "pairId": "2GAa-6T8R-T3Ey:panda",
+      "playerId": "gnarlyidk",
+      "provisional": false,
+      "rating": 1433,
+      "sigmaSquared": 69
+    },
+    {
+      "character": "leo",
+      "confidence": "leaderboard",
+      "games": 107,
+      "lastUpdated": "2026-05-30T05:45:36.000Z",
+      "pairId": "2jTy-fimT-MEJr:leo",
+      "playerId": "code",
+      "provisional": false,
+      "rating": 1453,
+      "sigmaSquared": 73
+    },
     {
       "character": "heihachi",
       "confidence": "unqualified",
@@ -22,6 +55,17 @@
       "provisional": false,
       "rating": 1824,
       "sigmaSquared": 66
+    },
+    {
+      "character": "steve",
+      "confidence": "unqualified",
+      "games": 121,
+      "lastUpdated": "2026-05-28T22:57:08.000Z",
+      "pairId": "32Jb-yqQN-3MMJ:steve",
+      "playerId": "nyx",
+      "provisional": false,
+      "rating": 1254,
+      "sigmaSquared": 100
     },
     {
       "character": "bryan",
@@ -242,6 +286,17 @@
       "provisional": false,
       "rating": 1961,
       "sigmaSquared": 79
+    },
+    {
+      "character": "dragunov",
+      "confidence": "leaderboard",
+      "games": 604,
+      "lastUpdated": "2026-05-22T21:52:29.000Z",
+      "pairId": "4qeG-258q-fMQT:dragunov",
+      "playerId": "slashuur",
+      "provisional": false,
+      "rating": 1282,
+      "sigmaSquared": 71
     },
     {
       "character": "dragunov",

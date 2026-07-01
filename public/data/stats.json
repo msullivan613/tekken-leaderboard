@@ -1,7 +1,7 @@
 {
-  "basedOnMatchCount": 291,
+  "basedOnMatchCount": 331,
   "charMatchups": {},
-  "generatedAt": "2026-07-01T16:19:48.888Z",
+  "generatedAt": "2026-07-01T18:41:24.432Z",
   "headToHead": {},
   "players": {
     "bigman": {
@@ -44,6 +44,16 @@
       "mostPlayedCharacter": "reina",
       "totalMatches": 40,
       "winRate": 0.45
+    },
+    "gnarlyidk": {
+      "charUsage": {
+        "panda": 40
+      },
+      "matchLosses": 17,
+      "matchWins": 23,
+      "mostPlayedCharacter": "panda",
+      "totalMatches": 40,
+      "winRate": 0.575
     },
     "mickrus": {
       "charUsage": {
