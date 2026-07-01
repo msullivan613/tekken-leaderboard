@@ -9,7 +9,7 @@ import { resolve } from 'node:path';
 // sites are served under. base is /<repo>/<site>/ so asset + data URLs resolve
 // under the Pages sub-path (§1.5); data is fetched via import.meta.env.BASE_URL.
 const SITE = process.env.SITE ?? 'c-town';
-const REPO = process.env.PAGES_REPO ?? 'c-town-tekken-leaderboard';
+const REPO = process.env.PAGES_REPO ?? 'tekken-leaderboard';
 
 const siteDir = fileURLToPath(new URL(`./sites/${SITE}`, import.meta.url));
 const siteConfig = JSON.parse(

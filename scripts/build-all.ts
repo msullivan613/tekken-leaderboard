@@ -9,7 +9,7 @@ import { dirname, resolve } from 'node:path';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = resolve(__dirname, '..');
 const SITES_DIR = resolve(REPO_ROOT, 'sites');
-const REPO = process.env.PAGES_REPO ?? 'c-town-tekken-leaderboard';
+const REPO = process.env.PAGES_REPO ?? 'tekken-leaderboard';
 
 function listSites(): string[] {
   return readdirSync(SITES_DIR, { withFileTypes: true })
