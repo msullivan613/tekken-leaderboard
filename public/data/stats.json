@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-30T12:00:01Z",
+  "basedOnMatchCount": 5,
+  "headToHead": {
+    "alex|matt": { "gamesA": 1, "gamesB": 3, "setsA": 0, "setsB": 1 },
+    "matt|nick": { "gamesA": 3, "gamesB": 2, "setsA": 1, "setsB": 0 },
+    "alex|nick": { "gamesA": 6, "gamesB": 3, "setsA": 2, "setsB": 0 },
+    "dev|matt": { "gamesA": 0, "gamesB": 3, "setsA": 0, "setsB": 1 }
+  },
+  "players": {
+    "matt": {
+      "totalGames": 12,
+      "gameWins": 9,
+      "gameLosses": 3,
+      "gameWinRate": 0.75,
+      "totalSets": 3,
+      "setWins": 3,
+      "setLosses": 0,
+      "charUsage": { "jin": 9, "devil_jin": 3 },
+      "mostPlayedCharacter": "jin"
+    },
+    "alex": {
+      "totalGames": 13,
+      "gameWins": 7,
+      "gameLosses": 6,
+      "gameWinRate": 0.538,
+      "totalSets": 3,
+      "setWins": 2,
+      "setLosses": 1,
+      "charUsage": { "king": 13 },
+      "mostPlayedCharacter": "king"
+    },
+    "nick": {
+      "totalGames": 14,
+      "gameWins": 5,
+      "gameLosses": 9,
+      "gameWinRate": 0.357,
+      "totalSets": 3,
+      "setWins": 0,
+      "setLosses": 3,
+      "charUsage": { "kazuya": 14 },
+      "mostPlayedCharacter": "kazuya"
+    },
+    "dev": {
+      "totalGames": 3,
+      "gameWins": 0,
+      "gameLosses": 3,
+      "gameWinRate": 0,
+      "totalSets": 1,
+      "setWins": 0,
+      "setLosses": 1,
+      "charUsage": { "dragunov": 3 },
+      "mostPlayedCharacter": "dragunov"
+    }
+  },
+  "charMatchups": {
+    "alex:king|matt:jin": { "gamesA": 1, "gamesB": 3 },
+    "matt:jin|nick:kazuya": { "gamesA": 3, "gamesB": 2 },
+    "alex:king|nick:kazuya": { "gamesA": 6, "gamesB": 3 },
+    "dev:dragunov|matt:devil_jin": { "gamesA": 0, "gamesB": 3 }
+  }
+}

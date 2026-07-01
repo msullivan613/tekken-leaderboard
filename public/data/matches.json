@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "source": "google-sheet",
+  "generatedAt": "2026-06-30T12:00:00Z",
+  "rowCount": 5,
+  "rejectedCount": 0,
+  "matches": [
+    {
+      "id": "2026-06-28#0",
+      "date": "2026-06-28",
+      "playerA": "matt",
+      "playerB": "alex",
+      "charA": "jin",
+      "charB": "king",
+      "scoreA": 3,
+      "scoreB": 1,
+      "setting": "offline",
+      "event": "Tuesday sesh",
+      "notes": null
+    },
+    {
+      "id": "2026-06-28#1",
+      "date": "2026-06-28",
+      "playerA": "nick",
+      "playerB": "matt",
+      "charA": "kazuya",
+      "charB": "jin",
+      "scoreA": 2,
+      "scoreB": 3,
+      "setting": "offline",
+      "event": "Tuesday sesh",
+      "notes": null
+    },
+    {
+      "id": "2026-06-29#0",
+      "date": "2026-06-29",
+      "playerA": "alex",
+      "playerB": "nick",
+      "charA": "king",
+      "charB": "kazuya",
+      "scoreA": 3,
+      "scoreB": 2,
+      "setting": "online",
+      "event": null,
+      "notes": "close set"
+    },
+    {
+      "id": "2026-06-29#1",
+      "date": "2026-06-29",
+      "playerA": "matt",
+      "playerB": "dev",
+      "charA": "devil_jin",
+      "charB": "dragunov",
+      "scoreA": 3,
+      "scoreB": 0,
+      "setting": "online",
+      "event": null,
+      "notes": null
+    },
+    {
+      "id": "2026-06-30#0",
+      "date": "2026-06-30",
+      "playerA": "nick",
+      "playerB": "alex",
+      "charA": "kazuya",
+      "charB": "king",
+      "scoreA": 1,
+      "scoreB": 3,
+      "setting": "offline",
+      "event": null,
+      "notes": null
+    }
+  ],
+  "rejected": []
+}

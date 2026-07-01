@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "players": [
+    {
+      "id": "matt",
+      "tekken_id": "3fee-J699-M7An",
+      "player_tag": "SugarFree",
+      "platform": "steam",
+      "main_character": "jin",
+      "peak_rank": null,
+      "socials": {
+        "twitch": "https://twitch.tv/sugarfree",
+        "twitter": "https://x.com/sugarfree"
+      }
+    },
+    {
+      "id": "alex",
+      "tekken_id": "1a2b-3c4d-5e6f",
+      "player_tag": "AlxDestroyer",
+      "platform": "steam",
+      "main_character": "king",
+      "peak_rank": null,
+      "aliases": ["Alex", "Alx"],
+      "socials": {}
+    },
+    {
+      "id": "nick",
+      "tekken_id": "2b3c-4d5e-6f70",
+      "player_tag": "NickTheKnife",
+      "platform": "playstation",
+      "main_character": "kazuya",
+      "peak_rank": "tekken_emperor",
+      "socials": {
+        "twitter": "https://x.com/nicktheknife"
+      }
+    },
+    {
+      "id": "dev",
+      "tekken_id": null,
+      "player_tag": "DevMain",
+      "platform": "xbox",
+      "main_character": "dragunov",
+      "peak_rank": null,
+      "socials": {}
+    }
+  ]
+}

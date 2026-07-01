@@ -1,0 +1,26 @@
+{
+  "pairThreshold": {
+    "minRankedGames": 10,
+    "requireAssignedRank": true
+  },
+  "leaderboard": {
+    "defaultView": "players",
+    "defaultSort": "rank",
+    "bestPairMetric": "mmr"
+  },
+  "sheet": {
+    "csvUrl": "https://docs.google.com/spreadsheets/d/e/REPLACE_ME/pub?gid=0&single=true&output=csv"
+  },
+  "sources": {
+    "ewgfBaseUrl": "https://api.ewgf.gg",
+    "ewgfPlayerPath": "/player-stats",
+    "wavuProfileUrl": "https://wank.wavu.wiki"
+  },
+  "wavu": {
+    "userAgent": "c-town-tekken-leaderboard (crew tool; contact matthew.sullivan613@gmail.com)"
+  },
+  "history": {
+    "granularity": "daily",
+    "maxDaysInline": 730
+  }
+}

@@ -1,0 +1,46 @@
+/*
+ * Design tokens. The whole palette/vibe is swappable here without touching
+ * components (spec §5.8). Colors are space-separated RGB channels so Tailwind's
+ * `rgb(var(--x) / <alpha>)` opacity syntax works.
+ *
+ * This is a starting "slick-competitive" dark theme; the design pass owns the
+ * final art direction.
+ */
+:root {
+  --bg: 12 14 20;
+  --surface: 20 23 32;
+  --surface-2: 28 32 44;
+  --border: 44 50 66;
+  --fg: 232 236 245;
+  --muted: 148 158 178;
+  --accent: 122 92 255; /* electric violet */
+  --accent-2: 0 214 179; /* teal */
+
+  --font-display: 'Bebas Neue', 'Arial Narrow', system-ui, sans-serif;
+  --font-body: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  /* Rank color bands (see src/data/ranks.ts colorVarForTier) */
+  --rank-beginner: 130 138 155;
+  --rank-dan: 120 160 190;
+  --rank-fighter: 90 190 150;
+  --rank-brawler: 90 170 220;
+  --rank-warrior: 110 130 235;
+  --rank-vanquisher: 150 110 235;
+  --rank-garyu: 200 120 220;
+  --rank-ruler: 235 120 160;
+  --rank-fujin: 240 150 70;
+  --rank-king: 240 190 60;
+  --rank-god: 250 230 120;
+  --rank-destruction: 255 90 90;
+
+  /* Player accent palette (assigned by hash of player id) */
+  --accent-0: 255 99 132;
+  --accent-1: 54 162 235;
+  --accent-2p: 255 206 86;
+  --accent-3: 75 192 192;
+  --accent-4: 153 102 255;
+  --accent-5: 255 159 64;
+  --accent-6: 46 204 113;
+  --accent-7: 231 76 60;
+}
