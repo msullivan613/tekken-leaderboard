@@ -32,6 +32,55 @@ export interface PairViewModel {
 export type SortKey = 'rank' | 'mmr';
 export type LeaderboardView = 'players' | 'pairs';
 
+/** A player's effective main character: the hand-set `players.json`
+ *  `main_character` when present, else the player's highest dan-ranked character
+ *  from ranks.json (issue #1). Ties break on more ranked games, then character
+ *  slug for determinism. Null when the player has neither a set main nor any
+ *  ranked character yet. */
+function resolveMain(player: Player, ranks: RankPair[]): CharacterSlug | null {
+  if (player.main_character) return player.main_character;
+  let best: RankPair | null = null;
+  for (const r of ranks) {
+    if (r.rankTier == null) continue;
+    if (best == null || isHigherRanked(r, best)) best = r;
+  }
+  return best?.character ?? null;
+}
+
+function isHigherRanked(a: RankPair, b: RankPair): boolean {
+  const at = a.rankTier ?? -1;
+  const bt = b.rankTier ?? -1;
+  if (at !== bt) return at > bt;
+  if (a.rankedGames !== b.rankedGames) return a.rankedGames > b.rankedGames;
+  return a.character < b.character;
+}
+
+/** Resolve every player's effective main (see resolveMain), keyed by player id.
+ *  Exposed through DataProvider so the UI can render a main even when
+ *  `main_character` is null in players.json. */
+export function resolveMainCharacters(
+  playersFile: PlayersFile | null,
+  ranksFile: RanksFile | null,
+): Map<string, CharacterSlug | null> {
+  const out = new Map<string, CharacterSlug | null>();
+  if (!playersFile) return out;
+  const ranksByPlayer = groupRanksByPlayer(ranksFile);
+  for (const p of playersFile.players) {
+    out.set(p.id, resolveMain(p, ranksByPlayer.get(p.id) ?? []));
+  }
+  return out;
+}
+
+function groupRanksByPlayer(ranksFile: RanksFile | null): Map<string, RankPair[]> {
+  const byPlayer = new Map<string, RankPair[]>();
+  for (const r of ranksFile?.pairs ?? []) {
+    const list = byPlayer.get(r.playerId) ?? [];
+    list.push(r);
+    byPlayer.set(r.playerId, list);
+  }
+  return byPlayer;
+}
+
 function highestTier(slugs: Array<string | null>): number | null {
   let best: number | null = null;
   for (const slug of slugs) {
@@ -66,13 +115,11 @@ export function buildPairViewModels(
   const playerById = new Map(players.map((p) => [p.id, p]));
 
   const rankByPairId = new Map<string, RankPair>();
-  const ranksByPlayer = new Map<string, RankPair[]>();
-  for (const r of ranksFile?.pairs ?? []) {
-    rankByPairId.set(r.pairId, r);
-    const list = ranksByPlayer.get(r.playerId) ?? [];
-    list.push(r);
-    ranksByPlayer.set(r.playerId, list);
-  }
+  for (const r of ranksFile?.pairs ?? []) rankByPairId.set(r.pairId, r);
+  const ranksByPlayer = groupRanksByPlayer(ranksFile);
+
+  const mainByPlayer = new Map<string, CharacterSlug | null>();
+  for (const p of players) mainByPlayer.set(p.id, resolveMain(p, ranksByPlayer.get(p.id) ?? []));
 
   const glickoByPairId = new Map<string, GlickoPair>();
   for (const g of glickoFile?.pairs ?? []) glickoByPairId.set(g.pairId, g);
@@ -97,7 +144,7 @@ export function buildPairViewModels(
       playerId,
       playerTag: player.player_tag,
       character,
-      isMain: character === player.main_character,
+      isMain: character === mainByPlayer.get(playerId),
       rank: rankBySlug(rank?.rank ?? null),
       rankedGames: rank?.rankedGames ?? 0,
       mmr: glicko?.rating ?? null,
