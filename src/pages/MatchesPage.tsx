@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { useData } from '@/data/DataProvider';
-import { characterDisplayName } from '@/data/characters';
 import { formatDate } from '@/lib/format';
+import { CharacterIcon } from '@/components/icons';
 
 export function MatchesPage() {
   const { matches, players, playerById } = useData();
@@ -75,19 +75,19 @@ export function MatchesPage() {
               <tr key={m.id} className="border-t border-border">
                 <td className="px-3 py-2 text-muted">{formatDate(m.date)}</td>
                 <td className="px-3 py-2">
-                  {playerById.get(m.playerA)?.player_tag ?? m.playerA}
-                  {m.charA && (
-                    <span className="text-muted"> ({characterDisplayName(m.charA)})</span>
-                  )}
+                  <span className="inline-flex items-center gap-1.5">
+                    {m.charA && <CharacterIcon slug={m.charA} size={20} />}
+                    {playerById.get(m.playerA)?.player_tag ?? m.playerA}
+                  </span>
                 </td>
                 <td className="px-3 py-2 font-mono tabular-nums">
                   {m.scoreA}–{m.scoreB}
                 </td>
                 <td className="px-3 py-2">
-                  {playerById.get(m.playerB)?.player_tag ?? m.playerB}
-                  {m.charB && (
-                    <span className="text-muted"> ({characterDisplayName(m.charB)})</span>
-                  )}
+                  <span className="inline-flex items-center gap-1.5">
+                    {m.charB && <CharacterIcon slug={m.charB} size={20} />}
+                    {playerById.get(m.playerB)?.player_tag ?? m.playerB}
+                  </span>
                 </td>
                 <td className="px-3 py-2 text-muted">{m.setting ?? '—'}</td>
                 <td className="px-3 py-2 text-muted">{m.event ?? '—'}</td>

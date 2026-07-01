@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 import type { Match } from '@/types/data-files';
 import { useData } from '@/data/DataProvider';
-import { characterDisplayName } from '@/data/characters';
 import { formatDate } from '@/lib/format';
 import { accentColor } from '@/lib/accent';
+import { CharacterIcon } from './icons';
 
 function tagOf(playerById: Map<string, { player_tag: string }>, id: string): string {
   return playerById.get(id)?.player_tag ?? id;
@@ -31,25 +31,21 @@ export function RecentMatchesStrip({ limit = 20 }: { limit?: number }) {
             >
               <span className="w-20 shrink-0 text-muted">{formatDate(m.date)}</span>
               <span
-                className={aWon ? 'font-medium text-fg' : 'text-muted'}
+                className={`inline-flex items-center gap-1.5 ${aWon ? 'font-medium text-fg' : 'text-muted'}`}
                 style={{ borderLeft: `3px solid ${accentColor(m.playerA)}`, paddingLeft: 6 }}
               >
+                {m.charA && <CharacterIcon slug={m.charA} size={18} />}
                 {tagOf(playerById, m.playerA)}
-                {m.charA && (
-                  <span className="text-muted"> ({characterDisplayName(m.charA)})</span>
-                )}
               </span>
               <span className="font-mono tabular-nums">
                 {m.scoreA}–{m.scoreB}
               </span>
               <span
-                className={!aWon ? 'font-medium text-fg' : 'text-muted'}
+                className={`inline-flex items-center gap-1.5 ${!aWon ? 'font-medium text-fg' : 'text-muted'}`}
                 style={{ borderLeft: `3px solid ${accentColor(m.playerB)}`, paddingLeft: 6 }}
               >
+                {m.charB && <CharacterIcon slug={m.charB} size={18} />}
                 {tagOf(playerById, m.playerB)}
-                {m.charB && (
-                  <span className="text-muted"> ({characterDisplayName(m.charB)})</span>
-                )}
               </span>
               {m.setting && (
                 <span className="ml-auto text-xs uppercase text-muted">{m.setting}</span>

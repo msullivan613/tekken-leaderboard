@@ -7,6 +7,7 @@ import { PlayerAccent } from '@/components/PlayerAccent';
 import { RankBadge } from '@/components/RankBadge';
 import { MmrCell } from '@/components/MmrCell';
 import { CharacterName } from '@/components/CharacterName';
+import { CharacterIcon } from '@/components/icons';
 import { HistoryChart } from '@/components/HistoryChart';
 import { EMPTY, formatDate, formatPercent, platformLabel } from '@/lib/format';
 import { characterDisplayName } from '@/data/characters';
@@ -51,9 +52,10 @@ export function PlayerProfilePage() {
           <h1 className="text-4xl">{player.player_tag}</h1>
           <div className="mt-1 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
             <span>{platformLabel(player.platform)}</span>
-            <span>
+            <span className="inline-flex items-center gap-1.5">
               Main:{' '}
-              <span className="text-fg">
+              <span className="inline-flex items-center gap-1.5 text-fg">
+                <CharacterIcon slug={player.main_character} size={20} />
                 {characterDisplayName(player.main_character)}
               </span>
             </span>

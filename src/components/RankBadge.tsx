@@ -1,7 +1,16 @@
 import type { RankTier } from '@/data/ranks';
 import { EMPTY } from '@/lib/format';
+import { RankIcon } from './icons';
 
-export function RankBadge({ rank }: { rank: RankTier | null }) {
+export function RankBadge({
+  rank,
+  iconSize = 24,
+  showLabel = true,
+}: {
+  rank: RankTier | null;
+  iconSize?: number;
+  showLabel?: boolean;
+}) {
   if (!rank) return <span className="text-muted">{EMPTY}</span>;
   const color = `rgb(var(${rank.colorVar}))`;
   return (
@@ -10,12 +19,8 @@ export function RankBadge({ rank }: { rank: RankTier | null }) {
       style={{ color }}
       title={rank.display}
     >
-      <span
-        aria-hidden
-        className="h-2 w-2 rounded-full"
-        style={{ backgroundColor: color }}
-      />
-      {rank.display}
+      <RankIcon rank={rank} size={iconSize} />
+      {showLabel && rank.display}
     </span>
   );
 }
