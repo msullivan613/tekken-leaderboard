@@ -1,102 +1,555 @@
 {
-  "basedOnMatchCount": 321,
-  "charMatchups": {},
-  "generatedAt": "2026-07-02T02:39:51.366Z",
-  "headToHead": {},
+  "basedOnMatchCount": 1817,
+  "charMatchups": {
+    "bigman:heihachi|nyx:steve": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "bigman:heihachi|slashuur:dragunov": {
+      "matchesA": 0,
+      "matchesB": 1
+    },
+    "bigman:kuma|burny:paul": {
+      "matchesA": 1,
+      "matchesB": 2
+    },
+    "bigman:kuma|code:leo": {
+      "matchesA": 3,
+      "matchesB": 0
+    },
+    "bigman:kuma|combatport9:jack8": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "bigman:kuma|combatport9:king": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "bigman:kuma|fop:reina": {
+      "matchesA": 0,
+      "matchesB": 2
+    },
+    "bigman:kuma|gnarlyidk:panda": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "bigman:kuma|jardjay:lili": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "bigman:kuma|nyx:steve": {
+      "matchesA": 2,
+      "matchesB": 0
+    },
+    "bigman:kuma|slashuur:dragunov": {
+      "matchesA": 2,
+      "matchesB": 0
+    },
+    "bigman:nina|combatport9:leroy": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "bigman:nina|jardjay:lili": {
+      "matchesA": 4,
+      "matchesB": 3
+    },
+    "bigman:panda|nyx:steve": {
+      "matchesA": 2,
+      "matchesB": 0
+    },
+    "bigman:paul|combatport9:king": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "bigman:paul|nyx:steve": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "bigman:reina|nyx:paul": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "burny:clive|jardjay:lili": {
+      "matchesA": 2,
+      "matchesB": 0
+    },
+    "burny:hwoarang|fop:reina": {
+      "matchesA": 1,
+      "matchesB": 2
+    },
+    "burny:hwoarang|gnarlyidk:panda": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "burny:hwoarang|mickrus:heihachi": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "burny:hwoarang|mickrus:jin": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "burny:paul|fop:reina": {
+      "matchesA": 2,
+      "matchesB": 0
+    },
+    "burny:paul|mickrus:heihachi": {
+      "matchesA": 2,
+      "matchesB": 0
+    },
+    "burny:paul|stone:dragunov": {
+      "matchesA": 2,
+      "matchesB": 1
+    },
+    "burny:paul|sugarfree:bryan": {
+      "matchesA": 2,
+      "matchesB": 3
+    },
+    "burny:paul|sugarfree:yoshimitsu": {
+      "matchesA": 8,
+      "matchesB": 1
+    },
+    "burny:victor|mickrus:lee": {
+      "matchesA": 11,
+      "matchesB": 4
+    },
+    "burny:victor|stone:eddy": {
+      "matchesA": 3,
+      "matchesB": 1
+    },
+    "burny:victor|stone:victor": {
+      "matchesA": 3,
+      "matchesB": 0
+    },
+    "burny:victor|sugarfree:yoshimitsu": {
+      "matchesA": 12,
+      "matchesB": 3
+    },
+    "code:leo|nyx:steve": {
+      "matchesA": 3,
+      "matchesB": 4
+    },
+    "code:leo|slashuur:armor_king": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "code:leo|slashuur:dragunov": {
+      "matchesA": 0,
+      "matchesB": 2
+    },
+    "code:leo|slashuur:yoshimitsu": {
+      "matchesA": 2,
+      "matchesB": 0
+    },
+    "combatport9:feng|nyx:eddy": {
+      "matchesA": 0,
+      "matchesB": 1
+    },
+    "combatport9:jack8|gnarlyidk:panda": {
+      "matchesA": 0,
+      "matchesB": 2
+    },
+    "combatport9:jack8|nyx:jin": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "combatport9:jack8|nyx:kazuya": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "combatport9:jack8|nyx:paul": {
+      "matchesA": 3,
+      "matchesB": 2
+    },
+    "combatport9:jack8|nyx:steve": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "combatport9:jack8|slashuur:dragunov": {
+      "matchesA": 0,
+      "matchesB": 1
+    },
+    "combatport9:king|nyx:paul": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "combatport9:king|nyx:steve": {
+      "matchesA": 0,
+      "matchesB": 1
+    },
+    "fop:asuka|nyx:steve": {
+      "matchesA": 4,
+      "matchesB": 0
+    },
+    "fop:lili|nyx:steve": {
+      "matchesA": 4,
+      "matchesB": 0
+    },
+    "fop:reina|jardjay:lili": {
+      "matchesA": 12,
+      "matchesB": 3
+    },
+    "gnarlyidk:panda|nyx:steve": {
+      "matchesA": 1,
+      "matchesB": 1
+    },
+    "jardjay:lili|slashuur:yoshimitsu": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "jardjay:lili|stone:dragunov": {
+      "matchesA": 0,
+      "matchesB": 3
+    },
+    "mickrus:heihachi|stone:dragunov": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "mickrus:heihachi|stone:kazuya": {
+      "matchesA": 2,
+      "matchesB": 0
+    },
+    "nyx:steve|slashuur:dragunov": {
+      "matchesA": 0,
+      "matchesB": 1
+    }
+  },
+  "generatedAt": "2026-07-02T08:46:37.917Z",
+  "headToHead": {
+    "bigman|burny": {
+      "matchesA": 1,
+      "matchesB": 2,
+      "roundsA": 3,
+      "roundsB": 8
+    },
+    "bigman|code": {
+      "matchesA": 3,
+      "matchesB": 0,
+      "roundsA": 9,
+      "roundsB": 1
+    },
+    "bigman|combatport9": {
+      "matchesA": 4,
+      "matchesB": 0,
+      "roundsA": 12,
+      "roundsB": 2
+    },
+    "bigman|fop": {
+      "matchesA": 0,
+      "matchesB": 2,
+      "roundsA": 1,
+      "roundsB": 6
+    },
+    "bigman|gnarlyidk": {
+      "matchesA": 1,
+      "matchesB": 0,
+      "roundsA": 3,
+      "roundsB": 1
+    },
+    "bigman|jardjay": {
+      "matchesA": 5,
+      "matchesB": 3,
+      "roundsA": 18,
+      "roundsB": 17
+    },
+    "bigman|nyx": {
+      "matchesA": 7,
+      "matchesB": 0,
+      "roundsA": 21,
+      "roundsB": 5
+    },
+    "bigman|slashuur": {
+      "matchesA": 2,
+      "matchesB": 1,
+      "roundsA": 8,
+      "roundsB": 5
+    },
+    "burny|fop": {
+      "matchesA": 3,
+      "matchesB": 2,
+      "roundsA": 10,
+      "roundsB": 9
+    },
+    "burny|gnarlyidk": {
+      "matchesA": 1,
+      "matchesB": 0,
+      "roundsA": 3,
+      "roundsB": 1
+    },
+    "burny|jardjay": {
+      "matchesA": 2,
+      "matchesB": 0,
+      "roundsA": 6,
+      "roundsB": 2
+    },
+    "burny|mickrus": {
+      "matchesA": 15,
+      "matchesB": 4,
+      "roundsA": 49,
+      "roundsB": 30
+    },
+    "burny|stone": {
+      "matchesA": 8,
+      "matchesB": 2,
+      "roundsA": 27,
+      "roundsB": 9
+    },
+    "burny|sugarfree": {
+      "matchesA": 22,
+      "matchesB": 7,
+      "roundsA": 73,
+      "roundsB": 38
+    },
+    "code|nyx": {
+      "matchesA": 3,
+      "matchesB": 4,
+      "roundsA": 12,
+      "roundsB": 16
+    },
+    "code|slashuur": {
+      "matchesA": 3,
+      "matchesB": 2,
+      "roundsA": 11,
+      "roundsB": 7
+    },
+    "combatport9|gnarlyidk": {
+      "matchesA": 0,
+      "matchesB": 2,
+      "roundsA": 3,
+      "roundsB": 6
+    },
+    "combatport9|nyx": {
+      "matchesA": 7,
+      "matchesB": 4,
+      "roundsA": 25,
+      "roundsB": 22
+    },
+    "combatport9|slashuur": {
+      "matchesA": 0,
+      "matchesB": 1,
+      "roundsA": 1,
+      "roundsB": 3
+    },
+    "fop|jardjay": {
+      "matchesA": 12,
+      "matchesB": 3,
+      "roundsA": 40,
+      "roundsB": 20
+    },
+    "fop|nyx": {
+      "matchesA": 8,
+      "matchesB": 0,
+      "roundsA": 24,
+      "roundsB": 5
+    },
+    "gnarlyidk|nyx": {
+      "matchesA": 1,
+      "matchesB": 1,
+      "roundsA": 4,
+      "roundsB": 3
+    },
+    "jardjay|slashuur": {
+      "matchesA": 1,
+      "matchesB": 0,
+      "roundsA": 3,
+      "roundsB": 0
+    },
+    "jardjay|stone": {
+      "matchesA": 0,
+      "matchesB": 3,
+      "roundsA": 2,
+      "roundsB": 9
+    },
+    "mickrus|stone": {
+      "matchesA": 3,
+      "matchesB": 0,
+      "roundsA": 9,
+      "roundsB": 4
+    },
+    "nyx|slashuur": {
+      "matchesA": 0,
+      "matchesB": 1,
+      "roundsA": 0,
+      "roundsB": 3
+    }
+  },
   "players": {
     "bigman": {
       "charUsage": {
-        "kuma": 40
+        "heihachi": 2,
+        "kuma": 205,
+        "kunimitsu": 13,
+        "nina": 8,
+        "panda": 65,
+        "paul": 2,
+        "reina": 1
       },
-      "matchLosses": 22,
-      "matchWins": 18,
+      "matchLosses": 148,
+      "matchWins": 148,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 40,
-      "winRate": 0.45
+      "totalMatches": 296,
+      "winRate": 0.5
     },
     "burny": {
       "charUsage": {
-        "paul": 11
+        "clive": 2,
+        "hwoarang": 6,
+        "paul": 68,
+        "victor": 52
       },
-      "matchLosses": 1,
-      "matchWins": 10,
+      "matchLosses": 28,
+      "matchWins": 100,
       "mostPlayedCharacter": "paul",
-      "totalMatches": 11,
-      "winRate": 0.909
+      "totalMatches": 128,
+      "winRate": 0.781
     },
     "chamk": {
       "charUsage": {
-        "devil_jin": 36,
-        "kunimitsu": 4
+        "bryan": 6,
+        "devil_jin": 73,
+        "jin": 87,
+        "kazuya": 5,
+        "kunimitsu": 129
       },
-      "matchLosses": 24,
-      "matchWins": 16,
-      "mostPlayedCharacter": "devil_jin",
-      "totalMatches": 40,
-      "winRate": 0.4
+      "matchLosses": 130,
+      "matchWins": 170,
+      "mostPlayedCharacter": "kunimitsu",
+      "totalMatches": 300,
+      "winRate": 0.567
+    },
+    "code": {
+      "charUsage": {
+        "leo": 39
+      },
+      "matchLosses": 17,
+      "matchWins": 22,
+      "mostPlayedCharacter": "leo",
+      "totalMatches": 39,
+      "winRate": 0.564
+    },
+    "combatport9": {
+      "charUsage": {
+        "feng": 1,
+        "jack8": 12,
+        "king": 4,
+        "leroy": 1
+      },
+      "matchLosses": 11,
+      "matchWins": 7,
+      "mostPlayedCharacter": "jack8",
+      "totalMatches": 18,
+      "winRate": 0.389
     },
     "fop": {
       "charUsage": {
-        "reina": 40
+        "asuka": 4,
+        "devil_jin": 3,
+        "lili": 4,
+        "reina": 223
       },
-      "matchLosses": 22,
-      "matchWins": 18,
+      "matchLosses": 96,
+      "matchWins": 138,
       "mostPlayedCharacter": "reina",
-      "totalMatches": 40,
-      "winRate": 0.45
+      "totalMatches": 234,
+      "winRate": 0.59
     },
     "gnarlyidk": {
       "charUsage": {
-        "panda": 30
+        "panda": 54
       },
-      "matchLosses": 13,
-      "matchWins": 17,
+      "matchLosses": 24,
+      "matchWins": 30,
       "mostPlayedCharacter": "panda",
-      "totalMatches": 30,
-      "winRate": 0.567
+      "totalMatches": 54,
+      "winRate": 0.556
+    },
+    "jardjay": {
+      "charUsage": {
+        "lili": 41
+      },
+      "matchLosses": 32,
+      "matchWins": 9,
+      "mostPlayedCharacter": "lili",
+      "totalMatches": 41,
+      "winRate": 0.22
     },
     "mickrus": {
       "charUsage": {
-        "heihachi": 11,
-        "lee": 29
+        "heihachi": 17,
+        "jin": 1,
+        "lee": 65
       },
-      "matchLosses": 16,
-      "matchWins": 24,
+      "matchLosses": 33,
+      "matchWins": 50,
       "mostPlayedCharacter": "lee",
-      "totalMatches": 40,
-      "winRate": 0.6
+      "totalMatches": 83,
+      "winRate": 0.602
     },
     "nullified": {
       "charUsage": {
-        "armor_king": 3,
-        "fahkumram": 37
+        "armor_king": 241,
+        "claudio": 11,
+        "fahkumram": 98
       },
-      "matchLosses": 18,
-      "matchWins": 22,
-      "mostPlayedCharacter": "fahkumram",
-      "totalMatches": 40,
-      "winRate": 0.55
+      "matchLosses": 193,
+      "matchWins": 157,
+      "mostPlayedCharacter": "armor_king",
+      "totalMatches": 350,
+      "winRate": 0.449
+    },
+    "nyx": {
+      "charUsage": {
+        "eddy": 1,
+        "jin": 1,
+        "kazuya": 1,
+        "paul": 7,
+        "steve": 40
+      },
+      "matchLosses": 36,
+      "matchWins": 14,
+      "mostPlayedCharacter": "steve",
+      "totalMatches": 50,
+      "winRate": 0.28
+    },
+    "slashuur": {
+      "charUsage": {
+        "armor_king": 1,
+        "dragunov": 152,
+        "yoshimitsu": 3
+      },
+      "matchLosses": 92,
+      "matchWins": 64,
+      "mostPlayedCharacter": "dragunov",
+      "totalMatches": 156,
+      "winRate": 0.41
     },
     "stone": {
       "charUsage": {
-        "law": 40
+        "armor_king": 1,
+        "dragunov": 16,
+        "eddy": 4,
+        "fahkumram": 3,
+        "kazuya": 5,
+        "law": 64,
+        "lee": 57,
+        "victor": 3
       },
-      "matchLosses": 11,
-      "matchWins": 29,
+      "matchLosses": 51,
+      "matchWins": 102,
       "mostPlayedCharacter": "law",
-      "totalMatches": 40,
-      "winRate": 0.725
+      "totalMatches": 153,
+      "winRate": 0.667
     },
     "sugarfree": {
       "charUsage": {
-        "bryan": 4,
-        "yoshimitsu": 36
+        "bryan": 9,
+        "yoshimitsu": 62
       },
-      "matchLosses": 13,
-      "matchWins": 27,
+      "matchLosses": 36,
+      "matchWins": 35,
       "mostPlayedCharacter": "yoshimitsu",
-      "totalMatches": 40,
-      "winRate": 0.675
+      "totalMatches": 71,
+      "winRate": 0.493
     }
   },
   "schemaVersion": 2
