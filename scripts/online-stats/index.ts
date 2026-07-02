@@ -9,6 +9,7 @@ import { getPlayerInfo, getPlayerMatches, type TknowBattle } from './tknow';
 import { getPlayerCustomMatches } from './ewgf';
 import { getPlayerCharacters as getWavu } from './wavu';
 import { buildMatches } from './matches';
+import { appendHistory, archiveName, mergeHistory, splitHistory } from './history';
 import { deriveStats } from './stats';
 import { rankByTier, rankBySlug } from '@/data/ranks';
 import { makePairId } from '@/types/domain';
@@ -28,33 +29,22 @@ function todayUtc(): string {
   return new Date().toISOString().slice(0, 10);
 }
 
-/** Append today's [date, value] to each pair's series, idempotently (§3.4). */
-function appendHistory(
-  existing: HistoryFile | null,
-  source: 'tknow' | 'wavu',
-  rows: Array<{ pairId: string; playerId: string; character: string; value: number }>,
-  date: string,
-  now: string,
-): HistoryFile {
-  const file: HistoryFile = existing ?? {
-    schemaVersion: 1,
-    source,
-    updatedAt: now,
-    series: {},
-  };
-  file.updatedAt = now;
-  for (const row of rows) {
-    const series = (file.series[row.pairId] ??= {
-      playerId: row.playerId,
-      character: row.character,
-      points: [],
-    });
-    if (!series.points.some(([d]) => d === date)) {
-      series.points.push([date, row.value]);
-    }
-    series.points.sort((a, b) => a[0].localeCompare(b[0]));
+/** Roll a history file's overflow into per-year archives, then write both the live
+ *  recent-window file and any changed archives — all compact (§2.6, issue #10).
+ *  Returns whether the live file's on-disk contents changed. */
+function writeHistory(
+  base: 'rankhistory' | 'mmrhistory',
+  file: HistoryFile,
+  maxDaysInline: number,
+  now: Date,
+): boolean {
+  const { live, archivesByYear } = splitHistory(file, maxDaysInline, now);
+  for (const [year, overflow] of archivesByYear) {
+    const name = archiveName(base, year);
+    const merged = mergeHistory(readDataFile<HistoryFile>(name), overflow);
+    writeDataFile(name, merged, { inlineArrays: true });
   }
-  return file;
+  return writeDataFile(`${base}.json`, live, { inlineArrays: true });
 }
 
 async function main() {
@@ -242,11 +232,18 @@ async function main() {
       ? writeDataFile('ranks.json', ranksFile)
       : false;
   const wroteGlicko = writeDataFile('glicko.json', glickoFile);
+  // Cap the live history to config.history.maxDaysInline days, rolling older
+  // points into per-year archives (issue #10). Guard the same as before: don't
+  // clobber a good file with an empty one when there's nothing to record.
+  const nowDate = new Date(now);
   const wroteRankHist =
-    rankHistory.series && Object.keys(rankHistory.series).length > 0
-      ? writeDataFile('rankhistory.json', rankHistory)
+    Object.keys(rankHistory.series).length > 0
+      ? writeHistory('rankhistory', rankHistory, config.history.maxDaysInline, nowDate)
       : false;
-  const wroteMmrHist = writeDataFile('mmrhistory.json', mmrHistory);
+  const wroteMmrHist =
+    Object.keys(mmrHistory.series).length > 0
+      ? writeHistory('mmrhistory', mmrHistory, config.history.maxDaysInline, nowDate)
+      : false;
 
   // Matches + derived stats come from tknow (quick/ranked) and, when enabled,
   // ewgf (group/player) battles (§4). Only rebuild when at least one source was

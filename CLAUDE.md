@@ -88,6 +88,14 @@ MMR per character. It then:
   clear `config.pairThreshold` (min ranked games + optionally a non-null rank).
 - Writes `ranks.json`, `glicko.json`; **appends** today's point to `rankhistory.json` /
   `mmrhistory.json` (idempotent per date); rebuilds `matches.json` + derived `stats.json`.
+- **History is bounded (issue #10, `scripts/online-stats/history.ts`).** The live
+  `rankhistory.json` / `mmrhistory.json` keep only the last `config.history.maxDaysInline`
+  days; older points roll into per-year archives `rankhistory.<year>.json` /
+  `mmrhistory.<year>.json` (cold storage — the frontend charts load only the live file).
+  History files are written with `writeDataFile(..., { inlineArrays: true })` so each
+  `[date, value]` tuple is one line (~5–6× smaller than the default pretty-print) while
+  the surrounding structure stays readable. Archives only appear once data exceeds the
+  window (≈2yr at the default 730), so today there are none.
 - **Matches are gathered automatically from tknow battles** — no manual entry, no Google
   Sheet (the sheet in the brief was never built). Matches accumulate append-only; known
   battle ids are fed back so the fetch stops early at already-seen battles.
