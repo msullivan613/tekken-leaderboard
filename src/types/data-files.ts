@@ -97,7 +97,9 @@ export interface Match {
 }
 export interface MatchesFile {
   schemaVersion: 2;
-  source: 'tknow';
+  // Which providers fed this file: tknow (quick/ranked) always; ewgf (group/player)
+  // when EWGF_API_KEY is set. "tknow+ewgf" when both are active.
+  source: 'tknow' | 'ewgf' | 'tknow+ewgf';
   generatedAt: string;
   crewMatchCount: number;
   feedMatchCount: number;

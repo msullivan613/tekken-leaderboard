@@ -256,7 +256,7 @@ async function main() {
     matchCount = built.matches.length;
     const matchesFile: MatchesFile = {
       schemaVersion: 2,
-      source: 'tknow',
+      source: ewgfApiKey ? 'tknow+ewgf' : 'tknow',
       generatedAt: now,
       crewMatchCount: built.crewMatchCount,
       feedMatchCount: built.feedMatchCount,
