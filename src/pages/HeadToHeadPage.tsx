@@ -1,12 +1,13 @@
 import { useState } from 'react';
-import { useData } from '@/data/DataProvider';
+import { useData, useStats } from '@/data/DataProvider';
 import { rawH2H, directedH2H } from '@/lib/stats';
 import { accentColor } from '@/lib/accent';
 import { EMPTY } from '@/lib/format';
 import type { Player } from '@/types/domain';
 
 export function HeadToHeadPage() {
-  const { players, stats } = useData();
+  const { players } = useData();
+  const stats = useStats();
   const [selected, setSelected] = useState<{ a: Player; b: Player } | null>(null);
 
   return (
@@ -92,7 +93,7 @@ function MatchupDrilldown({
   b: Player;
   onClose: () => void;
 }) {
-  const { stats } = useData();
+  const stats = useStats();
   const rec = rawH2H(stats, a.id, b.id);
   if (!rec) return null;
   // headToHead is keyed idA<idB; map to a-vs-b orientation.

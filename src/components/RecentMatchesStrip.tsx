@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 import type { Match } from '@/types/data-files';
-import { useData } from '@/data/DataProvider';
+import { useMatches } from '@/data/DataProvider';
 import { concludedAgo, matchTimestamp, matchTypeLabel } from '@/lib/format';
 import { MatchSideLabel } from './MatchSide';
 
 // Versus-screen match rows: P1 on the left, P2 on the right, rounds charged in
 // the middle. The winner's side lights up. Opponents may be non-crew randoms.
 export function RecentMatchesStrip({ limit = 20 }: { limit?: number }) {
-  const { matches } = useData();
+  const matches = useMatches();
   const recent = [...(matches?.matches ?? [])]
     .sort((a, b) => matchTimestamp(b.playedAt) - matchTimestamp(a.playedAt))
     .slice(0, limit);

@@ -1,12 +1,13 @@
 import { useMemo, useState } from 'react';
-import { useData } from '@/data/DataProvider';
+import { useData, useMatches } from '@/data/DataProvider';
 import { concludedAgo, matchTimestamp, matchTypeLabel } from '@/lib/format';
 import { MatchSideLabel } from '@/components/MatchSide';
 
 const MATCH_TYPES = ['quick', 'ranked', 'player', 'group'] as const;
 
 export function MatchesPage() {
-  const { matches, players } = useData();
+  const { players } = useData();
+  const matches = useMatches();
   const [player, setPlayer] = useState('');
   const [matchType, setMatchType] = useState('');
   const [crewOnly, setCrewOnly] = useState(false);
