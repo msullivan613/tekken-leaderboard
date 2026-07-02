@@ -20,7 +20,7 @@ const REGIONS: Record<number, string> = {
   6: 'Europe 2',
 };
 function regionName(id: number | null | undefined): string | null {
-  return id == null ? null : REGIONS[id] ?? null;
+  return id == null ? null : (REGIONS[id] ?? null);
 }
 
 // tknow `battle_type`: 1 = quick match, anything else = ranked (tknow collapses
@@ -244,7 +244,10 @@ export async function getPlayerMatches(
       }
       body = (await res.json()) as TknowMatchResponse;
     } catch (err) {
-      console.warn(`[tknow] ${tekkenId}: match fetch failed (page ${page}) —`, (err as Error).message);
+      console.warn(
+        `[tknow] ${tekkenId}: match fetch failed (page ${page}) —`,
+        (err as Error).message,
+      );
       break;
     }
 

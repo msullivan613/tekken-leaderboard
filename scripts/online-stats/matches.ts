@@ -97,6 +97,7 @@ export function buildMatches(
       continue;
     }
     const key = crewSideId(m);
+    /* v8 ignore next -- a non-crew match always has exactly one crew side, so key is never null here; the guard is defensive. */
     if (!key) continue;
     (feedByPlayer.get(key) ?? feedByPlayer.set(key, []).get(key)!).push(m);
   }

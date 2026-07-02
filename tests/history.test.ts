@@ -82,14 +82,24 @@ describe('splitHistory', () => {
         },
       },
     };
-    const { live, archivesByYear } = splitHistory(file, 30, new Date('2026-07-01T00:00:00Z'));
+    const { live, archivesByYear } = splitHistory(
+      file,
+      30,
+      new Date('2026-07-01T00:00:00Z'),
+    );
     expect(live.series['OLD:jin']).toBeUndefined();
-    expect(archivesByYear.get('2020')!.series['OLD:jin'].points).toEqual([['2020-01-01', 1]]);
+    expect(archivesByYear.get('2020')!.series['OLD:jin'].points).toEqual([
+      ['2020-01-01', 1],
+    ]);
   });
 
   it('leaves everything live when nothing exceeds the window', () => {
     const f = appendHistory(null, 'tknow', ROWS, '2026-07-01', 'now');
-    const { live, archivesByYear } = splitHistory(f, 730, new Date('2026-07-01T00:00:00Z'));
+    const { live, archivesByYear } = splitHistory(
+      f,
+      730,
+      new Date('2026-07-01T00:00:00Z'),
+    );
     expect(archivesByYear.size).toBe(0);
     expect(Object.keys(live.series)).toEqual(['AAA:jin', 'BBB:kazuya']);
   });
@@ -113,13 +123,23 @@ describe('mergeHistory', () => {
         'AAA:jin': {
           playerId: 'matt',
           character: 'jin',
-          points: [['2024-01-01', 1], ['2024-02-01', 2]],
+          points: [
+            ['2024-01-01', 1],
+            ['2024-02-01', 2],
+          ],
         },
-        'BBB:kazuya': { playerId: 'nick', character: 'kazuya', points: [['2024-03-01', 3]] },
+        'BBB:kazuya': {
+          playerId: 'nick',
+          character: 'kazuya',
+          points: [['2024-03-01', 3]],
+        },
       },
     };
     const merged = mergeHistory(existing, incoming);
-    expect(merged.series['AAA:jin'].points).toEqual([['2024-01-01', 1], ['2024-02-01', 2]]);
+    expect(merged.series['AAA:jin'].points).toEqual([
+      ['2024-01-01', 1],
+      ['2024-02-01', 2],
+    ]);
     expect(merged.series['BBB:kazuya'].points).toEqual([['2024-03-01', 3]]);
     expect(merged.updatedAt).toBe('new');
   });
@@ -148,8 +168,16 @@ describe('stableStringify inlineArrays', () => {
         {
           schemaVersion: 1,
           series: {
-            'AAA:jin': { character: 'jin', playerId: 'matt', points: [['2026-07-01', 21]] },
-            'BBB:kazuya': { character: 'kazuya', playerId: 'nick', points: [['2026-07-01', 1875]] },
+            'AAA:jin': {
+              character: 'jin',
+              playerId: 'matt',
+              points: [['2026-07-01', 21]],
+            },
+            'BBB:kazuya': {
+              character: 'kazuya',
+              playerId: 'nick',
+              points: [['2026-07-01', 1875]],
+            },
           },
           source: 'tknow',
           updatedAt: 'now',

@@ -15,9 +15,7 @@ import { LastUpdated } from '@/components/LastUpdated';
 
 export function LeaderboardPage() {
   const { pairs, lastUpdated, loading, error } = useData();
-  const [view, setView] = useState<LeaderboardView>(
-    config.leaderboard.defaultView,
-  );
+  const [view, setView] = useState<LeaderboardView>(config.leaderboard.defaultView);
   const [sort, setSort] = useState<SortKey>(config.leaderboard.defaultSort);
 
   const rows = useMemo(() => {

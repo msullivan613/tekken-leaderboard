@@ -66,13 +66,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
       mainCharacterByPlayer: resolveMainCharacters(playersQ.data, ranksQ.data),
       pairs,
     };
-  }, [
-    playersQ.data,
-    playersQ.loading,
-    playersQ.error,
-    ranksQ.data,
-    glickoQ.data,
-  ]);
+  }, [playersQ.data, playersQ.loading, playersQ.error, ranksQ.data, glickoQ.data]);
 
   return <DataContext.Provider value={value}>{children}</DataContext.Provider>;
 }

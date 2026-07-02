@@ -54,27 +54,27 @@ CORS, no secrets in the browser.
 
 ## 1.3 Tech stack
 
-> **📌 Decision — one language (TypeScript) for app *and* pipelines.**
+> **📌 Decision — one language (TypeScript) for app _and_ pipelines.**
 > Pipeline scripts run under [`tsx`](https://github.com/privatenumber/tsx) and import
 > the exact same `@/` modules (`src/types/`, `src/data/`) the frontend uses. A schema
 > change is a compile error in both places at once. No Python.
 
-| Concern | Choice | Notes |
-|---|---|---|
-| Language | TypeScript (strict) | shared types between app + pipelines |
-| Build / dev | Vite 5 | fast, first-class GitHub Pages support via `base` |
-| UI | React 18 | function components + hooks |
-| Routing | React Router 6, **HashRouter** | see decision below |
-| Styling | Tailwind CSS + CSS custom-property design tokens | distinctive theme per brief §4.1 |
-| Charts | [Recharts](https://recharts.org) | line charts for rank/MMR history |
-| Data fetch | native `fetch` + a small `useJson<T>()` hook | no React Query needed for static JSON |
-| Pipeline runtime | Node 20 + `tsx` | run inside GitHub Actions |
-| Rank source | **tknow.gg** JSON API | per-character dan rank + lifetime games; no key |
-| MMR source | **Wavu Wank** HTML scrape | Glicko μ/σ²; no key |
-| Match source | **tknow** (quick/ranked) + **ewgf** (group/player, opt-in) | no manual entry, no sheet |
-| HTML parse | `node-html-parser` | Wavu scrape against stable class names |
-| Lint / format | ESLint + Prettier | |
-| Tests | Vitest | pipeline transforms, stats math, committed-data validation |
+| Concern          | Choice                                                     | Notes                                                      |
+| ---------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
+| Language         | TypeScript (strict)                                        | shared types between app + pipelines                       |
+| Build / dev      | Vite 5                                                     | fast, first-class GitHub Pages support via `base`          |
+| UI               | React 18                                                   | function components + hooks                                |
+| Routing          | React Router 6, **HashRouter**                             | see decision below                                         |
+| Styling          | Tailwind CSS + CSS custom-property design tokens           | distinctive theme per brief §4.1                           |
+| Charts           | [Recharts](https://recharts.org)                           | line charts for rank/MMR history                           |
+| Data fetch       | native `fetch` + a small `useJson<T>()` hook               | no React Query needed for static JSON                      |
+| Pipeline runtime | Node 20 + `tsx`                                            | run inside GitHub Actions                                  |
+| Rank source      | **tknow.gg** JSON API                                      | per-character dan rank + lifetime games; no key            |
+| MMR source       | **Wavu Wank** HTML scrape                                  | Glicko μ/σ²; no key                                        |
+| Match source     | **tknow** (quick/ranked) + **ewgf** (group/player, opt-in) | no manual entry, no sheet                                  |
+| HTML parse       | `node-html-parser`                                         | Wavu scrape against stable class names                     |
+| Lint / format    | ESLint + Prettier                                          |                                                            |
+| Tests            | Vitest                                                     | pipeline transforms, stats math, committed-data validation |
 
 > **📌 Decision — HashRouter for routing.**
 > GitHub Pages has no server-side rewrite, so a deep link like `/player/matt` served
@@ -97,35 +97,35 @@ Shared defaults — `config/config.json`:
 ```jsonc
 {
   "pairThreshold": {
-    "minRankedGames": 10,        // a (player,character) pair needs ≥ this many games
-    "requireAssignedRank": true  // ...AND a non-null current rank to appear
+    "minRankedGames": 10, // a (player,character) pair needs ≥ this many games
+    "requireAssignedRank": true, // ...AND a non-null current rank to appear
   },
   "leaderboard": {
-    "defaultView": "players",    // "players" | "pairs"
-    "defaultSort": "mmr",        // "rank" | "mmr"
-    "bestPairMetric": "mmr"      // how "best pair" is chosen for Players view
+    "defaultView": "players", // "players" | "pairs"
+    "defaultSort": "mmr", // "rank" | "mmr"
+    "bestPairMetric": "mmr", // how "best pair" is chosen for Players view
   },
   "matches": {
-    "recentWindowDays": 30,      // prune non-crew feed matches older than this
-    "feedMaxPerPlayer": 40       // cap of non-crew feed matches kept per player
+    "recentWindowDays": 30, // prune non-crew feed matches older than this
+    "feedMaxPerPlayer": 40, // cap of non-crew feed matches kept per player
   },
   "headToHead": {
-    "enabled": false             // per-site opt-in; overridden true for c-town
+    "enabled": false, // per-site opt-in; overridden true for c-town
   },
   "sources": {
-    "tknowBaseUrl": "https://api.tk8now.pe.kr/api/v1",  // §7.9
-    "tknowOrigin":  "https://www.tknow.gg",             // required Origin/Referer (anti-hotlink)
-    "wavuProfileUrl": "https://wank.wavu.wiki",         // §7.3
-    "ewgfBaseUrl": "https://api.ewgf.gg/external"       // §8; used only when H2H enabled
+    "tknowBaseUrl": "https://api.tk8now.pe.kr/api/v1", // §7.9
+    "tknowOrigin": "https://www.tknow.gg", // required Origin/Referer (anti-hotlink)
+    "wavuProfileUrl": "https://wank.wavu.wiki", // §7.3
+    "ewgfBaseUrl": "https://api.ewgf.gg/external", // §8; used only when H2H enabled
   },
   "tknow": { "userAgent": "…crew contact…" },
-  "wavu":  { "userAgent": "…crew contact…" },
-  "ewgf":  { "userAgent": "…crew contact…" },
+  "wavu": { "userAgent": "…crew contact…" },
+  "ewgf": { "userAgent": "…crew contact…" },
   // EWGF_API_KEY is NOT stored here — it's a GitHub Actions secret (§1.6, §8).
   "history": {
     "granularity": "daily",
-    "maxDaysInline": 730         // older points roll into per-year archives (§2.6)
-  }
+    "maxDaysInline": 730, // older points roll into per-year archives (§2.6)
+  },
 }
 ```
 
@@ -137,9 +137,9 @@ overrides a default):
   "site": {
     "slug": "c-town",
     "name": "C-Town",
-    "description": "The C-Town Tekken 8 scoreboard: ranks, MMR, and head-to-head."
+    "description": "The C-Town Tekken 8 scoreboard: ranks, MMR, and head-to-head.",
   },
-  "headToHead": { "enabled": true }   // c-town opts in; area-256 leaves it off
+  "headToHead": { "enabled": true }, // c-town opts in; area-256 leaves it off
 }
 ```
 
@@ -226,10 +226,10 @@ tekken-leaderboard/
 
 **Secrets:** only one, optional, never in the browser:
 
-- **`EWGF_API_KEY`** — GitHub Actions repository secret. Needed *only* for a site
-  with `headToHead.enabled: true` (currently just c-town) to gather group/player
-  matches from ewgf's public API (§8). `online-stats.yml` passes it as an env var to
-  the pipeline; the pipeline runs in Actions and commits only derived JSON, so the key
-  stays server-side. If it's absent, everything else still works — that site simply
-  gathers no custom-lobby matches. tknow and Wavu need **no** secret.
+- **`EWGF_API_KEY`** — GitHub Actions repository secret. Needed _only_ for a site
+with `headToHead.enabled: true` (currently just c-town) to gather group/player
+matches from ewgf's public API (§8). `online-stats.yml` passes it as an env var to
+the pipeline; the pipeline runs in Actions and commits only derived JSON, so the key
+stays server-side. If it's absent, everything else still works — that site simply
+gathers no custom-lobby matches. tknow and Wavu need **no** secret.
 </content>

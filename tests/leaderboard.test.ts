@@ -40,7 +40,12 @@ function playersFile(players: Player[]): PlayersFile {
 }
 
 function ranksFile(pairs: RankPair[]): RanksFile {
-  return { schemaVersion: 1, source: 'tknow', generatedAt: '2026-07-01T00:00:00Z', pairs };
+  return {
+    schemaVersion: 1,
+    source: 'tknow',
+    generatedAt: '2026-07-01T00:00:00Z',
+    pairs,
+  };
 }
 
 describe('resolveMainCharacters (issue #1)', () => {

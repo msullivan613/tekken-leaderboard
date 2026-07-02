@@ -9,15 +9,15 @@ matches are sourced; it supersedes the older EWGF-as-primary-source discussion i
 Tekken 8 has four online match types. The game's Polaris server encodes them as
 `QUICK=1, RANKED=2, GROUP=3, PLAYER=4`. Our leaderboard cares most about **group**
 and **player** matches: those are the custom-lobby fights where crew members
-actually play *each other* head-to-head. Until now we tracked none of them.
+actually play _each other_ head-to-head. Until now we tracked none of them.
 
 Why the existing sources can't provide them:
 
-| Source | Provides | Group/player? |
-| --- | --- | --- |
-| **tknow** (`api.tk8now.pe.kr`) | quick + ranked | **No.** Empirically verified: a sweep of the whole c-town roster (4,199 battles, all game versions) returned only `battle_type` 1 and 2. tknow drops types 3/4. |
-| **Wavu Wank** | ranked (Glicko) | No. |
-| **ewgf.gg** | all four types | **Yes** — the only viable source. |
+| Source                         | Provides        | Group/player?                                                                                                                                                   |
+| ------------------------------ | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **tknow** (`api.tk8now.pe.kr`) | quick + ranked  | **No.** Empirically verified: a sweep of the whole c-town roster (4,199 battles, all game versions) returned only `battle_type` 1 and 2. tknow drops types 3/4. |
+| **Wavu Wank**                  | ranked (Glicko) | No.                                                                                                                                                             |
+| **ewgf.gg**                    | all four types  | **Yes** — the only viable source.                                                                                                                               |
 
 ## The ewgf public API
 
@@ -32,7 +32,7 @@ Authorization: Bearer <EWGF_API_KEY>
 
 Response: `{ _metadata: { rate_limit_remaining, rate_limit_reset, tier }, data: [ battle... ] }`.
 A battle row (note: **no battle id**; `battle_type` is a string; character/rank are
-display *names*):
+display _names_):
 
 ```
 battle_at (ISO)  battle_type ("GROUP_BATTLE"|"PLAYER_BATTLE"|"QUICK_BATTLE"|"RANKED_BATTLE")
@@ -50,15 +50,15 @@ There is also `/external/profile/{id}` (unused — tknow already covers rank/usa
 - **Pro** ($10/mo): 100 battles, no delay.
 
 **The free window slides continuously (verified).** The open question was whether
-"50 most recent with a 24h delay" meant a *frozen daily snapshot* (bad — would
-miss anyone playing >50/day) or a *continuously-sliding feed with a 24h lag*
+"50 most recent with a 24h delay" meant a _frozen daily snapshot_ (bad — would
+miss anyone playing >50/day) or a _continuously-sliding feed with a 24h lag_
 (fine). A two-poll test 28 min apart on an active player showed the window
 advancing (matches added/removed at the boundary) — it slides. Combined with the
 6-hourly cron and append-only accumulation, the free tier captures everything
 except a player sustaining >50 matches within a single ~6h poll interval. If that
 becomes real for someone, options are: poll more often, or switch to Pro. Because
 a crew-vs-crew match appears in **both** players' feeds, it only has to survive in
-*one* of them to be captured.
+_one_ of them to be captured.
 
 ## Per-site toggle & request budget
 
@@ -92,14 +92,14 @@ Disabling head-to-head for a site does two things:
   and re-fetched on later runs — collapses to one `Match`. The `ewgf:` prefix
   guarantees no collision with a tknow battle id.
 - **Shared normalization.** ewgf battles are emitted as the pipeline's canonical
-  `TknowBattle` shape and flow through the *same* `buildMatches` / `deriveStats` as
+  `TknowBattle` shape and flow through the _same_ `buildMatches` / `deriveStats` as
   tknow battles. Character/rank display names map via the existing
   `fromEwgf` (`canonicalizeCharacter`) and `rankFromName` helpers in `src/data/`.
 - **Downstream is already wired.** `MatchType` (`src/types/data-files.ts`) already
   includes `'group'`/`'player'`; `matchTypeLabel`, the MatchesPage type filter, and
   `RecentMatchesStrip` already render them. Retention: crew group/player matches are
   kept forever (head-to-head); vs-outsider ones join the bounded recent feed.
-- **Graceful degradation.** Matches rebuild when *either* tknow or ewgf was
+- **Graceful degradation.** Matches rebuild when _either_ tknow or ewgf was
   reachable; `buildMatches` merges fresh battles onto `priorMatches` by id, so a
   source being down preserves its previously-committed matches.
 

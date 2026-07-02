@@ -1,8 +1,8 @@
 # Tekken Leaderboard — Implementation Spec
 
 This directory turns [`PROJECT-BRIEF.md`](../PROJECT-BRIEF.md) into a buildable
-specification. The brief captures the *goal* and *features*; these docs capture
-the *how* — schemas, contracts, pipelines, and component design.
+specification. The brief captures the _goal_ and _features_; these docs capture
+the _how_ — schemas, contracts, pipelines, and component design.
 
 > **⚠️ Read this first.** The brief and the earliest spec drafts described an
 > **EWGF-primary, single-site, `public/data/`** design. The project since moved to:
@@ -15,16 +15,16 @@ the *how* — schemas, contracts, pipelines, and component design.
 
 ## Spec files
 
-| # | File | Covers |
-|---|------|--------|
-| 1 | [`01-architecture.md`](./01-architecture.md) | System overview, multi-site model, tech stack, repo layout, config layering, deploy |
-| 2 | [`02-data-schemas.md`](./02-data-schemas.md) | Every JSON file: schema, example, invariants + shared TS types |
-| 3 | [`03-online-stats-pipeline.md`](./03-online-stats-pipeline.md) | The refresh job: tknow + Wavu (+ ewgf) → ranks/glicko/history JSON |
-| 4 | [`04-match-pipeline.md`](./04-match-pipeline.md) | tknow (+ ewgf) battles → `matches.json` + derived `stats.json`, with cold-storage archives |
-| 5 | [`05-frontend.md`](./05-frontend.md) | React/Vite app: routes, views, components, lazy data loading |
-| 6 | [`06-decisions-and-open-questions.md`](./06-decisions-and-open-questions.md) | Decision log resolving brief §7; what evolved after research |
-| 7 | [`07-external-api-reference.md`](./07-external-api-reference.md) | **Verified** tknow + Wavu (+ historical EWGF) contracts, rank/character maps, scrape DOM |
-| 8 | [`08-ewgf-group-player-matches.md`](./08-ewgf-group-player-matches.md) | Group/player (custom-lobby) matches via ewgf.gg — the current, accurate H2H source |
+| #   | File                                                                         | Covers                                                                                     |
+| --- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| 1   | [`01-architecture.md`](./01-architecture.md)                                 | System overview, multi-site model, tech stack, repo layout, config layering, deploy        |
+| 2   | [`02-data-schemas.md`](./02-data-schemas.md)                                 | Every JSON file: schema, example, invariants + shared TS types                             |
+| 3   | [`03-online-stats-pipeline.md`](./03-online-stats-pipeline.md)               | The refresh job: tknow + Wavu (+ ewgf) → ranks/glicko/history JSON                         |
+| 4   | [`04-match-pipeline.md`](./04-match-pipeline.md)                             | tknow (+ ewgf) battles → `matches.json` + derived `stats.json`, with cold-storage archives |
+| 5   | [`05-frontend.md`](./05-frontend.md)                                         | React/Vite app: routes, views, components, lazy data loading                               |
+| 6   | [`06-decisions-and-open-questions.md`](./06-decisions-and-open-questions.md) | Decision log resolving brief §7; what evolved after research                               |
+| 7   | [`07-external-api-reference.md`](./07-external-api-reference.md)             | **Verified** tknow + Wavu (+ historical EWGF) contracts, rank/character maps, scrape DOM   |
+| 8   | [`08-ewgf-group-player-matches.md`](./08-ewgf-group-player-matches.md)       | Group/player (custom-lobby) matches via ewgf.gg — the current, accurate H2H source         |
 
 ## How to read this
 
@@ -46,5 +46,5 @@ the *how* — schemas, contracts, pipelines, and component design.
 - **JSON is the database** — the site reads committed JSON at runtime; nothing else.
 - **Crew-first, no auth** — closed roster, no accounts, no write-back from the browser.
 - **(player, character) pair is the unit** — see brief §5 core concept; the data
-  model is keyed on it end to end.
+model is keyed on it end to end.
 </content>

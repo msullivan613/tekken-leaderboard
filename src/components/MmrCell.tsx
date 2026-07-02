@@ -11,9 +11,7 @@ export function MmrCell({ mmr, provisional, confidence }: Props) {
   if (mmr == null) return <span className="text-muted">—</span>;
   return (
     <span
-      className={
-        provisional ? 'text-muted italic' : 'font-mono tabular-nums text-fg'
-      }
+      className={provisional ? 'text-muted italic' : 'font-mono tabular-nums text-fg'}
       title={confidence ? `confidence: ${confidence}` : undefined}
     >
       {formatMmr(mmr)}

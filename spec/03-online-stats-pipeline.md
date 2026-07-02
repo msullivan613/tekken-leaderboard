@@ -47,22 +47,34 @@ header pair (a soft anti-hotlink check), sent with a descriptive `User-Agent`.
 
 ```ts
 export interface TknowCharacterStat {
-  character: CharacterSlug;   // fromCharacterId(char_id) (§7.6)
-  rank: string | null;        // rankFromDanRank(current_rank), slug (§7.5)
+  character: CharacterSlug; // fromCharacterId(char_id) (§7.6)
+  rank: string | null; // rankFromDanRank(current_rank), slug (§7.5)
   rankTier: number | null;
-  rankedGames: number;        // total_games — LIFETIME (fixes EWGF's windowed caveat)
+  rankedGames: number; // total_games — LIFETIME (fixes EWGF's windowed caveat)
   region: string | null;
-  lastSeen: string | null;    // latest_at → ISO
+  lastSeen: string | null; // latest_at → ISO
 }
-export async function getPlayerInfo(tekkenId, baseUrl, headers): Promise<{
-  ok: boolean; name: string | null; matchVersion: number | null;
+export async function getPlayerInfo(
+  tekkenId,
+  baseUrl,
+  headers,
+): Promise<{
+  ok: boolean;
+  name: string | null;
+  matchVersion: number | null;
   characters: TknowCharacterStat[];
 }>;
-export async function getPlayerMatches(tekkenId, version, baseUrl, headers, { knownIds }):
-  Promise<TknowBattle[]>;
+export async function getPlayerMatches(
+  tekkenId,
+  version,
+  baseUrl,
+  headers,
+  { knownIds },
+): Promise<TknowBattle[]>;
 ```
 
 Responsibilities:
+
 - Character ids come through `fromCharacterId`; unmapped ids (reserved/unreleased) are
   `console.warn`ed and skipped.
 - The match `version` is required and per-patch; the pipeline queries the player's
@@ -90,15 +102,18 @@ descriptive `User-Agent`.
 
 ```ts
 export interface WavuCharacterStat {
-  character: CharacterSlug;   // .char text → fromWavu (§7.6)
-  rating: number | null;      // μ
-  sigmaSquared: number | null;// σ²
+  character: CharacterSlug; // .char text → fromWavu (§7.6)
+  rating: number | null; // μ
+  sigmaSquared: number | null; // σ²
   confidence: WavuConfidence; // 'leaderboard' | 'unqualified' | 'provisional'
   games: number;
   lastUpdated: string | null; // printDate unix → ISO
 }
-export async function getPlayerCharacters(tekkenId, profileUrl, userAgent):
-  Promise<WavuCharacterStat[]>;
+export async function getPlayerCharacters(
+  tekkenId,
+  profileUrl,
+  userAgent,
+): Promise<WavuCharacterStat[]>;
 ```
 
 Parse with `node-html-parser` against the stable class names — not regex — so markup
@@ -158,8 +173,9 @@ is hand-maintained and **never** staged by the job.
 name: online-stats
 on:
   schedule:
-    - cron: '0 */6 * * *'        # every 6h — overlapping battle windows + append-only
-                                 # merge minimize missed matches (§4.2, §7)
+    - cron:
+        '0 */6 * * *' # every 6h — overlapping battle windows + append-only
+        # merge minimize missed matches (§4.2, §7)
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -174,7 +190,7 @@ jobs:
       - run: npm ci
       - name: Refresh online stats (all sites)
         env:
-          EWGF_API_KEY: ${{ secrets.EWGF_API_KEY }}   # optional; enables ewgf for opted-in sites
+          EWGF_API_KEY: ${{ secrets.EWGF_API_KEY }} # optional; enables ewgf for opted-in sites
         run: |
           for dir in sites/*/; do
             slug="$(basename "$dir")"
@@ -200,5 +216,5 @@ The push to `main` triggers `deploy.yml`, rebuilding every site with fresh data.
 - A total failure (script throws) exits non-zero → the Actions run is marked failed →
   GitHub emails the repo owner. That's the v1 alerting mechanism ($0).
 - `generatedAt` drives the site's "Last updated" label so the crew can see staleness
-  even if a run silently no-ops.
+even if a run silently no-ops.
 </content>

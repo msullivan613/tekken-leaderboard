@@ -20,14 +20,7 @@ interface Props {
   height?: number;
 }
 
-const LINE_COLORS = [
-  '#7a5cff',
-  '#00d6b3',
-  '#ff6384',
-  '#ffce56',
-  '#36a2eb',
-  '#ff9f40',
-];
+const LINE_COLORS = ['#7a5cff', '#00d6b3', '#ff6384', '#ffce56', '#36a2eb', '#ff9f40'];
 
 // Merge multiple per-pair series into one row-per-date table for Recharts.
 function buildChartData(file: HistoryFile | null, pairIds: string[]) {
@@ -52,10 +45,7 @@ function buildChartData(file: HistoryFile | null, pairIds: string[]) {
 }
 
 export function HistoryChart({ file, pairIds, mode, height = 260 }: Props) {
-  const { data, keys } = useMemo(
-    () => buildChartData(file, pairIds),
-    [file, pairIds],
-  );
+  const { data, keys } = useMemo(() => buildChartData(file, pairIds), [file, pairIds]);
 
   if (data.length === 0) {
     return (

@@ -1,6 +1,6 @@
 # C-Town Tekken Leaderboard — Project Brief
 
-> **Status:** Concept / brainstorm. This document captures the *goal* and *required features*.
+> **Status:** Concept / brainstorm. This document captures the _goal_ and _required features_.
 > It is intentionally non-technical — detailed specs (data schemas, component design,
 > API contracts, workflow YAML) come in a follow-up session.
 >
@@ -49,7 +49,7 @@ What we're **adding** on top: per-character **Glicko-2 MMR** tracking (from Wavu
 player profiles — all while staying serverless.
 
 What we are **not** copying: the inspiration site's **frontend / visual design**. We're taking
-its *architecture and data approach*, but the look-and-feel, layout, and branding will be our
+its _architecture and data approach_, but the look-and-feel, layout, and branding will be our
 own — see [§4.1 Design direction](#41-design-direction). The reference is a structural model,
 not a visual template.
 
@@ -112,14 +112,15 @@ up front:
 ## 5. Required features (v1 / MVP)
 
 > **Core concept — the (player, character) pair is the unit.**
-> People play multiple characters, and both EWGF and Wavu track rank tier and MMR *per
-> character*. So the fundamental tracked entity is a **(player, character) pair**, not a
+> People play multiple characters, and both EWGF and Wavu track rank tier and MMR _per
+> character_. So the fundamental tracked entity is a **(player, character) pair**, not a
 > player. Each pair has its own rank and MMR and earns its own leaderboard spot — if one
 > person's two characters out-rank everyone else, that person holds **#1 and #2**. Player
-> *profiles* (§5.4) then roll all of a person's pairs back up into one page.
+> _profiles_ (§5.4) then roll all of a person's pairs back up into one page.
 >
 > **Per-player vs per-pair — a toggle.** Where it applies (the leaderboard especially), a
 > toggle switches between:
+>
 > - **Players view** — each player appears **once**, represented by their **best pair** (their
 >   highest current rank/MMR), with the character noted. "Who's the best person?"
 > - **Pairs view** — every qualifying (player, character) pair gets its own row; one person can
@@ -135,17 +136,18 @@ up front:
 > value is TBD (§7).
 
 ### 5.1 Rank Leaderboard (core)
+
 The landing page. A sortable board of the crew's standings — viewable **per player** or **per
 (player, character) pair** via a toggle (below) — ranked by current Tekken 8 stats.
 
-- **Players ⇄ Pairs toggle** (see core concept). *Players* = one row per player by their best
-  pair; *Pairs* = one row per (player, character). Pick a sensible default (Players reads as
+- **Players ⇄ Pairs toggle** (see core concept). _Players_ = one row per player by their best
+  pair; _Pairs_ = one row per (player, character). Pick a sensible default (Players reads as
   the "real" standings; Pairs is the deep cut) — TBD in design.
 - Pulls live per-character rank + MMR automatically (daily) from EWGF.gg and Wavu Wank.
 - Shows: player tag, **character** (the best pair's character in Players view), current
   in-game rank (with rank icon/color), **Glicko-2 MMR**, **main character**, **peak rank**,
   platform.
-- Two ranking signals side by side: Tekken's tier rank *and* the numeric MMR — sortable by
+- Two ranking signals side by side: Tekken's tier rank _and_ the numeric MMR — sortable by
   either, since they don't always agree.
 - Clear visual hierarchy so #1 stands out; in Pairs view, visually associate a player's
   multiple rows (e.g. same color/avatar) so it's obvious when one person holds several spots.
@@ -154,6 +156,7 @@ The landing page. A sortable board of the crew's standings — viewable **per pl
 - "Last updated" timestamp so the crew trusts it's fresh.
 
 ### 5.2 Match / Session Logging (via Google Sheet)
+
 The crew records the results of local/online sets in a shared Google Sheet; a scheduled
 Action ingests it.
 
@@ -165,6 +168,7 @@ Action ingests it.
 - A recent-matches feed on the site (e.g. "last 20 sets played").
 
 ### 5.3 Head-to-Head Records (derived from match log)
+
 The "who owns who" feature — the rivalry table.
 
 - **Counted by individual games, not sets.** A set logged as 3–1 contributes 3 wins and
@@ -176,6 +180,7 @@ The "who owns who" feature — the rivalry table.
   are enough to reconstruct the game totals.)
 
 ### 5.4 Rich Player Profiles
+
 A page per **player** that rolls up all of that person's (player, character) pairs.
 
 - Profile fields: tag, platform, **main character**, **peak rank** (career-high), socials
@@ -188,6 +193,7 @@ A page per **player** that rolls up all of that person's (player, character) pai
 - Session/character stats derived from the match log (e.g. most-played character, win rate).
 
 ### 5.5 MMR (Glicko-2) Tracking
+
 A precise, chess-style numeric rating per (player, character) pair, pulled from
 [Wavu Wank](https://wank.wavu.wiki/) — complements Tekken's coarse in-game rank tiers.
 
@@ -212,6 +218,7 @@ Enough to frame the spec session; exact schemas TBD.
 > identifies a row. The roster stays player-level; characters are auto-discovered from the APIs.
 
 **`players.json`** (hand-maintained roster — player-level identity)
+
 - `tekken_id` — EWGF/Polaris ID (nullable if unknown)
 - `player_tag` — display name
 - `platform` — Steam / PlayStation / Xbox
@@ -219,26 +226,32 @@ Enough to frame the spec session; exact schemas TBD.
 - `peak_rank` — career-high rank (player-level); may be derived from the per-character peaks
   EWGF reports (highest across the player's characters) rather than hand-set — see §7
 - `socials` — optional links
-- (the *full* character list is auto-discovered per the play threshold, not enumerated here)
+- (the _full_ character list is auto-discovered per the play threshold, not enumerated here)
 
 **`ranks.json`** (generated daily from EWGF)
+
 - per (player, character): current in-game rank, games/threshold info, last-seen timestamp
 
 **`glicko.json`** (generated daily from Wavu Wank)
+
 - per (player, character): current Glicko-2 rating, optional rating deviation/volatility,
   last-updated
 
 **`mmrhistory.json`** (append-only daily snapshots from Wavu Wank, for the MMR chart)
+
 - per (player, character) per day: Glicko-2 rating at that time
 
 **`rankhistory.json`** (append-only daily snapshots from EWGF, for the rank chart)
+
 - per (player, character) per day: in-game rank at that time (auto-snapshotted, no manual entry)
 
 **Match log → `matches.json`** (generated from Google Sheet)
+
 - `date`, `player_a`, `player_b`, `char_a`, `char_b`, `score_a`, `score_b`,
   `setting` (offline/online), `notes`
 
 **Derived `stats.json`** (computed from matches)
+
 - head-to-head records, per-player win rates, character usage
 
 ---
@@ -251,7 +264,7 @@ Enough to frame the spec session; exact schemas TBD.
   clear a play threshold (decided). Open detail: the exact threshold (min ranked games? must
   have an assigned rank? per-region handling?), how character identity is keyed across EWGF and
   Wavu, and how to label a player's pairs in the UI so multiple top spots read clearly.
-- **Players ⇄ Pairs toggle:** decided — collapsed *Players* view ranks each player by their
+- **Players ⇄ Pairs toggle:** decided — collapsed _Players_ view ranks each player by their
   **best pair**. Open detail: the default view, which other lists (if any) get the toggle, and
   whether "best" is by MMR or by in-game rank when the two disagree.
 - **Peak rank source:** keep per-player **peak rank** (decided). Open detail: derive it from

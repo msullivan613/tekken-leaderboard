@@ -25,8 +25,18 @@ export function directedH2H(
   if (!rec) return null;
   const meIsA = me < opp;
   return meIsA
-    ? { matches: rec.matchesA, oppMatches: rec.matchesB, rounds: rec.roundsA, oppRounds: rec.roundsB }
-    : { matches: rec.matchesB, oppMatches: rec.matchesA, rounds: rec.roundsB, oppRounds: rec.roundsA };
+    ? {
+        matches: rec.matchesA,
+        oppMatches: rec.matchesB,
+        rounds: rec.roundsA,
+        oppRounds: rec.roundsB,
+      }
+    : {
+        matches: rec.matchesB,
+        oppMatches: rec.matchesA,
+        rounds: rec.roundsB,
+        oppRounds: rec.roundsA,
+      };
 }
 
 export function rawH2H(

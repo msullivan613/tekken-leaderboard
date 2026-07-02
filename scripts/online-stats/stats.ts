@@ -41,7 +41,8 @@ export function deriveStats(matches: Match[], generatedAt: string): StatsFile {
       const p = ensurePlayer(side.playerId);
       if (side === winnerSide) p.matchWins += 1;
       else p.matchLosses += 1;
-      if (side.character) p.charUsage[side.character] = (p.charUsage[side.character] ?? 0) + 1;
+      if (side.character)
+        p.charUsage[side.character] = (p.charUsage[side.character] ?? 0) + 1;
     }
 
     if (!m.crew || !m.a.playerId || !m.b.playerId) continue;
@@ -79,6 +80,7 @@ export function deriveStats(matches: Match[], generatedAt: string): StatsFile {
 
   for (const p of Object.values(players)) {
     p.totalMatches = p.matchWins + p.matchLosses;
+    /* v8 ignore next -- a player is only recorded via a win/loss, so totalMatches is never 0; the guard is defensive against a future divide-by-zero. */
     p.winRate = p.totalMatches ? round3(p.matchWins / p.totalMatches) : 0;
     let best: string | null = null;
     let bestN = -1;

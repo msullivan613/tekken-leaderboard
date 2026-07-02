@@ -12,9 +12,9 @@ const SITE = process.env.SITE ?? 'c-town';
 const REPO = process.env.PAGES_REPO ?? 'tekken-leaderboard';
 
 const siteDir = fileURLToPath(new URL(`./sites/${SITE}`, import.meta.url));
-const siteConfig = JSON.parse(
-  readFileSync(resolve(siteDir, 'config.json'), 'utf8'),
-) as { site: { name: string; description: string } };
+const siteConfig = JSON.parse(readFileSync(resolve(siteDir, 'config.json'), 'utf8')) as {
+  site: { name: string; description: string };
+};
 
 // Fill the %SITE_NAME% / %SITE_DESC% placeholders in index.html with this site's
 // branding, and copy the site's data/ into the build output (public/ is shared).

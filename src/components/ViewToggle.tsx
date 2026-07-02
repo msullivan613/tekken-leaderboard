@@ -20,9 +20,7 @@ export function ViewToggle({
           type="button"
           onClick={() => onChange(opt.value)}
           className={`eyebrow px-3.5 py-1.5 transition-colors ${
-            value === opt.value
-              ? 'bg-fg !text-bg'
-              : 'hover:!text-fg'
+            value === opt.value ? 'bg-fg !text-bg' : 'hover:!text-fg'
           }`}
         >
           {opt.label}

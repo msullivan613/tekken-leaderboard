@@ -9,13 +9,13 @@ the design pass has a skeleton to dress.
 
 HashRouter (§1.2 decision). Routes:
 
-| Path | Page | Purpose |
-|---|---|---|
-| `/` | `LeaderboardPage` | landing; the core board (§5.3) + recent-matches strip |
-| `/player/:id` | `PlayerProfilePage` | rich profile (§5.5) |
-| `/h2h` | `HeadToHeadPage` | full crew matrix + pair drill-down (§5.6) |
-| `/matches` | `MatchesPage` | full match log with filters |
-| `*` | `NotFound` | |
+| Path          | Page                | Purpose                                               |
+| ------------- | ------------------- | ----------------------------------------------------- |
+| `/`           | `LeaderboardPage`   | landing; the core board (§5.3) + recent-matches strip |
+| `/player/:id` | `PlayerProfilePage` | rich profile (§5.5)                                   |
+| `/h2h`        | `HeadToHeadPage`    | full crew matrix + pair drill-down (§5.6)             |
+| `/matches`    | `MatchesPage`       | full match log with filters                           |
+| `*`           | `NotFound`          |                                                       |
 
 ## 5.2 Data loading
 
@@ -26,24 +26,28 @@ initial load light, files are split into **core** (loaded app-wide) and **heavy*
 
 ```ts
 // src/data/useJson.ts — fetch one file relative to BASE_URL, typed + cached
-function useJson<T>(name: string): { data: T | null; error: Error | null; loading: boolean };
+function useJson<T>(name: string): {
+  data: T | null;
+  error: Error | null;
+  loading: boolean;
+};
 
 // src/data/DataProvider.tsx — loads the CORE light files only (players/ranks/glicko),
 // which power the leaderboard + nav everywhere:
 interface DataContextValue {
   loading: boolean;
   error: Error | null;
-  lastUpdated: string | null;          // max(generatedAt of ranks/glicko) → "Last updated"
+  lastUpdated: string | null; // max(generatedAt of ranks/glicko) → "Last updated"
   players: Player[];
   playerById: Map<string, Player>;
-  mainCharacterByPlayer: Map<string, CharacterSlug | null>;  // derives null mains (§conventions)
-  pairs: PairViewModel[];              // ranks ⨝ glicko ⨝ players, one per pair (§5.4)
+  mainCharacterByPlayer: Map<string, CharacterSlug | null>; // derives null mains (§conventions)
+  pairs: PairViewModel[]; // ranks ⨝ glicko ⨝ players, one per pair (§5.4)
 }
 
 // Heavy files load on demand, cached across navigations by the same useJson cache:
-function useMatches(): MatchesFile | null;   // Matches, Profile, H2H, home Recent strip
-function useStats(): StatsFile | null;       // Profile, H2H
-function useHistory(): { rank: HistoryFile | null; mmr: HistoryFile | null };  // Profile charts
+function useMatches(): MatchesFile | null; // Matches, Profile, H2H, home Recent strip
+function useStats(): StatsFile | null; // Profile, H2H
+function useHistory(): { rank: HistoryFile | null; mmr: HistoryFile | null }; // Profile charts
 ```
 
 **Joining** happens client-side in `src/lib/leaderboard.ts`:
@@ -104,15 +108,15 @@ interface PairViewModel {
   playerId: string;
   playerTag: string;
   character: CharacterSlug;
-  isMain: boolean;                 // character === effective main
+  isMain: boolean; // character === effective main
   rank: RankTier | null;
   rankedGames: number;
-  mmr: number | null;              // Wavu μ
-  sigmaSquared: number | null;     // Wavu σ² (variance, §2.5)
+  mmr: number | null; // Wavu μ
+  sigmaSquared: number | null; // Wavu σ² (variance, §2.5)
   confidence: WavuConfidence | null;
   provisional: boolean;
   platform: Platform;
-  peakRank: RankTier | null;       // player-level rollup (§2.4)
+  peakRank: RankTier | null; // player-level rollup (§2.4)
   region: string | null;
   lastSeen: string | null;
   mmrUpdated: string | null;
@@ -140,7 +144,7 @@ rank|mmr mode), `PlayerH2HTable`, `PlayerMatchList`, `PlayerStatCards`.
 ## 5.6 Head-to-head (`/h2h`) — gated per site
 
 **Shown only when `config.headToHead.enabled`** (config is baked into each site's
-bundle at build time). A site with it off hides the H2H page + nav link *and* the
+bundle at build time). A site with it off hides the H2H page + nav link _and_ the
 profile H2H section — because without ewgf that site gathers no custom-lobby crew
 matches to populate them (§4.6, §8). Currently c-town shows it; area-256 doesn't.
 
