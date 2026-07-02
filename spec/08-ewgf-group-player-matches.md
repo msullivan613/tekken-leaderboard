@@ -60,10 +60,29 @@ becomes real for someone, options are: poll more often, or switch to Pro. Becaus
 a crew-vs-crew match appears in **both** players' feeds, it only has to survive in
 *one* of them to be captured.
 
+## Per-site toggle & request budget
+
+The free tier allows ~**100 requests per day**, and the pipeline spends **one
+request per player per run**. With the 6-hourly cron that's `players × 4` requests
+per day per site — tracking every site's full roster (~40 players) would be
+~160/day, well over budget. So head-to-head is a **per-site opt-in**
+(`config.headToHead.enabled`, layered like any other config): only sites that
+enable it query ewgf. Currently only **c-town** is enabled (~13 players × 4 =
+~52/day, comfortably under 100); **area-256** is disabled and never touches ewgf.
+
+Disabling head-to-head for a site does two things:
+
+1. **Pipeline:** that site's players are never queried against ewgf, so no
+   group/player matches are gathered (`matches.json` stays quick/ranked-only,
+   `source` stays `"tknow"`).
+2. **UI:** the Head-to-head page/nav and the profile Head-to-head section are
+   hidden (config is baked into each site's bundle at build time).
+
 ## Integration (`scripts/online-stats/ewgf.ts`)
 
-- **Opt-in.** Enabled only when `EWGF_API_KEY` is set (env locally, GitHub Actions
-  secret in CI). With no key the pipeline is byte-identical to before.
+- **Opt-in.** Enabled only when a site sets `config.headToHead.enabled` **and**
+  `EWGF_API_KEY` is set (env locally, GitHub Actions secret in CI). Otherwise the
+  pipeline is byte-identical to before.
 - **Group/player only.** tknow keeps quick/ranked (real battle ids, no 50-cap);
   ewgf contributes only types 3/4. This avoids double-counting ranked matches from
   two sources with different ids.
@@ -87,6 +106,9 @@ a crew-vs-crew match appears in **both** players' feeds, it only has to survive 
 ## Enabling it
 
 1. Get a free key from ewgf.gg (account → API).
-2. **Local:** `EWGF_API_KEY=<key> npm run online-stats`.
-3. **CI:** add repo secret `EWGF_API_KEY`; `online-stats.yml` already passes it
-   through. Group/player matches appear in `matches.json` on the next run.
+2. Set `headToHead.enabled: true` in the site's `sites/<slug>/config.json` (mind
+   the request budget above before enabling more sites).
+3. **Local:** `EWGF_API_KEY=<key> SITE=<slug> npm run online-stats`.
+4. **CI:** add repo secret `EWGF_API_KEY`; `online-stats.yml` already passes it
+   through. Group/player matches appear in the enabled sites' `matches.json` on the
+   next run.

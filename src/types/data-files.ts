@@ -154,6 +154,12 @@ export interface AppConfig {
     recentWindowDays: number; // non-crew matches older than this are pruned
     feedMaxPerPlayer: number; // cap of non-crew matches kept per player
   };
+  // Per-site head-to-head tracking. When disabled, this site's players are never
+  // queried against ewgf (conserving its request budget) so no group/player
+  // matches are gathered, and the h2h stats are hidden in the UI (§ issue #3).
+  headToHead: {
+    enabled: boolean;
+  };
   sources: {
     tknowBaseUrl: string;
     tknowOrigin: string; // Origin/Referer the tknow API requires (anti-hotlink)

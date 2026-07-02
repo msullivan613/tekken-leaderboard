@@ -68,12 +68,17 @@ async function main() {
     Accept: 'application/json',
   };
 
-  // ewgf supplies group/player (custom-lobby) matches, which tknow can't. Opt-in:
-  // enabled only when EWGF_API_KEY is set (a GitHub Actions secret in CI). No key
-  // ⇒ the pipeline behaves exactly as before (§ issue #3).
+  // ewgf supplies group/player (custom-lobby) matches for head-to-head tracking,
+  // which tknow can't. Gated per-site by config.headToHead.enabled AND the
+  // EWGF_API_KEY env/secret. Disabled ⇒ this site's players are never queried
+  // against ewgf (conserving its ~100 req/day budget) and no group/player matches
+  // are gathered; the pipeline behaves exactly as before (§ issue #3).
   const ewgfApiKey = process.env.EWGF_API_KEY?.trim() || null;
-  if (!ewgfApiKey) {
-    console.log('[online-stats] EWGF_API_KEY not set — skipping group/player matches.');
+  const ewgfEnabled = config.headToHead.enabled && ewgfApiKey != null;
+  if (!config.headToHead.enabled) {
+    console.log('[online-stats] head-to-head disabled for this site — not querying ewgf.');
+  } else if (!ewgfApiKey) {
+    console.log('[online-stats] head-to-head enabled but EWGF_API_KEY not set — skipping group/player matches.');
   }
 
   const now = new Date().toISOString();
@@ -120,7 +125,7 @@ async function main() {
       await sleep(REQUEST_DELAY_MS);
     }
 
-    if (ewgfApiKey) {
+    if (ewgfEnabled && ewgfApiKey) {
       const ewgf = await getPlayerCustomMatches(
         tekkenId,
         config.sources.ewgfBaseUrl,
@@ -256,7 +261,7 @@ async function main() {
     matchCount = built.matches.length;
     const matchesFile: MatchesFile = {
       schemaVersion: 2,
-      source: ewgfApiKey ? 'tknow+ewgf' : 'tknow',
+      source: ewgfEnabled ? 'tknow+ewgf' : 'tknow',
       generatedAt: now,
       crewMatchCount: built.crewMatchCount,
       feedMatchCount: built.feedMatchCount,
@@ -269,7 +274,7 @@ async function main() {
   console.log(
     `[online-stats] ranks:${rankPairs.length} glicko:${glickoPairs.length} ` +
       `battles:${allBattles.length} matches:${matchCount} ` +
-      `ewgf:${ewgfApiKey ? (ewgfReachable ? 'on' : 'unreachable') : 'off'} ` +
+      `ewgf:${ewgfEnabled ? (ewgfReachable ? 'on' : 'unreachable') : 'off'} ` +
       `written(ranks:${wroteRanks} glicko:${wroteGlicko} rankHist:${wroteRankHist} ` +
       `mmrHist:${wroteMmrHist} matches:${wroteMatches} stats:${wroteStats})`,
   );

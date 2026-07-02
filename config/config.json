@@ -12,6 +12,9 @@
     "recentWindowDays": 30,
     "feedMaxPerPlayer": 40
   },
+  "headToHead": {
+    "enabled": false
+  },
   "sources": {
     "tknowBaseUrl": "https://api.tk8now.pe.kr/api/v1",
     "tknowOrigin": "https://www.tknow.gg",
