@@ -127,7 +127,7 @@ MMR per character. It then:
   [`spec/08`](./spec/08-ewgf-group-player-matches.md).
 - **Graceful degradation:** if tknow is wholly unreachable, it keeps yesterday's committed
   ranks/matches/stats rather than clobbering them with empties (Wavu still updates MMR). Matches
-  rebuild when *either* tknow or ewgf was reachable; a source being down preserves its
+  rebuild when _either_ tknow or ewgf was reachable; a source being down preserves its
   previously-committed matches (buildMatches merges fresh battles onto priorMatches by id).
 
 ### Determinism / commit-if-changed

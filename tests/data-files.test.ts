@@ -44,7 +44,10 @@ describe.each(siteSlugs)('committed data files: %s', (slug) => {
   const archives = archiveNames.map((n) => read<MatchArchiveFile>(n));
   // The full retained dataset stats are derived over: live feed + all archives.
   const allMatches: Match[] = matches
-    ? mergeMatches(matches.matches, archives.flatMap((a) => a.matches))
+    ? mergeMatches(
+        matches.matches,
+        archives.flatMap((a) => a.matches),
+      )
     : [];
 
   const playerIds = new Set(players.players.map((p) => p.id));
@@ -68,7 +71,8 @@ describe.each(siteSlugs)('committed data files: %s', (slug) => {
       expect(playerIds.has(r.playerId)).toBe(true);
       expect(r.pairId).toBe(`${r.tekken_id}:${r.character}`);
       if (r.rank) expect(rankBySlug(r.rank)).not.toBeNull();
-      if (r.rankTier != null) expect(rankBySlug(r.rank ?? '')?.tier ?? r.rankTier).toBe(r.rankTier);
+      if (r.rankTier != null)
+        expect(rankBySlug(r.rank ?? '')?.tier ?? r.rankTier).toBe(r.rankTier);
     }
   });
 
@@ -119,7 +123,9 @@ describe.each(siteSlugs)('committed data files: %s', (slug) => {
   it('matches.<year>.json: v2 archive of non-crew feed matches only (issue #19)', () => {
     for (const [i, archive] of archives.entries()) {
       expect(archive.schemaVersion).toBe(2);
-      expect(archive.year).toBe(archiveNames[i].slice('matches.'.length, -'.json'.length));
+      expect(archive.year).toBe(
+        archiveNames[i].slice('matches.'.length, -'.json'.length),
+      );
       for (const m of archive.matches) {
         expect(m.playedAt.slice(0, 4)).toBe(archive.year); // filed under the right year
         expect(m.crew).toBe(false); // crew matches stay in the live feed forever

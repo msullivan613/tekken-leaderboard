@@ -14,8 +14,8 @@ export function HeadToHeadPage() {
     <div className="space-y-6">
       <h1 className="text-4xl">Head-to-head</h1>
       <p className="text-sm text-muted">
-        Cell = row player&apos;s match record vs column player. Click a cell for the
-        full breakdown.
+        Cell = row player&apos;s match record vs column player. Click a cell for the full
+        breakdown.
       </p>
 
       <div className="overflow-x-auto rounded-lg border border-border">
@@ -44,7 +44,10 @@ export function HeadToHeadPage() {
                 {players.map((col) => {
                   if (row.id === col.id) {
                     return (
-                      <td key={col.id} className="bg-surface px-3 py-2 text-center text-muted">
+                      <td
+                        key={col.id}
+                        className="bg-surface px-3 py-2 text-center text-muted"
+                      >
                         ·
                       </td>
                     );

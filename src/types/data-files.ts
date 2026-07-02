@@ -1,11 +1,6 @@
 // Shape of every public/data/*.json file (spec §2). Imported by both the app and
 // the pipeline scripts so a schema change is a compile error in both places.
-import type {
-  CharacterSlug,
-  Platform,
-  Player,
-  WavuConfidence,
-} from './domain';
+import type { CharacterSlug, Platform, Player, WavuConfidence } from './domain';
 
 export const SCHEMA_VERSION = 1 as const;
 

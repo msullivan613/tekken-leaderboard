@@ -119,7 +119,8 @@ export function buildPairViewModels(
   const ranksByPlayer = groupRanksByPlayer(ranksFile);
 
   const mainByPlayer = new Map<string, CharacterSlug | null>();
-  for (const p of players) mainByPlayer.set(p.id, resolveMain(p, ranksByPlayer.get(p.id) ?? []));
+  for (const p of players)
+    mainByPlayer.set(p.id, resolveMain(p, ranksByPlayer.get(p.id) ?? []));
 
   const glickoByPairId = new Map<string, GlickoPair>();
   for (const g of glickoFile?.pairs ?? []) glickoByPairId.set(g.pairId, g);

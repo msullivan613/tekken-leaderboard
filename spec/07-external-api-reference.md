@@ -1,6 +1,7 @@
 # 7. External API reference (verified)
 
 > **📌 Current source hierarchy (read this first).** The pipeline sources:
+>
 > - **in-game rank + quick/ranked matches → tknow.gg** (§7.9) — no API key.
 > - **MMR → Wavu Wank** (§7.3) — no API key.
 > - **group/player (custom-lobby) matches → ewgf.gg** ([§8](./08-ewgf-group-player-matches.md))
@@ -23,10 +24,10 @@ Sources: [`ewgf-gg/ewgfgg-backend`](https://github.com/ewgf-gg/ewgfgg-backend),
 
 ## 7.1 Player identity — the two ID forms
 
-| Where | Form | Example |
-|---|---|---|
-| Tekken in-game / EWGF | dashed | `3fee-J699-M7An` |
-| Wavu Wank URL | undashed | `3feeJ699M7An` |
+| Where                 | Form     | Example          |
+| --------------------- | -------- | ---------------- |
+| Tekken in-game / EWGF | dashed   | `3fee-J699-M7An` |
+| Wavu Wank URL         | undashed | `3feeJ699M7An`   |
 
 **📌 Decision:** `players.json.tekken_id` stores the **dashed** form
 (`3fee-J699-M7An`); the pipeline derives the undashed form for Wavu with
@@ -42,7 +43,7 @@ Steam id is also exposed on the Wavu page (`steamcommunity.com/profiles/<steamId
 
 > **🛑 SUPERSEDED (2026-07-01) — the pipeline no longer uses EWGF.** EWGF's free
 > tier caps at the last 50 battles (24h delayed) and its `/external/profile`
-> endpoint (Pro-only) exposes only the *main* character's rank, not per-character
+> endpoint (Pro-only) exposes only the _main_ character's rank, not per-character
 > dan ranks — so it couldn't satisfy either goal (full match history / real
 > per-character rank). We switched ranks **and** matches to **tknow.gg** (§7.9),
 > which is free, un-gated, gives real per-character dan ranks + lifetime games,
@@ -54,7 +55,7 @@ Steam id is also exposed on the Wavu page (`steamcommunity.com/profiles/<steamId
 > behind an auth gateway: every request returns **HTTP 401**
 > (`{"error":"Unauthorized access."}`) without `Authorization: Bearer <key>`. Keys
 > are self-serve — create an account and generate one under Settings → Developer.
-> (The `/player-stats/*` routes seen in `ewgfgg-backend` are the site's *internal*
+> (The `/player-stats/*` routes seen in `ewgfgg-backend` are the site's _internal_
 > API, not exposed publicly; the public surface is the `/external/*` routes below.)
 > Docs: <https://ewgf.gg/api-docs>. See the §7.4 decision.
 
@@ -76,29 +77,35 @@ Steam id is also exposed on the Wavu page (`steamcommunity.com/profiles/<steamId
 ### `EwgfBattle` — one online match to 3 rounds (verified live)
 
 The battles response is the **sole source** for both `ranks.json` (rank/usage are
-*derived* from the battle list — see below) and `matches.json`/`stats.json`.
+_derived_ from the battle list — see below) and `matches.json`/`stats.json`.
 
 ```ts
 interface EwgfBattle {
-  battle_at: string;    // ISO-8601 UTC, e.g. "2026-06-21T03:56:41Z"
-  battle_type: string;  // "QUICK_BATTLE" | "RANKED_BATTLE" | "GROUP_BATTLE" | "PLAYER_BATTLE"
+  battle_at: string; // ISO-8601 UTC, e.g. "2026-06-21T03:56:41Z"
+  battle_type: string; // "QUICK_BATTLE" | "RANKED_BATTLE" | "GROUP_BATTLE" | "PLAYER_BATTLE"
   game_version?: number;
-  winner: number;       // 1 | 2
+  winner: number; // 1 | 2
   stage_id?: number;
-  p1_name: string; p1_tekken_id: string;   // tekken_id is UNDASHED, e.g. "3feeJ699M7An"
-  p1_char: string;                          // display name, e.g. "Bryan" (canonical, §7.6)
-  p1_region: string | null;                 // e.g. "Americas"
-  p1_dan_rank: string | null;               // display name, e.g. "Tekken God" (§7.5)
-  p1_tekken_power?: number; p1_rounds_won: number;
-  p2_name: string; p2_tekken_id: string;
-  p2_char: string; p2_region: string | null; p2_dan_rank: string | null;
-  p2_tekken_power?: number; p2_rounds_won: number;
+  p1_name: string;
+  p1_tekken_id: string; // tekken_id is UNDASHED, e.g. "3feeJ699M7An"
+  p1_char: string; // display name, e.g. "Bryan" (canonical, §7.6)
+  p1_region: string | null; // e.g. "Americas"
+  p1_dan_rank: string | null; // display name, e.g. "Tekken God" (§7.5)
+  p1_tekken_power?: number;
+  p1_rounds_won: number;
+  p2_name: string;
+  p2_tekken_id: string;
+  p2_char: string;
+  p2_region: string | null;
+  p2_dan_rank: string | null;
+  p2_tekken_power?: number;
+  p2_rounds_won: number;
 }
 ```
 
 Notes (all verified against the live free-tier endpoint):
 
-- **Character and rank are *names*, not ids** — map via `canonicalizeCharacter`
+- **Character and rank are _names_, not ids** — map via `canonicalizeCharacter`
   (§7.6) and `rankFromName` (§7.5). `characterId`/integer-`danRank` are internal-API
   concepts and do **not** appear here.
 - **`p1`/`p2` orientation is stable across feeds:** a crew-vs-crew battle appears in
@@ -109,14 +116,14 @@ Notes (all verified against the live free-tier endpoint):
 **Deriving `ranks.json` (§2.4) from battles** — for each character a tracked player
 appears on in their recent battles:
 
-| our field | derived from the player's own battles on that character |
-|---|---|
-| `character` | `canonicalizeCharacter(p{1,2}_char)` (§7.6) |
+| our field           | derived from the player's own battles on that character               |
+| ------------------- | --------------------------------------------------------------------- |
+| `character`         | `canonicalizeCharacter(p{1,2}_char)` (§7.6)                           |
 | `rank` / `rankTier` | `rankFromName(dan_rank)` of their **most recent** battle on it (§7.5) |
-| `rankedGames` | count of `RANKED_BATTLE` battles seen in the window |
-| `region` | `region` of their most recent battle |
-| `characterPeakRank` | running max of `rankTier` across daily snapshots — see note |
-| `lastSeen` | `battle_at` of their most recent battle on it |
+| `rankedGames`       | count of `RANKED_BATTLE` battles seen in the window                   |
+| `region`            | `region` of their most recent battle                                  |
+| `characterPeakRank` | running max of `rankTier` across daily snapshots — see note           |
+| `lastSeen`          | `battle_at` of their most recent battle on it                         |
 
 > **Free-tier caveat:** `rankedGames` reflects only the **last-50 battle window**,
 > not lifetime totals, so a player whose recent games are all PLAYER/QUICK battles
@@ -147,25 +154,39 @@ appears on in their recent battles:
 
 ```html
 <title>SugarFree • Wavu Wank</title>
-<!-- steam id: -->  <a href="https://steamcommunity.com/profiles/76561198043616016">
-...
-<div class="rating-group">
-  <div class="label">Leaderboard (σ² &lt; 75)</div>      <!-- confidence group -->
-  <div class="ratings">
-    <div class="rating">
-      <div class="char">Yoshimitsu</div>                 <!-- character name -->
-      <div class="mu">μ 1715</div>                        <!-- Glicko rating (MMR) -->
-      <div class="sigma"><sup>σ² 68</sup></div>           <!-- rating VARIANCE (σ²) -->
-      <div class="games">559 games</div>
-      <div class="last-seen"><sup><time>
-          <script>printDate(1781924751)</script></time></sup></div>  <!-- unix secs -->
+<!-- steam id: -->
+<a href="https://steamcommunity.com/profiles/76561198043616016">
+  ...
+  <div class="rating-group">
+    <div class="label">Leaderboard (σ² &lt; 75)</div>
+    <!-- confidence group -->
+    <div class="ratings">
+      <div class="rating">
+        <div class="char">Yoshimitsu</div>
+        <!-- character name -->
+        <div class="mu">μ 1715</div>
+        <!-- Glicko rating (MMR) -->
+        <div class="sigma"><sup>σ² 68</sup></div>
+        <!-- rating VARIANCE (σ²) -->
+        <div class="games">559 games</div>
+        <div class="last-seen">
+          <sup
+            ><time>
+              <script>
+                printDate(1781924751);
+              </script></time
+            ></sup
+          >
+        </div>
+        <!-- unix secs -->
+      </div>
+      ...
     </div>
-    ...
   </div>
-</div>
-<!-- two more .rating-group blocks: -->
-<!--   label "Unqualified (σ² < 110)"  -->
-<!--   label "Provisional (σ² ≥ 110)"  -->
+  <!-- two more .rating-group blocks: -->
+  <!--   label "Unqualified (σ² < 110)"  -->
+  <!--   label "Provisional (σ² ≥ 110)"  --></a
+>
 ```
 
 ### Parsing rules
@@ -179,31 +200,32 @@ appears on in their recent battles:
 
 **Mapping Wavu → our schema (§2.5 `glicko.json`):**
 
-| our field | from Wavu |
-|---|---|
-| `rating` | `.mu` value |
-| `deviation` | **store σ² as-is** in a `sigmaSquared` field (see decision) |
-| `confidence` | the group label (`leaderboard`/`unqualified`/`provisional`) |
-| `provisional` | `confidence === "provisional"` |
-| `games` | `.games` value |
-| `lastUpdated` | `printDate` unix → ISO |
+| our field     | from Wavu                                                   |
+| ------------- | ----------------------------------------------------------- |
+| `rating`      | `.mu` value                                                 |
+| `deviation`   | **store σ² as-is** in a `sigmaSquared` field (see decision) |
+| `confidence`  | the group label (`leaderboard`/`unqualified`/`provisional`) |
+| `provisional` | `confidence === "provisional"`                              |
+| `games`       | `.games` value                                              |
+| `lastUpdated` | `printDate` unix → ISO                                      |
 
 > **📌 Revised decision (glicko schema):** Wavu publishes **σ² (variance)**, not σ
 > (RD), and already buckets each character into Leaderboard / Unqualified /
 > Provisional. So:
+>
 > 1. Rename the schema field `deviation` → **`sigmaSquared`** (store the raw σ²), and
 >    add **`confidence`** (the group). Drop the invented `PROVISIONAL_RD` cutoff — use
 >    Wavu's own bucketing.
 > 2. `provisional = confidence === "provisional"` drives the UI's uncertain-rating
 >    styling (brief §5.5).
-> This supersedes §2.5's `deviation`/`volatility`/`provisional`-by-cutoff fields.
+>    This supersedes §2.5's `deviation`/`volatility`/`provisional`-by-cutoff fields.
 
 ---
 
 ## 7.4 EWGF API-key decision (HISTORICAL)
 
 > **🛑 SUPERSEDED.** This section reasoned about needing an `EWGF_API_KEY` for the
-> *rank* pipeline back when EWGF was the primary source. That's no longer true: ranks
+> _rank_ pipeline back when EWGF was the primary source. That's no longer true: ranks
 > come from tknow (no key, §7.9). An `EWGF_API_KEY` still exists but now unlocks only
 > the **opt-in group/player match** feature ([§8](./08-ewgf-group-player-matches.md)) —
 > the core site works without it. Retained for context.
@@ -212,6 +234,7 @@ Because EWGF is fully gated, the automated rank pipeline **needs a key**.
 
 > **📌 Decision — request a read API key from the EWGF team; store it as the GitHub
 > Actions secret `EWGF_API_KEY`; degrade gracefully if absent.**
+>
 > - EWGF is a community project (active GitHub org + Discord). Ask for a low-volume
 >   read key for a private crew tool. This keeps cost $0 (a secret, not a paid tier).
 > - The workflow passes `EWGF_API_KEY` as an env var to the pipeline; it is **never**
@@ -237,7 +260,7 @@ alone.
 This map is `tier` → display name (higher = better). The **public** `/external`
 API returns the rank as one of these **display names** (e.g. `"Tekken God"`), so
 `rankFromName` reverse-looks it up to `{ slug, tier }`. (The integer
-`currentSeasonDanRank` below is the *internal* API's encoding, kept here because it
+`currentSeasonDanRank` below is the _internal_ API's encoding, kept here because it
 defines the ladder ordering and the `normalizeDanRank` folding.) Two quirks to
 normalize on the integer side:
 
@@ -249,25 +272,60 @@ normalize on the integer side:
 
 ```ts
 export const rankOrderMap: Record<number, string> = {
-  0:'Beginner',1:'1st Dan',2:'2nd Dan',3:'Fighter',4:'Strategist',5:'Combatant',
-  6:'Brawler',7:'Ranger',8:'Cavalry',9:'Warrior',10:'Assailant',11:'Dominator',
-  12:'Vanquisher',13:'Destroyer',14:'Eliminator',15:'Garyu',16:'Shinryu',
-  17:'Tenryu',18:'Mighty Ruler',19:'Flame Ruler',20:'Battle Ruler',21:'Fujin',
-  22:'Raijin',23:'Kishin',24:'Bushin',25:'Tekken King',26:'Tekken Emperor',
-  27:'Tekken God',28:'Tekken God Supreme',
-  29:'God of Destruction',30:'God of Destruction I',31:'God Of Destruction II',
-  32:'God of Destruction III',33:'God of Destruction IV',34:'God of Destruction V',
-  35:'God of Destruction VI',36:'God of Destruction VII',37:'God of Destruction Infinity',
+  0: 'Beginner',
+  1: '1st Dan',
+  2: '2nd Dan',
+  3: 'Fighter',
+  4: 'Strategist',
+  5: 'Combatant',
+  6: 'Brawler',
+  7: 'Ranger',
+  8: 'Cavalry',
+  9: 'Warrior',
+  10: 'Assailant',
+  11: 'Dominator',
+  12: 'Vanquisher',
+  13: 'Destroyer',
+  14: 'Eliminator',
+  15: 'Garyu',
+  16: 'Shinryu',
+  17: 'Tenryu',
+  18: 'Mighty Ruler',
+  19: 'Flame Ruler',
+  20: 'Battle Ruler',
+  21: 'Fujin',
+  22: 'Raijin',
+  23: 'Kishin',
+  24: 'Bushin',
+  25: 'Tekken King',
+  26: 'Tekken Emperor',
+  27: 'Tekken God',
+  28: 'Tekken God Supreme',
+  29: 'God of Destruction',
+  30: 'God of Destruction I',
+  31: 'God Of Destruction II',
+  32: 'God of Destruction III',
+  33: 'God of Destruction IV',
+  34: 'God of Destruction V',
+  35: 'God of Destruction VI',
+  36: 'God of Destruction VII',
+  37: 'God of Destruction Infinity',
   // alt encodings normalized onto 29..37:
-  100:'God of Destruction',101:'God of Destruction I',102:'God Of Destruction II',
-  103:'God of Destruction III',104:'God of Destruction IV',105:'God of Destruction V',
-  106:'God of Destruction VI',107:'God of Destruction VII',765:'God of Destruction Infinity'
+  100: 'God of Destruction',
+  101: 'God of Destruction I',
+  102: 'God Of Destruction II',
+  103: 'God of Destruction III',
+  104: 'God of Destruction IV',
+  105: 'God of Destruction V',
+  106: 'God of Destruction VI',
+  107: 'God of Destruction VII',
+  765: 'God of Destruction Infinity',
 };
 ```
 
 EWGF also ships rank icon assets (`/static/rank-icons/<Name>T8.webp`). For our own
 design (brief §4.1) we choose whether to reuse Tekken's official iconography or a
-custom style — the *slug + tier* stored in data is icon-agnostic.
+custom style — the _slug + tier_ stored in data is icon-agnostic.
 
 ---
 
@@ -288,12 +346,44 @@ The public `/external/battles` API returns characters as **display names**
 
 ```ts
 export const characterIdMap: Record<number, string> = {
-  0:'Paul',1:'Law',2:'King',3:'Yoshimitsu',4:'Hwoarang',5:'Xiaoyu',6:'Jin',
-  7:'Bryan',8:'Kazuya',9:'Steve',10:'Jack-8',11:'Asuka',12:'Devil Jin',13:'Feng',
-  14:'Lili',15:'Dragunov',16:'Leo',17:'Lars',18:'Alisa',19:'Claudio',20:'Shaheen',
-  21:'Nina',22:'Lee',23:'Kuma',24:'Panda',28:'Zafina',29:'Leroy',32:'Jun',
-  33:'Reina',34:'Azucena',35:'Victor',36:'Raven',38:'Eddy',39:'Lidia',40:'Heihachi',
-  41:'Clive',42:'Anna',43:'Fahkumram' /* + any later DLC ids */
+  0: 'Paul',
+  1: 'Law',
+  2: 'King',
+  3: 'Yoshimitsu',
+  4: 'Hwoarang',
+  5: 'Xiaoyu',
+  6: 'Jin',
+  7: 'Bryan',
+  8: 'Kazuya',
+  9: 'Steve',
+  10: 'Jack-8',
+  11: 'Asuka',
+  12: 'Devil Jin',
+  13: 'Feng',
+  14: 'Lili',
+  15: 'Dragunov',
+  16: 'Leo',
+  17: 'Lars',
+  18: 'Alisa',
+  19: 'Claudio',
+  20: 'Shaheen',
+  21: 'Nina',
+  22: 'Lee',
+  23: 'Kuma',
+  24: 'Panda',
+  28: 'Zafina',
+  29: 'Leroy',
+  32: 'Jun',
+  33: 'Reina',
+  34: 'Azucena',
+  35: 'Victor',
+  36: 'Raven',
+  38: 'Eddy',
+  39: 'Lidia',
+  40: 'Heihachi',
+  41: 'Clive',
+  42: 'Anna',
+  43: 'Fahkumram' /* + any later DLC ids */,
 };
 ```
 
@@ -303,7 +393,7 @@ export const characterIdMap: Record<number, string> = {
 
 - **EWGF** exposes only `currentSeasonDanRank` + `previousSeasonDanRank` (and a
   `battles` list) — no daily rank series.
-- **Wavu** shows only the *current* μ/σ² per character (plus a per-character
+- **Wavu** shows only the _current_ μ/σ² per character (plus a per-character
   last-seen) — no rating history in the profile scrape.
 
 So both `rankhistory.json` and `mmrhistory.json` **must** be built from our own daily
@@ -315,15 +405,15 @@ run seeds day 1; the charts grow from there.
 
 ## 7.8 Summary of spec changes triggered by this research
 
-| Finding | Spec impact |
-|---|---|
-| EWGF fully gated (401) | New `EWGF_API_KEY` secret + graceful degrade + MMR-only fallback (§7.4) |
+| Finding                                                                           | Spec impact                                                                                         |
+| --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| EWGF fully gated (401)                                                            | New `EWGF_API_KEY` secret + graceful degrade + MMR-only fallback (§7.4)                             |
 | Public API = `/external/battles` only (free tier: last 50, 24h delay, no profile) | Rank/usage **derived from battles**; `rankedGames` = ranked battles in-window; names not ids (§7.2) |
-| No EWGF per-char all-time peak | Peak = running max over our snapshots + roster fallback (§7.2) |
-| Wavu = HTML scrape, publishes σ² + confidence buckets | `glicko.json`: `deviation`→`sigmaSquared`, add `confidence`; drop `PROVISIONAL_RD` (§7.3) |
-| Both providers share character names | Character aliasing simplified to name⇄slug (§7.6) |
-| Verified rank & character maps | Replace the placeholder `RANK_LADDER`/`CharacterSlug` stubs (§7.5, §7.6) |
-| No provider history series | Confirms daily-snapshot design for both history files (§7.7) |
+| No EWGF per-char all-time peak                                                    | Peak = running max over our snapshots + roster fallback (§7.2)                                      |
+| Wavu = HTML scrape, publishes σ² + confidence buckets                             | `glicko.json`: `deviation`→`sigmaSquared`, add `confidence`; drop `PROVISIONAL_RD` (§7.3)           |
+| Both providers share character names                                              | Character aliasing simplified to name⇄slug (§7.6)                                                   |
+| Verified rank & character maps                                                    | Replace the placeholder `RANK_LADDER`/`CharacterSlug` stubs (§7.5, §7.6)                            |
+| No provider history series                                                        | Confirms daily-snapshot design for both history files (§7.7)                                        |
 
 ---
 
@@ -337,8 +427,8 @@ drives MMR. Implemented in `scripts/online-stats/tknow.ts`.
 - **Base URL:** `https://api.tk8now.pe.kr/api/v1` (the site's `api.tknow.gg` alias
   does not resolve publicly; the `.pe.kr` host is what the frontend falls back to).
 - **Gate:** requests without an `Origin: https://www.tknow.gg` + `Referer:
-  https://www.tknow.gg/` header pair get `403 {"error":"The stars have not
-  foretold…"}`. This is a soft anti-hotlink check (no token). We send those headers
+https://www.tknow.gg/` header pair get `403 {"error":"The stars have not
+foretold…"}`. This is a soft anti-hotlink check (no token). We send those headers
   plus a descriptive `User-Agent`. **ToS note:** unofficial API — keep it polite
   (sequential, one player at a time, low volume), same posture as the Wavu scrape.
   Consider giving the dev (min2hound; Discord/X linked on the site) a heads-up.
@@ -347,13 +437,13 @@ drives MMR. Implemented in `scripts/online-stats/tknow.ts`.
 
 `current_ranks[]` gives, per character actually played:
 
-| our field | from tknow |
-|---|---|
-| `character` | `fromCharacterId(char_id)` (§7.6; ids match EWGF's, +44 Armor King, 45 Miary Zo, 46 Kunimitsu) |
+| our field           | from tknow                                                                                                                                         |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `character`         | `fromCharacterId(char_id)` (§7.6; ids match EWGF's, +44 Armor King, 45 Miary Zo, 46 Kunimitsu)                                                     |
 | `rank` / `rankTier` | `rankFromDanRank(current_rank)` — `current_rank` is the **same integer ladder** as §7.5's `rankOrderMap` (27=Tekken God, 31=God of Destruction II) |
-| `rankedGames` | `total_games` — **lifetime** ranked games (not a windowed count → fixes the §7.2 free-tier caveat) |
-| `region` | `region_id` → name (0 Asia, 1 Middle East, 2 Oceania, 3 Americas, 4 Europe 1, 5 Africa, 6 Europe 2) |
-| `lastSeen` | `latest_at` (unix seconds) → ISO |
+| `rankedGames`       | `total_games` — **lifetime** ranked games (not a windowed count → fixes the §7.2 free-tier caveat)                                                 |
+| `region`            | `region_id` → name (0 Asia, 1 Middle East, 2 Oceania, 3 Americas, 4 Europe 1, 5 Africa, 6 Europe 2)                                                |
+| `lastSeen`          | `latest_at` (unix seconds) → ISO                                                                                                                   |
 
 Also returns `nickname`, `my_power`, `region_id`, and `latest_game_info.version_list`.
 The match query version is `max(current_ranks[].last_play_version)`, falling back to

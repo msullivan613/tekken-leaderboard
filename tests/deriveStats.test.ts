@@ -4,7 +4,11 @@ import type { Match, MatchSide } from '@/types/data-files';
 
 const NOW = '2026-06-30T08:00:00.000Z';
 
-function side(playerId: string | null, name: string, character: string | null): MatchSide {
+function side(
+  playerId: string | null,
+  name: string,
+  character: string | null,
+): MatchSide {
   return { playerId, name, polarisId: name, character, rank: null };
 }
 function match(o: {

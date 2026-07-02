@@ -10,7 +10,7 @@ Currently two sites live in this repo: **`c-town`** (the default) and **`area-25
 > **Docs vs. code:** [`spec/`](./spec) and [`PROJECT-BRIEF.md`](./PROJECT-BRIEF.md)
 > are design records. Where they and the code disagree, the code wins — the specs
 > have been brought back in line here, but [`CLAUDE.md`](./CLAUDE.md) is the
-> fastest orientation to the *current* system.
+> fastest orientation to the _current_ system.
 
 ## Quick start
 
@@ -28,13 +28,13 @@ SITE=area-256 npm run dev
 
 ## How it works
 
-| Piece | What |
-|---|---|
-| `sites/<slug>/data/*.json` | the database — roster + generated stats, keyed per `(player, character)` pair |
-| `config/config.json` + `sites/<slug>/config.json` | shared defaults + per-site branding/overrides, deep-merged; **neither alone is a complete config** |
-| `scripts/online-stats/` | the refresh job: per player, tknow in-game rank + match history, Wavu Glicko MMR, and (opt-in) ewgf custom-lobby matches → `ranks/glicko/*history/matches/stats.json` |
-| `src/` | the React app (leaderboard, profiles, head-to-head, matches), shared with the pipeline via `@/` modules |
-| `public/` | **shared** static assets only (character icons, avatars) — *not* data |
+| Piece                                             | What                                                                                                                                                                  |
+| ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `sites/<slug>/data/*.json`                        | the database — roster + generated stats, keyed per `(player, character)` pair                                                                                         |
+| `config/config.json` + `sites/<slug>/config.json` | shared defaults + per-site branding/overrides, deep-merged; **neither alone is a complete config**                                                                    |
+| `scripts/online-stats/`                           | the refresh job: per player, tknow in-game rank + match history, Wavu Glicko MMR, and (opt-in) ewgf custom-lobby matches → `ranks/glicko/*history/matches/stats.json` |
+| `src/`                                            | the React app (leaderboard, profiles, head-to-head, matches), shared with the pipeline via `@/` modules                                                               |
+| `public/`                                         | **shared** static assets only (character icons, avatars) — _not_ data                                                                                                 |
 
 ### Data sources (all free; only ewgf needs a key)
 
@@ -42,7 +42,7 @@ SITE=area-256 npm run dev
   an `Origin`/`Referer` check) — per-character in-game rank + quick/ranked match history.
 - **[Wavu Wank](https://wank.wavu.wiki)** (HTML scrape, no key) — Glicko-2 MMR (μ / σ²).
 - **[ewgf.gg](https://ewgf.gg)** public API (`Bearer` key) — **group/player
-  (custom-lobby) matches only**, which tknow doesn't surface. This is the *only*
+  (custom-lobby) matches only**, which tknow doesn't surface. This is the _only_
   place crew members meet head-to-head, so it powers the H2H feature. It is
   **opt-in per site** (`headToHead.enabled` + `EWGF_API_KEY`); with the gate off a
   site never touches ewgf and hides the H2H page. See [`spec/08`](./spec/08-ewgf-group-player-matches.md).
@@ -84,10 +84,11 @@ gate in CI produces no-op-free history.
    `null` (then the UI derives their highest-ranked character as their main).
    Optional `avatar` is a path under `public/` (e.g. `"avatars/nick.png"`); without
    it the UI uses the character portrait, then a colored initial.
-2. **`EWGF_API_KEY`** *(optional)* — only needed for a site with
-   `headToHead.enabled: true`. Get a free key from ewgf.gg (account → API) and add
-   it as a repository Actions secret. Without it, everything else still works; that
-   site just gathers no custom-lobby matches. See
-   [`spec/08`](./spec/08-ewgf-group-player-matches.md).
+2. **`EWGF_API_KEY`** _(optional)_ — only needed for a site with
+`headToHead.enabled: true`. Get a free key from ewgf.gg (account → API) and add
+it as a repository Actions secret. Without it, everything else still works; that
+site just gathers no custom-lobby matches. See
+[`spec/08`](./spec/08-ewgf-group-player-matches.md).
 </content>
+
 </invoke>

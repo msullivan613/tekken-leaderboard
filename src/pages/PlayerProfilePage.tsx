@@ -76,9 +76,7 @@ export function PlayerProfilePage() {
                 EMPTY
               )}
             </span>
-            <span>
-              Peak: {peakRank ? <RankBadge rank={peakRank} /> : EMPTY}
-            </span>
+            <span>Peak: {peakRank ? <RankBadge rank={peakRank} /> : EMPTY}</span>
           </div>
         </div>
       </header>
@@ -179,40 +177,40 @@ export function PlayerProfilePage() {
 
       {/* Head-to-head (only for sites that track it) */}
       {config.headToHead.enabled && (
-      <section>
-        <h2 className="mb-2 text-xl">Head-to-head</h2>
-        <div className="overflow-x-auto rounded-lg border border-border">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="bg-surface-2 text-left text-xs uppercase text-muted">
-                <th className="px-3 py-2">Opponent</th>
-                <th className="px-3 py-2">Matches</th>
-                <th className="px-3 py-2">Rounds</th>
-              </tr>
-            </thead>
-            <tbody>
-              {players
-                .filter((o) => o.id !== id)
-                .map((o) => {
-                  const rec = directedH2H(stats, id, o.id);
-                  return (
-                    <tr key={o.id} className="border-t border-border">
-                      <td className="px-3 py-2">
-                        <Link to={`/player/${o.id}`}>{o.player_tag}</Link>
-                      </td>
-                      <td className="px-3 py-2 font-mono tabular-nums">
-                        {rec ? `${rec.matches}–${rec.oppMatches}` : EMPTY}
-                      </td>
-                      <td className="px-3 py-2 font-mono tabular-nums text-muted">
-                        {rec ? `${rec.rounds}–${rec.oppRounds}` : EMPTY}
-                      </td>
-                    </tr>
-                  );
-                })}
-            </tbody>
-          </table>
-        </div>
-      </section>
+        <section>
+          <h2 className="mb-2 text-xl">Head-to-head</h2>
+          <div className="overflow-x-auto rounded-lg border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-surface-2 text-left text-xs uppercase text-muted">
+                  <th className="px-3 py-2">Opponent</th>
+                  <th className="px-3 py-2">Matches</th>
+                  <th className="px-3 py-2">Rounds</th>
+                </tr>
+              </thead>
+              <tbody>
+                {players
+                  .filter((o) => o.id !== id)
+                  .map((o) => {
+                    const rec = directedH2H(stats, id, o.id);
+                    return (
+                      <tr key={o.id} className="border-t border-border">
+                        <td className="px-3 py-2">
+                          <Link to={`/player/${o.id}`}>{o.player_tag}</Link>
+                        </td>
+                        <td className="px-3 py-2 font-mono tabular-nums">
+                          {rec ? `${rec.matches}–${rec.oppMatches}` : EMPTY}
+                        </td>
+                        <td className="px-3 py-2 font-mono tabular-nums text-muted">
+                          {rec ? `${rec.rounds}–${rec.oppRounds}` : EMPTY}
+                        </td>
+                      </tr>
+                    );
+                  })}
+              </tbody>
+            </table>
+          </div>
+        </section>
       )}
 
       {/* Recent matches */}

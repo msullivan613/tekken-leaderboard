@@ -29,7 +29,9 @@ async function main() {
     console.log(`No player found for "${tekkenId}" — check the id.`);
     return;
   }
-  console.log(`${tekkenId}\t${info.name ?? '(unknown)'}\t${info.characters.length} characters`);
+  console.log(
+    `${tekkenId}\t${info.name ?? '(unknown)'}\t${info.characters.length} characters`,
+  );
   for (const c of info.characters) {
     console.log(
       `  ${characterDisplayName(c.character)} — ${c.rank ?? 'unranked'} (${c.rankedGames} ranked)`,

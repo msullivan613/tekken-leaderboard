@@ -64,10 +64,7 @@ export const CHARACTERS: Record<string, CharacterMeta> = Object.fromEntries(
 );
 
 const BY_DISPLAY_NAME = new Map<string, CharacterMeta>(
-  ROSTER.map(([displayName, slug]) => [
-    displayName.toLowerCase(),
-    { slug, displayName },
-  ]),
+  ROSTER.map(([displayName, slug]) => [displayName.toLowerCase(), { slug, displayName }]),
 );
 
 const BY_SLUG = new Map<string, CharacterMeta>(
@@ -75,7 +72,9 @@ const BY_SLUG = new Map<string, CharacterMeta>(
 );
 
 /** Resolve an EWGF/Wavu display name to our canonical slug, or null if unknown. */
-export function canonicalizeCharacter(name: string | null | undefined): CharacterSlug | null {
+export function canonicalizeCharacter(
+  name: string | null | undefined,
+): CharacterSlug | null {
   if (!name) return null;
   const meta = BY_DISPLAY_NAME.get(name.trim().toLowerCase());
   return meta ? meta.slug : null;

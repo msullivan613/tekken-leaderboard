@@ -5,7 +5,7 @@ generated files share three conventions:
 
 1. **Keyed by `(tekken_id, character)`.** The composite string
    `pairId = \`${tekken_id}:${character}\`` (`makePairId`) is the stable join key
-   across ranks, glicko, and history. `character` is always the **canonical** slug (§2.1).
+across ranks, glicko, and history. `character` is always the **canonical** slug (§2.1).
 2. **Envelope, not bare array.** Each generated file is an object with a
    `generatedAt`/`updatedAt` ISO-8601 UTC timestamp plus `source`/`schemaVersion`
    metadata, so the UI can show "last updated" and we can migrate schemas safely.
@@ -36,20 +36,20 @@ integer `tier` for sorting; display name, color, and icon are UI concerns.
 
 ```ts
 export interface RankTier {
-  slug: string;        // "tekken_god_supreme"
-  display: string;     // "Tekken God Supreme"
-  tier: number;        // 0-based ordinal, higher = better
-  colorVar: string;    // CSS custom property token, e.g. "--rank-god"
-  icon: string;        // asset path
+  slug: string; // "tekken_god_supreme"
+  display: string; // "Tekken God Supreme"
+  tier: number; // 0-based ordinal, higher = better
+  colorVar: string; // CSS custom property token, e.g. "--rank-god"
+  icon: string; // asset path
 }
-export const RANK_LADDER: RankTier[];          // ordered low → high
+export const RANK_LADDER: RankTier[]; // ordered low → high
 export function rankByTier(tier: number): RankTier | null;
 export function rankBySlug(slug: string): RankTier | null;
-export function rankFromDanRank(dan: number): { slug; tier } | null;  // tknow integer ladder
-export function rankFromName(name: string): { slug; tier } | null;    // ewgf/Wavu display names
+export function rankFromDanRank(dan: number): { slug; tier } | null; // tknow integer ladder
+export function rankFromName(name: string): { slug; tier } | null; // ewgf/Wavu display names
 ```
 
-> **📌 Decision — store the rank *slug* + our own `tier` ordinal.** tknow's
+> **📌 Decision — store the rank _slug_ + our own `tier` ordinal.** tknow's
 > `current_rank` is the same integer ladder EWGF documents (`rankOrderMap`, [§7.5](./07-external-api-reference.md#75-rank-ladder--verified-rankordermap-from-ewgf-frontend)):
 > `27 = Tekken God`, `31 = God of Destruction II`, etc. `rankFromDanRank` maps the
 > integer; `rankFromName` reverse-maps the display-name form (ewgf/Wavu). Two encodings
@@ -66,15 +66,15 @@ auto-discovered by the pipeline (brief §5 core concept).
   "schemaVersion": 1,
   "players": [
     {
-      "id": "matt",                 // stable internal slug, used in URLs + join key
-      "tekken_id": "3fee-J699-M7An",// dashed Tekken/Polaris id (§7.1); null if unknown
-      "player_tag": "SugarFree",    // display name
-      "platform": "steam",          // "steam" | "playstation" | "xbox"
-      "main_character": "jin",      // CharacterSlug, or null → derive from ranks (§conventions)
-      "peak_rank": null,            // rank slug override/fallback, or null → derive (§2.4)
-      "avatar": "avatars/matt.png"  // optional; path under public/
-    }
-  ]
+      "id": "matt", // stable internal slug, used in URLs + join key
+      "tekken_id": "3fee-J699-M7An", // dashed Tekken/Polaris id (§7.1); null if unknown
+      "player_tag": "SugarFree", // display name
+      "platform": "steam", // "steam" | "playstation" | "xbox"
+      "main_character": "jin", // CharacterSlug, or null → derive from ranks (§conventions)
+      "peak_rank": null, // rank slug override/fallback, or null → derive (§2.4)
+      "avatar": "avatars/matt.png", // optional; path under public/
+    },
+  ],
 }
 ```
 
@@ -107,14 +107,14 @@ One row per qualifying `(player, character)` pair.
       "playerId": "matt",
       "tekken_id": "3feeJ699M7An",
       "character": "jin",
-      "rank": "tekken_god",       // rank slug (§2.2), or null if unranked
-      "rankTier": 27,             // ordinal cache for sorting; null if unranked
-      "rankedGames": 1432,        // LIFETIME ranked games (tknow total_games)
-      "region": "Americas",       // from region_id; may be null
+      "rank": "tekken_god", // rank slug (§2.2), or null if unranked
+      "rankTier": 27, // ordinal cache for sorting; null if unranked
+      "rankedGames": 1432, // LIFETIME ranked games (tknow total_games)
+      "region": "Americas", // from region_id; may be null
       "characterPeakRank": "tekken_god_supreme", // running max we accumulate, or null
-      "lastSeen": "2026-06-29T21:14:00Z"          // tknow latest_at, or null
-    }
-  ]
+      "lastSeen": "2026-06-29T21:14:00Z", // tknow latest_at, or null
+    },
+  ],
 }
 ```
 
@@ -138,7 +138,7 @@ and **rolled up per player** in the UI.
 
 Fields verified against the Wavu profile HTML — see
 [§7.3](./07-external-api-reference.md#73-wavu-wank--glicko-2-mmr-μ--σ2). Wavu
-publishes **μ** (rating) and **σ²** (rating *variance*, not RD), and buckets each
+publishes **μ** (rating) and **σ²** (rating _variance_, not RD), and buckets each
 character into confidence groups itself.
 
 ```jsonc
@@ -151,14 +151,14 @@ character into confidence groups itself.
       "pairId": "3feeJ699M7An:jin",
       "playerId": "matt",
       "character": "jin",
-      "rating": 1715,             // Wavu μ (Glicko rating / MMR), or null if no data
-      "sigmaSquared": 68,         // Wavu σ² (variance); null if unknown
+      "rating": 1715, // Wavu μ (Glicko rating / MMR), or null if no data
+      "sigmaSquared": 68, // Wavu σ² (variance); null if unknown
       "confidence": "leaderboard", // "leaderboard" | "unqualified" | "provisional"
-      "provisional": false,        // confidence === "provisional"
-      "games": 559,                // Wavu games for this character
-      "lastUpdated": "2026-06-20T00:00:00Z"  // from the per-char printDate() timestamp
-    }
-  ]
+      "provisional": false, // confidence === "provisional"
+      "games": 559, // Wavu games for this character
+      "lastUpdated": "2026-06-20T00:00:00Z", // from the per-char printDate() timestamp
+    },
+  ],
 }
 ```
 
@@ -185,10 +185,10 @@ Compact, append-only. One entry per pair per day, stored as **per-pair series of
       "points": [
         ["2026-06-28", 26],
         ["2026-06-29", 27],
-        ["2026-06-30", 27]
-      ]
-    }
-  }
+        ["2026-06-30", 27],
+      ],
+    },
+  },
 }
 ```
 
@@ -226,27 +226,33 @@ opponent** is first-class; `playerId` is set only for tracked crew.
   // site has H2H enabled and EWGF_API_KEY is set (ewgf adds group/player).
   "source": "tknow+ewgf",
   "generatedAt": "2026-06-30T08:00:00Z",
-  "crewMatchCount": 4,              // both sides are roster players (head-to-head)
-  "feedMatchCount": 3,              // exactly one crew side (activity feed)
+  "crewMatchCount": 4, // both sides are roster players (head-to-head)
+  "feedMatchCount": 3, // exactly one crew side (activity feed)
   "matches": [
     {
-      "id": "0x1a2b3c4d5e6f",       // tknow battle_id (globally unique) OR "ewgf:lo-hi:epoch" (§8)
+      "id": "0x1a2b3c4d5e6f", // tknow battle_id (globally unique) OR "ewgf:lo-hi:epoch" (§8)
       "playedAt": "2026-06-29T21:30:00Z",
-      "battleType": "ranked",        // "quick" | "ranked" | "player" | "group" | null
+      "battleType": "ranked", // "quick" | "ranked" | "player" | "group" | null
       "a": {
-        "playerId": "matt",          // roster id iff a tracked crew member, else null
+        "playerId": "matt", // roster id iff a tracked crew member, else null
         "name": "SugarFree",
         "polarisId": "3feeJ699M7An",
-        "character": "jin",          // CharacterSlug, or null
-        "rank": "tekken_god"         // rank slug, or null
+        "character": "jin", // CharacterSlug, or null
+        "rank": "tekken_god", // rank slug, or null
       },
-      "b": { "playerId": "nick", "name": "NickTheKnife", "polarisId": "2b3c4d5e6f70",
-             "character": "kazuya", "rank": "tekken_king" },
-      "roundsA": 3, "roundsB": 1,
+      "b": {
+        "playerId": "nick",
+        "name": "NickTheKnife",
+        "polarisId": "2b3c4d5e6f70",
+        "character": "kazuya",
+        "rank": "tekken_king",
+      },
+      "roundsA": 3,
+      "roundsB": 1,
       "winner": "a",
-      "crew": true                   // both sides are roster players
-    }
-  ]
+      "crew": true, // both sides are roster players
+    },
+  ],
 }
 ```
 
@@ -256,7 +262,7 @@ opponent** is first-class; `playerId` is set only for tracked crew.
 - **`id` dedups a battle seen from both feeds.** For tknow it's the real
   `battle_id`; for ewgf (which carries no id) it's a deterministic
   `ewgf:{loPolaris}-{hiPolaris}:{epochSeconds}` in canonical orientation (§8). Both
-  are orientation-independent, so a crew-vs-crew battle in *both* players' feeds
+  are orientation-independent, so a crew-vs-crew battle in _both_ players' feeds
   collapses to one match.
 - **Retention (issue #19).** Crew matches (both sides roster) stay in the live feed
   **forever**. Non-crew "feed" matches are bounded by `matches.recentWindowDays` +
@@ -271,7 +277,7 @@ the **frontend never downloads them**. An archive is only rewritten when it actu
 gains matches (preserving the commit-if-changed gate), so today there are none.
 
 ```jsonc
-{ "schemaVersion": 2, "year": "2026", "generatedAt": "…", "matches": [ /* Match[] */ ] }
+{ "schemaVersion": 2, "year": "2026", "generatedAt": "…", "matches": [/* Match[] */] }
 ```
 
 ## 2.9 `stats.json` — derived head-to-head + usage (generated), schemaVersion 2
@@ -289,22 +295,25 @@ drill-down.
 
   // person-vs-person record (crew only). Key "idA|idB" with idA < idB.
   "headToHead": {
-    "matt|nick": { "matchesA": 1, "matchesB": 1, "roundsA": 5, "roundsB": 4 }
+    "matt|nick": { "matchesA": 1, "matchesB": 1, "roundsA": 5, "roundsB": 4 },
   },
 
   // per-player rollups over ALL tracked matches (crew + feed + archives)
   "players": {
     "matt": {
-      "totalMatches": 4, "matchWins": 3, "matchLosses": 1, "winRate": 0.75,
+      "totalMatches": 4,
+      "matchWins": 3,
+      "matchLosses": 1,
+      "winRate": 0.75,
       "charUsage": { "jin": 3, "devil_jin": 1 },
-      "mostPlayedCharacter": "jin"
-    }
+      "mostPlayedCharacter": "jin",
+    },
   },
 
   // per-character matchup breakdown (crew), matches won. Key "idA:charA|idB:charB".
   "charMatchups": {
-    "matt:jin|nick:kazuya": { "matchesA": 1, "matchesB": 1 }
-  }
+    "matt:jin|nick:kazuya": { "matchesA": 1, "matchesB": 1 },
+  },
 }
 ```
 
@@ -323,15 +332,15 @@ types in `src/types/domain.ts`) and imported by both the app and the pipeline sc
 export interface RanksFile {
   schemaVersion: 1;
   source: 'tknow';
-  generatedAt: string;              // ISO-8601 UTC
+  generatedAt: string; // ISO-8601 UTC
   pairs: RankPair[];
 }
 export interface RankPair {
-  pairId: string;                   // `${tekken_id}:${character}`
+  pairId: string; // `${tekken_id}:${character}`
   playerId: string;
   tekken_id: string;
   character: CharacterSlug;
-  rank: string | null;              // rank slug
+  rank: string | null; // rank slug
   rankTier: number | null;
   rankedGames: number;
   region: string | null;

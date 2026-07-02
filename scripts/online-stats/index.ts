@@ -91,9 +91,13 @@ async function main() {
   const ewgfApiKey = process.env.EWGF_API_KEY?.trim() || null;
   const ewgfEnabled = config.headToHead.enabled && ewgfApiKey != null;
   if (!config.headToHead.enabled) {
-    console.log('[online-stats] head-to-head disabled for this site — not querying ewgf.');
+    console.log(
+      '[online-stats] head-to-head disabled for this site — not querying ewgf.',
+    );
   } else if (!ewgfApiKey) {
-    console.log('[online-stats] head-to-head enabled but EWGF_API_KEY not set — skipping group/player matches.');
+    console.log(
+      '[online-stats] head-to-head enabled but EWGF_API_KEY not set — skipping group/player matches.',
+    );
   }
 
   const now = new Date().toISOString();
@@ -104,7 +108,7 @@ async function main() {
   const priorPeakTier = new Map<string, number>();
   for (const p of priorRanks?.pairs ?? []) {
     const tier = p.characterPeakRank
-      ? rankBySlug(p.characterPeakRank)?.tier ?? null
+      ? (rankBySlug(p.characterPeakRank)?.tier ?? null)
       : p.rankTier;
     if (tier != null) priorPeakTier.set(p.pairId, tier);
   }
@@ -184,7 +188,7 @@ async function main() {
           rankTier: e.rankTier,
           rankedGames: e.rankedGames,
           region: e.region,
-          characterPeakRank: peakTier >= 0 ? rankByTier(peakTier)?.slug ?? null : null,
+          characterPeakRank: peakTier >= 0 ? (rankByTier(peakTier)?.slug ?? null) : null,
           lastSeen: e.lastSeen,
         });
       }

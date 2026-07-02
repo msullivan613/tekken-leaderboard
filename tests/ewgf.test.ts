@@ -65,7 +65,9 @@ describe('normalizeEwgfBattle', () => {
   it('synthesizes a deterministic, tknow-safe battle id', () => {
     const b = normalizeEwgfBattle(row({ p1_tekken_id: 'aaaa', p2_tekken_id: 'bbbb' }))!;
     // ewgf: prefix + canonical order + epoch seconds — never collides with a tknow id.
-    expect(b.battleId).toBe(`ewgf:aaaa-bbbb:${Math.floor(Date.parse('2026-06-30T20:16:26Z') / 1000)}`);
+    expect(b.battleId).toBe(
+      `ewgf:aaaa-bbbb:${Math.floor(Date.parse('2026-06-30T20:16:26Z') / 1000)}`,
+    );
   });
 
   it('returns null for malformed rows', () => {

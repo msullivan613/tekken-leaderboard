@@ -2,8 +2,9 @@ name: online-stats
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # every 6h (00/06/12/18 UTC) — overlapping battle windows
-                          # + append-only merge minimize missed matches (§4.2, §7.2)
+    - cron:
+        '0 */6 * * *' # every 6h (00/06/12/18 UTC) — overlapping battle windows
+        # + append-only merge minimize missed matches (§4.2, §7.2)
   workflow_dispatch: {}
 
 permissions:

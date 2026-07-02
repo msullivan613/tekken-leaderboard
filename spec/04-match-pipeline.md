@@ -12,10 +12,11 @@ Entry points: `scripts/online-stats/matches.ts` (build/dedup/classify/retain/arc
 
 > **📌 Decision — matches come from the APIs, not a spreadsheet.** The crew never
 > hand-logs results. This supersedes the brief's Google-Sheet design. Two providers
-> feed the *same* `buildMatches`:
+> feed the _same_ `buildMatches`:
+>
 > - **tknow** — quick + ranked matchmaking, with real globally-unique `battle_id`s
 >   (§7.9). No 50-match cap.
-> - **ewgf** *(opt-in, §8)* — group + player (custom-lobby) matches only, which tknow
+> - **ewgf** _(opt-in, §8)_ — group + player (custom-lobby) matches only, which tknow
 >   doesn't surface. This is where crew members deliberately play each other, so it's
 >   what actually powers head-to-head.
 
@@ -40,7 +41,7 @@ crewMatchCount, feedMatchCount }`:
    `battle_type` → `MatchType` (`quick`/`ranked` from tknow, `player`/`group` from ewgf).
    Each battle is normalized to a canonical orientation (`p1.polarisId ≤ p2.polarisId`).
 3. **Dedup.** By `id` — tknow's real `battle_id`, or ewgf's synthetic
-   `ewgf:{lo}-{hi}:{epoch}` (§8). A crew-vs-crew battle in *both* players' feeds, and
+   `ewgf:{lo}-{hi}:{epoch}` (§8). A crew-vs-crew battle in _both_ players' feeds, and
    the same battle re-fetched on later runs, collapse to one `Match`. Fresh battles are
    **merged onto** `priorMatches` by id (append-only history + incremental catch-up).
 4. **Retention (issue #19).** Keep every crew match. Non-crew "feed" matches are bounded

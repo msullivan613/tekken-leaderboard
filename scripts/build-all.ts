@@ -2,7 +2,13 @@
 // per site into dist/<slug>/, and writes a root dist/index.html that links to them.
 // Typecheck (tsc --noEmit) runs once in the npm `build` script before this.
 import { execFileSync } from 'node:child_process';
-import { copyFileSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import {
+  copyFileSync,
+  mkdirSync,
+  readdirSync,
+  readFileSync,
+  writeFileSync,
+} from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 
