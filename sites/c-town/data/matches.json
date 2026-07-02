@@ -1,238 +1,8 @@
 {
   "crewMatchCount": 0,
-  "feedMatchCount": 331,
-  "generatedAt": "2026-07-01T19:43:50.291Z",
+  "feedMatchCount": 321,
+  "generatedAt": "2026-07-02T02:39:51.366Z",
   "matches": [
-    {
-      "a": {
-        "character": "panda",
-        "name": "gnarlyidk",
-        "playerId": "gnarlyidk",
-        "polarisId": "2GAa6T8RT3Ey",
-        "rank": "flame_ruler"
-      },
-      "b": {
-        "character": "bryan",
-        "name": "Chimi",
-        "playerId": null,
-        "polarisId": "5gHbaefFG8j6",
-        "rank": "fujin"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "50cc56d470924020b3a4fe03cd738523",
-      "playedAt": "2026-06-02T00:37:14.000Z",
-      "roundsA": 3,
-      "roundsB": 0,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "panda",
-        "name": "gnarlyidk",
-        "playerId": "gnarlyidk",
-        "polarisId": "2GAa6T8RT3Ey",
-        "rank": "flame_ruler"
-      },
-      "b": {
-        "character": "bryan",
-        "name": "Chimi",
-        "playerId": null,
-        "polarisId": "5gHbaefFG8j6",
-        "rank": "fujin"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "1324b58db69142588b97b0d96713d6d7",
-      "playedAt": "2026-06-02T00:40:01.000Z",
-      "roundsA": 3,
-      "roundsB": 1,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "azucena",
-        "name": "Blueberry",
-        "playerId": null,
-        "polarisId": "2AAj9dra6g6r",
-        "rank": "fujin"
-      },
-      "b": {
-        "character": "panda",
-        "name": "gnarlyidk",
-        "playerId": "gnarlyidk",
-        "polarisId": "2GAa6T8RT3Ey",
-        "rank": "flame_ruler"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "07b19c87998d456e83c4ee04f518d642",
-      "playedAt": "2026-06-02T00:43:34.000Z",
-      "roundsA": 2,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "azucena",
-        "name": "Blueberry",
-        "playerId": null,
-        "polarisId": "2AAj9dra6g6r",
-        "rank": "fujin"
-      },
-      "b": {
-        "character": "panda",
-        "name": "gnarlyidk",
-        "playerId": "gnarlyidk",
-        "polarisId": "2GAa6T8RT3Ey",
-        "rank": "flame_ruler"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "9a6fe9639c7748b5ba2e247b2d7d1e06",
-      "playedAt": "2026-06-02T00:45:17.000Z",
-      "roundsA": 3,
-      "roundsB": 0,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "azucena",
-        "name": "Blueberry",
-        "playerId": null,
-        "polarisId": "2AAj9dra6g6r",
-        "rank": "fujin"
-      },
-      "b": {
-        "character": "panda",
-        "name": "gnarlyidk",
-        "playerId": "gnarlyidk",
-        "polarisId": "2GAa6T8RT3Ey",
-        "rank": "flame_ruler"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "74f134cf8abb43b78abcdb9b7fe19348",
-      "playedAt": "2026-06-02T00:46:36.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "panda",
-        "name": "gnarlyidk",
-        "playerId": "gnarlyidk",
-        "polarisId": "2GAa6T8RT3Ey",
-        "rank": "flame_ruler"
-      },
-      "b": {
-        "character": "kunimitsu",
-        "name": "Steel",
-        "playerId": null,
-        "polarisId": "5NJjEGNm7daf",
-        "rank": "tenryu"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "dedd7550d7aa4919baba7a175283716e",
-      "playedAt": "2026-06-02T00:49:44.000Z",
-      "roundsA": 3,
-      "roundsB": 0,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "panda",
-        "name": "gnarlyidk",
-        "playerId": "gnarlyidk",
-        "polarisId": "2GAa6T8RT3Ey",
-        "rank": "flame_ruler"
-      },
-      "b": {
-        "character": "lili",
-        "name": "MuleWax",
-        "playerId": null,
-        "polarisId": "4yEbi6E3dTJy",
-        "rank": "tenryu"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "f0487ca474c3476ead5ba6befb8a8f14",
-      "playedAt": "2026-06-02T00:54:21.000Z",
-      "roundsA": 2,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "panda",
-        "name": "gnarlyidk",
-        "playerId": "gnarlyidk",
-        "polarisId": "2GAa6T8RT3Ey",
-        "rank": "flame_ruler"
-      },
-      "b": {
-        "character": "lili",
-        "name": "MuleWax",
-        "playerId": null,
-        "polarisId": "4yEbi6E3dTJy",
-        "rank": "tenryu"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "ecfbc32c555e43cc915bfd0d6fee60c2",
-      "playedAt": "2026-06-02T00:57:52.000Z",
-      "roundsA": 2,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "panda",
-        "name": "gnarlyidk",
-        "playerId": "gnarlyidk",
-        "polarisId": "2GAa6T8RT3Ey",
-        "rank": "flame_ruler"
-      },
-      "b": {
-        "character": "nina",
-        "name": "BrushBandit250",
-        "playerId": null,
-        "polarisId": "5GqBABgef3TJ",
-        "rank": "mighty_ruler"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "8f3f39cc40484cc09988861ffb9d4bbd",
-      "playedAt": "2026-06-02T01:01:43.000Z",
-      "roundsA": 2,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "panda",
-        "name": "gnarlyidk",
-        "playerId": "gnarlyidk",
-        "polarisId": "2GAa6T8RT3Ey",
-        "rank": "flame_ruler"
-      },
-      "b": {
-        "character": "nina",
-        "name": "BrushBandit250",
-        "playerId": null,
-        "polarisId": "5GqBABgef3TJ",
-        "rank": "mighty_ruler"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "f7362302a91f439d89efd5296b973576",
-      "playedAt": "2026-06-02T01:03:36.000Z",
-      "roundsA": 3,
-      "roundsB": 0,
-      "winner": "a"
-    },
     {
       "a": {
         "character": "panda",
@@ -6219,75 +5989,6 @@
         "name": "Nullified",
         "playerId": "nullified",
         "polarisId": "3JAYQR5RdNJh",
-        "rank": "god_of_destruction_ii"
-      },
-      "b": {
-        "character": "lars",
-        "name": "Sneaky",
-        "playerId": null,
-        "polarisId": "3iBy3qQ6M4iT",
-        "rank": "god_of_destruction_v"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "245602f22533476f9a36a4e4475bcbfd",
-      "playedAt": "2026-06-29T03:38:05.000Z",
-      "roundsA": 3,
-      "roundsB": 2,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "fahkumram",
-        "name": "Nullified",
-        "playerId": "nullified",
-        "polarisId": "3JAYQR5RdNJh",
-        "rank": "god_of_destruction_iii"
-      },
-      "b": {
-        "character": "lars",
-        "name": "Sneaky",
-        "playerId": null,
-        "polarisId": "3iBy3qQ6M4iT",
-        "rank": "god_of_destruction_v"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "70674400a9f14e20a5b8980913d799ef",
-      "playedAt": "2026-06-29T03:40:00.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "fahkumram",
-        "name": "Nullified",
-        "playerId": "nullified",
-        "polarisId": "3JAYQR5RdNJh",
-        "rank": "god_of_destruction_iii"
-      },
-      "b": {
-        "character": "lars",
-        "name": "Sneaky",
-        "playerId": null,
-        "polarisId": "3iBy3qQ6M4iT",
-        "rank": "god_of_destruction_v"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "ff819277e7484b6391811bd9d962dea0",
-      "playedAt": "2026-06-29T03:42:37.000Z",
-      "roundsA": 3,
-      "roundsB": 1,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "fahkumram",
-        "name": "Nullified",
-        "playerId": "nullified",
-        "polarisId": "3JAYQR5RdNJh",
         "rank": "god_of_destruction_iii"
       },
       "b": {
@@ -7612,6 +7313,75 @@
       "crew": false,
       "id": "75258c98d79545e0a1b6a84d0aa55b25",
       "playedAt": "2026-06-30T23:47:08.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "hwoarang",
+        "name": "MetalSeed",
+        "playerId": null,
+        "polarisId": "3EMNGGregQQ6",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "cf3cf2e0546b4c2b8a2170175335cafc",
+      "playedAt": "2026-07-01T20:59:10.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "feng",
+        "name": "p0pefran",
+        "playerId": null,
+        "polarisId": "4H55GNmJ74ra",
+        "rank": "god_of_destruction_i"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "731d3b8aa75946bebd67d4d3f9fd6139",
+      "playedAt": "2026-07-01T21:02:35.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "feng",
+        "name": "p0pefran",
+        "playerId": null,
+        "polarisId": "4H55GNmJ74ra",
+        "rank": "god_of_destruction_i"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "642c22e025884a59a85e3337ab405131",
+      "playedAt": "2026-07-01T21:06:09.000Z",
       "roundsA": 2,
       "roundsB": 3,
       "winner": "b"

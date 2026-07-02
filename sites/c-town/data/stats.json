@@ -1,7 +1,7 @@
 {
-  "basedOnMatchCount": 331,
+  "basedOnMatchCount": 321,
   "charMatchups": {},
-  "generatedAt": "2026-07-01T19:43:50.291Z",
+  "generatedAt": "2026-07-02T02:39:51.366Z",
   "headToHead": {},
   "players": {
     "bigman": {
@@ -47,13 +47,13 @@
     },
     "gnarlyidk": {
       "charUsage": {
-        "panda": 40
+        "panda": 30
       },
-      "matchLosses": 17,
-      "matchWins": 23,
+      "matchLosses": 13,
+      "matchWins": 17,
       "mostPlayedCharacter": "panda",
-      "totalMatches": 40,
-      "winRate": 0.575
+      "totalMatches": 30,
+      "winRate": 0.567
     },
     "mickrus": {
       "charUsage": {
@@ -68,13 +68,14 @@
     },
     "nullified": {
       "charUsage": {
-        "fahkumram": 40
+        "armor_king": 3,
+        "fahkumram": 37
       },
-      "matchLosses": 17,
-      "matchWins": 23,
+      "matchLosses": 18,
+      "matchWins": 22,
       "mostPlayedCharacter": "fahkumram",
       "totalMatches": 40,
-      "winRate": 0.575
+      "winRate": 0.55
     },
     "stone": {
       "charUsage": {
