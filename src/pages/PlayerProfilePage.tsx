@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { config } from '@/config';
-import { useData } from '@/data/DataProvider';
+import { useData, useMatches, useStats, useHistory } from '@/data/DataProvider';
 import { pairsForPlayer } from '@/lib/leaderboard';
 import { directedH2H } from '@/lib/stats';
 import { PlayerAccent } from '@/components/PlayerAccent';
@@ -24,8 +24,10 @@ import { rankBySlug } from '@/data/ranks';
 
 export function PlayerProfilePage() {
   const { id = '' } = useParams();
-  const { playerById, mainCharacterByPlayer, players, pairs, stats, history, matches } =
-    useData();
+  const { playerById, mainCharacterByPlayer, players, pairs } = useData();
+  const stats = useStats();
+  const history = useHistory();
+  const matches = useMatches();
   const player = playerById.get(id);
   const mainCharacter = mainCharacterByPlayer.get(id) ?? null;
   const [chartMode, setChartMode] = useState<'mmr' | 'rank'>('mmr');
