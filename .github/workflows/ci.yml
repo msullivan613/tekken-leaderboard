@@ -1,0 +1,56 @@
+name: ci
+
+# Quality gate for pull requests: typecheck, lint, format, tests (with 100%
+# coverage on the deterministic core), and a full multi-site build whose output
+# is uploaded as a downloadable preview artifact. Deploy stays in deploy.yml
+# (push to main); this workflow never deploys.
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+# A newer push to the same PR supersedes an in-flight run.
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Format check
+        run: npm run format:check
+
+      - name: Test (100% coverage on core modules)
+        run: npm run test:cov
+
+      - name: Build all sites
+        run: npm run build
+
+      # Downloadable preview of the built site for this PR. Reviewers grab the
+      # "site-preview" artifact from the run, unzip, and open <slug>/index.html
+      # (or `npx serve dist`) to eyeball the change. GitHub Pages is a single
+      # environment, so there is no per-PR hosted URL.
+      - name: Upload site preview (dist)
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-preview
+          path: dist
+          if-no-files-found: error
+          retention-days: 14

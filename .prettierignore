@@ -1,0 +1,12 @@
+# Build & tooling output
+dist
+dist-ssr
+coverage
+node_modules
+
+# Generated data files are written by the pipeline's own deterministic serializer
+# (scripts/shared/atomicWrite.ts: sorted keys, 2-space, inline history arrays).
+# Prettier must not own them, or the two formatters would fight and break the
+# commit-if-changed / no-op-commit gate. players.json is hand-maintained but lives
+# in the same tree; keep the whole data dir out of Prettier's scope for simplicity.
+sites/*/data
