@@ -97,7 +97,9 @@ export interface Match {
 }
 export interface MatchesFile {
   schemaVersion: 2;
-  source: 'tknow';
+  // Which providers fed this file: tknow (quick/ranked) always; ewgf (group/player)
+  // when EWGF_API_KEY is set. "tknow+ewgf" when both are active.
+  source: 'tknow' | 'ewgf' | 'tknow+ewgf';
   generatedAt: string;
   crewMatchCount: number;
   feedMatchCount: number;
@@ -152,13 +154,23 @@ export interface AppConfig {
     recentWindowDays: number; // non-crew matches older than this are pruned
     feedMaxPerPlayer: number; // cap of non-crew matches kept per player
   };
+  // Per-site head-to-head tracking. When disabled, this site's players are never
+  // queried against ewgf (conserving its request budget) so no group/player
+  // matches are gathered, and the h2h stats are hidden in the UI (§ issue #3).
+  headToHead: {
+    enabled: boolean;
+  };
   sources: {
     tknowBaseUrl: string;
     tknowOrigin: string; // Origin/Referer the tknow API requires (anti-hotlink)
     wavuProfileUrl: string;
+    ewgfBaseUrl: string; // ewgf public API base, e.g. https://api.ewgf.gg/external
   };
   tknow: { userAgent: string };
   wavu: { userAgent: string };
+  // ewgf sources group/player (custom-lobby) matches. Enabled only when the
+  // EWGF_API_KEY env/secret is set (the key is never committed to config).
+  ewgf: { userAgent: string };
   history: {
     granularity: 'daily';
     maxDaysInline: number;

@@ -9,7 +9,10 @@ import { NotFound } from '@/pages/NotFound';
 
 const NAV = [
   { to: '/', label: 'Leaderboard', end: true },
-  { to: '/h2h', label: 'Head-to-head', end: false },
+  // Head-to-head is shown only for sites that track it (config.headToHead.enabled).
+  ...(config.headToHead.enabled
+    ? [{ to: '/h2h', label: 'Head-to-head', end: false }]
+    : []),
   { to: '/matches', label: 'Matches', end: false },
 ];
 
@@ -79,7 +82,9 @@ export function App() {
           <Routes>
             <Route path="/" element={<LeaderboardPage />} />
             <Route path="/player/:id" element={<PlayerProfilePage />} />
-            <Route path="/h2h" element={<HeadToHeadPage />} />
+            {config.headToHead.enabled && (
+              <Route path="/h2h" element={<HeadToHeadPage />} />
+            )}
             <Route path="/matches" element={<MatchesPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

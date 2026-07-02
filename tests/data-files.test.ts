@@ -75,7 +75,7 @@ describe.each(siteSlugs)('committed data files: %s', (slug) => {
   it('matches.json: v2 shape, ≥1 crew side, valid winner/rounds', () => {
     if (!matches) return;
     expect(matches.schemaVersion).toBe(2);
-    expect(matches.source).toBe('tknow');
+    expect(['tknow', 'ewgf', 'tknow+ewgf']).toContain(matches.source);
     let crew = 0;
     for (const m of matches.matches) {
       // at least one side must be a tracked crew player

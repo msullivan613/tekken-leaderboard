@@ -12,15 +12,22 @@
     "recentWindowDays": 30,
     "feedMaxPerPlayer": 40
   },
+  "headToHead": {
+    "enabled": false
+  },
   "sources": {
     "tknowBaseUrl": "https://api.tk8now.pe.kr/api/v1",
     "tknowOrigin": "https://www.tknow.gg",
-    "wavuProfileUrl": "https://wank.wavu.wiki"
+    "wavuProfileUrl": "https://wank.wavu.wiki",
+    "ewgfBaseUrl": "https://api.ewgf.gg/external"
   },
   "tknow": {
     "userAgent": "tekken-leaderboard (crew tool; contact matthew.sullivan613@gmail.com)"
   },
   "wavu": {
+    "userAgent": "tekken-leaderboard (crew tool; contact matthew.sullivan613@gmail.com)"
+  },
+  "ewgf": {
     "userAgent": "tekken-leaderboard (crew tool; contact matthew.sullivan613@gmail.com)"
   },
   "history": {

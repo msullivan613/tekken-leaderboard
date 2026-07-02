@@ -6,6 +6,7 @@ import { loadConfig } from '../shared/config';
 import { readDataFile, writeDataFile } from '../shared/atomicWrite';
 import { sleep } from '../shared/http';
 import { getPlayerInfo, getPlayerMatches, type TknowBattle } from './tknow';
+import { getPlayerCustomMatches } from './ewgf';
 import { getPlayerCharacters as getWavu } from './wavu';
 import { buildMatches } from './matches';
 import { deriveStats } from './stats';
@@ -67,6 +68,19 @@ async function main() {
     Accept: 'application/json',
   };
 
+  // ewgf supplies group/player (custom-lobby) matches for head-to-head tracking,
+  // which tknow can't. Gated per-site by config.headToHead.enabled AND the
+  // EWGF_API_KEY env/secret. Disabled ⇒ this site's players are never queried
+  // against ewgf (conserving its ~100 req/day budget) and no group/player matches
+  // are gathered; the pipeline behaves exactly as before (§ issue #3).
+  const ewgfApiKey = process.env.EWGF_API_KEY?.trim() || null;
+  const ewgfEnabled = config.headToHead.enabled && ewgfApiKey != null;
+  if (!config.headToHead.enabled) {
+    console.log('[online-stats] head-to-head disabled for this site — not querying ewgf.');
+  } else if (!ewgfApiKey) {
+    console.log('[online-stats] head-to-head enabled but EWGF_API_KEY not set — skipping group/player matches.');
+  }
+
   const now = new Date().toISOString();
   const date = todayUtc();
 
@@ -89,6 +103,7 @@ async function main() {
   const glickoPairs: GlickoPair[] = [];
   const allBattles: TknowBattle[] = [];
   let tknowReachable = false; // at least one info fetch succeeded
+  let ewgfReachable = false; // at least one ewgf battles fetch succeeded
 
   for (const player of players) {
     if (!player.tekken_id) continue;
@@ -107,6 +122,18 @@ async function main() {
         { knownIds: knownBattleIds },
       );
       allBattles.push(...battles);
+      await sleep(REQUEST_DELAY_MS);
+    }
+
+    if (ewgfEnabled && ewgfApiKey) {
+      const ewgf = await getPlayerCustomMatches(
+        tekkenId,
+        config.sources.ewgfBaseUrl,
+        ewgfApiKey,
+        config.ewgf.userAgent,
+      );
+      if (ewgf.ok) ewgfReachable = true;
+      allBattles.push(...ewgf.battles);
       await sleep(REQUEST_DELAY_MS);
     }
 
@@ -221,17 +248,20 @@ async function main() {
       : false;
   const wroteMmrHist = writeDataFile('mmrhistory.json', mmrHistory);
 
-  // Matches + derived stats come from tknow battles (§4). Only rebuild when tknow
-  // was reachable; otherwise keep yesterday's committed matches/stats.
+  // Matches + derived stats come from tknow (quick/ranked) and, when enabled,
+  // ewgf (group/player) battles (§4). Only rebuild when at least one source was
+  // reachable; otherwise keep yesterday's committed matches/stats. buildMatches
+  // merges fresh battles onto priorMatches by id, so a source being down this run
+  // preserves its previously-committed matches.
   let wroteMatches = false;
   let wroteStats = false;
   let matchCount = 0;
-  if (tknowReachable) {
+  if (tknowReachable || ewgfReachable) {
     const built = buildMatches(allBattles, players, priorMatches, config, new Date(now));
     matchCount = built.matches.length;
     const matchesFile: MatchesFile = {
       schemaVersion: 2,
-      source: 'tknow',
+      source: ewgfEnabled ? 'tknow+ewgf' : 'tknow',
       generatedAt: now,
       crewMatchCount: built.crewMatchCount,
       feedMatchCount: built.feedMatchCount,
@@ -244,6 +274,7 @@ async function main() {
   console.log(
     `[online-stats] ranks:${rankPairs.length} glicko:${glickoPairs.length} ` +
       `battles:${allBattles.length} matches:${matchCount} ` +
+      `ewgf:${ewgfEnabled ? (ewgfReachable ? 'on' : 'unreachable') : 'off'} ` +
       `written(ranks:${wroteRanks} glicko:${wroteGlicko} rankHist:${wroteRankHist} ` +
       `mmrHist:${wroteMmrHist} matches:${wroteMatches} stats:${wroteStats})`,
   );

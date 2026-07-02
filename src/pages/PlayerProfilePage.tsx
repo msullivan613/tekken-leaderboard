@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import { config } from '@/config';
 import { useData } from '@/data/DataProvider';
 import { pairsForPlayer } from '@/lib/leaderboard';
 import { directedH2H } from '@/lib/stats';
@@ -174,7 +175,8 @@ export function PlayerProfilePage() {
         </div>
       </section>
 
-      {/* Head-to-head */}
+      {/* Head-to-head (only for sites that track it) */}
+      {config.headToHead.enabled && (
       <section>
         <h2 className="mb-2 text-xl">Head-to-head</h2>
         <div className="overflow-x-auto rounded-lg border border-border">
@@ -209,6 +211,7 @@ export function PlayerProfilePage() {
           </table>
         </div>
       </section>
+      )}
 
       {/* Recent matches */}
       <section>
