@@ -1,7 +1,7 @@
 {
-  "basedOnMatchCount": 3593,
+  "basedOnMatchCount": 3706,
   "charMatchups": {},
-  "generatedAt": "2026-07-04T02:12:26.859Z",
+  "generatedAt": "2026-07-04T08:28:12.602Z",
   "headToHead": {},
   "players": {
     "afriking": {
@@ -174,14 +174,14 @@
     },
     "phine": {
       "charUsage": {
-        "azucena": 331,
+        "azucena": 423,
         "kunimitsu": 48
       },
-      "matchLosses": 116,
-      "matchWins": 263,
+      "matchLosses": 154,
+      "matchWins": 317,
       "mostPlayedCharacter": "azucena",
-      "totalMatches": 379,
-      "winRate": 0.694
+      "totalMatches": 471,
+      "winRate": 0.673
     },
     "puma": {
       "charUsage": {
@@ -226,13 +226,14 @@
     "sugarfree": {
       "charUsage": {
         "bryan": 4,
-        "yoshimitsu": 38
+        "jack8": 8,
+        "yoshimitsu": 51
       },
-      "matchLosses": 14,
-      "matchWins": 28,
+      "matchLosses": 27,
+      "matchWins": 36,
       "mostPlayedCharacter": "yoshimitsu",
-      "totalMatches": 42,
-      "winRate": 0.667
+      "totalMatches": 63,
+      "winRate": 0.571
     }
   },
   "schemaVersion": 2
