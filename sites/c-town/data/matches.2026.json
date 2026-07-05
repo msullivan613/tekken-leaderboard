@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T19:01:31.715Z",
+  "generatedAt": "2026-07-05T02:29:26.181Z",
   "matches": [
     {
       "a": {
@@ -11659,6 +11659,29 @@
       "id": "158aff0ac4ae4f6ebaec6e3a3ad09016",
       "playedAt": "2026-06-04T23:27:29.000Z",
       "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "panda",
+        "name": "gnarlyidk",
+        "playerId": "gnarlyidk",
+        "polarisId": "2GAa6T8RT3Ey",
+        "rank": "fujin"
+      },
+      "b": {
+        "character": "asuka",
+        "name": "TOUCHMEZADDY",
+        "playerId": null,
+        "polarisId": "3BF7y7bth4jT",
+        "rank": "kishin"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "979ae821b3c4400cbe5f35efaf916e0b",
+      "playedAt": "2026-06-05T00:28:44.000Z",
+      "roundsA": 0,
       "roundsB": 3,
       "winner": "b"
     },

@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 2059,
+  "basedOnMatchCount": 2076,
   "charMatchups": {
     "bigman:heihachi|nyx:steve": {
       "matchesA": 1,
@@ -146,7 +146,11 @@
       "matchesB": 0
     },
     "burny:victor|sugarfree:bryan": {
-      "matchesA": 5,
+      "matchesA": 12,
+      "matchesB": 0
+    },
+    "burny:victor|sugarfree:jack8": {
+      "matchesA": 10,
       "matchesB": 0
     },
     "burny:victor|sugarfree:yoshimitsu": {
@@ -266,7 +270,7 @@
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-07-04T19:01:31.715Z",
+  "generatedAt": "2026-07-05T02:29:26.181Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 1,
@@ -353,10 +357,10 @@
       "roundsB": 17
     },
     "burny|sugarfree": {
-      "matchesA": 27,
+      "matchesA": 44,
       "matchesB": 7,
-      "roundsA": 88,
-      "roundsB": 41
+      "roundsA": 139,
+      "roundsB": 52
     },
     "code|nyx": {
       "matchesA": 3,
@@ -453,13 +457,13 @@
         "clive": 2,
         "hwoarang": 7,
         "paul": 83,
-        "victor": 74
+        "victor": 91
       },
       "matchLosses": 36,
-      "matchWins": 130,
-      "mostPlayedCharacter": "paul",
-      "totalMatches": 166,
-      "winRate": 0.783
+      "matchWins": 147,
+      "mostPlayedCharacter": "victor",
+      "totalMatches": 183,
+      "winRate": 0.803
     },
     "chamk": {
       "charUsage": {
@@ -609,15 +613,15 @@
     },
     "sugarfree": {
       "charUsage": {
-        "bryan": 16,
-        "jack8": 8,
+        "bryan": 23,
+        "jack8": 18,
         "yoshimitsu": 81
       },
-      "matchLosses": 61,
+      "matchLosses": 78,
       "matchWins": 44,
       "mostPlayedCharacter": "yoshimitsu",
-      "totalMatches": 105,
-      "winRate": 0.419
+      "totalMatches": 122,
+      "winRate": 0.361
     }
   },
   "schemaVersion": 2
