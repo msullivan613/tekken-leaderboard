@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T07:44:31.893Z",
+  "generatedAt": "2026-07-11T13:03:02.332Z",
   "matches": [
     {
       "a": {
@@ -100233,6 +100233,75 @@
       "playedAt": "2026-07-08T09:07:58.000Z",
       "roundsA": 3,
       "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "law",
+        "name": "We believe",
+        "playerId": null,
+        "polarisId": "36A2HBFaYYR4",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "kuma",
+        "name": "BigKuma",
+        "playerId": "bigkuma",
+        "polarisId": "4Y79N5nYHHJd",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "6102c79e17e14a49883bcba8c97c839a",
+      "playedAt": "2026-07-08T09:10:15.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kazuya",
+        "name": "Punk",
+        "playerId": null,
+        "polarisId": "2AE2MH7Dbmh2",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "kuma",
+        "name": "BigKuma",
+        "playerId": "bigkuma",
+        "polarisId": "4Y79N5nYHHJd",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "fc1fb0d916b44cefad16818eee102ee8",
+      "playedAt": "2026-07-08T09:14:13.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "kuma",
+        "name": "BigKuma",
+        "playerId": "bigkuma",
+        "polarisId": "4Y79N5nYHHJd",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "king",
+        "name": "snow",
+        "playerId": null,
+        "polarisId": "4t9A3tjhng8J",
+        "rank": "god_of_destruction_i"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "13148bb9ad094b83ac246b6db44af3d2",
+      "playedAt": "2026-07-08T09:48:23.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
       "winner": "a"
     },
     {
