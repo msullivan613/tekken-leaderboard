@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T02:00:30.514Z",
+  "generatedAt": "2026-07-11T07:44:31.893Z",
   "pairs": [
     {
       "character": "leroy",
@@ -442,6 +442,28 @@
       "sigmaSquared": 63
     },
     {
+      "character": "feng",
+      "confidence": "provisional",
+      "games": 144,
+      "lastUpdated": "2025-02-20T01:56:02.000Z",
+      "pairId": "44eg-BAHA-424E:feng",
+      "playerId": "rev_grizz",
+      "provisional": true,
+      "rating": 1659,
+      "sigmaSquared": 141
+    },
+    {
+      "character": "king",
+      "confidence": "unqualified",
+      "games": 700,
+      "lastUpdated": "2025-10-06T00:56:50.000Z",
+      "pairId": "44eg-BAHA-424E:king",
+      "playerId": "rev_grizz",
+      "provisional": false,
+      "rating": 1741,
+      "sigmaSquared": 109
+    },
+    {
       "character": "kunimitsu",
       "confidence": "leaderboard",
       "games": 1110,
@@ -532,13 +554,13 @@
     {
       "character": "kazuya",
       "confidence": "leaderboard",
-      "games": 2499,
-      "lastUpdated": "2026-07-11T01:49:42.000Z",
+      "games": 2506,
+      "lastUpdated": "2026-07-11T03:20:29.000Z",
       "pairId": "4FE3-J976-Qray:kazuya",
       "playerId": "eonexodus",
       "provisional": false,
-      "rating": 1527,
-      "sigmaSquared": 63
+      "rating": 1537,
+      "sigmaSquared": 62
     },
     {
       "character": "shaheen",
@@ -609,12 +631,12 @@
     {
       "character": "kuma",
       "confidence": "leaderboard",
-      "games": 3578,
-      "lastUpdated": "2026-07-09T22:06:43.000Z",
+      "games": 3581,
+      "lastUpdated": "2026-07-11T03:26:23.000Z",
       "pairId": "4Y79-N5nY-HHJd:kuma",
       "playerId": "bigkuma",
       "provisional": false,
-      "rating": 1968,
+      "rating": 1972,
       "sigmaSquared": 65
     },
     {
