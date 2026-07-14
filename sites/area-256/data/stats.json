@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 5729,
+  "basedOnMatchCount": 5784,
   "charMatchups": {
     "afriking:armor_king|bigkuma:kuma": {
       "matchesA": 2,
@@ -10,7 +10,7 @@
       "matchesB": 10
     }
   },
-  "generatedAt": "2026-07-14T01:51:34.817Z",
+  "generatedAt": "2026-07-14T07:51:29.865Z",
   "headToHead": {
     "afriking|bigkuma": {
       "matchesA": 2,
@@ -166,13 +166,13 @@
       "charUsage": {
         "armor_king": 241,
         "claudio": 11,
-        "fahkumram": 64
+        "fahkumram": 81
       },
-      "matchLosses": 176,
-      "matchWins": 140,
+      "matchLosses": 181,
+      "matchWins": 152,
       "mostPlayedCharacter": "armor_king",
-      "totalMatches": 316,
-      "winRate": 0.443
+      "totalMatches": 333,
+      "winRate": 0.456
     },
     "oddlionss": {
       "charUsage": {
@@ -217,19 +217,20 @@
     },
     "rev_grizz": {
       "charUsage": {
+        "bryan": 20,
         "dragunov": 2,
         "eddy": 137,
         "fahkumram": 100,
         "feng": 5,
         "king": 8,
-        "kunimitsu": 661,
+        "kunimitsu": 679,
         "leroy": 53
       },
-      "matchLosses": 456,
-      "matchWins": 510,
+      "matchLosses": 470,
+      "matchWins": 534,
       "mostPlayedCharacter": "kunimitsu",
-      "totalMatches": 966,
-      "winRate": 0.528
+      "totalMatches": 1004,
+      "winRate": 0.532
     },
     "skrt": {
       "charUsage": {
