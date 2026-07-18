@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 19,
   "feedMatchCount": 538,
-  "generatedAt": "2026-07-18T12:59:00.781Z",
+  "generatedAt": "2026-07-18T18:53:27.778Z",
   "matches": [
     {
       "a": {
@@ -94,52 +94,6 @@
       "roundsA": 3,
       "roundsB": 0,
       "winner": "a"
-    },
-    {
-      "a": {
-        "character": "miary_zo",
-        "name": "ENFINITE",
-        "playerId": null,
-        "polarisId": "3LFrBGAeDtJy",
-        "rank": "kishin"
-      },
-      "b": {
-        "character": "heihachi",
-        "name": "Oddlionss",
-        "playerId": "oddlionss",
-        "polarisId": "4tF6JdJaRna2",
-        "rank": "raijin"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "8b0bae9392104b05b13ac9977a45ccc9",
-      "playedAt": "2026-06-20T20:47:50.000Z",
-      "roundsA": 1,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "alisa",
-        "name": "i sea you pea",
-        "playerId": null,
-        "polarisId": "2jJHe9TytLYh",
-        "rank": "kishin"
-      },
-      "b": {
-        "character": "heihachi",
-        "name": "Oddlionss",
-        "playerId": "oddlionss",
-        "polarisId": "4tF6JdJaRna2",
-        "rank": "kishin"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "1e9eca381504484ab12d65663b4489d9",
-      "playedAt": "2026-06-20T20:51:42.000Z",
-      "roundsA": 1,
-      "roundsB": 3,
-      "winner": "b"
     },
     {
       "a": {
@@ -12813,6 +12767,52 @@
       "roundsA": 0,
       "roundsB": 3,
       "winner": "b"
+    },
+    {
+      "a": {
+        "character": "heihachi",
+        "name": "Oddlionss",
+        "playerId": "oddlionss",
+        "polarisId": "4tF6JdJaRna2",
+        "rank": "kishin"
+      },
+      "b": {
+        "character": "kazuya",
+        "name": "Cheerios",
+        "playerId": null,
+        "polarisId": "58jhJqL898aG",
+        "rank": "tekken_king"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "6fbf3f5900be4c9ea20847d5e7e289b5",
+      "playedAt": "2026-07-18T17:19:59.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "heihachi",
+        "name": "shlumped",
+        "playerId": null,
+        "polarisId": "4GNniNh9fT4r",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "heihachi",
+        "name": "Oddlionss",
+        "playerId": "oddlionss",
+        "polarisId": "4tF6JdJaRna2",
+        "rank": "kishin"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "cc8b345e355248deaba63621ec0da45d",
+      "playedAt": "2026-07-18T17:23:34.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
     }
   ],
   "schemaVersion": 2,
