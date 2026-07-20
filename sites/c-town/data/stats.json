@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 2758,
+  "basedOnMatchCount": 2766,
   "charMatchups": {
     "bigman:heihachi|nyx:steve": {
       "matchesA": 1,
@@ -154,8 +154,8 @@
       "matchesB": 0
     },
     "burny:victor|sugarfree:bryan": {
-      "matchesA": 18,
-      "matchesB": 4
+      "matchesA": 24,
+      "matchesB": 6
     },
     "burny:victor|sugarfree:jack8": {
       "matchesA": 10,
@@ -278,7 +278,7 @@
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-07-20T02:23:34.452Z",
+  "generatedAt": "2026-07-20T08:47:00.631Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 1,
@@ -365,10 +365,10 @@
       "roundsB": 17
     },
     "burny|sugarfree": {
-      "matchesA": 50,
-      "matchesB": 11,
-      "roundsA": 165,
-      "roundsB": 73
+      "matchesA": 56,
+      "matchesB": 13,
+      "roundsA": 184,
+      "roundsB": 86
     },
     "code|nyx": {
       "matchesA": 3,
@@ -468,12 +468,12 @@
         "hwoarang": 7,
         "paul": 152,
         "shaheen": 1,
-        "victor": 108
+        "victor": 116
       },
-      "matchLosses": 65,
-      "matchWins": 206,
+      "matchLosses": 67,
+      "matchWins": 212,
       "mostPlayedCharacter": "paul",
-      "totalMatches": 271,
+      "totalMatches": 279,
       "winRate": 0.76
     },
     "chamk": {
@@ -624,16 +624,16 @@
     },
     "sugarfree": {
       "charUsage": {
-        "bryan": 97,
+        "bryan": 105,
         "jack8": 18,
         "kazuya": 4,
         "yoshimitsu": 89
       },
-      "matchLosses": 112,
-      "matchWins": 96,
+      "matchLosses": 118,
+      "matchWins": 98,
       "mostPlayedCharacter": "bryan",
-      "totalMatches": 208,
-      "winRate": 0.462
+      "totalMatches": 216,
+      "winRate": 0.454
     }
   },
   "schemaVersion": 2
