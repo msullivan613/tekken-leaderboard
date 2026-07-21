@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 2799,
+  "basedOnMatchCount": 2835,
   "charMatchups": {
     "bigman:heihachi|nyx:steve": {
       "matchesA": 1,
@@ -50,8 +50,8 @@
       "matchesB": 0
     },
     "bigman:kuma|sugarfree:bryan": {
-      "matchesA": 1,
-      "matchesB": 1
+      "matchesA": 5,
+      "matchesB": 8
     },
     "bigman:kuma|sugarfree:yoshimitsu": {
       "matchesA": 6,
@@ -278,7 +278,7 @@
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-07-20T19:30:40.598Z",
+  "generatedAt": "2026-07-21T02:01:53.926Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 1,
@@ -329,10 +329,10 @@
       "roundsB": 5
     },
     "bigman|sugarfree": {
-      "matchesA": 7,
-      "matchesB": 1,
-      "roundsA": 21,
-      "roundsB": 6
+      "matchesA": 11,
+      "matchesB": 8,
+      "roundsA": 41,
+      "roundsB": 32
     },
     "burny|fop": {
       "matchesA": 9,
@@ -448,18 +448,18 @@
       "charUsage": {
         "heihachi": 8,
         "king": 1,
-        "kuma": 574,
+        "kuma": 602,
         "kunimitsu": 13,
         "nina": 8,
         "panda": 65,
         "paul": 2,
         "reina": 1
       },
-      "matchLosses": 319,
-      "matchWins": 353,
+      "matchLosses": 332,
+      "matchWins": 368,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 672,
-      "winRate": 0.525
+      "totalMatches": 700,
+      "winRate": 0.526
     },
     "burny": {
       "charUsage": {
@@ -571,14 +571,14 @@
       "charUsage": {
         "armor_king": 280,
         "claudio": 11,
-        "clive": 21,
+        "clive": 29,
         "fahkumram": 217
       },
       "matchLosses": 221,
-      "matchWins": 308,
+      "matchWins": 316,
       "mostPlayedCharacter": "armor_king",
-      "totalMatches": 529,
-      "winRate": 0.582
+      "totalMatches": 537,
+      "winRate": 0.588
     },
     "nyx": {
       "charUsage": {
@@ -625,16 +625,16 @@
     },
     "sugarfree": {
       "charUsage": {
-        "bryan": 105,
+        "bryan": 116,
         "jack8": 18,
         "kazuya": 4,
         "yoshimitsu": 89
       },
-      "matchLosses": 118,
-      "matchWins": 98,
+      "matchLosses": 122,
+      "matchWins": 105,
       "mostPlayedCharacter": "bryan",
-      "totalMatches": 216,
-      "winRate": 0.454
+      "totalMatches": 227,
+      "winRate": 0.463
     }
   },
   "schemaVersion": 2
