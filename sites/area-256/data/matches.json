@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 19,
   "feedMatchCount": 527,
-  "generatedAt": "2026-07-24T19:16:02.541Z",
+  "generatedAt": "2026-07-25T02:02:01.221Z",
   "matches": [
     {
       "a": {
@@ -9366,75 +9366,6 @@
     },
     {
       "a": {
-        "character": "azucena",
-        "name": "Phine",
-        "playerId": "phine",
-        "polarisId": "5HyEnHGerLJ8",
-        "rank": "god_of_destruction_vi"
-      },
-      "b": {
-        "character": "bryan",
-        "name": "Saiba Jinzero",
-        "playerId": null,
-        "polarisId": "66qf9Y39NLQd",
-        "rank": "god_of_destruction_iii"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "b440b71277cd4ee6b3bc127959e6e00d",
-      "playedAt": "2026-07-23T03:21:38.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "paul",
-        "name": "PsychicWarlock",
-        "playerId": null,
-        "polarisId": "3E7gn8MGiAfr",
-        "rank": "god_of_destruction_iii"
-      },
-      "b": {
-        "character": "azucena",
-        "name": "Phine",
-        "playerId": "phine",
-        "polarisId": "5HyEnHGerLJ8",
-        "rank": "god_of_destruction_vi"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "6b9c4b3f581f479782099f5428e60c29",
-      "playedAt": "2026-07-23T03:30:48.000Z",
-      "roundsA": 3,
-      "roundsB": 0,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "paul",
-        "name": "PsychicWarlock",
-        "playerId": null,
-        "polarisId": "3E7gn8MGiAfr",
-        "rank": "god_of_destruction_iii"
-      },
-      "b": {
-        "character": "azucena",
-        "name": "Phine",
-        "playerId": "phine",
-        "polarisId": "5HyEnHGerLJ8",
-        "rank": "god_of_destruction_vi"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "7cd9b50b05b24ffc952e0043dfcad93b",
-      "playedAt": "2026-07-23T03:33:31.000Z",
-      "roundsA": 1,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
         "character": "paul",
         "name": "PsychicWarlock",
         "playerId": null,
@@ -12560,6 +12491,75 @@
       "roundsA": 1,
       "roundsB": 3,
       "winner": "b"
+    },
+    {
+      "a": {
+        "character": "azucena",
+        "name": "Phine",
+        "playerId": "phine",
+        "polarisId": "5HyEnHGerLJ8",
+        "rank": "god_of_destruction_vi"
+      },
+      "b": {
+        "character": "steve",
+        "name": "Harland",
+        "playerId": null,
+        "polarisId": "5j6b88dYhJry",
+        "rank": "god_of_destruction_iv"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "d8ae8baf2c1c47e8a2ffa1bde3749020",
+      "playedAt": "2026-07-24T22:31:20.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "azucena",
+        "name": "Phine",
+        "playerId": "phine",
+        "polarisId": "5HyEnHGerLJ8",
+        "rank": "god_of_destruction_vi"
+      },
+      "b": {
+        "character": "steve",
+        "name": "Harland",
+        "playerId": null,
+        "polarisId": "5j6b88dYhJry",
+        "rank": "god_of_destruction_iv"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "064397e87ed5429d8c5055a04f4d728d",
+      "playedAt": "2026-07-24T22:34:57.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "azucena",
+        "name": "Phine",
+        "playerId": "phine",
+        "polarisId": "5HyEnHGerLJ8",
+        "rank": "god_of_destruction_vi"
+      },
+      "b": {
+        "character": "steve",
+        "name": "Harland",
+        "playerId": null,
+        "polarisId": "5j6b88dYhJry",
+        "rank": "god_of_destruction_iv"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "b228bdfbd72444fb90614ae7f3704df2",
+      "playedAt": "2026-07-24T22:37:24.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
     }
   ],
   "schemaVersion": 2,
