@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 7715,
+  "basedOnMatchCount": 7855,
   "charMatchups": {
     "afriking:armor_king|bigkuma:kuma": {
       "matchesA": 2,
@@ -7,10 +7,10 @@
     },
     "afriking:armor_king|phine:azucena": {
       "matchesA": 6,
-      "matchesB": 10
+      "matchesB": 20
     }
   },
-  "generatedAt": "2026-07-27T02:13:49.872Z",
+  "generatedAt": "2026-07-27T09:37:23.097Z",
   "headToHead": {
     "afriking|bigkuma": {
       "matchesA": 2,
@@ -20,22 +20,22 @@
     },
     "afriking|phine": {
       "matchesA": 6,
-      "matchesB": 10,
-      "roundsA": 27,
-      "roundsB": 39
+      "matchesB": 20,
+      "roundsA": 32,
+      "roundsB": 69
     }
   },
   "players": {
     "afriking": {
       "charUsage": {
-        "armor_king": 622,
+        "armor_king": 650,
         "lars": 44
       },
-      "matchLosses": 302,
-      "matchWins": 364,
+      "matchLosses": 321,
+      "matchWins": 373,
       "mostPlayedCharacter": "armor_king",
-      "totalMatches": 666,
-      "winRate": 0.547
+      "totalMatches": 694,
+      "winRate": 0.537
     },
     "bard": {
       "charUsage": {
@@ -51,13 +51,13 @@
       "charUsage": {
         "dragunov": 57,
         "jack8": 7,
-        "kuma": 447
+        "kuma": 469
       },
-      "matchLosses": 248,
-      "matchWins": 263,
+      "matchLosses": 261,
+      "matchWins": 272,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 511,
-      "winRate": 0.515
+      "totalMatches": 533,
+      "winRate": 0.51
     },
     "eonexodus": {
       "charUsage": {
@@ -198,14 +198,14 @@
     },
     "phine": {
       "charUsage": {
-        "azucena": 1516,
+        "azucena": 1586,
         "kunimitsu": 48
       },
-      "matchLosses": 491,
-      "matchWins": 1073,
+      "matchLosses": 512,
+      "matchWins": 1122,
       "mostPlayedCharacter": "azucena",
-      "totalMatches": 1564,
-      "winRate": 0.686
+      "totalMatches": 1634,
+      "winRate": 0.687
     },
     "puma": {
       "charUsage": {
@@ -239,7 +239,7 @@
     },
     "skrt": {
       "charUsage": {
-        "bryan": 244,
+        "bryan": 274,
         "jack8": 73,
         "king": 14,
         "kuma": 55,
@@ -247,11 +247,11 @@
         "miary_zo": 16,
         "panda": 3
       },
-      "matchLosses": 222,
-      "matchWins": 191,
+      "matchLosses": 241,
+      "matchWins": 202,
       "mostPlayedCharacter": "bryan",
-      "totalMatches": 413,
-      "winRate": 0.462
+      "totalMatches": 443,
+      "winRate": 0.456
     },
     "sugarfree": {
       "charUsage": {
