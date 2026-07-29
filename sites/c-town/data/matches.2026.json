@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T13:54:02.068Z",
+  "generatedAt": "2026-07-29T19:04:24.777Z",
   "matches": [
     {
       "a": {
@@ -60833,6 +60833,98 @@
       "id": "ewgf:4899Drd8678h-5G7FhGaGnaB8:1784943788",
       "playedAt": "2026-07-25T01:43:08.000Z",
       "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "kuma",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "steve",
+        "name": "eK|Boogiemane",
+        "playerId": null,
+        "polarisId": "5G7FhGaGnaB8",
+        "rank": "god_of_destruction_iv"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:4899Drd8678h-5G7FhGaGnaB8:1784943953",
+      "playedAt": "2026-07-25T01:45:53.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "law",
+        "name": "eK|MaddawgLaw",
+        "playerId": null,
+        "polarisId": "2E3498q87eL4",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "kuma",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:2E3498q87eL4-4899Drd8678h:1784944143",
+      "playedAt": "2026-07-25T01:49:03.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "law",
+        "name": "eK|MaddawgLaw",
+        "playerId": null,
+        "polarisId": "2E3498q87eL4",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "kuma",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:2E3498q87eL4-4899Drd8678h:1784944333",
+      "playedAt": "2026-07-25T01:52:13.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "law",
+        "name": "eK|MaddawgLaw",
+        "playerId": null,
+        "polarisId": "2E3498q87eL4",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "kuma",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:2E3498q87eL4-4899Drd8678h:1784944442",
+      "playedAt": "2026-07-25T01:54:02.000Z",
+      "roundsA": 0,
       "roundsB": 3,
       "winner": "b"
     }
