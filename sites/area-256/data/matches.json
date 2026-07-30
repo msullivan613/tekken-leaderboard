@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 29,
   "feedMatchCount": 519,
-  "generatedAt": "2026-07-29T19:03:03.164Z",
+  "generatedAt": "2026-07-30T01:49:09.496Z",
   "matches": [
     {
       "a": {
@@ -2834,98 +2834,6 @@
     },
     {
       "a": {
-        "character": "victor",
-        "name": "SWAGUNOV",
-        "playerId": null,
-        "polarisId": "395Jh9Eb26nE",
-        "rank": "bushin"
-      },
-      "b": {
-        "character": "kazuya",
-        "name": "EonExodus",
-        "playerId": "eonexodus",
-        "polarisId": "4FE3J976Qray",
-        "rank": "tekken_emperor"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "ac7b430b37f844138d240743ae16fdb2",
-      "playedAt": "2026-07-19T00:21:51.000Z",
-      "roundsA": 3,
-      "roundsB": 1,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "zafina",
-        "name": "Lefatar",
-        "playerId": null,
-        "polarisId": "49etE2i2LAyJ",
-        "rank": "tekken_god_supreme"
-      },
-      "b": {
-        "character": "kazuya",
-        "name": "EonExodus",
-        "playerId": "eonexodus",
-        "polarisId": "4FE3J976Qray",
-        "rank": "tekken_emperor"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "735f1ecc4e574ab98719bae05ba85140",
-      "playedAt": "2026-07-19T00:25:17.000Z",
-      "roundsA": 2,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "zafina",
-        "name": "Lefatar",
-        "playerId": null,
-        "polarisId": "49etE2i2LAyJ",
-        "rank": "tekken_god_supreme"
-      },
-      "b": {
-        "character": "kazuya",
-        "name": "EonExodus",
-        "playerId": "eonexodus",
-        "polarisId": "4FE3J976Qray",
-        "rank": "tekken_emperor"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "2e1a89c114014ac187f0a1c52d3a6d21",
-      "playedAt": "2026-07-19T00:28:53.000Z",
-      "roundsA": 3,
-      "roundsB": 2,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "zafina",
-        "name": "Lefatar",
-        "playerId": null,
-        "polarisId": "49etE2i2LAyJ",
-        "rank": "tekken_god_supreme"
-      },
-      "b": {
-        "character": "kazuya",
-        "name": "EonExodus",
-        "playerId": "eonexodus",
-        "polarisId": "4FE3J976Qray",
-        "rank": "tekken_emperor"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "32cfff04645c4c329c56806b3f0733e4",
-      "playedAt": "2026-07-19T00:31:38.000Z",
-      "roundsA": 3,
-      "roundsB": 1,
-      "winner": "a"
-    },
-    {
-      "a": {
         "character": "bryan",
         "name": "SugarFree",
         "playerId": "sugarfree",
@@ -4669,167 +4577,6 @@
       "id": "bcb95ac9481748b19d590eb7a16464a9",
       "playedAt": "2026-07-20T01:00:35.000Z",
       "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "heihachi",
-        "name": "Launs",
-        "playerId": null,
-        "polarisId": "3je9E6A4brBa",
-        "rank": "tekken_god_supreme"
-      },
-      "b": {
-        "character": "kazuya",
-        "name": "EonExodus",
-        "playerId": "eonexodus",
-        "polarisId": "4FE3J976Qray",
-        "rank": "tekken_emperor"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "43f9bfc38f254eba97fa7d29bf938e78",
-      "playedAt": "2026-07-21T02:36:20.000Z",
-      "roundsA": 3,
-      "roundsB": 1,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "heihachi",
-        "name": "Launs",
-        "playerId": null,
-        "polarisId": "3je9E6A4brBa",
-        "rank": "tekken_god_supreme"
-      },
-      "b": {
-        "character": "kazuya",
-        "name": "EonExodus",
-        "playerId": "eonexodus",
-        "polarisId": "4FE3J976Qray",
-        "rank": "tekken_emperor"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "2216f1f1ebc149a09ecbf08c42600855",
-      "playedAt": "2026-07-21T02:39:51.000Z",
-      "roundsA": 3,
-      "roundsB": 2,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "heihachi",
-        "name": "Launs",
-        "playerId": null,
-        "polarisId": "3je9E6A4brBa",
-        "rank": "tekken_god_supreme"
-      },
-      "b": {
-        "character": "kazuya",
-        "name": "EonExodus",
-        "playerId": "eonexodus",
-        "polarisId": "4FE3J976Qray",
-        "rank": "tekken_emperor"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "4f28f938c9b7409e8eaa7064c768acb6",
-      "playedAt": "2026-07-21T02:42:14.000Z",
-      "roundsA": 3,
-      "roundsB": 0,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "heihachi",
-        "name": "Launs",
-        "playerId": null,
-        "polarisId": "3je9E6A4brBa",
-        "rank": "tekken_god_supreme"
-      },
-      "b": {
-        "character": "kazuya",
-        "name": "EonExodus",
-        "playerId": "eonexodus",
-        "polarisId": "4FE3J976Qray",
-        "rank": "tekken_emperor"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "1df367850446438c99885df847ae5b65",
-      "playedAt": "2026-07-21T02:44:10.000Z",
-      "roundsA": 3,
-      "roundsB": 0,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "heihachi",
-        "name": "Launs",
-        "playerId": null,
-        "polarisId": "3je9E6A4brBa",
-        "rank": "tekken_god_supreme"
-      },
-      "b": {
-        "character": "kazuya",
-        "name": "EonExodus",
-        "playerId": "eonexodus",
-        "polarisId": "4FE3J976Qray",
-        "rank": "tekken_emperor"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "0e49e82acf5c46338cd713d27a51d9e3",
-      "playedAt": "2026-07-21T02:47:07.000Z",
-      "roundsA": 1,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "heihachi",
-        "name": "Launs",
-        "playerId": null,
-        "polarisId": "3je9E6A4brBa",
-        "rank": "tekken_god_supreme"
-      },
-      "b": {
-        "character": "kazuya",
-        "name": "EonExodus",
-        "playerId": "eonexodus",
-        "polarisId": "4FE3J976Qray",
-        "rank": "tekken_emperor"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "2ed08b9edbc949f7b256bec271ce7c46",
-      "playedAt": "2026-07-21T02:49:52.000Z",
-      "roundsA": 3,
-      "roundsB": 1,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "heihachi",
-        "name": "Launs",
-        "playerId": null,
-        "polarisId": "3je9E6A4brBa",
-        "rank": "tekken_god_supreme"
-      },
-      "b": {
-        "character": "kazuya",
-        "name": "EonExodus",
-        "playerId": "eonexodus",
-        "polarisId": "4FE3J976Qray",
-        "rank": "tekken_emperor"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "e54fdd54a8b84d198731d3fce4941786",
-      "playedAt": "2026-07-21T02:52:26.000Z",
-      "roundsA": 1,
       "roundsB": 3,
       "winner": "b"
     },
@@ -12606,6 +12353,259 @@
       "roundsA": 2,
       "roundsB": 3,
       "winner": "b"
+    },
+    {
+      "a": {
+        "character": "kazuya",
+        "name": "EonExodus",
+        "playerId": "eonexodus",
+        "polarisId": "4FE3J976Qray",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "kunimitsu",
+        "name": "Dough Boy",
+        "playerId": null,
+        "polarisId": "4mtn8mQ2MeJ2",
+        "rank": "tekken_god"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "7b6d96d9d8ac43a491372f39da3e1da3",
+      "playedAt": "2026-07-29T23:50:01.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "hwoarang",
+        "name": "Hellfire",
+        "playerId": null,
+        "polarisId": "3jiG98tTBA6f",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "kazuya",
+        "name": "EonExodus",
+        "playerId": "eonexodus",
+        "polarisId": "4FE3J976Qray",
+        "rank": "tekken_god"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "04af41d5a1d84367b6bcd835a2b0a0cf",
+      "playedAt": "2026-07-29T23:55:27.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "hwoarang",
+        "name": "Hellfire",
+        "playerId": null,
+        "polarisId": "3jiG98tTBA6f",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "kazuya",
+        "name": "EonExodus",
+        "playerId": "eonexodus",
+        "polarisId": "4FE3J976Qray",
+        "rank": "tekken_god"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "1c20f137ddc7442ab4ad078d23d7f7d4",
+      "playedAt": "2026-07-29T23:58:27.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kazuya",
+        "name": "Tenshouzan",
+        "playerId": null,
+        "polarisId": "4DAA9BbtLAEj",
+        "rank": "tekken_god_supreme"
+      },
+      "b": {
+        "character": "kazuya",
+        "name": "EonExodus",
+        "playerId": "eonexodus",
+        "polarisId": "4FE3J976Qray",
+        "rank": "tekken_god"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "abf3e7e6e27d4e0ea36f9df14b01a596",
+      "playedAt": "2026-07-30T00:02:19.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kazuya",
+        "name": "Tenshouzan",
+        "playerId": null,
+        "polarisId": "4DAA9BbtLAEj",
+        "rank": "tekken_god_supreme"
+      },
+      "b": {
+        "character": "kazuya",
+        "name": "EonExodus",
+        "playerId": "eonexodus",
+        "polarisId": "4FE3J976Qray",
+        "rank": "tekken_god"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "54bde4f40b0046b9807d490f759feda2",
+      "playedAt": "2026-07-30T00:05:56.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "kazuya",
+        "name": "Tenshouzan",
+        "playerId": null,
+        "polarisId": "4DAA9BbtLAEj",
+        "rank": "tekken_god_supreme"
+      },
+      "b": {
+        "character": "kazuya",
+        "name": "EonExodus",
+        "playerId": "eonexodus",
+        "polarisId": "4FE3J976Qray",
+        "rank": "tekken_god"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "02ac3a5bdc364508bdd79ecdf0f411bd",
+      "playedAt": "2026-07-30T00:09:11.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kazuya",
+        "name": "EonExodus",
+        "playerId": "eonexodus",
+        "polarisId": "4FE3J976Qray",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "claudio",
+        "name": "geehanzo",
+        "playerId": null,
+        "polarisId": "4LtG4yfHMY2Q",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "443d47ff0f244b3e908a5a062dce3235",
+      "playedAt": "2026-07-30T00:12:59.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "kazuya",
+        "name": "EonExodus",
+        "playerId": "eonexodus",
+        "polarisId": "4FE3J976Qray",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "claudio",
+        "name": "geehanzo",
+        "playerId": null,
+        "polarisId": "4LtG4yfHMY2Q",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "e42caafe949949dd87604f976fd761a5",
+      "playedAt": "2026-07-30T00:15:46.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kazuya",
+        "name": "EonExodus",
+        "playerId": "eonexodus",
+        "polarisId": "4FE3J976Qray",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "claudio",
+        "name": "geehanzo",
+        "playerId": null,
+        "polarisId": "4LtG4yfHMY2Q",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "048962078dce4b968a39587f35e15a06",
+      "playedAt": "2026-07-30T00:18:39.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "lili",
+        "name": "C maxx",
+        "playerId": null,
+        "polarisId": "2gJqf9BD9e94",
+        "rank": "tekken_king"
+      },
+      "b": {
+        "character": "kazuya",
+        "name": "EonExodus",
+        "playerId": "eonexodus",
+        "polarisId": "4FE3J976Qray",
+        "rank": "tekken_god"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "8b0e2bc8f4ed462faa213a3e35771be5",
+      "playedAt": "2026-07-30T00:22:30.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kazuya",
+        "name": "EonExodus",
+        "playerId": "eonexodus",
+        "polarisId": "4FE3J976Qray",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "xiaoyu",
+        "name": "RyooK",
+        "playerId": null,
+        "polarisId": "58TLqLejeyj8",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "1a881456fe2d4bd5bf83b0ba0e44ad5a",
+      "playedAt": "2026-07-30T00:27:46.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
     }
   ],
   "schemaVersion": 2,
