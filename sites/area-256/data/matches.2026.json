@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T13:43:02.853Z",
+  "generatedAt": "2026-07-30T19:14:50.945Z",
   "matches": [
     {
       "a": {
@@ -70171,6 +70171,29 @@
       "id": "6a63459450f048d685ae892f2bda23fe",
       "playedAt": "2026-06-30T09:45:21.000Z",
       "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "law",
+        "name": "ugottaproblem",
+        "playerId": null,
+        "polarisId": "4ATYA4DDBB2y",
+        "rank": "tekken_emperor"
+      },
+      "b": {
+        "character": "heihachi",
+        "name": "Oddlionss",
+        "playerId": "oddlionss",
+        "polarisId": "4tF6JdJaRna2",
+        "rank": "kishin"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "103e3c5731c74d67bb4e71d9554f5248",
+      "playedAt": "2026-06-30T18:59:48.000Z",
+      "roundsA": 2,
       "roundsB": 3,
       "winner": "b"
     },
