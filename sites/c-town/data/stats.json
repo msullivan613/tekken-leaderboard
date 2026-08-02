@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 3329,
+  "basedOnMatchCount": 3375,
   "charMatchups": {
     "bigman:heihachi|fop:kunimitsu": {
       "matchesA": 1,
@@ -330,7 +330,7 @@
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-08-01T18:59:54.733Z",
+  "generatedAt": "2026-08-02T02:06:09.111Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 1,
@@ -530,18 +530,18 @@
       "charUsage": {
         "heihachi": 27,
         "king": 1,
-        "kuma": 825,
+        "kuma": 849,
         "kunimitsu": 13,
         "nina": 8,
         "panda": 69,
         "paul": 2,
         "reina": 1
       },
-      "matchLosses": 466,
-      "matchWins": 480,
+      "matchLosses": 485,
+      "matchWins": 485,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 946,
-      "winRate": 0.507
+      "totalMatches": 970,
+      "winRate": 0.5
     },
     "burny": {
       "charUsage": {
@@ -639,17 +639,17 @@
     "mickrus": {
       "charUsage": {
         "bryan": 4,
-        "dragunov": 2,
+        "dragunov": 24,
         "heihachi": 27,
         "jin": 37,
         "kazuya": 10,
         "lee": 109
       },
-      "matchLosses": 113,
-      "matchWins": 76,
+      "matchLosses": 132,
+      "matchWins": 79,
       "mostPlayedCharacter": "lee",
-      "totalMatches": 189,
-      "winRate": 0.402
+      "totalMatches": 211,
+      "winRate": 0.374
     },
     "nullified": {
       "charUsage": {
