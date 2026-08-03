@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 3375,
+  "basedOnMatchCount": 3425,
   "charMatchups": {
     "bigman:heihachi|fop:kunimitsu": {
       "matchesA": 1,
@@ -154,8 +154,8 @@
       "matchesB": 0
     },
     "burny:paul|sugarfree:bryan": {
-      "matchesA": 31,
-      "matchesB": 9
+      "matchesA": 45,
+      "matchesB": 11
     },
     "burny:paul|sugarfree:yoshimitsu": {
       "matchesA": 8,
@@ -186,8 +186,8 @@
       "matchesB": 0
     },
     "burny:victor|sugarfree:bryan": {
-      "matchesA": 24,
-      "matchesB": 6
+      "matchesA": 33,
+      "matchesB": 7
     },
     "burny:victor|sugarfree:jack8": {
       "matchesA": 10,
@@ -303,7 +303,7 @@
     },
     "mickrus:dragunov|stone:law": {
       "matchesA": 0,
-      "matchesB": 2
+      "matchesB": 5
     },
     "mickrus:heihachi|stone:dragunov": {
       "matchesA": 2,
@@ -313,24 +313,32 @@
       "matchesA": 2,
       "matchesB": 0
     },
+    "mickrus:jin|stone:victor": {
+      "matchesA": 0,
+      "matchesB": 2
+    },
     "mickrus:kazuya|stone:kazuya": {
       "matchesA": 0,
       "matchesB": 2
     },
     "mickrus:lee|stone:dragunov": {
       "matchesA": 0,
-      "matchesB": 2
+      "matchesB": 3
     },
     "mickrus:lee|stone:law": {
       "matchesA": 0,
       "matchesB": 1
+    },
+    "mickrus:paul|stone:fahkumram": {
+      "matchesA": 0,
+      "matchesB": 3
     },
     "nyx:steve|slashuur:dragunov": {
       "matchesA": 0,
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-08-03T02:08:09.069Z",
+  "generatedAt": "2026-08-03T09:31:01.404Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 1,
@@ -429,10 +437,10 @@
       "roundsB": 26
     },
     "burny|sugarfree": {
-      "matchesA": 85,
-      "matchesB": 19,
-      "roundsA": 278,
-      "roundsB": 129
+      "matchesA": 108,
+      "matchesB": 22,
+      "roundsA": 353,
+      "roundsB": 160
     },
     "code|nyx": {
       "matchesA": 3,
@@ -514,9 +522,9 @@
     },
     "mickrus|stone": {
       "matchesA": 4,
-      "matchesB": 13,
-      "roundsA": 24,
-      "roundsB": 44
+      "matchesB": 22,
+      "roundsA": 30,
+      "roundsB": 71
     },
     "nyx|slashuur": {
       "matchesA": 0,
@@ -548,15 +556,15 @@
         "clive": 2,
         "dragunov": 1,
         "hwoarang": 7,
-        "paul": 196,
+        "paul": 212,
         "shaheen": 1,
-        "victor": 121
+        "victor": 131
       },
-      "matchLosses": 76,
-      "matchWins": 252,
+      "matchLosses": 79,
+      "matchWins": 275,
       "mostPlayedCharacter": "paul",
-      "totalMatches": 328,
-      "winRate": 0.768
+      "totalMatches": 354,
+      "winRate": 0.777
     },
     "chamk": {
       "charUsage": {
@@ -639,17 +647,18 @@
     "mickrus": {
       "charUsage": {
         "bryan": 4,
-        "dragunov": 24,
+        "dragunov": 27,
         "heihachi": 27,
-        "jin": 37,
+        "jin": 39,
         "kazuya": 10,
-        "lee": 109
+        "lee": 110,
+        "paul": 3
       },
-      "matchLosses": 132,
+      "matchLosses": 141,
       "matchWins": 79,
       "mostPlayedCharacter": "lee",
-      "totalMatches": 211,
-      "winRate": 0.374
+      "totalMatches": 220,
+      "winRate": 0.359
     },
     "nullified": {
       "charUsage": {
@@ -695,32 +704,32 @@
     "stone": {
       "charUsage": {
         "armor_king": 1,
-        "dragunov": 43,
+        "dragunov": 44,
         "eddy": 4,
-        "fahkumram": 10,
+        "fahkumram": 13,
         "kazuya": 8,
-        "law": 82,
+        "law": 85,
         "lee": 61,
-        "victor": 3
+        "victor": 5
       },
       "matchLosses": 68,
-      "matchWins": 144,
+      "matchWins": 153,
       "mostPlayedCharacter": "law",
-      "totalMatches": 212,
-      "winRate": 0.679
+      "totalMatches": 221,
+      "winRate": 0.692
     },
     "sugarfree": {
       "charUsage": {
-        "bryan": 155,
+        "bryan": 181,
         "jack8": 18,
         "kazuya": 4,
-        "yoshimitsu": 89
+        "yoshimitsu": 104
       },
-      "matchLosses": 153,
-      "matchWins": 113,
+      "matchLosses": 181,
+      "matchWins": 126,
       "mostPlayedCharacter": "bryan",
-      "totalMatches": 266,
-      "winRate": 0.425
+      "totalMatches": 307,
+      "winRate": 0.41
     }
   },
   "schemaVersion": 2
