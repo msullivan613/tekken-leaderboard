@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T02:18:33.238Z",
+  "generatedAt": "2026-08-07T07:03:39.486Z",
   "pairs": [
     {
       "character": "leroy",
@@ -81,13 +81,13 @@
     {
       "character": "king",
       "confidence": "leaderboard",
-      "games": 182,
-      "lastUpdated": "2026-07-23T04:20:25.000Z",
+      "games": 195,
+      "lastUpdated": "2026-08-07T03:35:46.000Z",
       "pairId": "377N-Lf5n-rB22:king",
       "playerId": "literally_kirby",
       "provisional": false,
-      "rating": 1387,
-      "sigmaSquared": 71
+      "rating": 1419,
+      "sigmaSquared": 67
     },
     {
       "character": "bryan",
@@ -609,12 +609,12 @@
     {
       "character": "kazuya",
       "confidence": "leaderboard",
-      "games": 2719,
-      "lastUpdated": "2026-08-06T01:57:15.000Z",
+      "games": 2726,
+      "lastUpdated": "2026-08-07T02:56:25.000Z",
       "pairId": "4FE3-J976-Qray:kazuya",
       "playerId": "eonexodus",
       "provisional": false,
-      "rating": 1557,
+      "rating": 1568,
       "sigmaSquared": 63
     },
     {
@@ -924,6 +924,17 @@
       "provisional": false,
       "rating": 2048,
       "sigmaSquared": 80
+    },
+    {
+      "character": "kunimitsu",
+      "confidence": "unqualified",
+      "games": 29,
+      "lastUpdated": "2026-08-07T07:00:03.000Z",
+      "pairId": "5HyE-nHGe-rLJ8:kunimitsu",
+      "playerId": "phine",
+      "provisional": false,
+      "rating": 1763,
+      "sigmaSquared": 78
     }
   ],
   "schemaVersion": 1,
