@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T07:03:39.486Z",
+  "generatedAt": "2026-08-07T12:45:37.480Z",
   "pairs": [
     {
       "character": "leroy",
@@ -179,24 +179,24 @@
     },
     {
       "character": "dragunov",
-      "confidence": "unqualified",
-      "games": 1064,
-      "lastUpdated": "2026-06-14T07:27:50.000Z",
+      "confidence": "leaderboard",
+      "games": 1070,
+      "lastUpdated": "2026-08-07T08:50:23.000Z",
       "pairId": "3H47-D6Qb-FDBr:dragunov",
       "playerId": "kragsloor",
       "provisional": false,
-      "rating": 2033,
-      "sigmaSquared": 75
+      "rating": 2001,
+      "sigmaSquared": 72
     },
     {
       "character": "fahkumram",
       "confidence": "unqualified",
-      "games": 761,
-      "lastUpdated": "2026-06-16T09:44:56.000Z",
+      "games": 768,
+      "lastUpdated": "2026-08-07T09:12:01.000Z",
       "pairId": "3H47-D6Qb-FDBr:fahkumram",
       "playerId": "kragsloor",
       "provisional": false,
-      "rating": 2061,
+      "rating": 2011,
       "sigmaSquared": 80
     },
     {
@@ -927,14 +927,14 @@
     },
     {
       "character": "kunimitsu",
-      "confidence": "unqualified",
-      "games": 29,
-      "lastUpdated": "2026-08-07T07:00:03.000Z",
+      "confidence": "leaderboard",
+      "games": 45,
+      "lastUpdated": "2026-08-07T07:54:21.000Z",
       "pairId": "5HyE-nHGe-rLJ8:kunimitsu",
       "playerId": "phine",
       "provisional": false,
-      "rating": 1763,
-      "sigmaSquared": 78
+      "rating": 1790,
+      "sigmaSquared": 72
     }
   ],
   "schemaVersion": 1,
