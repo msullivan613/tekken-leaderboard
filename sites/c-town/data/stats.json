@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 3510,
+  "basedOnMatchCount": 3514,
   "charMatchups": {
     "bigman:heihachi|fop:kunimitsu": {
       "matchesA": 1,
@@ -82,8 +82,8 @@
       "matchesB": 9
     },
     "bigman:kuma|sugarfree:yoshimitsu": {
-      "matchesA": 6,
-      "matchesB": 0
+      "matchesA": 9,
+      "matchesB": 1
     },
     "bigman:nina|combatport9:leroy": {
       "matchesA": 1,
@@ -338,7 +338,7 @@
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-08-06T23:53:42.736Z",
+  "generatedAt": "2026-08-07T02:19:27.284Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 1,
@@ -401,10 +401,10 @@
       "roundsB": 6
     },
     "bigman|sugarfree": {
-      "matchesA": 12,
-      "matchesB": 9,
-      "roundsA": 44,
-      "roundsB": 36
+      "matchesA": 15,
+      "matchesB": 10,
+      "roundsA": 54,
+      "roundsB": 43
     },
     "burny|fop": {
       "matchesA": 11,
@@ -538,18 +538,18 @@
       "charUsage": {
         "heihachi": 27,
         "king": 1,
-        "kuma": 873,
+        "kuma": 877,
         "kunimitsu": 13,
         "nina": 8,
         "panda": 77,
         "paul": 2,
         "reina": 1
       },
-      "matchLosses": 496,
-      "matchWins": 506,
+      "matchLosses": 497,
+      "matchWins": 509,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 1002,
-      "winRate": 0.505
+      "totalMatches": 1006,
+      "winRate": 0.506
     },
     "burny": {
       "charUsage": {
@@ -723,13 +723,13 @@
         "bryan": 181,
         "jack8": 18,
         "kazuya": 4,
-        "yoshimitsu": 104
+        "yoshimitsu": 108
       },
-      "matchLosses": 181,
-      "matchWins": 126,
+      "matchLosses": 184,
+      "matchWins": 127,
       "mostPlayedCharacter": "bryan",
-      "totalMatches": 307,
-      "winRate": 0.41
+      "totalMatches": 311,
+      "winRate": 0.408
     }
   },
   "schemaVersion": 2

@@ -1,7 +1,7 @@
 {
-  "crewMatchCount": 168,
+  "crewMatchCount": 172,
   "feedMatchCount": 292,
-  "generatedAt": "2026-08-06T23:53:42.736Z",
+  "generatedAt": "2026-08-07T02:19:27.284Z",
   "matches": [
     {
       "a": {
@@ -10580,6 +10580,98 @@
       "id": "ewgf:2mabBmYQGFAd-3JAYQR5RdNJh:1785963636",
       "playedAt": "2026-08-05T21:00:36.000Z",
       "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "yoshimitsu",
+        "name": "SugarFree",
+        "playerId": "sugarfree",
+        "polarisId": "3feeJ699M7An",
+        "rank": "tekken_god_supreme"
+      },
+      "b": {
+        "character": "kuma",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "player",
+      "crew": true,
+      "id": "ewgf:3feeJ699M7An-4899Drd8678h:1785976436",
+      "playedAt": "2026-08-06T00:33:56.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "yoshimitsu",
+        "name": "SugarFree",
+        "playerId": "sugarfree",
+        "polarisId": "3feeJ699M7An",
+        "rank": "tekken_god_supreme"
+      },
+      "b": {
+        "character": "kuma",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "player",
+      "crew": true,
+      "id": "ewgf:3feeJ699M7An-4899Drd8678h:1785976610",
+      "playedAt": "2026-08-06T00:36:50.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "yoshimitsu",
+        "name": "SugarFree",
+        "playerId": "sugarfree",
+        "polarisId": "3feeJ699M7An",
+        "rank": "tekken_god_supreme"
+      },
+      "b": {
+        "character": "kuma",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "player",
+      "crew": true,
+      "id": "ewgf:3feeJ699M7An-4899Drd8678h:1785976826",
+      "playedAt": "2026-08-06T00:40:26.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "yoshimitsu",
+        "name": "SugarFree",
+        "playerId": "sugarfree",
+        "polarisId": "3feeJ699M7An",
+        "rank": "tekken_god_supreme"
+      },
+      "b": {
+        "character": "kuma",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "player",
+      "crew": true,
+      "id": "ewgf:3feeJ699M7An-4899Drd8678h:1785977010",
+      "playedAt": "2026-08-06T00:43:30.000Z",
+      "roundsA": 1,
       "roundsB": 3,
       "winner": "b"
     }
