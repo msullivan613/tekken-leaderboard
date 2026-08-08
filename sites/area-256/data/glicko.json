@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T06:39:12.363Z",
+  "generatedAt": "2026-08-08T12:33:00.604Z",
   "pairs": [
     {
       "character": "leroy",
@@ -180,13 +180,13 @@
     {
       "character": "dragunov",
       "confidence": "leaderboard",
-      "games": 1070,
-      "lastUpdated": "2026-08-07T08:50:23.000Z",
+      "games": 1077,
+      "lastUpdated": "2026-08-08T09:02:14.000Z",
       "pairId": "3H47-D6Qb-FDBr:dragunov",
       "playerId": "kragsloor",
       "provisional": false,
-      "rating": 2001,
-      "sigmaSquared": 72
+      "rating": 1973,
+      "sigmaSquared": 68
     },
     {
       "character": "fahkumram",
@@ -935,6 +935,17 @@
       "provisional": false,
       "rating": 1907,
       "sigmaSquared": 66
+    },
+    {
+      "character": "paul",
+      "confidence": "unqualified",
+      "games": 273,
+      "lastUpdated": "2026-08-08T03:20:10.000Z",
+      "pairId": "5HyE-nHGe-rLJ8:paul",
+      "playerId": "phine",
+      "provisional": false,
+      "rating": 1826,
+      "sigmaSquared": 97
     }
   ],
   "schemaVersion": 1,
