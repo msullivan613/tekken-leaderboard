@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 9095,
+  "basedOnMatchCount": 9175,
   "charMatchups": {
     "afriking:armor_king|bigkuma:kuma": {
       "matchesA": 2,
@@ -10,7 +10,7 @@
       "matchesB": 20
     }
   },
-  "generatedAt": "2026-08-08T01:05:09.804Z",
+  "generatedAt": "2026-08-08T06:39:12.363Z",
   "headToHead": {
     "afriking|bigkuma": {
       "matchesA": 2,
@@ -28,14 +28,14 @@
   "players": {
     "afriking": {
       "charUsage": {
-        "armor_king": 773,
+        "armor_king": 794,
         "lars": 44
       },
-      "matchLosses": 377,
-      "matchWins": 440,
+      "matchLosses": 383,
+      "matchWins": 455,
       "mostPlayedCharacter": "armor_king",
-      "totalMatches": 817,
-      "winRate": 0.539
+      "totalMatches": 838,
+      "winRate": 0.543
     },
     "bard": {
       "charUsage": {
@@ -63,12 +63,12 @@
       "charUsage": {
         "bryan": 51,
         "heihachi": 47,
-        "kazuya": 609
+        "kazuya": 612
       },
-      "matchLosses": 437,
-      "matchWins": 270,
+      "matchLosses": 439,
+      "matchWins": 271,
       "mostPlayedCharacter": "kazuya",
-      "totalMatches": 707,
+      "totalMatches": 710,
       "winRate": 0.382
     },
     "falsecrustacean": {
@@ -198,14 +198,16 @@
     },
     "phine": {
       "charUsage": {
-        "azucena": 1904,
-        "kunimitsu": 155
+        "azucena": 1928,
+        "jun": 2,
+        "kunimitsu": 183,
+        "paul": 2
       },
-      "matchLosses": 648,
-      "matchWins": 1411,
+      "matchLosses": 665,
+      "matchWins": 1450,
       "mostPlayedCharacter": "azucena",
-      "totalMatches": 2059,
-      "winRate": 0.685
+      "totalMatches": 2115,
+      "winRate": 0.686
     },
     "puma": {
       "charUsage": {
