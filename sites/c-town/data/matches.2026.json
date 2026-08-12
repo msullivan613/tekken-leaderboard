@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T12:53:55.257Z",
+  "generatedAt": "2026-08-12T18:53:55.397Z",
   "matches": [
     {
       "a": {
@@ -54992,6 +54992,98 @@
       "playedAt": "2026-07-13T17:44:30.000Z",
       "roundsA": 3,
       "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "dragunov",
+        "name": "RuJo",
+        "playerId": null,
+        "polarisId": "2edGR46dMadG",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "lee",
+        "name": "Mickrus",
+        "playerId": "mickrus",
+        "polarisId": "2tYaR4NBGJJr",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "28f8afc0ea6c47faa4be42d601623cac",
+      "playedAt": "2026-07-13T17:47:46.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "lee",
+        "name": "Mickrus",
+        "playerId": "mickrus",
+        "polarisId": "2tYaR4NBGJJr",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "heihachi",
+        "name": "Rolando Vega",
+        "playerId": null,
+        "polarisId": "459fBAQ2jD4y",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "4fbdd3d48ebf4c238c3b357f0b3feb63",
+      "playedAt": "2026-07-13T17:52:53.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "lee",
+        "name": "Mickrus",
+        "playerId": "mickrus",
+        "polarisId": "2tYaR4NBGJJr",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "heihachi",
+        "name": "Rolando Vega",
+        "playerId": null,
+        "polarisId": "459fBAQ2jD4y",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "f033adc448fb4a5fa0c9eaa9aeb2a156",
+      "playedAt": "2026-07-13T17:57:25.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "lee",
+        "name": "Mickrus",
+        "playerId": "mickrus",
+        "polarisId": "2tYaR4NBGJJr",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "heihachi",
+        "name": "Rolando Vega",
+        "playerId": null,
+        "polarisId": "459fBAQ2jD4y",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "62a1e86d76974478b962634e97eb512a",
+      "playedAt": "2026-07-13T18:01:23.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
       "winner": "a"
     },
     {
