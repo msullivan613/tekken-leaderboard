@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T07:14:07.568Z",
+  "generatedAt": "2026-08-12T12:53:07.023Z",
   "pairs": [
     {
       "character": "leroy",
@@ -21,7 +21,7 @@
       "playerId": "omni",
       "provisional": false,
       "rating": 1670,
-      "sigmaSquared": 81
+      "sigmaSquared": 82
     },
     {
       "character": "lars",
@@ -43,18 +43,18 @@
       "playerId": "holycrow",
       "provisional": false,
       "rating": 2107,
-      "sigmaSquared": 82
+      "sigmaSquared": 83
     },
     {
       "character": "shaheen",
-      "confidence": "leaderboard",
+      "confidence": "unqualified",
       "games": 471,
       "lastUpdated": "2026-07-25T17:22:01.000Z",
       "pairId": "2YTm-Mj47-4bny:shaheen",
       "playerId": "holycrow",
       "provisional": false,
       "rating": 1885,
-      "sigmaSquared": 75
+      "sigmaSquared": 76
     },
     {
       "character": "hwoarang",
@@ -65,7 +65,7 @@
       "playerId": "falsecrustacean",
       "provisional": false,
       "rating": 2013,
-      "sigmaSquared": 82
+      "sigmaSquared": 83
     },
     {
       "character": "jin",
@@ -87,7 +87,7 @@
       "playerId": "literally_kirby",
       "provisional": false,
       "rating": 1419,
-      "sigmaSquared": 67
+      "sigmaSquared": 68
     },
     {
       "character": "bryan",
@@ -153,7 +153,7 @@
       "playerId": "sugarfree",
       "provisional": false,
       "rating": 1705,
-      "sigmaSquared": 68
+      "sigmaSquared": 69
     },
     {
       "character": "armor_king",
@@ -164,11 +164,11 @@
       "playerId": "kragsloor",
       "provisional": false,
       "rating": 1821,
-      "sigmaSquared": 103
+      "sigmaSquared": 104
     },
     {
       "character": "bryan",
-      "confidence": "leaderboard",
+      "confidence": "unqualified",
       "games": 912,
       "lastUpdated": "2026-07-17T21:57:48.000Z",
       "pairId": "3H47-D6Qb-FDBr:bryan",
@@ -197,7 +197,7 @@
       "playerId": "kragsloor",
       "provisional": false,
       "rating": 2011,
-      "sigmaSquared": 80
+      "sigmaSquared": 81
     },
     {
       "character": "lidia",
@@ -208,7 +208,7 @@
       "playerId": "kragsloor",
       "provisional": false,
       "rating": 1733,
-      "sigmaSquared": 89
+      "sigmaSquared": 90
     },
     {
       "character": "miary_zo",
@@ -230,7 +230,7 @@
       "playerId": "kragsloor",
       "provisional": false,
       "rating": 1782,
-      "sigmaSquared": 92
+      "sigmaSquared": 93
     },
     {
       "character": "anna",
@@ -274,7 +274,7 @@
       "playerId": "skrt",
       "provisional": false,
       "rating": 1614,
-      "sigmaSquared": 98
+      "sigmaSquared": 99
     },
     {
       "character": "eddy",
@@ -285,7 +285,7 @@
       "playerId": "skrt",
       "provisional": false,
       "rating": 1743,
-      "sigmaSquared": 106
+      "sigmaSquared": 107
     },
     {
       "character": "heihachi",
@@ -307,7 +307,7 @@
       "playerId": "skrt",
       "provisional": false,
       "rating": 1824,
-      "sigmaSquared": 69
+      "sigmaSquared": 70
     },
     {
       "character": "king",
@@ -318,18 +318,18 @@
       "playerId": "skrt",
       "provisional": false,
       "rating": 1590,
-      "sigmaSquared": 98
+      "sigmaSquared": 99
     },
     {
       "character": "kuma",
-      "confidence": "leaderboard",
+      "confidence": "unqualified",
       "games": 1787,
       "lastUpdated": "2026-06-17T04:08:33.000Z",
       "pairId": "3hBB-83gE-7EAG:kuma",
       "playerId": "skrt",
       "provisional": false,
       "rating": 2103,
-      "sigmaSquared": 74
+      "sigmaSquared": 75
     },
     {
       "character": "miary_zo",
@@ -340,7 +340,7 @@
       "playerId": "skrt",
       "provisional": false,
       "rating": 1734,
-      "sigmaSquared": 90
+      "sigmaSquared": 91
     },
     {
       "character": "panda",
@@ -362,7 +362,7 @@
       "playerId": "skrt",
       "provisional": true,
       "rating": 1285,
-      "sigmaSquared": 141
+      "sigmaSquared": 142
     },
     {
       "character": "armor_king",
@@ -439,7 +439,7 @@
       "playerId": "rev_grizz",
       "provisional": false,
       "rating": 1742,
-      "sigmaSquared": 67
+      "sigmaSquared": 68
     },
     {
       "character": "dragunov",
@@ -450,7 +450,7 @@
       "playerId": "rev_grizz",
       "provisional": false,
       "rating": 1744,
-      "sigmaSquared": 64
+      "sigmaSquared": 65
     },
     {
       "character": "eddy",
@@ -461,7 +461,7 @@
       "playerId": "rev_grizz",
       "provisional": false,
       "rating": 2153,
-      "sigmaSquared": 67
+      "sigmaSquared": 68
     },
     {
       "character": "fahkumram",
@@ -472,7 +472,7 @@
       "playerId": "rev_grizz",
       "provisional": false,
       "rating": 2053,
-      "sigmaSquared": 67
+      "sigmaSquared": 68
     },
     {
       "character": "feng",
@@ -483,7 +483,7 @@
       "playerId": "rev_grizz",
       "provisional": false,
       "rating": 1776,
-      "sigmaSquared": 62
+      "sigmaSquared": 63
     },
     {
       "character": "king",
@@ -494,7 +494,7 @@
       "playerId": "rev_grizz",
       "provisional": false,
       "rating": 1795,
-      "sigmaSquared": 72
+      "sigmaSquared": 73
     },
     {
       "character": "kunimitsu",
@@ -505,7 +505,7 @@
       "playerId": "rev_grizz",
       "provisional": false,
       "rating": 1982,
-      "sigmaSquared": 63
+      "sigmaSquared": 64
     },
     {
       "character": "lars",
@@ -527,7 +527,7 @@
       "playerId": "rev_grizz",
       "provisional": false,
       "rating": 1938,
-      "sigmaSquared": 106
+      "sigmaSquared": 107
     },
     {
       "character": "leroy",
@@ -538,7 +538,7 @@
       "playerId": "rev_grizz",
       "provisional": false,
       "rating": 2028,
-      "sigmaSquared": 63
+      "sigmaSquared": 64
     },
     {
       "character": "paul",
@@ -549,7 +549,7 @@
       "playerId": "rev_grizz",
       "provisional": false,
       "rating": 1773,
-      "sigmaSquared": 68
+      "sigmaSquared": 69
     },
     {
       "character": "raven",
@@ -571,7 +571,7 @@
       "playerId": "bard",
       "provisional": false,
       "rating": 1856,
-      "sigmaSquared": 92
+      "sigmaSquared": 93
     },
     {
       "character": "bryan",
@@ -582,7 +582,7 @@
       "playerId": "eonexodus",
       "provisional": false,
       "rating": 1134,
-      "sigmaSquared": 80
+      "sigmaSquared": 81
     },
     {
       "character": "clive",
@@ -593,7 +593,7 @@
       "playerId": "eonexodus",
       "provisional": true,
       "rating": 1455,
-      "sigmaSquared": 126
+      "sigmaSquared": 127
     },
     {
       "character": "heihachi",
@@ -604,7 +604,7 @@
       "playerId": "eonexodus",
       "provisional": false,
       "rating": 1361,
-      "sigmaSquared": 71
+      "sigmaSquared": 72
     },
     {
       "character": "kazuya",
@@ -626,7 +626,7 @@
       "playerId": "eonexodus",
       "provisional": true,
       "rating": 1307,
-      "sigmaSquared": 122
+      "sigmaSquared": 123
     },
     {
       "character": "yoshimitsu",
@@ -637,7 +637,7 @@
       "playerId": "eonexodus",
       "provisional": false,
       "rating": 1163,
-      "sigmaSquared": 84
+      "sigmaSquared": 85
     },
     {
       "character": "lili",
@@ -648,7 +648,7 @@
       "playerId": "nekomatameow",
       "provisional": false,
       "rating": 2043,
-      "sigmaSquared": 82
+      "sigmaSquared": 83
     },
     {
       "character": "heihachi",
@@ -659,7 +659,7 @@
       "playerId": "oddlionss",
       "provisional": false,
       "rating": 1356,
-      "sigmaSquared": 68
+      "sigmaSquared": 69
     },
     {
       "character": "dragunov",
@@ -670,7 +670,7 @@
       "playerId": "bigkuma",
       "provisional": false,
       "rating": 1631,
-      "sigmaSquared": 70
+      "sigmaSquared": 71
     },
     {
       "character": "jack8",
@@ -686,12 +686,12 @@
     {
       "character": "kuma",
       "confidence": "leaderboard",
-      "games": 3703,
-      "lastUpdated": "2026-08-11T13:16:05.000Z",
+      "games": 3711,
+      "lastUpdated": "2026-08-12T12:49:41.000Z",
       "pairId": "4Y79-N5nY-HHJd:kuma",
       "playerId": "bigkuma",
       "provisional": false,
-      "rating": 1921,
+      "rating": 1911,
       "sigmaSquared": 63
     },
     {
@@ -703,7 +703,7 @@
       "playerId": "bigkuma",
       "provisional": false,
       "rating": 2047,
-      "sigmaSquared": 76
+      "sigmaSquared": 77
     },
     {
       "character": "asuka",
@@ -714,7 +714,7 @@
       "playerId": "goul",
       "provisional": false,
       "rating": 2234,
-      "sigmaSquared": 70
+      "sigmaSquared": 71
     },
     {
       "character": "dragunov",
@@ -725,7 +725,7 @@
       "playerId": "goul",
       "provisional": false,
       "rating": 2161,
-      "sigmaSquared": 68
+      "sigmaSquared": 69
     },
     {
       "character": "kazuya",
@@ -736,7 +736,7 @@
       "playerId": "goul",
       "provisional": false,
       "rating": 2048,
-      "sigmaSquared": 89
+      "sigmaSquared": 90
     },
     {
       "character": "kunimitsu",
@@ -747,7 +747,7 @@
       "playerId": "goul",
       "provisional": false,
       "rating": 2107,
-      "sigmaSquared": 69
+      "sigmaSquared": 70
     },
     {
       "character": "miary_zo",
@@ -758,7 +758,7 @@
       "playerId": "goul",
       "provisional": false,
       "rating": 2131,
-      "sigmaSquared": 92
+      "sigmaSquared": 93
     },
     {
       "character": "xiaoyu",
@@ -791,7 +791,7 @@
       "playerId": "kingbreadsticks",
       "provisional": false,
       "rating": 1806,
-      "sigmaSquared": 80
+      "sigmaSquared": 81
     },
     {
       "character": "dragunov",
@@ -813,7 +813,7 @@
       "playerId": "kingbreadsticks",
       "provisional": false,
       "rating": 2311,
-      "sigmaSquared": 73
+      "sigmaSquared": 74
     },
     {
       "character": "kunimitsu",
@@ -824,7 +824,7 @@
       "playerId": "kingbreadsticks",
       "provisional": false,
       "rating": 2058,
-      "sigmaSquared": 73
+      "sigmaSquared": 74
     },
     {
       "character": "lars",
@@ -835,7 +835,7 @@
       "playerId": "kingbreadsticks",
       "provisional": false,
       "rating": 1996,
-      "sigmaSquared": 80
+      "sigmaSquared": 81
     },
     {
       "character": "leroy",
@@ -846,7 +846,7 @@
       "playerId": "kingbreadsticks",
       "provisional": false,
       "rating": 2113,
-      "sigmaSquared": 68
+      "sigmaSquared": 69
     },
     {
       "character": "lidia",
@@ -857,7 +857,7 @@
       "playerId": "kingbreadsticks",
       "provisional": false,
       "rating": 1951,
-      "sigmaSquared": 99
+      "sigmaSquared": 100
     },
     {
       "character": "shaheen",
@@ -890,7 +890,7 @@
       "playerId": "afriking",
       "provisional": false,
       "rating": 2182,
-      "sigmaSquared": 69
+      "sigmaSquared": 70
     },
     {
       "character": "lars",
@@ -901,7 +901,7 @@
       "playerId": "afriking",
       "provisional": false,
       "rating": 2156,
-      "sigmaSquared": 74
+      "sigmaSquared": 75
     },
     {
       "character": "azucena",
@@ -945,7 +945,7 @@
       "playerId": "phine",
       "provisional": false,
       "rating": 1826,
-      "sigmaSquared": 97
+      "sigmaSquared": 98
     }
   ],
   "schemaVersion": 1,
