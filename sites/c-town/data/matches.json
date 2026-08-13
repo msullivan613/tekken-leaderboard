@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 165,
   "feedMatchCount": 257,
-  "generatedAt": "2026-08-13T12:55:02.516Z",
+  "generatedAt": "2026-08-13T18:53:59.148Z",
   "matches": [
     {
       "a": {
@@ -5962,52 +5962,6 @@
     },
     {
       "a": {
-        "character": "kuma",
-        "name": "BES | BigMan",
-        "playerId": "bigman",
-        "polarisId": "4899Drd8678h",
-        "rank": "god_of_destruction_v"
-      },
-      "b": {
-        "character": "law",
-        "name": "NMF ♡ KeyBreezy",
-        "playerId": null,
-        "polarisId": "4QYnhEbfFgdr",
-        "rank": "god_of_destruction_ii"
-      },
-      "battleType": "player",
-      "crew": false,
-      "id": "ewgf:4899Drd8678h-4QYnhEbfFgdr:1785810070",
-      "playedAt": "2026-08-04T02:21:10.000Z",
-      "roundsA": 3,
-      "roundsB": 1,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "kuma",
-        "name": "BES | BigMan",
-        "playerId": "bigman",
-        "polarisId": "4899Drd8678h",
-        "rank": "god_of_destruction_v"
-      },
-      "b": {
-        "character": "law",
-        "name": "NMF ♡ KeyBreezy",
-        "playerId": null,
-        "polarisId": "4QYnhEbfFgdr",
-        "rank": "god_of_destruction_ii"
-      },
-      "battleType": "player",
-      "crew": false,
-      "id": "ewgf:4899Drd8678h-4QYnhEbfFgdr:1785810285",
-      "playedAt": "2026-08-04T02:24:45.000Z",
-      "roundsA": 3,
-      "roundsB": 2,
-      "winner": "a"
-    },
-    {
-      "a": {
         "character": "fahkumram",
         "name": "@FREDOMONEYY",
         "playerId": null,
@@ -9707,6 +9661,52 @@
       "playedAt": "2026-08-12T23:29:00.000Z",
       "roundsA": 3,
       "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kuma",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "panda",
+        "name": "secretHoagie",
+        "playerId": null,
+        "polarisId": "4dfRY9dam2BB",
+        "rank": "god_of_destruction_iv"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "f3eede9c74484c04b5eabb2aaf57b5b8",
+      "playedAt": "2026-08-13T18:49:29.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kuma",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "panda",
+        "name": "secretHoagie",
+        "playerId": null,
+        "polarisId": "4dfRY9dam2BB",
+        "rank": "god_of_destruction_iv"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "2d0959ad709b46e19656aa615c7da6fb",
+      "playedAt": "2026-08-13T18:51:51.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
       "winner": "a"
     }
   ],
