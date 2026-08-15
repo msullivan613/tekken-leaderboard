@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 3993,
+  "basedOnMatchCount": 4036,
   "charMatchups": {
     "bigman:heihachi|fop:kunimitsu": {
       "matchesA": 1,
@@ -338,7 +338,7 @@
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-08-15T00:51:40.288Z",
+  "generatedAt": "2026-08-15T06:25:56.417Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 1,
@@ -605,24 +605,26 @@
     },
     "fop": {
       "charUsage": {
-        "armor_king": 1,
+        "armor_king": 3,
         "asuka": 4,
-        "devil_jin": 3,
-        "dragunov": 1,
+        "devil_jin": 4,
+        "dragunov": 4,
+        "feng": 2,
         "jack8": 1,
         "kunimitsu": 8,
         "lars": 1,
         "leo": 1,
+        "leroy": 8,
         "lili": 4,
         "paul": 1,
-        "reina": 356,
+        "reina": 369,
         "steve": 1
       },
       "matchLosses": 164,
-      "matchWins": 218,
+      "matchWins": 247,
       "mostPlayedCharacter": "reina",
-      "totalMatches": 382,
-      "winRate": 0.571
+      "totalMatches": 411,
+      "winRate": 0.601
     },
     "gnarlyidk": {
       "charUsage": {
@@ -666,15 +668,15 @@
         "asuka": 46,
         "claudio": 63,
         "clive": 275,
-        "dragunov": 40,
+        "dragunov": 54,
         "fahkumram": 249,
         "heihachi": 12
       },
-      "matchLosses": 338,
-      "matchWins": 653,
+      "matchLosses": 341,
+      "matchWins": 664,
       "mostPlayedCharacter": "armor_king",
-      "totalMatches": 991,
-      "winRate": 0.659
+      "totalMatches": 1005,
+      "winRate": 0.661
     },
     "nyx": {
       "charUsage": {
