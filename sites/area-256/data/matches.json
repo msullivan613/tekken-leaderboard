@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 10,
-  "feedMatchCount": 559,
-  "generatedAt": "2026-08-15T06:25:03.508Z",
+  "feedMatchCount": 564,
+  "generatedAt": "2026-08-15T12:22:37.381Z",
   "matches": [
     {
       "a": {
@@ -13089,6 +13089,121 @@
       "roundsA": 3,
       "roundsB": 1,
       "winner": "a"
+    },
+    {
+      "a": {
+        "character": "king",
+        "name": "Literally_Kirby",
+        "playerId": "literally_kirby",
+        "polarisId": "377NLf5nrB22",
+        "rank": "tenryu"
+      },
+      "b": {
+        "character": "lili",
+        "name": "BLEACH",
+        "playerId": null,
+        "polarisId": "3iR9EqMA39Bn",
+        "rank": "mighty_ruler"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "ff82cd85ad29426a9efa2c69d7ca2b99",
+      "playedAt": "2026-08-15T06:51:35.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "king",
+        "name": "Literally_Kirby",
+        "playerId": "literally_kirby",
+        "polarisId": "377NLf5nrB22",
+        "rank": "tenryu"
+      },
+      "b": {
+        "character": "heihachi",
+        "name": "Zynx",
+        "playerId": null,
+        "polarisId": "3dT7gtJ7LAf6",
+        "rank": "flame_ruler"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "29d8b2f5fa534d2682d1c15e96bdd930",
+      "playedAt": "2026-08-15T06:55:07.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "jin",
+        "name": "Fleurdelys",
+        "playerId": null,
+        "polarisId": "2A6tG7nqFfgd",
+        "rank": "mighty_ruler"
+      },
+      "b": {
+        "character": "king",
+        "name": "Literally_Kirby",
+        "playerId": "literally_kirby",
+        "polarisId": "377NLf5nrB22",
+        "rank": "tenryu"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "59e760c3a6c84792aed9ac12eb263694",
+      "playedAt": "2026-08-15T06:58:55.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "king",
+        "name": "Literally_Kirby",
+        "playerId": "literally_kirby",
+        "polarisId": "377NLf5nrB22",
+        "rank": "tenryu"
+      },
+      "b": {
+        "character": "heihachi",
+        "name": "Zynx",
+        "playerId": null,
+        "polarisId": "3dT7gtJ7LAf6",
+        "rank": "flame_ruler"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "dbd0500f36bb434d9274811f5fffe029",
+      "playedAt": "2026-08-15T07:04:02.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "king",
+        "name": "Literally_Kirby",
+        "playerId": "literally_kirby",
+        "polarisId": "377NLf5nrB22",
+        "rank": "tenryu"
+      },
+      "b": {
+        "character": "hwoarang",
+        "name": "Gage127",
+        "playerId": null,
+        "polarisId": "5hNEaeymJ8Ma",
+        "rank": "shinryu"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "103266eac5cc431c9b1d97da97a79620",
+      "playedAt": "2026-08-15T07:09:12.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
     }
   ],
   "schemaVersion": 2,
