@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T00:53:22.032Z",
+  "generatedAt": "2026-08-16T06:27:07.671Z",
   "pairs": [
     {
       "character": "leroy",
@@ -81,13 +81,13 @@
     {
       "character": "king",
       "confidence": "leaderboard",
-      "games": 199,
-      "lastUpdated": "2026-08-15T07:04:02.000Z",
+      "games": 209,
+      "lastUpdated": "2026-08-16T06:08:23.000Z",
       "pairId": "377N-Lf5n-rB22:king",
       "playerId": "literally_kirby",
       "provisional": false,
-      "rating": 1367,
-      "sigmaSquared": 66
+      "rating": 1356,
+      "sigmaSquared": 65
     },
     {
       "character": "bryan",
@@ -398,6 +398,17 @@
       "sigmaSquared": 71
     },
     {
+      "character": "dragunov",
+      "confidence": "provisional",
+      "games": 10,
+      "lastUpdated": "2026-08-15T23:47:25.000Z",
+      "pairId": "3JAY-QR5R-dNJh:dragunov",
+      "playerId": "nullified",
+      "provisional": true,
+      "rating": 1512,
+      "sigmaSquared": 118
+    },
+    {
       "character": "fahkumram",
       "confidence": "leaderboard",
       "games": 2791,
@@ -609,13 +620,13 @@
     {
       "character": "kazuya",
       "confidence": "leaderboard",
-      "games": 2787,
-      "lastUpdated": "2026-08-15T02:39:02.000Z",
+      "games": 2808,
+      "lastUpdated": "2026-08-16T06:26:21.000Z",
       "pairId": "4FE3-J976-Qray:kazuya",
       "playerId": "eonexodus",
       "provisional": false,
-      "rating": 1509,
-      "sigmaSquared": 63
+      "rating": 1442,
+      "sigmaSquared": 64
     },
     {
       "character": "shaheen",
@@ -774,13 +785,13 @@
     {
       "character": "armor_king",
       "confidence": "leaderboard",
-      "games": 400,
-      "lastUpdated": "2026-08-15T05:08:04.000Z",
+      "games": 413,
+      "lastUpdated": "2026-08-16T03:48:16.000Z",
       "pairId": "5Dd9-FT34-6q44:armor_king",
       "playerId": "kingbreadsticks",
       "provisional": false,
-      "rating": 2091,
-      "sigmaSquared": 67
+      "rating": 2014,
+      "sigmaSquared": 66
     },
     {
       "character": "bryan",
