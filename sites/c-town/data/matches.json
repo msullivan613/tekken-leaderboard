@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 178,
   "feedMatchCount": 276,
-  "generatedAt": "2026-08-17T00:52:25.679Z",
+  "generatedAt": "2026-08-17T06:40:29.776Z",
   "matches": [
     {
       "a": {
@@ -6721,121 +6721,6 @@
     },
     {
       "a": {
-        "character": "lidia",
-        "name": "Tonedotcom",
-        "playerId": null,
-        "polarisId": "3DBAi2TL9RQy",
-        "rank": "tekken_king"
-      },
-      "b": {
-        "character": "kuma",
-        "name": "BES | BigMan",
-        "playerId": "bigman",
-        "polarisId": "4899Drd8678h",
-        "rank": "god_of_destruction_v"
-      },
-      "battleType": "player",
-      "crew": false,
-      "id": "ewgf:3DBAi2TL9RQy-4899Drd8678h:1786585228",
-      "playedAt": "2026-08-13T01:40:28.000Z",
-      "roundsA": 1,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "kuma",
-        "name": "BES | BigMan",
-        "playerId": "bigman",
-        "polarisId": "4899Drd8678h",
-        "rank": "god_of_destruction_v"
-      },
-      "b": {
-        "character": "claudio",
-        "name": "Ryuu",
-        "playerId": null,
-        "polarisId": "56D5N8Yfj26r",
-        "rank": "tekken_king"
-      },
-      "battleType": "player",
-      "crew": false,
-      "id": "ewgf:4899Drd8678h-56D5N8Yfj26r:1786585428",
-      "playedAt": "2026-08-13T01:43:48.000Z",
-      "roundsA": 3,
-      "roundsB": 1,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "kuma",
-        "name": "BES | BigMan",
-        "playerId": "bigman",
-        "polarisId": "4899Drd8678h",
-        "rank": "god_of_destruction_v"
-      },
-      "b": {
-        "character": "bryan",
-        "name": "Fatty",
-        "playerId": null,
-        "polarisId": "5EqbrnY7TidT",
-        "rank": "tekken_god"
-      },
-      "battleType": "player",
-      "crew": false,
-      "id": "ewgf:4899Drd8678h-5EqbrnY7TidT:1786585608",
-      "playedAt": "2026-08-13T01:46:48.000Z",
-      "roundsA": 3,
-      "roundsB": 1,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "kuma",
-        "name": "BES | BigMan",
-        "playerId": "bigman",
-        "polarisId": "4899Drd8678h",
-        "rank": "god_of_destruction_v"
-      },
-      "b": {
-        "character": "panda",
-        "name": "KatarinaForS4",
-        "playerId": null,
-        "polarisId": "4MGM3yd7bNa6",
-        "rank": "god_of_destruction_i"
-      },
-      "battleType": "player",
-      "crew": false,
-      "id": "ewgf:4899Drd8678h-4MGM3yd7bNa6:1786585830",
-      "playedAt": "2026-08-13T01:50:30.000Z",
-      "roundsA": 3,
-      "roundsB": 0,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "kuma",
-        "name": "BES | BigMan",
-        "playerId": "bigman",
-        "polarisId": "4899Drd8678h",
-        "rank": "god_of_destruction_v"
-      },
-      "b": {
-        "character": "alisa",
-        "name": "Teef",
-        "playerId": null,
-        "polarisId": "5485eyf7Bthh",
-        "rank": "god_of_destruction_ii"
-      },
-      "battleType": "player",
-      "crew": false,
-      "id": "ewgf:4899Drd8678h-5485eyf7Bthh:1786585998",
-      "playedAt": "2026-08-13T01:53:18.000Z",
-      "roundsA": 3,
-      "roundsB": 0,
-      "winner": "a"
-    },
-    {
-      "a": {
         "character": "kuma",
         "name": "BES | BigMan",
         "playerId": "bigman",
@@ -10443,6 +10328,121 @@
       "playedAt": "2026-08-16T00:37:29.000Z",
       "roundsA": 3,
       "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kuma",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "paul",
+        "name": "Its me TK",
+        "playerId": null,
+        "polarisId": "4Gt2M4Ljh4f2",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:4899Drd8678h-4Gt2M4Ljh4f2:1786844649",
+      "playedAt": "2026-08-16T01:44:09.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "panda",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "paul",
+        "name": "Its me TK",
+        "playerId": null,
+        "polarisId": "4Gt2M4Ljh4f2",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:4899Drd8678h-4Gt2M4Ljh4f2:1786844874",
+      "playedAt": "2026-08-16T01:47:54.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "panda",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "paul",
+        "name": "Its me TK",
+        "playerId": null,
+        "polarisId": "4Gt2M4Ljh4f2",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:4899Drd8678h-4Gt2M4Ljh4f2:1786845097",
+      "playedAt": "2026-08-16T01:51:37.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "heihachi",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "victor",
+        "name": "Its me TK",
+        "playerId": null,
+        "polarisId": "4Gt2M4Ljh4f2",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:4899Drd8678h-4Gt2M4Ljh4f2:1786845291",
+      "playedAt": "2026-08-16T01:54:51.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "kuma",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "victor",
+        "name": "Its me TK",
+        "playerId": null,
+        "polarisId": "4Gt2M4Ljh4f2",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:4899Drd8678h-4Gt2M4Ljh4f2:1786845550",
+      "playedAt": "2026-08-16T01:59:10.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
       "winner": "a"
     }
   ],
