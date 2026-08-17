@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T12:29:03.338Z",
+  "generatedAt": "2026-08-17T18:28:34.207Z",
   "matches": [
     {
       "a": {
@@ -147456,6 +147456,52 @@
     },
     {
       "a": {
+        "character": "heihachi",
+        "name": "Oddlionss",
+        "playerId": "oddlionss",
+        "polarisId": "4tF6JdJaRna2",
+        "rank": "kishin"
+      },
+      "b": {
+        "character": "kazuya",
+        "name": "Cheerios",
+        "playerId": null,
+        "polarisId": "58jhJqL898aG",
+        "rank": "tekken_king"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "6fbf3f5900be4c9ea20847d5e7e289b5",
+      "playedAt": "2026-07-18T17:19:59.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "heihachi",
+        "name": "shlumped",
+        "playerId": null,
+        "polarisId": "4GNniNh9fT4r",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "heihachi",
+        "name": "Oddlionss",
+        "playerId": "oddlionss",
+        "polarisId": "4tF6JdJaRna2",
+        "rank": "kishin"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "cc8b345e355248deaba63621ec0da45d",
+      "playedAt": "2026-07-18T17:23:34.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
         "character": "anna",
         "name": "JagerBombs9999",
         "playerId": null,
@@ -221148,6 +221194,29 @@
     },
     {
       "a": {
+        "character": "yoshimitsu",
+        "name": "Nobody",
+        "playerId": null,
+        "polarisId": "242LmNb89Mty",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "king",
+        "name": "Kingbreadsticks",
+        "playerId": "kingbreadsticks",
+        "polarisId": "5Dd9FT346q44",
+        "rank": "god_of_destruction_vi"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "7f4b735425de47a5b4f51ec4c6000b6a",
+      "playedAt": "2026-08-16T14:29:05.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
         "character": "xiaoyu",
         "name": "Final Boss",
         "playerId": null,
@@ -221350,6 +221419,98 @@
       "id": "82953b836b8c495fa0d32d48453cb808",
       "playedAt": "2026-08-16T18:02:38.000Z",
       "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Kingbreadsticks",
+        "playerId": "kingbreadsticks",
+        "polarisId": "5Dd9FT346q44",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "asuka",
+        "name": "Beee",
+        "playerId": null,
+        "polarisId": "5r7fyJftr6rQ",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "34499e7213ef49b4a62c1ad898487c6a",
+      "playedAt": "2026-08-17T00:37:31.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Kingbreadsticks",
+        "playerId": "kingbreadsticks",
+        "polarisId": "5Dd9FT346q44",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "asuka",
+        "name": "Beee",
+        "playerId": null,
+        "polarisId": "5r7fyJftr6rQ",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "99d4000021234571bf39eb8585cd184a",
+      "playedAt": "2026-08-17T00:40:45.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "jack8",
+        "name": "Generation VIII",
+        "playerId": null,
+        "polarisId": "4LTgqMH28Qy6",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "lars",
+        "name": "Kingbreadsticks",
+        "playerId": "kingbreadsticks",
+        "polarisId": "5Dd9FT346q44",
+        "rank": "god_of_destruction_i"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "5142b789899247f5966a8fda4ea6a98f",
+      "playedAt": "2026-08-17T00:43:43.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "leo",
+        "name": "ImAn0cean",
+        "playerId": null,
+        "polarisId": "3A6q9te5JG2y",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "lars",
+        "name": "Kingbreadsticks",
+        "playerId": "kingbreadsticks",
+        "polarisId": "5Dd9FT346q44",
+        "rank": "god_of_destruction_i"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "71cf396169d846e48664ac996c04094c",
+      "playedAt": "2026-08-17T00:47:07.000Z",
+      "roundsA": 1,
       "roundsB": 3,
       "winner": "b"
     },
