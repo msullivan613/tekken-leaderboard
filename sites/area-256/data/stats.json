@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 10481,
+  "basedOnMatchCount": 10508,
   "charMatchups": {
     "afriking:armor_king|bigkuma:kuma": {
       "matchesA": 2,
@@ -10,7 +10,7 @@
       "matchesB": 20
     }
   },
-  "generatedAt": "2026-08-21T00:54:15.393Z",
+  "generatedAt": "2026-08-21T06:33:40.064Z",
   "headToHead": {
     "afriking|bigkuma": {
       "matchesA": 2,
@@ -39,13 +39,13 @@
     },
     "bard": {
       "charUsage": {
-        "feng": 8
+        "feng": 18
       },
-      "matchLosses": 0,
-      "matchWins": 8,
+      "matchLosses": 2,
+      "matchWins": 16,
       "mostPlayedCharacter": "feng",
-      "totalMatches": 8,
-      "winRate": 1
+      "totalMatches": 18,
+      "winRate": 0.889
     },
     "bigkuma": {
       "charUsage": {
@@ -166,17 +166,17 @@
     },
     "nullified": {
       "charUsage": {
-        "armor_king": 267,
-        "claudio": 77,
+        "armor_king": 272,
+        "claudio": 81,
         "clive": 19,
         "dragunov": 10,
         "fahkumram": 117
       },
-      "matchLosses": 255,
-      "matchWins": 235,
+      "matchLosses": 263,
+      "matchWins": 236,
       "mostPlayedCharacter": "armor_king",
-      "totalMatches": 490,
-      "winRate": 0.48
+      "totalMatches": 499,
+      "winRate": 0.473
     },
     "oddlionss": {
       "charUsage": {
@@ -200,16 +200,16 @@
     },
     "phine": {
       "charUsage": {
-        "azucena": 2332,
+        "azucena": 2340,
         "jun": 2,
         "kunimitsu": 193,
         "paul": 2
       },
       "matchLosses": 788,
-      "matchWins": 1746,
+      "matchWins": 1754,
       "mostPlayedCharacter": "azucena",
-      "totalMatches": 2534,
-      "winRate": 0.689
+      "totalMatches": 2542,
+      "winRate": 0.69
     },
     "puma": {
       "charUsage": {
