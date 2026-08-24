@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 4232,
+  "basedOnMatchCount": 4292,
   "charMatchups": {
     "bigman:heihachi|fop:kunimitsu": {
       "matchesA": 1,
@@ -143,7 +143,7 @@
     },
     "burny:paul|mickrus:lee": {
       "matchesA": 11,
-      "matchesB": 2
+      "matchesB": 3
     },
     "burny:paul|stone:dragunov": {
       "matchesA": 6,
@@ -342,7 +342,7 @@
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-08-23T18:19:45.015Z",
+  "generatedAt": "2026-08-24T00:53:19.034Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 1,
@@ -430,9 +430,9 @@
     },
     "burny|mickrus": {
       "matchesA": 51,
-      "matchesB": 11,
-      "roundsA": 166,
-      "roundsB": 86
+      "matchesB": 12,
+      "roundsA": 168,
+      "roundsB": 89
     },
     "burny|stone": {
       "matchesA": 15,
@@ -559,16 +559,16 @@
       "charUsage": {
         "clive": 2,
         "dragunov": 1,
-        "hwoarang": 7,
-        "paul": 288,
+        "hwoarang": 11,
+        "paul": 289,
         "shaheen": 1,
         "victor": 169
       },
-      "matchLosses": 97,
-      "matchWins": 371,
+      "matchLosses": 101,
+      "matchWins": 377,
       "mostPlayedCharacter": "paul",
-      "totalMatches": 468,
-      "winRate": 0.793
+      "totalMatches": 478,
+      "winRate": 0.789
     },
     "chamk": {
       "charUsage": {
@@ -657,14 +657,14 @@
         "heihachi": 27,
         "jin": 39,
         "kazuya": 10,
-        "lee": 110,
+        "lee": 111,
         "paul": 3
       },
       "matchLosses": 141,
-      "matchWins": 79,
+      "matchWins": 80,
       "mostPlayedCharacter": "lee",
-      "totalMatches": 220,
-      "winRate": 0.359
+      "totalMatches": 221,
+      "winRate": 0.362
     },
     "nullified": {
       "charUsage": {
@@ -676,11 +676,11 @@
         "fahkumram": 255,
         "heihachi": 12
       },
-      "matchLosses": 379,
-      "matchWins": 730,
+      "matchLosses": 403,
+      "matchWins": 756,
       "mostPlayedCharacter": "armor_king",
-      "totalMatches": 1109,
-      "winRate": 0.658
+      "totalMatches": 1159,
+      "winRate": 0.652
     },
     "nyx": {
       "charUsage": {
