@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 4539,
+  "basedOnMatchCount": 4564,
   "charMatchups": {
     "bigman:heihachi|fop:kunimitsu": {
       "matchesA": 1,
@@ -109,6 +109,10 @@
       "matchesA": 1,
       "matchesB": 0
     },
+    "burny:bryan|sugarfree:bryan": {
+      "matchesA": 2,
+      "matchesB": 1
+    },
     "burny:clive|jardjay:lili": {
       "matchesA": 2,
       "matchesB": 0
@@ -154,8 +158,8 @@
       "matchesB": 0
     },
     "burny:paul|sugarfree:bryan": {
-      "matchesA": 45,
-      "matchesB": 11
+      "matchesA": 52,
+      "matchesB": 12
     },
     "burny:paul|sugarfree:yoshimitsu": {
       "matchesA": 14,
@@ -342,7 +346,7 @@
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-08-26T00:54:08.634Z",
+  "generatedAt": "2026-08-26T06:36:26.752Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 1,
@@ -441,10 +445,10 @@
       "roundsB": 26
     },
     "burny|sugarfree": {
-      "matchesA": 163,
-      "matchesB": 37,
-      "roundsA": 540,
-      "roundsB": 256
+      "matchesA": 176,
+      "matchesB": 41,
+      "roundsA": 585,
+      "roundsB": 284
     },
     "code|nyx": {
       "matchesA": 3,
@@ -542,33 +546,34 @@
       "charUsage": {
         "heihachi": 28,
         "king": 1,
-        "kuma": 1047,
+        "kuma": 1055,
         "kunimitsu": 13,
         "nina": 8,
         "panda": 80,
         "paul": 2,
         "reina": 7
       },
-      "matchLosses": 610,
-      "matchWins": 602,
+      "matchLosses": 613,
+      "matchWins": 607,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 1212,
-      "winRate": 0.497
+      "totalMatches": 1220,
+      "winRate": 0.498
     },
     "burny": {
       "charUsage": {
+        "bryan": 3,
         "clive": 2,
         "dragunov": 1,
         "hwoarang": 23,
-        "paul": 289,
+        "paul": 297,
         "shaheen": 1,
-        "victor": 177
+        "victor": 183
       },
-      "matchLosses": 103,
-      "matchWins": 403,
+      "matchLosses": 107,
+      "matchWins": 416,
       "mostPlayedCharacter": "paul",
-      "totalMatches": 506,
-      "winRate": 0.796
+      "totalMatches": 523,
+      "winRate": 0.795
     },
     "chamk": {
       "charUsage": {
@@ -727,16 +732,16 @@
     },
     "sugarfree": {
       "charUsage": {
-        "bryan": 231,
+        "bryan": 242,
         "jack8": 18,
         "kazuya": 4,
         "yoshimitsu": 118
       },
-      "matchLosses": 246,
-      "matchWins": 145,
+      "matchLosses": 259,
+      "matchWins": 149,
       "mostPlayedCharacter": "bryan",
-      "totalMatches": 391,
-      "winRate": 0.371
+      "totalMatches": 408,
+      "winRate": 0.365
     }
   },
   "schemaVersion": 2
