@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 168,
   "feedMatchCount": 237,
-  "generatedAt": "2026-08-28T21:39:09.672Z",
+  "generatedAt": "2026-08-29T05:06:12.650Z",
   "matches": [
     {
       "a": {
@@ -5525,75 +5525,6 @@
     },
     {
       "a": {
-        "character": null,
-        "name": "Nullified",
-        "playerId": "nullified",
-        "polarisId": "3JAYQR5RdNJh",
-        "rank": "god_of_destruction"
-      },
-      "b": {
-        "character": "heihachi",
-        "name": "PERCS4BRUNCH",
-        "playerId": null,
-        "polarisId": "65JmR3eyNrfG",
-        "rank": "god_of_destruction"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "ca929e87ce1143e88852c780c16f1b96",
-      "playedAt": "2026-08-24T22:33:33.000Z",
-      "roundsA": 1,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": null,
-        "name": "Nullified",
-        "playerId": "nullified",
-        "polarisId": "3JAYQR5RdNJh",
-        "rank": "god_of_destruction"
-      },
-      "b": {
-        "character": "heihachi",
-        "name": "PERCS4BRUNCH",
-        "playerId": null,
-        "polarisId": "65JmR3eyNrfG",
-        "rank": "god_of_destruction"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "783b46ddc2d94fa6a47399d8a21d59ab",
-      "playedAt": "2026-08-24T22:37:47.000Z",
-      "roundsA": 2,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bryan",
-        "name": "Silento",
-        "playerId": null,
-        "polarisId": "37ynbGTE7gjE",
-        "rank": "tekken_god"
-      },
-      "b": {
-        "character": null,
-        "name": "Nullified",
-        "playerId": "nullified",
-        "polarisId": "3JAYQR5RdNJh",
-        "rank": "god_of_destruction"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "2b1e1a66deab45dd8a31d741d5061f44",
-      "playedAt": "2026-08-24T22:42:29.000Z",
-      "roundsA": 2,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
         "character": "bryan",
         "name": "Silento",
         "playerId": null,
@@ -9315,6 +9246,75 @@
       "id": "c2ebcc725aad4a45b76d15e0ba378fb1",
       "playedAt": "2026-08-28T21:36:02.000Z",
       "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": null,
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "law",
+        "name": "LazyTitan420",
+        "playerId": null,
+        "polarisId": "3gr4t787bQFh",
+        "rank": "tekken_god"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "f09b241d17584e28afba910c8fbd26d7",
+      "playedAt": "2026-08-28T21:40:32.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": null,
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "raven",
+        "name": "JF I Decoy",
+        "playerId": null,
+        "polarisId": "4jYGEryde3fn",
+        "rank": "god_of_destruction_ii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "d5087aec18854049904737ee200a7956",
+      "playedAt": "2026-08-28T21:46:08.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": null,
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "raven",
+        "name": "JF I Decoy",
+        "playerId": null,
+        "polarisId": "4jYGEryde3fn",
+        "rank": "god_of_destruction_ii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "d1a5946a0559411994c409795ac5afe5",
+      "playedAt": "2026-08-28T21:47:51.000Z",
+      "roundsA": 0,
       "roundsB": 3,
       "winner": "b"
     }
