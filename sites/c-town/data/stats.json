@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 4705,
+  "basedOnMatchCount": 4783,
   "charMatchups": {
     "bigman:heihachi|fop:kunimitsu": {
       "matchesA": 1,
@@ -15,7 +15,7 @@
     },
     "bigman:heihachi|fop:reina": {
       "matchesA": 0,
-      "matchesB": 2
+      "matchesB": 5
     },
     "bigman:heihachi|nyx:steve": {
       "matchesA": 1,
@@ -46,8 +46,8 @@
       "matchesB": 0
     },
     "bigman:kuma|fop:reina": {
-      "matchesA": 13,
-      "matchesB": 15
+      "matchesA": 14,
+      "matchesB": 19
     },
     "bigman:kuma|gnarlyidk:panda": {
       "matchesA": 1,
@@ -92,6 +92,10 @@
     "bigman:nina|jardjay:lili": {
       "matchesA": 4,
       "matchesB": 3
+    },
+    "bigman:panda|fop:reina": {
+      "matchesA": 3,
+      "matchesB": 4
     },
     "bigman:panda|nyx:steve": {
       "matchesA": 2,
@@ -350,7 +354,7 @@
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-08-29T20:16:26.424Z",
+  "generatedAt": "2026-08-30T02:56:19.205Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 1,
@@ -371,10 +375,10 @@
       "roundsB": 2
     },
     "bigman|fop": {
-      "matchesA": 15,
-      "matchesB": 18,
-      "roundsA": 61,
-      "roundsB": 72
+      "matchesA": 20,
+      "matchesB": 33,
+      "roundsA": 86,
+      "roundsB": 122
     },
     "bigman|gnarlyidk": {
       "matchesA": 1,
@@ -548,20 +552,20 @@
   "players": {
     "bigman": {
       "charUsage": {
-        "heihachi": 28,
+        "heihachi": 31,
         "king": 1,
-        "kuma": 1135,
+        "kuma": 1157,
         "kunimitsu": 13,
         "nina": 8,
-        "panda": 81,
+        "panda": 88,
         "paul": 2,
         "reina": 7
       },
-      "matchLosses": 652,
-      "matchWins": 649,
+      "matchLosses": 677,
+      "matchWins": 661,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 1301,
-      "winRate": 0.499
+      "totalMatches": 1338,
+      "winRate": 0.494
     },
     "burny": {
       "charUsage": {
@@ -630,14 +634,14 @@
         "leroy": 8,
         "lili": 4,
         "paul": 1,
-        "reina": 473,
+        "reina": 493,
         "steve": 1
       },
-      "matchLosses": 208,
-      "matchWins": 307,
+      "matchLosses": 213,
+      "matchWins": 322,
       "mostPlayedCharacter": "reina",
-      "totalMatches": 515,
-      "winRate": 0.596
+      "totalMatches": 535,
+      "winRate": 0.602
     },
     "gnarlyidk": {
       "charUsage": {
@@ -685,11 +689,11 @@
         "fahkumram": 255,
         "heihachi": 12
       },
-      "matchLosses": 450,
-      "matchWins": 789,
+      "matchLosses": 464,
+      "matchWins": 816,
       "mostPlayedCharacter": "armor_king",
-      "totalMatches": 1239,
-      "winRate": 0.637
+      "totalMatches": 1280,
+      "winRate": 0.638
     },
     "nyx": {
       "charUsage": {
