@@ -383,7 +383,11 @@ export const characterIdMap: Record<number, string> = {
   40: 'Heihachi',
   41: 'Clive',
   42: 'Anna',
-  43: 'Fahkumram' /* + any later DLC ids */,
+  43: 'Fahkumram',
+  44: 'Armor King',
+  45: 'Miary Zo',
+  46: 'Kunimitsu',
+  47: 'Bob' /* + any later DLC ids */,
 };
 ```
 
@@ -439,7 +443,7 @@ foretold…"}`. This is a soft anti-hotlink check (no token). We send those head
 
 | our field           | from tknow                                                                                                                                         |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `character`         | `fromCharacterId(char_id)` (§7.6; ids match EWGF's, +44 Armor King, 45 Miary Zo, 46 Kunimitsu)                                                     |
+| `character`         | `fromCharacterId(char_id)` (§7.6; ids match EWGF's, +44 Armor King, 45 Miary Zo, 46 Kunimitsu, 47 Bob)                                             |
 | `rank` / `rankTier` | `rankFromDanRank(current_rank)` — `current_rank` is the **same integer ladder** as §7.5's `rankOrderMap` (27=Tekken God, 31=God of Destruction II) |
 | `rankedGames`       | `total_games` — **lifetime** ranked games (not a windowed count → fixes the §7.2 free-tier caveat)                                                 |
 | `region`            | `region_id` → name (0 Asia, 1 Middle East, 2 Oceania, 3 Americas, 4 Europe 1, 5 Africa, 6 Europe 2)                                                |
@@ -447,8 +451,10 @@ foretold…"}`. This is a soft anti-hotlink check (no token). We send those head
 
 Also returns `nickname`, `my_power`, `region_id`, and `latest_game_info.version_list`.
 The match query version is `max(current_ranks[].last_play_version)`, falling back to
-`max(version_list)`. **Unmapped `char_id`s** (e.g. reserved ids 25/26/27/30/31/37 for
-unreleased characters — Bob, Roger Jr., Yujiro) are logged and skipped.
+`max(version_list)`. **Unmapped `char_id`s** are logged and skipped. The gaps
+(25/26/27/30/31/37) are not a queue for upcoming DLC — Bob shipped 2026-08-20 as **47**,
+appended past them — so a new character's id must be read off the
+`[tknow] unmapped char_id N — skipped.` warning, never guessed from a gap.
 
 ### `GET /player/match/{polarisId}?version={v}&page={n}` → matches (drives `matches.json`)
 
