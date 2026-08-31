@@ -29,14 +29,14 @@ export function MatchSideLabel({
   const player = side.playerId ? playerById.get(side.playerId) : undefined;
   const tag = player?.player_tag ?? side.name;
   const crew = Boolean(side.playerId);
-  const nameClass = `truncate font-display uppercase tracking-wide ${
-    won ? 'font-bold text-fg' : 'font-normal text-fg/50'
+  const nameClass = `truncate font-display ${
+    won ? 'font-bold text-fg' : 'font-normal text-muted'
   }`;
 
   const name = crew ? (
     <Link
       to={`/player/${side.playerId}`}
-      className={`${nameClass} underline decoration-link/70 decoration-2 underline-offset-4 hover:text-link`}
+      className={`${nameClass} underline decoration-border decoration-2 underline-offset-4 hover:decoration-link`}
     >
       {tag}
     </Link>

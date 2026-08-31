@@ -23,7 +23,7 @@ const BRAND_PARTS = config.site.name.toUpperCase().split(/[-\s]+/);
 function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen">
-      <header className="sticky top-0 z-10 border-b border-border bg-bg/80 backdrop-blur">
+      <header className="sticky top-0 z-10 border-b border-border bg-bg/90 backdrop-blur">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3 sm:gap-6">
           <NavLink to="/" className="group flex items-baseline gap-1">
             {BRAND_PARTS.map((part, i) => (
@@ -64,8 +64,7 @@ function Layout({ children }: { children: React.ReactNode }) {
       </header>
       <main className="mx-auto max-w-5xl px-4 py-6">{children}</main>
       <footer className="mx-auto max-w-5xl px-4 py-10 text-xs text-muted">
-        <span className="eyebrow">{config.site.name}</span> · self-updating · $0 · reads
-        committed JSON only.
+        {config.site.name} · ranks and matches refresh a few times a day.
       </footer>
     </div>
   );

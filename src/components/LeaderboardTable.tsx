@@ -65,14 +65,14 @@ export function LeaderboardTable({
 }: Props) {
   return (
     <div className="overflow-x-auto">
-      <table className="w-full min-w-[640px] text-sm">
+      <table className="w-full min-w-[360px] text-sm">
         <thead>
           <tr className="border-b border-border text-left align-bottom">
             <th className="w-9 pb-1.5 pr-2" />
             <th className="px-2 pb-1.5">
               <span className="eyebrow">Player</span>
             </th>
-            <th className="px-2 pb-1.5">
+            <th className="hidden px-2 pb-1.5 sm:table-cell">
               <span className="eyebrow">Character</span>
             </th>
             <th className="px-2 pb-1.5">
@@ -98,7 +98,7 @@ export function LeaderboardTable({
                 onClick={() => onSortChange('delta')}
               />
             </th>
-            <th className="px-2 pb-1.5">
+            <th className="hidden px-2 pb-1.5 sm:table-cell">
               <span className="eyebrow">Form</span>
             </th>
             <th className="hidden pb-1.5 pl-2 text-right sm:table-cell">
@@ -145,11 +145,12 @@ export function LeaderboardTable({
                     accent={view === 'pairs' ? accentColor(p.playerId) : undefined}
                   />
                 </td>
-                <td className="whitespace-nowrap px-2 py-1.5">
+                <td className="hidden whitespace-nowrap px-2 py-1.5 sm:table-cell">
                   <CharacterName
                     slug={p.character}
                     isMain={view === 'pairs' && p.isMain}
                     iconSize={18}
+                    nameClassName="hidden md:inline"
                   />
                 </td>
                 <td className="whitespace-nowrap px-2 py-1.5">
@@ -173,7 +174,7 @@ export function LeaderboardTable({
                     title={rankMoveTitle(trend?.rankDelta ?? null, windowDays)}
                   />
                 </td>
-                <td className="whitespace-nowrap px-2 py-1.5">
+                <td className="hidden whitespace-nowrap px-2 py-1.5 sm:table-cell">
                   <FormPips results={trend?.form ?? []} loading={trendsLoading} />
                 </td>
                 <td className="tabular hidden py-1.5 pl-2 text-right text-muted sm:table-cell">
