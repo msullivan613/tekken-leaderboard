@@ -55,6 +55,7 @@ const ROSTER: ReadonlyArray<readonly [displayName: string, slug: string]> = [
   ['Armor King', 'armor_king'],
   ['Kunimitsu', 'kunimitsu'],
   ['Miary Zo', 'miary_zo'],
+  ['Bob', 'bob'],
 ];
 
 export type CharacterSlug = string;
@@ -99,10 +100,13 @@ export function isKnownCharacter(slug: CharacterSlug): boolean {
 
 // Numeric character id → display name (verified against tknow.gg's character
 // table and EWGF's characterIdMap, spec §7.6/§7.9 — the two agree). tknow keys
-// characters by this id in `current_ranks` and match rows. Gaps in the id space
-// (25, 26, 27, 30, 31, 37, …) are reserved for as-yet-unreleased characters
-// (e.g. Bob, Roger Jr., Yujiro); an unmapped id is logged and skipped by
-// fromCharacterId until it ships and is added here.
+// characters by this id in `current_ranks` and match rows. An unmapped id is
+// logged and skipped by fromCharacterId until it ships and is added here.
+//
+// The gaps (25, 26, 27, 30, 31, 37) are NOT a queue for upcoming DLC — Bob
+// shipped 2026-08-20 as 47, appended past them, leaving the gaps untouched. So
+// never guess a new character's id from them: read it off the
+// `[tknow] unmapped char_id N — skipped.` warning the pipeline logs.
 export const characterIdMap: Record<number, string> = {
   0: 'Paul',
   1: 'Law',
@@ -145,6 +149,7 @@ export const characterIdMap: Record<number, string> = {
   44: 'Armor King',
   45: 'Miary Zo',
   46: 'Kunimitsu',
+  47: 'Bob',
 };
 
 /** Resolve a numeric character id (tknow/EWGF) to our canonical slug, or null. */
