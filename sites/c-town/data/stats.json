@@ -1,6 +1,10 @@
 {
   "basedOnMatchCount": 4828,
   "charMatchups": {
+    "bigman:bob|fop:reina": {
+      "matchesA": 1,
+      "matchesB": 4
+    },
     "bigman:heihachi|fop:kunimitsu": {
       "matchesA": 1,
       "matchesB": 0
@@ -77,6 +81,10 @@
       "matchesA": 0,
       "matchesB": 1
     },
+    "bigman:kuma|sugarfree:bob": {
+      "matchesA": 4,
+      "matchesB": 1
+    },
     "bigman:kuma|sugarfree:bryan": {
       "matchesA": 11,
       "matchesB": 11
@@ -105,6 +113,10 @@
       "matchesA": 2,
       "matchesB": 0
     },
+    "bigman:panda|sugarfree:bob": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
     "bigman:paul|combatport9:king": {
       "matchesA": 1,
       "matchesB": 0
@@ -116,6 +128,10 @@
     "bigman:reina|nyx:paul": {
       "matchesA": 1,
       "matchesB": 0
+    },
+    "burny:bob|sugarfree:bob": {
+      "matchesA": 6,
+      "matchesB": 2
     },
     "burny:bryan|sugarfree:bryan": {
       "matchesA": 2,
@@ -140,6 +156,10 @@
     "burny:hwoarang|mickrus:jin": {
       "matchesA": 1,
       "matchesB": 0
+    },
+    "burny:hwoarang|sugarfree:bob": {
+      "matchesA": 22,
+      "matchesB": 2
     },
     "burny:hwoarang|sugarfree:bryan": {
       "matchesA": 3,
@@ -167,6 +187,10 @@
     },
     "burny:paul|stone:law": {
       "matchesA": 2,
+      "matchesB": 0
+    },
+    "burny:paul|sugarfree:bob": {
+      "matchesA": 6,
       "matchesB": 0
     },
     "burny:paul|sugarfree:bryan": {
@@ -200,6 +224,10 @@
     "burny:victor|stone:victor": {
       "matchesA": 3,
       "matchesB": 0
+    },
+    "burny:victor|sugarfree:bob": {
+      "matchesA": 4,
+      "matchesB": 2
     },
     "burny:victor|sugarfree:bryan": {
       "matchesA": 73,
@@ -292,6 +320,10 @@
     "fop:reina|stone:law": {
       "matchesA": 0,
       "matchesB": 1
+    },
+    "fop:reina|sugarfree:bob": {
+      "matchesA": 3,
+      "matchesB": 0
     },
     "fop:reina|sugarfree:bryan": {
       "matchesA": 3,
@@ -556,6 +588,7 @@
   "players": {
     "bigman": {
       "charUsage": {
+        "bob": 31,
         "heihachi": 31,
         "king": 1,
         "kuma": 1167,
@@ -573,6 +606,7 @@
     },
     "burny": {
       "charUsage": {
+        "bob": 13,
         "bryan": 3,
         "clive": 2,
         "dragunov": 1,
@@ -687,6 +721,7 @@
       "charUsage": {
         "armor_king": 311,
         "asuka": 46,
+        "bob": 193,
         "claudio": 81,
         "clive": 275,
         "dragunov": 107,
@@ -744,6 +779,7 @@
     },
     "sugarfree": {
       "charUsage": {
+        "bob": 53,
         "bryan": 262,
         "jack8": 18,
         "kazuya": 4,
