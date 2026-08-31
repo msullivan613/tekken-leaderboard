@@ -35,7 +35,7 @@ export function ChampionHero({ champ }: { champ: PairViewModel }) {
             glow
           />
           <span
-            className="absolute -bottom-1 -right-1 rounded-full border-2 border-surface bg-gold px-2 font-numeral text-lg leading-6 text-bg"
+            className="absolute -bottom-1 -right-1 rounded-full border-2 border-surface bg-gold px-2 tabular text-lg leading-6 text-bg"
             title="Reigning #1"
           >
             1
@@ -51,7 +51,7 @@ export function ChampionHero({ champ }: { champ: PairViewModel }) {
 
           <Link
             to={`/player/${champ.playerId}`}
-            className="mt-1 block font-display text-4xl font-bold uppercase !text-fg hover:!text-fg sm:text-5xl"
+            className="mt-1 block font-display text-4xl font-bold uppercase sm:text-5xl"
           >
             {champ.playerTag}
           </Link>
@@ -76,7 +76,7 @@ export function ChampionHero({ champ }: { champ: PairViewModel }) {
               <div className="flex items-baseline justify-between">
                 <span className="eyebrow">MMR</span>
                 <span
-                  className={`font-numeral text-3xl leading-none ${champ.provisional ? 'text-muted' : 'text-fg'}`}
+                  className={`tabular text-3xl leading-none ${champ.provisional ? 'text-muted' : 'text-fg'}`}
                 >
                   {formatMmr(champ.mmr)}
                 </span>

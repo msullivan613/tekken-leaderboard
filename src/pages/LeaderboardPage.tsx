@@ -33,7 +33,7 @@ export function LeaderboardPage() {
     <div>
       <div className="mb-5 flex flex-wrap items-end justify-between gap-3">
         <div>
-          <p className="eyebrow text-accent">Tekken 8 · Crew Ladder</p>
+          <p className="eyebrow">Tekken 8 · Crew Ladder</p>
           <h1 className="text-4xl font-bold sm:text-5xl">The Standings</h1>
           <LastUpdated iso={lastUpdated} />
         </div>

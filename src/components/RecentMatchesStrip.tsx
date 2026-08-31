@@ -33,7 +33,7 @@ export function RecentMatchesStrip({ limit = 20 }: { limit?: number }) {
               </div>
 
               <div className="flex flex-col items-center">
-                <div className="flex items-center gap-1.5 font-numeral text-2xl leading-none">
+                <div className="flex items-center gap-1.5 tabular text-2xl leading-none">
                   <span className={aWon ? 'text-p1' : 'text-muted'}>{m.roundsA}</span>
                   <span className="text-xs text-muted">VS</span>
                   <span className={!aWon ? 'text-p2' : 'text-muted'}>{m.roundsB}</span>

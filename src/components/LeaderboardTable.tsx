@@ -27,7 +27,7 @@ function SortHeader({
       type="button"
       onClick={onClick}
       className={`eyebrow inline-flex items-center gap-1 ${
-        active ? '!text-accent-2' : 'hover:!text-fg'
+        active ? 'text-fg' : 'hover:text-fg'
       }`}
     >
       {label}
@@ -86,7 +86,7 @@ export function LeaderboardTable({
                   className="rounded-l px-2 py-2.5 sm:px-3"
                   style={{ boxShadow: `inset 3px 0 0 ${accent}` }}
                 >
-                  <span className="font-numeral text-xl leading-none text-muted group-hover:text-fg sm:text-2xl">
+                  <span className="tabular text-xl leading-none text-muted group-hover:text-fg sm:text-2xl">
                     {pos}
                   </span>
                 </td>

@@ -21,7 +21,7 @@ export function CharacterName({
       {characterDisplayName(slug)}
       {isMain && (
         <span
-          className="text-[10px] uppercase tracking-wide text-accent-2"
+          className="text-[10px] uppercase tracking-wide text-muted"
           title="Main character"
         >
           ★

@@ -160,7 +160,7 @@ export function PlayerProfilePage() {
                 type="button"
                 onClick={() => setChartMode(m)}
                 className={`px-3 py-1 rounded ${
-                  chartMode === m ? 'bg-accent text-bg' : 'text-muted hover:text-fg'
+                  chartMode === m ? 'bg-fg text-bg' : 'text-muted hover:text-fg'
                 }`}
               >
                 {m === 'mmr' ? 'MMR' : 'Rank'}
@@ -231,7 +231,7 @@ export function PlayerProfilePage() {
                 <span className="w-16 shrink-0 text-muted" title={m.playedAt}>
                   {concludedAgo(m.playedAt)}
                 </span>
-                <span className={won ? 'font-medium text-accent-2' : 'text-muted'}>
+                <span className={won ? 'font-semibold text-fg' : 'text-muted'}>
                   {won ? 'W' : 'L'}
                 </span>
                 <CharacterIcon slug={mySide.character} size={18} />
@@ -256,7 +256,7 @@ function StatCard({ label, value }: { label: string; value: string }) {
   return (
     <div className="border border-border bg-surface p-3">
       <div className="eyebrow">{label}</div>
-      <div className="mt-1 font-numeral text-3xl leading-none">{value}</div>
+      <div className="mt-1 tabular text-3xl leading-none">{value}</div>
     </div>
   );
 }

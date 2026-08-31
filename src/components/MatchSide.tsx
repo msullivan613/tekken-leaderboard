@@ -36,7 +36,7 @@ export function MatchSideLabel({
   const name = crew ? (
     <Link
       to={`/player/${side.playerId}`}
-      className={`${nameClass} underline decoration-accent-2/70 decoration-2 underline-offset-4 !text-inherit hover:!text-accent-2`}
+      className={`${nameClass} underline decoration-link/70 decoration-2 underline-offset-4 hover:text-link`}
     >
       {tag}
     </Link>

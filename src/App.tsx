@@ -27,14 +27,14 @@ function Layout({ children }: { children: React.ReactNode }) {
         <div className="mx-auto flex max-w-5xl flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3 sm:gap-6">
           <NavLink
             to="/"
-            className="group flex items-baseline gap-1 !text-fg hover:!text-fg"
+            className="group flex items-baseline gap-1"
           >
             {BRAND_PARTS.map((part, i) => (
               <span key={i} className="flex items-baseline gap-1">
                 {i > 0 && (
                   <span
                     className="font-display text-xl font-bold tracking-[0.15em] sm:text-2xl sm:tracking-widest"
-                    style={{ color: 'rgb(var(--p1))' }}
+                    style={{ color: 'rgb(var(--muted))' }}
                   >
                     ·
                   </span>
@@ -54,8 +54,8 @@ function Layout({ children }: { children: React.ReactNode }) {
                 className={({ isActive }) =>
                   `eyebrow whitespace-nowrap pb-0.5 tracking-[0.14em] sm:tracking-[0.22em] ${
                     isActive
-                      ? '!text-fg [box-shadow:inset_0_-2px_0_rgb(var(--p2))]'
-                      : 'hover:!text-fg'
+                      ? 'text-fg [box-shadow:inset_0_-2px_0_rgb(var(--fg))]'
+                      : 'hover:text-fg'
                   }`
                 }
               >

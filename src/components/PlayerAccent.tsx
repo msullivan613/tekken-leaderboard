@@ -79,7 +79,7 @@ export function PlayerLink({ playerId, tag }: { playerId: string; tag: string })
   return (
     <Link
       to={`/player/${playerId}`}
-      className="inline-flex items-center gap-2 !text-fg hover:!text-accent"
+      className="inline-flex items-center gap-2 hover:text-link"
       style={{ borderLeft: `3px solid ${accentColor(playerId)}`, paddingLeft: 8 }}
     >
       <PlayerAccent playerId={playerId} tag={tag} size={24} />

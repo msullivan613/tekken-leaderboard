@@ -58,7 +58,7 @@ export function HeadToHeadPage() {
                   return (
                     <td
                       key={col.id}
-                      className="cursor-pointer px-3 py-2 text-center font-mono tabular-nums hover:ring-1 hover:ring-accent"
+                      className="cursor-pointer px-3 py-2 text-center font-mono tabular-nums hover:ring-1 hover:ring-fg"
                       style={{
                         backgroundColor: rec
                           ? `rgb(${Math.round(255 * (1 - share))} ${Math.round(180 * share)} 90 / 0.18)`
@@ -119,7 +119,7 @@ function MatchupDrilldown({
       <div className="grid grid-cols-2 gap-4">
         <div>
           <div className="eyebrow">Matches</div>
-          <div className="font-numeral text-4xl leading-none">
+          <div className="tabular text-4xl leading-none">
             {aMatches}
             <span className="text-muted"> – </span>
             {bMatches}
@@ -127,7 +127,7 @@ function MatchupDrilldown({
         </div>
         <div>
           <div className="eyebrow">Rounds</div>
-          <div className="font-numeral text-4xl leading-none">
+          <div className="tabular text-4xl leading-none">
             {aRounds}
             <span className="text-muted"> – </span>
             {bRounds}
