@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 4840,
+  "basedOnMatchCount": 4960,
   "charMatchups": {
     "bigman:bob|fop:reina": {
       "matchesA": 1,
@@ -390,7 +390,7 @@
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-08-31T12:22:28.098Z",
+  "generatedAt": "2026-08-31T22:16:23.571Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 2,
@@ -611,15 +611,15 @@
         "clive": 2,
         "dragunov": 1,
         "hwoarang": 50,
-        "paul": 313,
+        "paul": 338,
         "shaheen": 1,
         "victor": 198
       },
-      "matchLosses": 118,
-      "matchWins": 463,
+      "matchLosses": 120,
+      "matchWins": 486,
       "mostPlayedCharacter": "paul",
-      "totalMatches": 581,
-      "winRate": 0.797
+      "totalMatches": 606,
+      "winRate": 0.802
     },
     "chamk": {
       "charUsage": {
@@ -721,32 +721,33 @@
       "charUsage": {
         "armor_king": 311,
         "asuka": 46,
-        "bob": 193,
+        "bob": 259,
         "claudio": 81,
         "clive": 275,
         "dragunov": 107,
         "fahkumram": 255,
         "heihachi": 12
       },
-      "matchLosses": 464,
-      "matchWins": 816,
+      "matchLosses": 492,
+      "matchWins": 854,
       "mostPlayedCharacter": "armor_king",
-      "totalMatches": 1280,
-      "winRate": 0.638
+      "totalMatches": 1346,
+      "winRate": 0.634
     },
     "nyx": {
       "charUsage": {
+        "bob": 4,
         "eddy": 1,
         "jin": 1,
         "kazuya": 1,
         "paul": 7,
         "steve": 40
       },
-      "matchLosses": 36,
-      "matchWins": 14,
+      "matchLosses": 38,
+      "matchWins": 16,
       "mostPlayedCharacter": "steve",
-      "totalMatches": 50,
-      "winRate": 0.28
+      "totalMatches": 54,
+      "winRate": 0.296
     },
     "slashuur": {
       "charUsage": {
@@ -779,17 +780,17 @@
     },
     "sugarfree": {
       "charUsage": {
-        "bob": 53,
+        "bob": 78,
         "bryan": 262,
         "jack8": 18,
         "kazuya": 4,
         "yoshimitsu": 118
       },
-      "matchLosses": 298,
-      "matchWins": 157,
+      "matchLosses": 317,
+      "matchWins": 163,
       "mostPlayedCharacter": "bryan",
-      "totalMatches": 455,
-      "winRate": 0.345
+      "totalMatches": 480,
+      "winRate": 0.34
     }
   },
   "schemaVersion": 2

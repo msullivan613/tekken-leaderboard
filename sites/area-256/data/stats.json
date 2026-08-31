@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 12571,
+  "basedOnMatchCount": 12662,
   "charMatchups": {
     "afriking:armor_king|bigkuma:kuma": {
       "matchesA": 2,
@@ -10,7 +10,7 @@
       "matchesB": 20
     }
   },
-  "generatedAt": "2026-08-31T12:21:35.682Z",
+  "generatedAt": "2026-08-31T22:15:32.331Z",
   "headToHead": {
     "afriking|bigkuma": {
       "matchesA": 2,
@@ -170,17 +170,17 @@
     "nullified": {
       "charUsage": {
         "armor_king": 272,
-        "bob": 80,
+        "bob": 146,
         "claudio": 81,
         "clive": 19,
         "dragunov": 10,
         "fahkumram": 117
       },
-      "matchLosses": 310,
-      "matchWins": 269,
+      "matchLosses": 338,
+      "matchWins": 307,
       "mostPlayedCharacter": "armor_king",
-      "totalMatches": 579,
-      "winRate": 0.465
+      "totalMatches": 645,
+      "winRate": 0.476
     },
     "oddlionss": {
       "charUsage": {
@@ -271,16 +271,17 @@
     },
     "sugarfree": {
       "charUsage": {
+        "bob": 25,
         "bryan": 68,
         "jack8": 8,
         "kazuya": 4,
         "yoshimitsu": 74
       },
-      "matchLosses": 60,
-      "matchWins": 94,
+      "matchLosses": 79,
+      "matchWins": 100,
       "mostPlayedCharacter": "yoshimitsu",
-      "totalMatches": 154,
-      "winRate": 0.61
+      "totalMatches": 179,
+      "winRate": 0.559
     }
   },
   "schemaVersion": 2

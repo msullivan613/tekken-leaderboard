@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T12:22:28.098Z",
+  "generatedAt": "2026-08-31T22:16:23.571Z",
   "pairs": [
     {
       "character": "lili",
@@ -134,6 +134,17 @@
       "sigmaSquared": 73
     },
     {
+      "character": "bob",
+      "confidence": "unqualified",
+      "games": 25,
+      "lastUpdated": "2026-08-24T04:05:25.000Z",
+      "pairId": "3fee-J699-M7An:bob",
+      "playerId": "sugarfree",
+      "provisional": false,
+      "rating": 1375,
+      "sigmaSquared": 98
+    },
+    {
       "character": "bryan",
       "confidence": "leaderboard",
       "games": 1454,
@@ -209,6 +220,17 @@
       "provisional": false,
       "rating": 1806,
       "sigmaSquared": 69
+    },
+    {
+      "character": "bob",
+      "confidence": "leaderboard",
+      "games": 85,
+      "lastUpdated": "2026-08-31T22:14:19.000Z",
+      "pairId": "3JAY-QR5R-dNJh:bob",
+      "playerId": "nullified",
+      "provisional": false,
+      "rating": 1775,
+      "sigmaSquared": 64
     },
     {
       "character": "claudio",
