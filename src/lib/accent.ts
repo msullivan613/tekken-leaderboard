@@ -1,15 +1,19 @@
 // Stable per-player accent color derived from the immutable `id` (§5.8), so a
 // player's multiple pair rows read as one person.
+//
+// This only does a job in the Pairs view, where one person holds several rows.
+// In Players view every row is a different person, so the color would carry zero
+// information — callers must not render it there (§5.3).
 
 const ACCENT_VARS = [
-  '--accent-0',
-  '--accent-1',
-  '--accent-2p',
-  '--accent-3',
-  '--accent-4',
-  '--accent-5',
-  '--accent-6',
-  '--accent-7',
+  '--pl-0',
+  '--pl-1',
+  '--pl-2',
+  '--pl-3',
+  '--pl-4',
+  '--pl-5',
+  '--pl-6',
+  '--pl-7',
 ];
 
 function hashString(s: string): number {

@@ -23,18 +23,15 @@ const BRAND_PARTS = config.site.name.toUpperCase().split(/[-\s]+/);
 function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen">
-      <header className="sticky top-0 z-10 border-b border-border bg-bg/80 backdrop-blur">
+      <header className="sticky top-0 z-10 border-b border-border bg-bg/90 backdrop-blur">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3 sm:gap-6">
-          <NavLink
-            to="/"
-            className="group flex items-baseline gap-1 !text-fg hover:!text-fg"
-          >
+          <NavLink to="/" className="group flex items-baseline gap-1">
             {BRAND_PARTS.map((part, i) => (
               <span key={i} className="flex items-baseline gap-1">
                 {i > 0 && (
                   <span
                     className="font-display text-xl font-bold tracking-[0.15em] sm:text-2xl sm:tracking-widest"
-                    style={{ color: 'rgb(var(--p1))' }}
+                    style={{ color: 'rgb(var(--muted))' }}
                   >
                     ·
                   </span>
@@ -54,8 +51,8 @@ function Layout({ children }: { children: React.ReactNode }) {
                 className={({ isActive }) =>
                   `eyebrow whitespace-nowrap pb-0.5 tracking-[0.14em] sm:tracking-[0.22em] ${
                     isActive
-                      ? '!text-fg [box-shadow:inset_0_-2px_0_rgb(var(--p2))]'
-                      : 'hover:!text-fg'
+                      ? 'text-fg [box-shadow:inset_0_-2px_0_rgb(var(--fg))]'
+                      : 'hover:text-fg'
                   }`
                 }
               >
@@ -67,8 +64,7 @@ function Layout({ children }: { children: React.ReactNode }) {
       </header>
       <main className="mx-auto max-w-5xl px-4 py-6">{children}</main>
       <footer className="mx-auto max-w-5xl px-4 py-10 text-xs text-muted">
-        <span className="eyebrow">{config.site.name}</span> · self-updating · $0 · reads
-        committed JSON only.
+        {config.site.name} · ranks and matches refresh a few times a day.
       </footer>
     </div>
   );

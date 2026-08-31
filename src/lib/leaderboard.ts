@@ -29,7 +29,9 @@ export interface PairViewModel {
   mmrUpdated: string | null;
 }
 
-export type SortKey = 'rank' | 'mmr';
+// 'delta' is derived per render from history (see trends.ts), so sortPairs
+// handles only the two signals that live on the pair model itself.
+export type SortKey = 'rank' | 'mmr' | 'delta';
 export type LeaderboardView = 'players' | 'pairs';
 
 /** A player's effective main character: the hand-set `players.json`

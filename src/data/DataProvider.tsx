@@ -92,7 +92,11 @@ export function useStats(): StatsFile | null {
   return useJson<StatsFile>('stats.json').data;
 }
 
-/** Rank + MMR history for the profile charts — Profile only. */
+/** Rank + MMR history — the profile charts and the leaderboard's movement
+ *  columns. Both consumers share one fetch through the useJson cache.
+ *
+ *  The leaderboard must never wait on this: the board renders from the core
+ *  files and the movement cells fill in when the history arrives (§5.3). */
 export function useHistory(): { rank: HistoryFile | null; mmr: HistoryFile | null } {
   const rank = useJson<HistoryFile>('rankhistory.json').data;
   const mmr = useJson<HistoryFile>('mmrhistory.json').data;

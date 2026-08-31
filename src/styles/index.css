@@ -5,82 +5,67 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    color-scheme: dark;
-  }
   body {
     @apply bg-bg text-fg font-body antialiased;
-    /* Versus-screen ambience: faint P1-red / P2-blue corner glows over the ink. */
-    background-image:
-      radial-gradient(60rem 40rem at 8% -10%, rgb(var(--p1) / 0.1), transparent 60%),
-      radial-gradient(60rem 40rem at 92% -10%, rgb(var(--p2) / 0.1), transparent 60%);
-    background-attachment: fixed;
   }
+
+  /* Headings carry weight and size, not blanket uppercase. Case is a decision
+     each component makes; a global `uppercase` flattens the whole hierarchy. */
   h1,
   h2,
   h3 {
-    @apply font-display uppercase tracking-wide;
+    @apply font-display font-extrabold tracking-tight;
+    text-wrap: balance;
   }
+
+  /* Links inherit their surrounding ink by default. The old global
+     `a { color: accent-2 }` is why ~20 `!important` overrides existed; opting in
+     via .link keeps the cascade one-directional. */
   a {
-    @apply text-accent-2 transition-colors;
+    @apply transition-colors;
+    color: inherit;
   }
-  a:hover {
-    @apply text-fg;
-  }
+
   :focus-visible {
-    outline: 2px solid rgb(var(--accent-2));
+    outline: 2px solid rgb(var(--link));
     outline-offset: 2px;
     border-radius: 2px;
   }
 }
 
 @layer components {
-  /* Fighting-game HUD panel: notched bottom-right corner + hairline edge. */
-  .hud-notch {
-    clip-path: polygon(
-      0 0,
-      100% 0,
-      100% calc(100% - 12px),
-      calc(100% - 12px) 100%,
-      0 100%
-    );
+  /* Prose/navigational link that should read as interactive on its own. */
+  .link {
+    color: rgb(var(--link));
   }
-  /* Eyebrow label — small technical caps, common in fight HUDs. */
+  .link:hover {
+    @apply underline;
+    text-underline-offset: 3px;
+  }
+
+  /* Micro-label for table headers and figure captions. Small caps are correct
+     for column headers; what was wrong before was using them for headings too,
+     at 0.22em, everywhere. */
   .eyebrow {
-    @apply font-display text-xs font-semibold uppercase tracking-[0.22em] text-muted;
+    @apply font-display text-[10px] font-semibold uppercase tracking-[0.12em] text-muted;
   }
-  /* Charged energy meter (MMR). */
-  .meter {
-    @apply relative h-2 overflow-hidden rounded-full bg-surface-2;
-  }
-  .meter > span {
-    @apply absolute inset-y-0 left-0 block rounded-full;
-    background: linear-gradient(90deg, rgb(var(--p2)), rgb(var(--gold)));
-    box-shadow: 0 0 12px rgb(var(--gold) / 0.5);
-  }
-}
 
-@keyframes hud-rise {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
+  /* Every column of figures. Digits must share one width or the column can't be
+     compared by eye — which is the entire job of an MMR column. */
+  .tabular {
+    @apply font-mono;
+    font-variant-numeric: tabular-nums;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.animate-rise {
-  animation: hud-rise 0.45s cubic-bezier(0.2, 0.8, 0.2, 1) both;
-}
 
-@keyframes meter-fill {
-  from {
-    width: 0;
+  /* The versus seam: the single carrier of "two sides meet here". Used in the
+     matchup panel and the match score block, nowhere else. The inner span
+     counter-shears so the text stays upright. */
+  .vs-seam {
+    transform: skewX(var(--vs-shear));
   }
-}
-.animate-meter {
-  animation: meter-fill 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  .vs-seam > * {
+    transform: skewX(calc(var(--vs-shear) * -1));
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

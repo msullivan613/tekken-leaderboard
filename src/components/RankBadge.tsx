@@ -16,13 +16,11 @@ export function RankBadge({
   labelClassName?: string;
 }) {
   if (!rank) return <span className="text-muted">{EMPTY}</span>;
-  const color = `rgb(var(${rank.colorVar}))`;
   return (
-    <span
-      className="inline-flex items-center gap-1.5 font-medium"
-      style={{ color }}
-      title={rank.display}
-    >
+    // The tier's hue lives on the icon (the game's own iconography already
+    // encodes it). Coloring the label too put twelve competing hues in a column
+    // and pushed the top tier's red onto P1 ember, which must mean "opposed".
+    <span className="inline-flex items-center gap-1.5" title={rank.display}>
       <RankIcon rank={rank} size={iconSize} />
       {showLabel && <span className={labelClassName}>{rank.display}</span>}
     </span>

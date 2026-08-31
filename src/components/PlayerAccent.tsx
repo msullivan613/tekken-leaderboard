@@ -16,15 +16,17 @@ function avatarImageSrc(
   return null;
 }
 
-/** A round player token that groups a player's rows by a stable accent color
- *  (§5.3). Shows the configured avatar, else the main-character portrait, else
- *  the tag initial — always inside the accent ring so grouping survives. */
+/** A round player token. Shows the configured avatar, else the main-character
+ *  portrait, else the tag initial.
+ *
+ *  `ring` draws the player's identity color around it — pass it only where that
+ *  color does a job (Pairs view, the profile header), never as decoration. */
 export function PlayerAccent({
   playerId,
   tag,
   size = 28,
   character,
-  glow = false,
+  ring = false,
 }: {
   playerId: string;
   tag?: string;
@@ -32,7 +34,7 @@ export function PlayerAccent({
   /** Character portrait to prefer when the player has no explicit avatar.
    *  Defaults to the player's main character. */
   character?: string;
-  glow?: boolean;
+  ring?: boolean;
 }) {
   const { playerById, mainCharacterByPlayer } = useData();
   const [broken, setBroken] = useState(false);
@@ -41,13 +43,13 @@ export function PlayerAccent({
   const color = accentColor(playerId);
   const mainCharacter = character ?? mainCharacterByPlayer.get(playerId) ?? undefined;
   const src = avatarImageSrc(player?.avatar, mainCharacter);
-  const ring = glow ? `0 0 0 2px ${color}, 0 0 28px ${color}66` : `0 0 0 2px ${color}`;
+  const outline = ring ? `0 0 0 2px ${color}` : undefined;
 
   if (src && !broken) {
     return (
       <span
         className="inline-flex shrink-0 items-center justify-center rounded-full"
-        style={{ width: size, height: size, boxShadow: ring }}
+        style={{ width: size, height: size, boxShadow: outline }}
         aria-hidden
       >
         <img
@@ -66,7 +68,7 @@ export function PlayerAccent({
 
   return (
     <span
-      className="inline-flex shrink-0 items-center justify-center rounded-full font-display text-bg"
+      className="inline-flex shrink-0 items-center justify-center rounded-full font-display font-semibold text-bg"
       style={{ backgroundColor: color, width: size, height: size, fontSize: size * 0.5 }}
       aria-hidden
     >
@@ -75,15 +77,27 @@ export function PlayerAccent({
   );
 }
 
-export function PlayerLink({ playerId, tag }: { playerId: string; tag: string }) {
+export function PlayerLink({
+  playerId,
+  tag,
+  strong = false,
+  /** Identity color for the leading bar. Omit where the color carries no
+   *  information — see the note on PlayerAccent. */
+  accent,
+}: {
+  playerId: string;
+  tag: string;
+  strong?: boolean;
+  accent?: string;
+}) {
   return (
     <Link
       to={`/player/${playerId}`}
-      className="inline-flex items-center gap-2 !text-fg hover:!text-accent"
-      style={{ borderLeft: `3px solid ${accentColor(playerId)}`, paddingLeft: 8 }}
+      className="inline-flex items-center gap-2 hover:text-link"
+      style={accent ? { borderLeft: `3px solid ${accent}`, paddingLeft: 8 } : undefined}
     >
-      <PlayerAccent playerId={playerId} tag={tag} size={24} />
-      <span className="font-medium">{tag}</span>
+      <PlayerAccent playerId={playerId} tag={tag} size={20} />
+      <span className={strong ? 'font-extrabold' : 'font-semibold'}>{tag}</span>
     </Link>
   );
 }
