@@ -25,10 +25,7 @@ function Layout({ children }: { children: React.ReactNode }) {
     <div className="min-h-screen">
       <header className="sticky top-0 z-10 border-b border-border bg-bg/80 backdrop-blur">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3 sm:gap-6">
-          <NavLink
-            to="/"
-            className="group flex items-baseline gap-1"
-          >
+          <NavLink to="/" className="group flex items-baseline gap-1">
             {BRAND_PARTS.map((part, i) => (
               <span key={i} className="flex items-baseline gap-1">
                 {i > 0 && (

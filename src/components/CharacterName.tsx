@@ -2,6 +2,7 @@ import { characterDisplayName } from '@/data/characters';
 import type { CharacterSlug } from '@/types/domain';
 import { CharacterIcon } from './icons';
 import { EMPTY } from '@/lib/format';
+import { MainMark } from './glyphs';
 
 export function CharacterName({
   slug,
@@ -19,14 +20,7 @@ export function CharacterName({
     <span className="inline-flex items-center gap-1.5">
       {showIcon && <CharacterIcon slug={slug} size={iconSize} />}
       {characterDisplayName(slug)}
-      {isMain && (
-        <span
-          className="text-[10px] uppercase tracking-wide text-muted"
-          title="Main character"
-        >
-          ★
-        </span>
-      )}
+      {isMain && <MainMark className="text-muted" title="Main character" />}
     </span>
   );
 }

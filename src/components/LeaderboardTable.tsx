@@ -1,15 +1,30 @@
 import type { PairViewModel, SortKey, LeaderboardView } from '@/lib/leaderboard';
+import type { FormResult } from '@/lib/trends';
 import { RankBadge } from './RankBadge';
 import { MmrCell } from './MmrCell';
 import { PlayerLink } from './PlayerAccent';
 import { CharacterName } from './CharacterName';
+import { DeltaCell, FormPips } from './Movement';
+import { CaretDown } from './glyphs';
 import { accentColor } from '@/lib/accent';
+
+/** Everything the board knows about a row beyond the pair itself. */
+export interface RowTrend {
+  mmrDelta: number | null;
+  rankDelta: number | null;
+  form: FormResult[];
+  games: number;
+}
 
 interface Props {
   rows: PairViewModel[];
   view: LeaderboardView;
   sort: SortKey;
-  startRank?: number;
+  windowDays: number;
+  trendByPairId: Map<string, RowTrend>;
+  /** History is still in flight — movement cells show a placeholder rather than
+   *  an em dash, so "loading" never reads as "no data". */
+  trendsLoading: boolean;
   onSortChange: (s: SortKey) => void;
 }
 
@@ -17,21 +32,24 @@ function SortHeader({
   label,
   active,
   onClick,
+  align = 'left',
 }: {
   label: string;
   active: boolean;
   onClick: () => void;
+  align?: 'left' | 'right';
 }) {
   return (
     <button
       type="button"
       onClick={onClick}
+      aria-label={`Sort by ${label}`}
       className={`eyebrow inline-flex items-center gap-1 ${
-        active ? 'text-fg' : 'hover:text-fg'
-      }`}
+        align === 'right' ? 'flex-row-reverse' : ''
+      } ${active ? 'text-fg' : 'hover:text-fg'}`}
     >
       {label}
-      {active && <span aria-hidden>▾</span>}
+      {active && <CaretDown size={8} />}
     </button>
   );
 }
@@ -40,82 +58,133 @@ export function LeaderboardTable({
   rows,
   view,
   sort,
-  startRank = 1,
+  windowDays,
+  trendByPairId,
+  trendsLoading,
   onSortChange,
 }: Props) {
   return (
     <div className="overflow-x-auto">
-      <table className="w-full border-separate border-spacing-y-1.5 text-sm">
+      <table className="w-full min-w-[640px] text-sm">
         <thead>
-          <tr className="text-left align-middle">
-            <th className="w-10 px-2 pb-1 sm:w-14 sm:px-3">
-              <span className="eyebrow">#</span>
-            </th>
-            <th className="px-2 pb-1 sm:px-3">
+          <tr className="border-b border-border text-left align-bottom">
+            <th className="w-9 pb-1.5 pr-2" />
+            <th className="px-2 pb-1.5">
               <span className="eyebrow">Player</span>
             </th>
-            <th className="px-2 pb-1 sm:px-3">
+            <th className="px-2 pb-1.5">
               <span className="eyebrow">Character</span>
             </th>
-            <th className="px-2 pb-1 sm:px-3">
+            <th className="px-2 pb-1.5">
               <SortHeader
                 label="Rank"
                 active={sort === 'rank'}
                 onClick={() => onSortChange('rank')}
               />
             </th>
-            <th className="px-2 pb-1 sm:px-3">
+            <th className="px-2 pb-1.5 text-right">
               <SortHeader
                 label="MMR"
+                align="right"
                 active={sort === 'mmr'}
                 onClick={() => onSortChange('mmr')}
               />
+            </th>
+            <th className="px-2 pb-1.5 text-right">
+              <SortHeader
+                label={`${windowDays}d`}
+                align="right"
+                active={sort === 'delta'}
+                onClick={() => onSortChange('delta')}
+              />
+            </th>
+            <th className="px-2 pb-1.5">
+              <span className="eyebrow">Form</span>
+            </th>
+            <th className="hidden pb-1.5 pl-2 text-right sm:table-cell">
+              <span
+                className="eyebrow"
+                title={`Matches played in the last ${windowDays} days`}
+              >
+                GP
+              </span>
             </th>
           </tr>
         </thead>
         <tbody>
           {rows.map((p, i) => {
-            const pos = startRank + i;
-            const accent = accentColor(p.playerId);
+            const pos = i + 1;
+            const leader = pos === 1;
+            const trend = trendByPairId.get(p.pairId);
             return (
               <tr
                 key={p.pairId}
-                className="group bg-surface/70 transition-colors hover:bg-surface-2"
+                className={`border-b border-border transition-colors hover:bg-surface-2 ${
+                  leader ? 'bg-surface' : ''
+                }`}
               >
-                <td
-                  className="rounded-l px-2 py-2.5 sm:px-3"
-                  style={{ boxShadow: `inset 3px 0 0 ${accent}` }}
-                >
-                  <span className="tabular text-xl leading-none text-muted group-hover:text-fg sm:text-2xl">
+                {/* Champion emphasis, kept inside the ranking rather than lifted
+                    out of it: the leader is still obvious and still comparable. */}
+                <td className="py-1.5 pr-2">
+                  <span
+                    className={`tabular flex h-6 w-7 items-center justify-center text-xs ${
+                      leader ? 'bg-fg font-semibold text-bg' : 'text-muted'
+                    }`}
+                  >
                     {pos}
                   </span>
                 </td>
-                <td className="px-2 py-2.5 sm:px-3">
-                  <PlayerLink playerId={p.playerId} tag={p.playerTag} />
+                <td className="px-2 py-1.5">
+                  <PlayerLink
+                    playerId={p.playerId}
+                    tag={p.playerTag}
+                    strong={leader}
+                    // The identity color only does a job in Pairs view, where one
+                    // person holds several rows. In Players view every row is a
+                    // different person, so it would carry no information (§5.3).
+                    accent={view === 'pairs' ? accentColor(p.playerId) : undefined}
+                  />
                 </td>
-                <td className="whitespace-nowrap px-2 py-2.5 sm:px-3">
-                  <CharacterName slug={p.character} isMain={p.isMain} />
+                <td className="whitespace-nowrap px-2 py-1.5">
+                  <CharacterName
+                    slug={p.character}
+                    isMain={view === 'pairs' && p.isMain}
+                    iconSize={18}
+                  />
                 </td>
-                <td className="whitespace-nowrap px-2 py-2.5 sm:px-3">
+                <td className="whitespace-nowrap px-2 py-1.5">
                   <RankBadge
                     rank={p.rank}
-                    iconSize={22}
+                    iconSize={18}
                     labelClassName="hidden sm:inline"
                   />
                 </td>
-                <td className="rounded-r px-2 py-2.5 sm:px-3">
+                <td className="px-2 py-1.5 text-right">
                   <MmrCell
                     mmr={p.mmr}
                     provisional={p.provisional}
                     confidence={p.confidence}
                   />
                 </td>
+                <td className="whitespace-nowrap px-2 py-1.5 text-right">
+                  <DeltaCell
+                    value={trend?.mmrDelta ?? null}
+                    loading={trendsLoading}
+                    title={rankMoveTitle(trend?.rankDelta ?? null, windowDays)}
+                  />
+                </td>
+                <td className="whitespace-nowrap px-2 py-1.5">
+                  <FormPips results={trend?.form ?? []} loading={trendsLoading} />
+                </td>
+                <td className="tabular hidden py-1.5 pl-2 text-right text-muted sm:table-cell">
+                  {trend ? trend.games : ''}
+                </td>
               </tr>
             );
           })}
           {rows.length === 0 && (
             <tr>
-              <td colSpan={5} className="bg-surface/70 px-3 py-10 text-center text-muted">
+              <td colSpan={8} className="px-2 py-12 text-center text-muted">
                 No qualifying pairs yet — data appears after the first pipeline run.
               </td>
             </tr>
@@ -129,4 +198,11 @@ export function LeaderboardTable({
       )}
     </div>
   );
+}
+
+function rankMoveTitle(rankDelta: number | null, days: number): string | undefined {
+  if (rankDelta == null || rankDelta === 0) return undefined;
+  const n = Math.abs(rankDelta);
+  const dir = rankDelta > 0 ? 'up' : 'down';
+  return `${n} rank ${n === 1 ? 'tier' : 'tiers'} ${dir} in ${days}d`;
 }
