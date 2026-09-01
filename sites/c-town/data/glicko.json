@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T22:16:23.571Z",
+  "generatedAt": "2026-09-01T02:59:32.811Z",
   "pairs": [
     {
       "character": "lili",
@@ -55,6 +55,17 @@
       "provisional": false,
       "rating": 1806,
       "sigmaSquared": 73
+    },
+    {
+      "character": "bob",
+      "confidence": "provisional",
+      "games": 11,
+      "lastUpdated": "2026-09-01T00:48:39.000Z",
+      "pairId": "32Jb-yqQN-3MMJ:bob",
+      "playerId": "nyx",
+      "provisional": true,
+      "rating": 1246,
+      "sigmaSquared": 132
     },
     {
       "character": "steve",
@@ -224,13 +235,13 @@
     {
       "character": "bob",
       "confidence": "leaderboard",
-      "games": 85,
-      "lastUpdated": "2026-08-31T22:14:19.000Z",
+      "games": 99,
+      "lastUpdated": "2026-09-01T02:54:54.000Z",
       "pairId": "3JAY-QR5R-dNJh:bob",
       "playerId": "nullified",
       "provisional": false,
-      "rating": 1775,
-      "sigmaSquared": 64
+      "rating": 1665,
+      "sigmaSquared": 63
     },
     {
       "character": "claudio",

@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 4960,
+  "basedOnMatchCount": 4990,
   "charMatchups": {
     "bigman:bob|fop:reina": {
       "matchesA": 1,
@@ -174,7 +174,7 @@
       "matchesB": 0
     },
     "burny:paul|mickrus:jin": {
-      "matchesA": 23,
+      "matchesA": 32,
       "matchesB": 3
     },
     "burny:paul|mickrus:lee": {
@@ -390,7 +390,7 @@
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-08-31T22:16:23.571Z",
+  "generatedAt": "2026-09-01T02:59:32.811Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 2,
@@ -477,10 +477,10 @@
       "roundsB": 2
     },
     "burny|mickrus": {
-      "matchesA": 51,
+      "matchesA": 60,
       "matchesB": 12,
-      "roundsA": 168,
-      "roundsB": 89
+      "roundsA": 195,
+      "roundsB": 94
     },
     "burny|stone": {
       "matchesA": 15,
@@ -611,15 +611,15 @@
         "clive": 2,
         "dragunov": 1,
         "hwoarang": 50,
-        "paul": 338,
+        "paul": 347,
         "shaheen": 1,
         "victor": 198
       },
       "matchLosses": 120,
-      "matchWins": 486,
+      "matchWins": 495,
       "mostPlayedCharacter": "paul",
-      "totalMatches": 606,
-      "winRate": 0.802
+      "totalMatches": 615,
+      "winRate": 0.805
     },
     "chamk": {
       "charUsage": {
@@ -706,48 +706,48 @@
         "bryan": 4,
         "dragunov": 27,
         "heihachi": 27,
-        "jin": 39,
+        "jin": 48,
         "kazuya": 10,
         "lee": 111,
         "paul": 3
       },
-      "matchLosses": 141,
+      "matchLosses": 150,
       "matchWins": 80,
       "mostPlayedCharacter": "lee",
-      "totalMatches": 221,
-      "winRate": 0.362
+      "totalMatches": 230,
+      "winRate": 0.348
     },
     "nullified": {
       "charUsage": {
         "armor_king": 311,
         "asuka": 46,
-        "bob": 259,
+        "bob": 273,
         "claudio": 81,
         "clive": 275,
         "dragunov": 107,
         "fahkumram": 255,
         "heihachi": 12
       },
-      "matchLosses": 492,
-      "matchWins": 854,
+      "matchLosses": 502,
+      "matchWins": 858,
       "mostPlayedCharacter": "armor_king",
-      "totalMatches": 1346,
-      "winRate": 0.634
+      "totalMatches": 1360,
+      "winRate": 0.631
     },
     "nyx": {
       "charUsage": {
-        "bob": 4,
+        "bob": 11,
         "eddy": 1,
         "jin": 1,
         "kazuya": 1,
         "paul": 7,
         "steve": 40
       },
-      "matchLosses": 38,
+      "matchLosses": 45,
       "matchWins": 16,
       "mostPlayedCharacter": "steve",
-      "totalMatches": 54,
-      "winRate": 0.296
+      "totalMatches": 61,
+      "winRate": 0.262
     },
     "slashuur": {
       "charUsage": {
