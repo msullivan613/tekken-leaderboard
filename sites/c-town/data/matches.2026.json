@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T15:53:56.928Z",
+  "generatedAt": "2026-09-01T20:23:26.798Z",
   "matches": [
     {
       "a": {
@@ -103408,6 +103408,52 @@
       "roundsA": 3,
       "roundsB": 1,
       "winner": "a"
+    },
+    {
+      "a": {
+        "character": "king",
+        "name": "NostalgicNate",
+        "playerId": null,
+        "polarisId": "2j2hatTH62hQ",
+        "rank": "god_of_destruction_i"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "c0fd5e8511d84a0ea6fe96793d691b31",
+      "playedAt": "2026-08-31T20:47:34.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "steve",
+        "name": "FG ProbablyHigh",
+        "playerId": null,
+        "polarisId": "4RaYnyFb42jE",
+        "rank": "god_of_destruction_i"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "85d958446e004bb49c4eeab6d8cea2a0",
+      "playedAt": "2026-08-31T20:51:12.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
     }
   ],
   "schemaVersion": 2,
