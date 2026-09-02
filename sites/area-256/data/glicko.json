@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T02:18:55.684Z",
+  "generatedAt": "2026-09-02T10:21:06.522Z",
   "pairs": [
     {
       "character": "leroy",
@@ -191,13 +191,13 @@
     {
       "character": "bob",
       "confidence": "leaderboard",
-      "games": 158,
-      "lastUpdated": "2026-09-01T09:15:51.000Z",
+      "games": 168,
+      "lastUpdated": "2026-09-02T08:36:53.000Z",
       "pairId": "3H47-D6Qb-FDBr:bob",
       "playerId": "kragsloor",
       "provisional": false,
-      "rating": 1978,
-      "sigmaSquared": 62
+      "rating": 1955,
+      "sigmaSquared": 63
     },
     {
       "character": "bryan",
@@ -499,13 +499,13 @@
     {
       "character": "bob",
       "confidence": "leaderboard",
-      "games": 110,
-      "lastUpdated": "2026-08-28T05:21:51.000Z",
+      "games": 209,
+      "lastUpdated": "2026-09-02T09:27:12.000Z",
       "pairId": "44eg-BAHA-424E:bob",
       "playerId": "rev_grizz",
       "provisional": false,
-      "rating": 1834,
-      "sigmaSquared": 64
+      "rating": 1733,
+      "sigmaSquared": 62
     },
     {
       "character": "bryan",
@@ -686,13 +686,13 @@
     {
       "character": "kazuya",
       "confidence": "leaderboard",
-      "games": 3222,
-      "lastUpdated": "2026-09-01T03:16:46.000Z",
+      "games": 3250,
+      "lastUpdated": "2026-09-02T04:54:32.000Z",
       "pairId": "4FE3-J976-Qray:kazuya",
       "playerId": "eonexodus",
       "provisional": false,
-      "rating": 1486,
-      "sigmaSquared": 62
+      "rating": 1433,
+      "sigmaSquared": 63
     },
     {
       "character": "shaheen",
@@ -1016,46 +1016,46 @@
     {
       "character": "azucena",
       "confidence": "leaderboard",
-      "games": 7906,
-      "lastUpdated": "2026-09-01T04:38:42.000Z",
+      "games": 7932,
+      "lastUpdated": "2026-09-02T06:34:58.000Z",
       "pairId": "5HyE-nHGe-rLJ8:azucena",
       "playerId": "phine",
       "provisional": false,
-      "rating": 2337,
+      "rating": 2321,
       "sigmaSquared": 64
     },
     {
       "character": "jun",
       "confidence": "leaderboard",
-      "games": 3214,
-      "lastUpdated": "2026-08-30T22:57:41.000Z",
+      "games": 3217,
+      "lastUpdated": "2026-09-02T06:12:02.000Z",
       "pairId": "5HyE-nHGe-rLJ8:jun",
       "playerId": "phine",
       "provisional": false,
-      "rating": 2050,
+      "rating": 2046,
       "sigmaSquared": 62
     },
     {
       "character": "kunimitsu",
       "confidence": "leaderboard",
-      "games": 108,
-      "lastUpdated": "2026-08-30T07:41:22.000Z",
+      "games": 117,
+      "lastUpdated": "2026-09-02T06:00:25.000Z",
       "pairId": "5HyE-nHGe-rLJ8:kunimitsu",
       "playerId": "phine",
       "provisional": false,
-      "rating": 1862,
+      "rating": 1865,
       "sigmaSquared": 63
     },
     {
       "character": "paul",
-      "confidence": "unqualified",
-      "games": 279,
-      "lastUpdated": "2026-08-29T06:36:17.000Z",
+      "confidence": "leaderboard",
+      "games": 295,
+      "lastUpdated": "2026-09-02T06:20:40.000Z",
       "pairId": "5HyE-nHGe-rLJ8:paul",
       "playerId": "phine",
       "provisional": false,
-      "rating": 1816,
-      "sigmaSquared": 88
+      "rating": 1820,
+      "sigmaSquared": 73
     }
   ],
   "schemaVersion": 1,
