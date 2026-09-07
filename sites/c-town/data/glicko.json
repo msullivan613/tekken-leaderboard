@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T19:51:33.559Z",
+  "generatedAt": "2026-09-07T02:16:40.780Z",
   "pairs": [
     {
       "character": "lili",
@@ -58,14 +58,14 @@
     },
     {
       "character": "bob",
-      "confidence": "provisional",
-      "games": 11,
-      "lastUpdated": "2026-09-01T00:48:39.000Z",
+      "confidence": "unqualified",
+      "games": 22,
+      "lastUpdated": "2026-09-06T23:34:14.000Z",
       "pairId": "32Jb-yqQN-3MMJ:bob",
       "playerId": "nyx",
-      "provisional": true,
-      "rating": 1246,
-      "sigmaSquared": 133
+      "provisional": false,
+      "rating": 1363,
+      "sigmaSquared": 100
     },
     {
       "character": "steve",
@@ -334,13 +334,13 @@
     {
       "character": "panda",
       "confidence": "leaderboard",
-      "games": 620,
-      "lastUpdated": "2026-09-06T03:58:05.000Z",
+      "games": 639,
+      "lastUpdated": "2026-09-06T21:38:27.000Z",
       "pairId": "4899-Drd8-678h:panda",
       "playerId": "bigman",
       "provisional": false,
-      "rating": 1988,
-      "sigmaSquared": 65
+      "rating": 2040,
+      "sigmaSquared": 64
     },
     {
       "character": "reina",
