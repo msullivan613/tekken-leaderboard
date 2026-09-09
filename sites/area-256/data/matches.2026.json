@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T10:33:21.221Z",
+  "generatedAt": "2026-09-09T15:43:12.384Z",
   "matches": [
     {
       "a": {
@@ -306593,6 +306593,29 @@
     },
     {
       "a": {
+        "character": "steve",
+        "name": "'   '",
+        "playerId": null,
+        "polarisId": "27fb68LjyYdr",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Kragsloor",
+        "playerId": "kragsloor",
+        "polarisId": "3H47D6QbFDBr",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "21454fe387fb48b2848a4c989e11dac4",
+      "playedAt": "2026-09-06T05:47:15.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
         "character": "king",
         "name": "SkRt",
         "playerId": "skrt",
@@ -306611,6 +306634,29 @@
       "id": "0d913489fcd1485ea1af8472ce174ac4",
       "playedAt": "2026-09-06T05:49:22.000Z",
       "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "steve",
+        "name": "'   '",
+        "playerId": null,
+        "polarisId": "27fb68LjyYdr",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Kragsloor",
+        "playerId": "kragsloor",
+        "polarisId": "3H47D6QbFDBr",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "3b8260dbaf78426ab5bd74876392a6d0",
+      "playedAt": "2026-09-06T05:49:42.000Z",
+      "roundsA": 0,
       "roundsB": 3,
       "winner": "b"
     },
@@ -308246,6 +308292,98 @@
       "roundsA": 2,
       "roundsB": 3,
       "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Kragsloor",
+        "playerId": "kragsloor",
+        "polarisId": "3H47D6QbFDBr",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "jin",
+        "name": "Rizel",
+        "playerId": null,
+        "polarisId": "5MrrEq7rjqQh",
+        "rank": "god_of_destruction_i"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "6d2af06714344aa8b503311348a895aa",
+      "playedAt": "2026-09-06T09:02:09.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Kragsloor",
+        "playerId": "kragsloor",
+        "polarisId": "3H47D6QbFDBr",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "jin",
+        "name": "Rizel",
+        "playerId": null,
+        "polarisId": "5MrrEq7rjqQh",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "84fec300958a4926b55bc012fd0dbf7b",
+      "playedAt": "2026-09-06T09:05:06.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Kragsloor",
+        "playerId": "kragsloor",
+        "polarisId": "3H47D6QbFDBr",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "panda",
+        "name": "EmployeesOnly",
+        "playerId": null,
+        "polarisId": "5HJbeBGmJMBj",
+        "rank": "tekken_god"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "f25d7d48865741b8b9825240e19f52c7",
+      "playedAt": "2026-09-06T09:09:08.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Kragsloor",
+        "playerId": "kragsloor",
+        "polarisId": "3H47D6QbFDBr",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "panda",
+        "name": "EmployeesOnly",
+        "playerId": null,
+        "polarisId": "5HJbeBGmJMBj",
+        "rank": "tekken_god"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "88beffaa7646498aaeffbb79d0c503e2",
+      "playedAt": "2026-09-06T09:12:12.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
     },
     {
       "a": {
