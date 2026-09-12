@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 282,
   "feedMatchCount": 288,
-  "generatedAt": "2026-09-12T14:47:21.532Z",
+  "generatedAt": "2026-09-12T19:59:47.668Z",
   "matches": [
     {
       "a": {
@@ -10474,75 +10474,6 @@
         "name": "Thingama",
         "playerId": "nyx",
         "polarisId": "32JbyqQN3MMJ",
-        "rank": "fighter"
-      },
-      "b": {
-        "character": "jin",
-        "name": "dudeofkarate",
-        "playerId": null,
-        "polarisId": "4ymrD5bbfA8j",
-        "rank": "fighter"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "7a44a3c4803f4872837868e7a53c6617",
-      "playedAt": "2026-09-11T02:59:36.000Z",
-      "roundsA": 3,
-      "roundsB": 1,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "fighter"
-      },
-      "b": {
-        "character": "jin",
-        "name": "dudeofkarate",
-        "playerId": null,
-        "polarisId": "4ymrD5bbfA8j",
-        "rank": "fighter"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "624a6fae9b1a4c959e3c27300d895ae1",
-      "playedAt": "2026-09-11T03:02:15.000Z",
-      "roundsA": 3,
-      "roundsB": 0,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "strategist"
-      },
-      "b": {
-        "character": "law",
-        "name": "Pause",
-        "playerId": null,
-        "polarisId": "4dmJQ9LBga2a",
-        "rank": "brawler"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "fe4e3abcae564228b5dddffc085c2aa5",
-      "playedAt": "2026-09-11T03:07:02.000Z",
-      "roundsA": 2,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
         "rank": "strategist"
       },
       "b": {
@@ -13112,6 +13043,75 @@
       "roundsA": 3,
       "roundsB": 0,
       "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "ranger"
+      },
+      "b": {
+        "character": "bob",
+        "name": "OkiPoki",
+        "playerId": null,
+        "polarisId": "65fFfiBin78a",
+        "rank": "assailant"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "6ef763be64d342bd9c9f17d9b3a38074",
+      "playedAt": "2026-09-12T15:35:10.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "ranger"
+      },
+      "b": {
+        "character": "bob",
+        "name": "OkiPoki",
+        "playerId": null,
+        "polarisId": "65fFfiBin78a",
+        "rank": "assailant"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "7d4654feb0374e9e9a0b6633821df023",
+      "playedAt": "2026-09-12T15:37:24.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "ranger"
+      },
+      "b": {
+        "character": "bob",
+        "name": "OkiPoki",
+        "playerId": null,
+        "polarisId": "65fFfiBin78a",
+        "rank": "assailant"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "7b0394961a9c4f3eb5bbc5f80f85f150",
+      "playedAt": "2026-09-12T15:39:33.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
     }
   ],
   "schemaVersion": 2,
