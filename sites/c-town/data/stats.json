@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 6204,
+  "basedOnMatchCount": 6226,
   "charMatchups": {
     "bigman:bob|fop:reina": {
       "matchesA": 1,
@@ -58,8 +58,8 @@
       "matchesB": 0
     },
     "bigman:kuma|fop:reina": {
-      "matchesA": 22,
-      "matchesB": 29
+      "matchesA": 25,
+      "matchesB": 31
     },
     "bigman:kuma|gnarlyidk:panda": {
       "matchesA": 1,
@@ -74,6 +74,10 @@
       "matchesB": 2
     },
     "bigman:kuma|nullified:bob": {
+      "matchesA": 2,
+      "matchesB": 0
+    },
+    "bigman:kuma|nyx:bob": {
       "matchesA": 2,
       "matchesB": 0
     },
@@ -118,6 +122,10 @@
       "matchesB": 1
     },
     "bigman:panda|fop:armor_king": {
+      "matchesA": 2,
+      "matchesB": 0
+    },
+    "bigman:panda|fop:devil_jin": {
       "matchesA": 1,
       "matchesB": 0
     },
@@ -317,6 +325,10 @@
       "matchesA": 4,
       "matchesB": 0
     },
+    "fop:devil_jin|nyx:bob": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
     "fop:devil_jin|sugarfree:bryan": {
       "matchesA": 1,
       "matchesB": 1
@@ -346,7 +358,7 @@
       "matchesB": 0
     },
     "fop:reina|nyx:bob": {
-      "matchesA": 12,
+      "matchesA": 13,
       "matchesB": 0
     },
     "fop:reina|stone:dragunov": {
@@ -430,7 +442,7 @@
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-09-12T19:59:47.668Z",
+  "generatedAt": "2026-09-13T02:32:33.187Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 2,
@@ -451,10 +463,10 @@
       "roundsB": 2
     },
     "bigman|fop": {
-      "matchesA": 32,
-      "matchesB": 48,
-      "roundsA": 132,
-      "roundsB": 180
+      "matchesA": 37,
+      "matchesB": 50,
+      "roundsA": 150,
+      "roundsB": 191
     },
     "bigman|gnarlyidk": {
       "matchesA": 1,
@@ -481,10 +493,10 @@
       "roundsB": 2
     },
     "bigman|nyx": {
-      "matchesA": 9,
+      "matchesA": 11,
       "matchesB": 0,
-      "roundsA": 27,
-      "roundsB": 7
+      "roundsA": 33,
+      "roundsB": 8
     },
     "bigman|slashuur": {
       "matchesA": 2,
@@ -583,9 +595,9 @@
       "roundsB": 3
     },
     "fop|nyx": {
-      "matchesA": 48,
+      "matchesA": 50,
       "matchesB": 9,
-      "roundsA": 159,
+      "roundsA": 165,
       "roundsB": 57
     },
     "fop|stone": {
@@ -637,18 +649,18 @@
         "bob": 42,
         "heihachi": 53,
         "king": 1,
-        "kuma": 1387,
+        "kuma": 1395,
         "kunimitsu": 13,
         "nina": 8,
-        "panda": 198,
-        "paul": 2,
+        "panda": 200,
+        "paul": 3,
         "reina": 7
       },
-      "matchLosses": 860,
-      "matchWins": 851,
+      "matchLosses": 863,
+      "matchWins": 859,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 1711,
-      "winRate": 0.497
+      "totalMatches": 1722,
+      "winRate": 0.499
     },
     "burny": {
       "charUsage": {
@@ -706,9 +718,9 @@
     },
     "fop": {
       "charUsage": {
-        "armor_king": 4,
+        "armor_king": 5,
         "asuka": 4,
-        "devil_jin": 7,
+        "devil_jin": 10,
         "dragunov": 4,
         "feng": 2,
         "jack8": 1,
@@ -718,15 +730,15 @@
         "leroy": 8,
         "lili": 4,
         "paul": 31,
-        "reina": 656,
+        "reina": 670,
         "steve": 1,
         "xiaoyu": 1
       },
-      "matchLosses": 290,
-      "matchWins": 449,
+      "matchLosses": 295,
+      "matchWins": 462,
       "mostPlayedCharacter": "reina",
-      "totalMatches": 739,
-      "winRate": 0.608
+      "totalMatches": 757,
+      "winRate": 0.61
     },
     "gnarlyidk": {
       "charUsage": {
@@ -785,18 +797,18 @@
     },
     "nyx": {
       "charUsage": {
-        "bob": 194,
+        "bob": 198,
         "eddy": 1,
         "jin": 1,
         "kazuya": 1,
         "paul": 7,
         "steve": 41
       },
-      "matchLosses": 151,
+      "matchLosses": 155,
       "matchWins": 94,
       "mostPlayedCharacter": "bob",
-      "totalMatches": 245,
-      "winRate": 0.384
+      "totalMatches": 249,
+      "winRate": 0.378
     },
     "slashuur": {
       "charUsage": {
