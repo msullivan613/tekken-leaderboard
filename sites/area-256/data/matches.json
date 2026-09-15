@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 0,
   "feedMatchCount": 535,
-  "generatedAt": "2026-09-15T16:00:33.146Z",
+  "generatedAt": "2026-09-15T20:43:40.800Z",
   "matches": [
     {
       "a": {
@@ -5865,52 +5865,6 @@
       "id": "08b1ad5a379143ac9f3f34bcdeb399ff",
       "playedAt": "2026-09-10T22:41:16.000Z",
       "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Nullified",
-        "playerId": "nullified",
-        "polarisId": "3JAYQR5RdNJh",
-        "rank": "god_of_destruction_iv"
-      },
-      "b": {
-        "character": "panda",
-        "name": "norwood",
-        "playerId": null,
-        "polarisId": "5BmFQjNRrhfG",
-        "rank": "god_of_destruction_ii"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "3c38dc2fd5d049398427a116e95a3655",
-      "playedAt": "2026-09-11T23:09:46.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Nullified",
-        "playerId": "nullified",
-        "polarisId": "3JAYQR5RdNJh",
-        "rank": "god_of_destruction_iv"
-      },
-      "b": {
-        "character": "king",
-        "name": "Nico",
-        "playerId": null,
-        "polarisId": "64hEygjJ6t4f",
-        "rank": "god_of_destruction_ii"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "e0f35cf4e5dd490e9387e2f3738a9a97",
-      "playedAt": "2026-09-11T23:16:33.000Z",
-      "roundsA": 2,
       "roundsB": 3,
       "winner": "b"
     },
@@ -12305,6 +12259,52 @@
       "id": "20a955fcea6c4609aa1c598964f3d14f",
       "playedAt": "2026-09-15T14:24:07.000Z",
       "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "jack8",
+        "name": "Jumbomixer",
+        "playerId": null,
+        "polarisId": "2EQMY9jGJDMf",
+        "rank": "god_of_destruction_i"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "1b4725680321487e9b7e797a45d50b33",
+      "playedAt": "2026-09-15T20:38:11.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "jack8",
+        "name": "Jumbomixer",
+        "playerId": null,
+        "polarisId": "2EQMY9jGJDMf",
+        "rank": "god_of_destruction_i"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "166f53daf5a3494289fe8d8358d16e50",
+      "playedAt": "2026-09-15T20:41:01.000Z",
+      "roundsA": 1,
       "roundsB": 3,
       "winner": "b"
     }

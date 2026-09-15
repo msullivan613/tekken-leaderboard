@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 296,
   "feedMatchCount": 254,
-  "generatedAt": "2026-09-15T16:01:25.345Z",
+  "generatedAt": "2026-09-15T20:44:31.783Z",
   "matches": [
     {
       "a": {
@@ -10332,75 +10332,6 @@
     },
     {
       "a": {
-        "character": "bob",
-        "name": "Nullified",
-        "playerId": "nullified",
-        "polarisId": "3JAYQR5RdNJh",
-        "rank": "god_of_destruction_iii"
-      },
-      "b": {
-        "character": "feng",
-        "name": "X_BloodShinez_X",
-        "playerId": null,
-        "polarisId": "5r3HL39AjJjB",
-        "rank": "god_of_destruction_i"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "0f1a2da906aa4fcab8539b3427e6663e",
-      "playedAt": "2026-09-13T17:30:24.000Z",
-      "roundsA": 3,
-      "roundsB": 0,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Nullified",
-        "playerId": "nullified",
-        "polarisId": "3JAYQR5RdNJh",
-        "rank": "god_of_destruction_iii"
-      },
-      "b": {
-        "character": "feng",
-        "name": "X_BloodShinez_X",
-        "playerId": null,
-        "polarisId": "5r3HL39AjJjB",
-        "rank": "god_of_destruction_i"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "811e81c50aa94d4ca7a890d286aa07e8",
-      "playedAt": "2026-09-13T17:34:41.000Z",
-      "roundsA": 3,
-      "roundsB": 2,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "king",
-        "name": "Thelar",
-        "playerId": null,
-        "polarisId": "2mabBmYQGFAd",
-        "rank": "tekken_king"
-      },
-      "b": {
-        "character": "jin",
-        "name": "Nullified",
-        "playerId": "nullified",
-        "polarisId": "3JAYQR5RdNJh",
-        "rank": "god_of_destruction"
-      },
-      "battleType": "group",
-      "crew": false,
-      "id": "ewgf:2mabBmYQGFAd-3JAYQR5RdNJh:1789321223",
-      "playedAt": "2026-09-13T17:40:23.000Z",
-      "roundsA": 3,
-      "roundsB": 0,
-      "winner": "a"
-    },
-    {
-      "a": {
         "character": "king",
         "name": "Thelar",
         "playerId": null,
@@ -12650,6 +12581,75 @@
       "id": "8b76ce688c484fca9da560838f97de67",
       "playedAt": "2026-09-15T07:20:09.000Z",
       "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "jack8",
+        "name": "Jumbomixer",
+        "playerId": null,
+        "polarisId": "2EQMY9jGJDMf",
+        "rank": "god_of_destruction_i"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "1b4725680321487e9b7e797a45d50b33",
+      "playedAt": "2026-09-15T20:38:11.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "jack8",
+        "name": "Jumbomixer",
+        "playerId": null,
+        "polarisId": "2EQMY9jGJDMf",
+        "rank": "god_of_destruction_i"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "166f53daf5a3494289fe8d8358d16e50",
+      "playedAt": "2026-09-15T20:41:01.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Cadet_Spyro-",
+        "playerId": null,
+        "polarisId": "4mT4n38MRrf8",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "f22d293c1fb84a0894351861e8bf294e",
+      "playedAt": "2026-09-15T20:44:05.000Z",
+      "roundsA": 0,
       "roundsB": 3,
       "winner": "b"
     }
