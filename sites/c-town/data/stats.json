@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 6338,
+  "basedOnMatchCount": 6363,
   "charMatchups": {
     "bigman:bob|fop:reina": {
       "matchesA": 1,
@@ -194,8 +194,8 @@
       "matchesB": 1
     },
     "burny:paul|fop:reina": {
-      "matchesA": 11,
-      "matchesB": 0
+      "matchesA": 17,
+      "matchesB": 1
     },
     "burny:paul|mickrus:heihachi": {
       "matchesA": 4,
@@ -442,7 +442,7 @@
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-09-15T02:51:24.969Z",
+  "generatedAt": "2026-09-15T10:49:54.145Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 2,
@@ -517,10 +517,10 @@
       "roundsB": 59
     },
     "burny|fop": {
-      "matchesA": 19,
-      "matchesB": 3,
-      "roundsA": 59,
-      "roundsB": 27
+      "matchesA": 25,
+      "matchesB": 4,
+      "roundsA": 79,
+      "roundsB": 35
     },
     "burny|gnarlyidk": {
       "matchesA": 1,
@@ -669,15 +669,15 @@
         "clive": 2,
         "dragunov": 1,
         "hwoarang": 50,
-        "paul": 388,
+        "paul": 401,
         "shaheen": 1,
         "victor": 221
       },
-      "matchLosses": 137,
-      "matchWins": 542,
+      "matchLosses": 138,
+      "matchWins": 554,
       "mostPlayedCharacter": "paul",
-      "totalMatches": 679,
-      "winRate": 0.798
+      "totalMatches": 692,
+      "winRate": 0.801
     },
     "chamk": {
       "charUsage": {
@@ -732,16 +732,16 @@
         "leroy": 8,
         "lili": 4,
         "paul": 34,
-        "reina": 687,
+        "reina": 706,
         "shaheen": 5,
         "steve": 1,
         "xiaoyu": 1
       },
-      "matchLosses": 301,
-      "matchWins": 487,
+      "matchLosses": 313,
+      "matchWins": 494,
       "mostPlayedCharacter": "reina",
-      "totalMatches": 788,
-      "winRate": 0.618
+      "totalMatches": 807,
+      "winRate": 0.612
     },
     "gnarlyidk": {
       "charUsage": {
