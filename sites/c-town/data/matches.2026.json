@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T02:50:35.944Z",
+  "generatedAt": "2026-09-17T10:47:26.324Z",
   "matches": [
     {
       "a": {
@@ -130850,6 +130850,190 @@
     },
     {
       "a": {
+        "character": "kunimitsu",
+        "name": "Keriatric",
+        "playerId": null,
+        "polarisId": "2RN4EhGefmjf",
+        "rank": "brawler"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "combatant"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "f3dc6c3d566348129ea796d10caf8f77",
+      "playedAt": "2026-09-11T03:35:07.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kunimitsu",
+        "name": "Keriatric",
+        "playerId": null,
+        "polarisId": "2RN4EhGefmjf",
+        "rank": "brawler"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "combatant"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "e3e0c1ba511d4525a1b9b1bfb0e84581",
+      "playedAt": "2026-09-11T03:37:29.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "combatant"
+      },
+      "b": {
+        "character": "anna",
+        "name": "WhoKnewIwasAbos",
+        "playerId": null,
+        "polarisId": "5iaimdnfhRdQ",
+        "rank": "combatant"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "c548764db058405a93a66fba9c5f5d4f",
+      "playedAt": "2026-09-11T03:40:29.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "combatant"
+      },
+      "b": {
+        "character": "anna",
+        "name": "WhoKnewIwasAbos",
+        "playerId": null,
+        "polarisId": "5iaimdnfhRdQ",
+        "rank": "combatant"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "c139f79acdeb46fd85edbf778d06a7c0",
+      "playedAt": "2026-09-11T03:43:52.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "brawler"
+      },
+      "b": {
+        "character": "alisa",
+        "name": "Jellycheese",
+        "playerId": null,
+        "polarisId": "3aYFRQT9mLqd",
+        "rank": "ranger"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "cd06de39b2714b4abba01b53cf4e5061",
+      "playedAt": "2026-09-11T03:48:57.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "brawler"
+      },
+      "b": {
+        "character": "asuka",
+        "name": "digitaltrash",
+        "playerId": null,
+        "polarisId": "5RbhjgAmrDn2",
+        "rank": "ranger"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "f88da92afc924acba9e0919ed123f331",
+      "playedAt": "2026-09-11T03:51:25.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "brawler"
+      },
+      "b": {
+        "character": "asuka",
+        "name": "digitaltrash",
+        "playerId": null,
+        "polarisId": "5RbhjgAmrDn2",
+        "rank": "ranger"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "576a4f66cd7f4f36b5656bfcfc5bbd7a",
+      "playedAt": "2026-09-11T03:55:02.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "brawler"
+      },
+      "b": {
+        "character": "asuka",
+        "name": "digitaltrash",
+        "playerId": null,
+        "polarisId": "5RbhjgAmrDn2",
+        "rank": "ranger"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "1d342bcccd724a92b9fc4d936cb0f46a",
+      "playedAt": "2026-09-11T03:58:01.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
         "character": "armor_king",
         "name": "Dojo337xstaunch",
         "playerId": null,
@@ -133561,6 +133745,374 @@
       "roundsA": 3,
       "roundsB": 1,
       "winner": "a"
+    },
+    {
+      "a": {
+        "character": "reina",
+        "name": "FopFopFop",
+        "playerId": "fop",
+        "polarisId": "3E4Rn7J9e32T",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "flame_ruler"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3E4Rn7J9e32T-3iqqr8HaEjtn:1789274208",
+      "playedAt": "2026-09-13T04:36:48.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "reina",
+        "name": "FopFopFop",
+        "playerId": "fop",
+        "polarisId": "3E4Rn7J9e32T",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "flame_ruler"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3E4Rn7J9e32T-3iqqr8HaEjtn:1789274378",
+      "playedAt": "2026-09-13T04:39:38.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "reina",
+        "name": "FopFopFop",
+        "playerId": "fop",
+        "polarisId": "3E4Rn7J9e32T",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "flame_ruler"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3E4Rn7J9e32T-3iqqr8HaEjtn:1789274513",
+      "playedAt": "2026-09-13T04:41:53.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "reina",
+        "name": "FopFopFop",
+        "playerId": "fop",
+        "polarisId": "3E4Rn7J9e32T",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "flame_ruler"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3E4Rn7J9e32T-3iqqr8HaEjtn:1789274672",
+      "playedAt": "2026-09-13T04:44:32.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "reina",
+        "name": "FopFopFop",
+        "playerId": "fop",
+        "polarisId": "3E4Rn7J9e32T",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "flame_ruler"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3E4Rn7J9e32T-3iqqr8HaEjtn:1789274810",
+      "playedAt": "2026-09-13T04:46:50.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "reina",
+        "name": "FopFopFop",
+        "playerId": "fop",
+        "polarisId": "3E4Rn7J9e32T",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "flame_ruler"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3E4Rn7J9e32T-3iqqr8HaEjtn:1789274928",
+      "playedAt": "2026-09-13T04:48:48.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "reina",
+        "name": "FopFopFop",
+        "playerId": "fop",
+        "polarisId": "3E4Rn7J9e32T",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "flame_ruler"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3E4Rn7J9e32T-3iqqr8HaEjtn:1789275155",
+      "playedAt": "2026-09-13T04:52:35.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "reina",
+        "name": "FopFopFop",
+        "playerId": "fop",
+        "polarisId": "3E4Rn7J9e32T",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "flame_ruler"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3E4Rn7J9e32T-3iqqr8HaEjtn:1789275377",
+      "playedAt": "2026-09-13T04:56:17.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "reina",
+        "name": "FopFopFop",
+        "playerId": "fop",
+        "polarisId": "3E4Rn7J9e32T",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "flame_ruler"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3E4Rn7J9e32T-3iqqr8HaEjtn:1789275516",
+      "playedAt": "2026-09-13T04:58:36.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "reina",
+        "name": "FopFopFop",
+        "playerId": "fop",
+        "polarisId": "3E4Rn7J9e32T",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "flame_ruler"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3E4Rn7J9e32T-3iqqr8HaEjtn:1789275755",
+      "playedAt": "2026-09-13T05:02:35.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "paul",
+        "name": "FopFopFop",
+        "playerId": "fop",
+        "polarisId": "3E4Rn7J9e32T",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "flame_ruler"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3E4Rn7J9e32T-3iqqr8HaEjtn:1789275928",
+      "playedAt": "2026-09-13T05:05:28.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "paul",
+        "name": "FopFopFop",
+        "playerId": "fop",
+        "polarisId": "3E4Rn7J9e32T",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "flame_ruler"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3E4Rn7J9e32T-3iqqr8HaEjtn:1789276123",
+      "playedAt": "2026-09-13T05:08:43.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "paul",
+        "name": "FopFopFop",
+        "playerId": "fop",
+        "polarisId": "3E4Rn7J9e32T",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "flame_ruler"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3E4Rn7J9e32T-3iqqr8HaEjtn:1789276259",
+      "playedAt": "2026-09-13T05:10:59.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "feng",
+        "name": "FopFopFop",
+        "playerId": "fop",
+        "polarisId": "3E4Rn7J9e32T",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "flame_ruler"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3E4Rn7J9e32T-3iqqr8HaEjtn:1789276514",
+      "playedAt": "2026-09-13T05:15:14.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "feng",
+        "name": "FopFopFop",
+        "playerId": "fop",
+        "polarisId": "3E4Rn7J9e32T",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "flame_ruler"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3E4Rn7J9e32T-3iqqr8HaEjtn:1789276713",
+      "playedAt": "2026-09-13T05:18:33.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "feng",
+        "name": "FopFopFop",
+        "playerId": "fop",
+        "polarisId": "3E4Rn7J9e32T",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "flame_ruler"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3E4Rn7J9e32T-3iqqr8HaEjtn:1789276962",
+      "playedAt": "2026-09-13T05:22:42.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
     },
     {
       "a": {
