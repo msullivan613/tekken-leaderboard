@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T15:35:10.871Z",
+  "generatedAt": "2026-09-18T20:15:01.340Z",
   "matches": [
     {
       "a": {
@@ -354105,6 +354105,121 @@
       "crew": false,
       "id": "c4dab931bd2e449c85d17d395cfb5358",
       "playedAt": "2026-09-16T19:55:09.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Kragsloor",
+        "playerId": "kragsloor",
+        "polarisId": "3H47D6QbFDBr",
+        "rank": "god_of_destruction_iv"
+      },
+      "b": {
+        "character": "bob",
+        "name": "minusNice",
+        "playerId": null,
+        "polarisId": "3iEmfRQbjAyy",
+        "rank": "god_of_destruction_i"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "0e4c0c7efa25493c8a5ee4da7faf293d",
+      "playedAt": "2026-09-16T19:57:11.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Kragsloor",
+        "playerId": "kragsloor",
+        "polarisId": "3H47D6QbFDBr",
+        "rank": "god_of_destruction_iv"
+      },
+      "b": {
+        "character": "bob",
+        "name": "minusNice",
+        "playerId": null,
+        "polarisId": "3iEmfRQbjAyy",
+        "rank": "god_of_destruction_i"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "62e656b8e4684d90b85e5b7c3d1cf25f",
+      "playedAt": "2026-09-16T19:59:18.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kunimitsu",
+        "name": "KATSEYE ♥",
+        "playerId": null,
+        "polarisId": "2YHYqJGJ9ht4",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Kragsloor",
+        "playerId": "kragsloor",
+        "polarisId": "3H47D6QbFDBr",
+        "rank": "god_of_destruction_iv"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "cc93e1bd31274fb980ffb2c839c96ebb",
+      "playedAt": "2026-09-16T20:06:04.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kunimitsu",
+        "name": "KATSEYE ♥",
+        "playerId": null,
+        "polarisId": "2YHYqJGJ9ht4",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Kragsloor",
+        "playerId": "kragsloor",
+        "polarisId": "3H47D6QbFDBr",
+        "rank": "god_of_destruction_iv"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "909bca93916940058b493aa0a14685d5",
+      "playedAt": "2026-09-16T20:08:23.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "kunimitsu",
+        "name": "KATSEYE ♥",
+        "playerId": null,
+        "polarisId": "2YHYqJGJ9ht4",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Kragsloor",
+        "playerId": "kragsloor",
+        "polarisId": "3H47D6QbFDBr",
+        "rank": "god_of_destruction_iv"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "491702cbd3dc4489b32d9a95dbc857dd",
+      "playedAt": "2026-09-16T20:10:19.000Z",
       "roundsA": 3,
       "roundsB": 0,
       "winner": "a"
