@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T15:09:38.927Z",
+  "generatedAt": "2026-09-19T19:52:33.280Z",
   "pairs": [
     {
       "character": "lili",
@@ -235,8 +235,8 @@
     {
       "character": "bob",
       "confidence": "leaderboard",
-      "games": 454,
-      "lastUpdated": "2026-09-18T02:44:08.000Z",
+      "games": 468,
+      "lastUpdated": "2026-09-19T19:50:00.000Z",
       "pairId": "3JAY-QR5R-dNJh:bob",
       "playerId": "nullified",
       "provisional": false,
@@ -355,14 +355,14 @@
     },
     {
       "character": "paul",
-      "confidence": "provisional",
-      "games": 1281,
-      "lastUpdated": "2026-01-31T17:14:26.000Z",
+      "confidence": "unqualified",
+      "games": 1289,
+      "lastUpdated": "2026-09-19T18:30:52.000Z",
       "pairId": "4fLe-2B6Q-34fJ:paul",
       "playerId": "burny",
-      "provisional": true,
-      "rating": 1901,
-      "sigmaSquared": 112
+      "provisional": false,
+      "rating": 1947,
+      "sigmaSquared": 103
     },
     {
       "character": "victor",
