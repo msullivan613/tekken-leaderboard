@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 6631,
+  "basedOnMatchCount": 6668,
   "charMatchups": {
     "bigman:bob|fop:reina": {
       "matchesA": 1,
@@ -131,7 +131,7 @@
     },
     "bigman:panda|fop:reina": {
       "matchesA": 7,
-      "matchesB": 6
+      "matchesB": 7
     },
     "bigman:panda|nyx:bob": {
       "matchesA": 2,
@@ -321,6 +321,10 @@
       "matchesA": 0,
       "matchesB": 1
     },
+    "fop:armor_king|nyx:bob": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
     "fop:asuka|nyx:steve": {
       "matchesA": 4,
       "matchesB": 0
@@ -332,6 +336,10 @@
     "fop:devil_jin|sugarfree:bryan": {
       "matchesA": 1,
       "matchesB": 1
+    },
+    "fop:heihachi|nyx:bob": {
+      "matchesA": 1,
+      "matchesB": 0
     },
     "fop:kunimitsu|nyx:bob": {
       "matchesA": 6,
@@ -442,7 +450,7 @@
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-09-19T19:52:33.280Z",
+  "generatedAt": "2026-09-20T02:48:05.496Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 2,
@@ -464,9 +472,9 @@
     },
     "bigman|fop": {
       "matchesA": 40,
-      "matchesB": 51,
+      "matchesB": 52,
       "roundsA": 161,
-      "roundsB": 196
+      "roundsB": 199
     },
     "bigman|gnarlyidk": {
       "matchesA": 1,
@@ -595,9 +603,9 @@
       "roundsB": 3
     },
     "fop|nyx": {
-      "matchesA": 53,
+      "matchesA": 55,
       "matchesB": 9,
-      "roundsA": 174,
+      "roundsA": 180,
       "roundsB": 57
     },
     "fop|stone": {
@@ -652,14 +660,14 @@
         "kuma": 1464,
         "kunimitsu": 13,
         "nina": 8,
-        "panda": 273,
+        "panda": 274,
         "paul": 3,
         "reina": 7
       },
-      "matchLosses": 928,
+      "matchLosses": 929,
       "matchWins": 936,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 1864,
+      "totalMatches": 1865,
       "winRate": 0.502
     },
     "burny": {
@@ -669,15 +677,15 @@
         "clive": 2,
         "dragunov": 1,
         "hwoarang": 50,
-        "paul": 423,
+        "paul": 431,
         "shaheen": 1,
         "victor": 221
       },
       "matchLosses": 138,
-      "matchWins": 576,
+      "matchWins": 584,
       "mostPlayedCharacter": "paul",
-      "totalMatches": 714,
-      "winRate": 0.807
+      "totalMatches": 722,
+      "winRate": 0.809
     },
     "chamk": {
       "charUsage": {
@@ -718,12 +726,12 @@
     },
     "fop": {
       "charUsage": {
-        "armor_king": 5,
+        "armor_king": 6,
         "asuka": 4,
         "devil_jin": 10,
         "dragunov": 4,
         "feng": 5,
-        "heihachi": 2,
+        "heihachi": 3,
         "jack8": 1,
         "jun": 1,
         "kunimitsu": 14,
@@ -732,16 +740,16 @@
         "leroy": 8,
         "lili": 4,
         "paul": 34,
-        "reina": 753,
+        "reina": 754,
         "shaheen": 5,
         "steve": 1,
         "xiaoyu": 1
       },
       "matchLosses": 323,
-      "matchWins": 531,
+      "matchWins": 534,
       "mostPlayedCharacter": "reina",
-      "totalMatches": 854,
-      "winRate": 0.622
+      "totalMatches": 857,
+      "winRate": 0.623
     },
     "gnarlyidk": {
       "charUsage": {
@@ -783,8 +791,8 @@
       "charUsage": {
         "armor_king": 311,
         "asuka": 46,
-        "bob": 779,
-        "claudio": 81,
+        "bob": 788,
+        "claudio": 98,
         "clive": 275,
         "dragunov": 107,
         "fahkumram": 255,
@@ -793,26 +801,26 @@
         "kunimitsu": 18,
         "victor": 58
       },
-      "matchLosses": 767,
-      "matchWins": 1195,
+      "matchLosses": 783,
+      "matchWins": 1205,
       "mostPlayedCharacter": "bob",
-      "totalMatches": 1962,
-      "winRate": 0.609
+      "totalMatches": 1988,
+      "winRate": 0.606
     },
     "nyx": {
       "charUsage": {
-        "bob": 224,
+        "bob": 226,
         "eddy": 1,
         "jin": 1,
         "kazuya": 1,
         "paul": 7,
         "steve": 41
       },
-      "matchLosses": 173,
+      "matchLosses": 175,
       "matchWins": 102,
       "mostPlayedCharacter": "bob",
-      "totalMatches": 275,
-      "winRate": 0.371
+      "totalMatches": 277,
+      "winRate": 0.368
     },
     "slashuur": {
       "charUsage": {
