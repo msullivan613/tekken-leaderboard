@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 0,
-  "feedMatchCount": 521,
-  "generatedAt": "2026-09-21T11:39:38.922Z",
+  "feedMatchCount": 561,
+  "generatedAt": "2026-09-21T17:36:22.395Z",
   "matches": [
     {
       "a": {
@@ -11983,6 +11983,926 @@
       "id": "53d0ade07791443fa110a7c9fc2775ed",
       "playedAt": "2026-09-21T05:25:38.000Z",
       "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "fahkumram",
+        "name": "FutureRogerMain",
+        "playerId": null,
+        "polarisId": "4ALBqiBHJYdy",
+        "rank": "god_of_destruction_vi"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "74cf3dbf81f24bda9044c120553959da",
+      "playedAt": "2026-09-21T05:34:13.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "fahkumram",
+        "name": "FutureRogerMain",
+        "playerId": null,
+        "polarisId": "4ALBqiBHJYdy",
+        "rank": "god_of_destruction_vi"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "ae486b166b1d4a5cba44d583fc95d26d",
+      "playedAt": "2026-09-21T05:36:04.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "bryan",
+        "name": "NotVibin",
+        "playerId": null,
+        "polarisId": "5FhDhiHG4BB2",
+        "rank": "god_of_destruction_vi"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "1a2faaa4725646b491e47a46902a133d",
+      "playedAt": "2026-09-21T05:39:24.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "bryan",
+        "name": "NotVibin",
+        "playerId": null,
+        "polarisId": "5FhDhiHG4BB2",
+        "rank": "god_of_destruction_vi"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "0864196be0724572a7df4ad71bc00eb2",
+      "playedAt": "2026-09-21T05:42:52.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "bryan",
+        "name": "NotVibin",
+        "playerId": null,
+        "polarisId": "5FhDhiHG4BB2",
+        "rank": "god_of_destruction_vi"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "f19059d5bc544038b8e4138f7d18a669",
+      "playedAt": "2026-09-21T05:45:54.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "bryan",
+        "name": "NotVibin",
+        "playerId": null,
+        "polarisId": "5FhDhiHG4BB2",
+        "rank": "god_of_destruction_vi"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "c5b225b287534a6d8d66567306c82238",
+      "playedAt": "2026-09-21T05:47:46.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "yoshimitsu",
+        "name": "OkiMane",
+        "playerId": null,
+        "polarisId": "378j4gmGyggr",
+        "rank": "god_of_destruction_iv"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "25fec2db71d4414babc80efd5adfde1c",
+      "playedAt": "2026-09-21T05:53:14.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "yoshimitsu",
+        "name": "OkiMane",
+        "playerId": null,
+        "polarisId": "378j4gmGyggr",
+        "rank": "god_of_destruction_iv"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "f04966fbe21e45f98ef0c44364dbbffc",
+      "playedAt": "2026-09-21T05:56:34.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "lee",
+        "name": "Chet Chelios",
+        "playerId": null,
+        "polarisId": "4y8dhQ5LqHaT",
+        "rank": "god_of_destruction_vii"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "dc874c61aebb4b73b0a60a8b5ea437bf",
+      "playedAt": "2026-09-21T06:01:18.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "lee",
+        "name": "Chet Chelios",
+        "playerId": null,
+        "polarisId": "4y8dhQ5LqHaT",
+        "rank": "god_of_destruction_vii"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "80dad55b5adf41b99dd90d6cfd543f3c",
+      "playedAt": "2026-09-21T06:04:32.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "lee",
+        "name": "Chet Chelios",
+        "playerId": null,
+        "polarisId": "4y8dhQ5LqHaT",
+        "rank": "god_of_destruction_vii"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "54a7564f2b8846849c87453f8d7e4f17",
+      "playedAt": "2026-09-21T06:06:22.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "99c7e171965e4903bccd0d972e5408c7",
+      "playedAt": "2026-09-21T06:10:07.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "1468e5f6f73141d0bc5836e6215bbd8f",
+      "playedAt": "2026-09-21T06:13:31.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "8830f987570e410aa94ddadcb3ae71bd",
+      "playedAt": "2026-09-21T06:15:37.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "fefb61c51e614676a0399a53a38cf840",
+      "playedAt": "2026-09-21T06:18:50.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "234e06df9c794f12bcf4ee49cbfd2547",
+      "playedAt": "2026-09-21T06:20:56.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "8bd240f40eeb41368f31005db00cd229",
+      "playedAt": "2026-09-21T06:23:06.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "ba0491c2d629435d81d01d7f8fb77b2a",
+      "playedAt": "2026-09-21T06:25:30.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "7f02f5f5f61c41a48840a319b54ab4ac",
+      "playedAt": "2026-09-21T06:28:28.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "1cd3377a72fc4262b30b9adc4c9609ec",
+      "playedAt": "2026-09-21T06:30:11.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "f39fc6108b8c489eb8caa615930fbc57",
+      "playedAt": "2026-09-21T06:32:50.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "bba593134eeb4a88975415b23f3c66a2",
+      "playedAt": "2026-09-21T06:35:53.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "8368970799564c078d32e9323388ed27",
+      "playedAt": "2026-09-21T06:38:04.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "fbc8625fda464167b7c647d6b2b06b30",
+      "playedAt": "2026-09-21T06:42:07.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "c65775962eed4ce2bc29e109f74746b6",
+      "playedAt": "2026-09-21T06:45:00.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "5c7059fb56a9449e89458d6245035b92",
+      "playedAt": "2026-09-21T06:47:46.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "b6999fee8ad845e29cc2f25340000876",
+      "playedAt": "2026-09-21T06:50:44.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "a358193d3f434612b90e9c9e10d5168b",
+      "playedAt": "2026-09-21T06:53:26.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "OTF B.Steel",
+        "playerId": null,
+        "polarisId": "5qRqQ2NYTJ6M",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "e4852f30103a493cbac6bcfee976648c",
+      "playedAt": "2026-09-21T06:56:59.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "steve",
+        "name": "Angelinfamouss",
+        "playerId": null,
+        "polarisId": "4YnDAGfDMAJE",
+        "rank": "god_of_destruction_vi"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "e4cdba226b434b8bbe8aeb893ee496f1",
+      "playedAt": "2026-09-21T07:00:33.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "steve",
+        "name": "Angelinfamouss",
+        "playerId": null,
+        "polarisId": "4YnDAGfDMAJE",
+        "rank": "god_of_destruction_vi"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "5b5eda5bc98e46a8a6b3d7733b329458",
+      "playedAt": "2026-09-21T07:03:40.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "steve",
+        "name": "Angelinfamouss",
+        "playerId": null,
+        "polarisId": "4YnDAGfDMAJE",
+        "rank": "god_of_destruction_vi"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "e88670383f4b41838a42f7b403e302cd",
+      "playedAt": "2026-09-21T07:07:21.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "steve",
+        "name": "Angelinfamouss",
+        "playerId": null,
+        "polarisId": "4YnDAGfDMAJE",
+        "rank": "god_of_destruction_vi"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "f63b8a84e75d4fcbac857afec2362083",
+      "playedAt": "2026-09-21T07:10:42.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "raven",
+        "name": "Chrislacash",
+        "playerId": null,
+        "polarisId": "4ebmDJiMe7fG",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "a4fa074ece97445094f2e8476568989f",
+      "playedAt": "2026-09-21T07:17:06.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "raven",
+        "name": "Chrislacash",
+        "playerId": null,
+        "polarisId": "4ebmDJiMe7fG",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "987c7be36c3e43a6b29a0846e32df6ed",
+      "playedAt": "2026-09-21T07:19:56.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "raven",
+        "name": "Chrislacash",
+        "playerId": null,
+        "polarisId": "4ebmDJiMe7fG",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "724d8a0e623641259e098eb1ce654b8f",
+      "playedAt": "2026-09-21T07:22:46.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "raven",
+        "name": "Chrislacash",
+        "playerId": null,
+        "polarisId": "4ebmDJiMe7fG",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "510d605680ae44b0887225c32a80ff71",
+      "playedAt": "2026-09-21T07:27:01.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "raven",
+        "name": "Chrislacash",
+        "playerId": null,
+        "polarisId": "4ebmDJiMe7fG",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "fb2a96d4aa50422cb038dc627d5934f7",
+      "playedAt": "2026-09-21T07:30:26.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "raven",
+        "name": "Chrislacash",
+        "playerId": null,
+        "polarisId": "4ebmDJiMe7fG",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "6c76ec3465fc414b9be2397bb8dc477a",
+      "playedAt": "2026-09-21T07:32:27.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "raven",
+        "name": "Chrislacash",
+        "playerId": null,
+        "polarisId": "4ebmDJiMe7fG",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "Afriking777",
+        "playerId": "afriking",
+        "polarisId": "5EeMRAhnHbJd",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "e5d6e988032c4321853b6f6722ea0797",
+      "playedAt": "2026-09-21T07:35:15.000Z",
+      "roundsA": 1,
       "roundsB": 3,
       "winner": "b"
     }

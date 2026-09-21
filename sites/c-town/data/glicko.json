@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T11:40:27.853Z",
+  "generatedAt": "2026-09-21T17:37:14.300Z",
   "pairs": [
     {
       "character": "lili",
@@ -43,7 +43,7 @@
       "playerId": "mickrus",
       "provisional": false,
       "rating": 1716,
-      "sigmaSquared": 94
+      "sigmaSquared": 95
     },
     {
       "character": "lee",
@@ -54,7 +54,7 @@
       "playerId": "mickrus",
       "provisional": false,
       "rating": 1806,
-      "sigmaSquared": 77
+      "sigmaSquared": 78
     },
     {
       "character": "bob",
@@ -69,12 +69,12 @@
     },
     {
       "character": "steve",
-      "confidence": "unqualified",
+      "confidence": "provisional",
       "games": 121,
       "lastUpdated": "2026-05-28T22:57:08.000Z",
       "pairId": "32Jb-yqQN-3MMJ:steve",
       "playerId": "nyx",
-      "provisional": false,
+      "provisional": true,
       "rating": 1254,
       "sigmaSquared": 110
     },
@@ -87,7 +87,7 @@
       "playerId": "chamk",
       "provisional": true,
       "rating": 1207,
-      "sigmaSquared": 117
+      "sigmaSquared": 118
     },
     {
       "character": "devil_jin",
@@ -98,7 +98,7 @@
       "playerId": "chamk",
       "provisional": false,
       "rating": 1477,
-      "sigmaSquared": 76
+      "sigmaSquared": 77
     },
     {
       "character": "jin",
@@ -109,7 +109,7 @@
       "playerId": "chamk",
       "provisional": false,
       "rating": 1540,
-      "sigmaSquared": 77
+      "sigmaSquared": 78
     },
     {
       "character": "kazuya",
@@ -120,7 +120,7 @@
       "playerId": "chamk",
       "provisional": false,
       "rating": 1530,
-      "sigmaSquared": 87
+      "sigmaSquared": 88
     },
     {
       "character": "kunimitsu",
@@ -142,7 +142,7 @@
       "playerId": "fop",
       "provisional": false,
       "rating": 1799,
-      "sigmaSquared": 77
+      "sigmaSquared": 78
     },
     {
       "character": "bob",
@@ -164,7 +164,7 @@
       "playerId": "sugarfree",
       "provisional": false,
       "rating": 1724,
-      "sigmaSquared": 75
+      "sigmaSquared": 76
     },
     {
       "character": "fahkumram",
@@ -175,7 +175,7 @@
       "playerId": "sugarfree",
       "provisional": false,
       "rating": 1682,
-      "sigmaSquared": 92
+      "sigmaSquared": 93
     },
     {
       "character": "feng",
@@ -186,7 +186,7 @@
       "playerId": "sugarfree",
       "provisional": false,
       "rating": 1415,
-      "sigmaSquared": 87
+      "sigmaSquared": 88
     },
     {
       "character": "jack8",
@@ -230,7 +230,7 @@
       "playerId": "nullified",
       "provisional": false,
       "rating": 1806,
-      "sigmaSquared": 73
+      "sigmaSquared": 74
     },
     {
       "character": "bob",
@@ -263,7 +263,7 @@
       "playerId": "nullified",
       "provisional": false,
       "rating": 1656,
-      "sigmaSquared": 78
+      "sigmaSquared": 79
     },
     {
       "character": "dragunov",
@@ -274,7 +274,7 @@
       "playerId": "nullified",
       "provisional": true,
       "rating": 1512,
-      "sigmaSquared": 121
+      "sigmaSquared": 122
     },
     {
       "character": "fahkumram",
@@ -285,7 +285,7 @@
       "playerId": "nullified",
       "provisional": false,
       "rating": 1956,
-      "sigmaSquared": 74
+      "sigmaSquared": 75
     },
     {
       "character": "kunimitsu",
@@ -307,7 +307,7 @@
       "playerId": "bigman",
       "provisional": true,
       "rating": 1373,
-      "sigmaSquared": 119
+      "sigmaSquared": 120
     },
     {
       "character": "kuma",
@@ -318,7 +318,7 @@
       "playerId": "bigman",
       "provisional": false,
       "rating": 2072,
-      "sigmaSquared": 62
+      "sigmaSquared": 63
     },
     {
       "character": "kunimitsu",
@@ -384,7 +384,7 @@
       "playerId": "slashuur",
       "provisional": false,
       "rating": 1282,
-      "sigmaSquared": 85
+      "sigmaSquared": 86
     },
     {
       "character": "dragunov",
@@ -395,7 +395,7 @@
       "playerId": "stone",
       "provisional": false,
       "rating": 1977,
-      "sigmaSquared": 88
+      "sigmaSquared": 89
     },
     {
       "character": "fahkumram",
@@ -410,12 +410,12 @@
     },
     {
       "character": "law",
-      "confidence": "unqualified",
+      "confidence": "provisional",
       "games": 141,
       "lastUpdated": "2026-02-02T01:01:56.000Z",
       "pairId": "4TiQ-J6FA-rHJa:law",
       "playerId": "stone",
-      "provisional": false,
+      "provisional": true,
       "rating": 1769,
       "sigmaSquared": 110
     },
@@ -428,7 +428,7 @@
       "playerId": "stone",
       "provisional": true,
       "rating": 1738,
-      "sigmaSquared": 146
+      "sigmaSquared": 147
     }
   ],
   "schemaVersion": 1,
