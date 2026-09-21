@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 6717,
+  "basedOnMatchCount": 6787,
   "charMatchups": {
     "bigman:bob|fop:reina": {
       "matchesA": 1,
@@ -22,7 +22,7 @@
       "matchesB": 8
     },
     "bigman:heihachi|nyx:bob": {
-      "matchesA": 2,
+      "matchesA": 4,
       "matchesB": 0
     },
     "bigman:heihachi|nyx:steve": {
@@ -86,7 +86,7 @@
       "matchesB": 0
     },
     "bigman:kuma|nyx:bob": {
-      "matchesA": 6,
+      "matchesA": 8,
       "matchesB": 0
     },
     "bigman:kuma|nyx:steve": {
@@ -160,6 +160,10 @@
     "bigman:paul|combatport9:king": {
       "matchesA": 1,
       "matchesB": 0
+    },
+    "bigman:paul|gnarlyidk:panda": {
+      "matchesA": 2,
+      "matchesB": 1
     },
     "bigman:paul|nyx:steve": {
       "matchesA": 1,
@@ -470,7 +474,7 @@
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-09-20T20:07:37.619Z",
+  "generatedAt": "2026-09-21T02:45:24.469Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 2,
@@ -497,10 +501,10 @@
       "roundsB": 231
     },
     "bigman|gnarlyidk": {
-      "matchesA": 1,
-      "matchesB": 0,
-      "roundsA": 3,
-      "roundsB": 1
+      "matchesA": 3,
+      "matchesB": 1,
+      "roundsA": 9,
+      "roundsB": 8
     },
     "bigman|jardjay": {
       "matchesA": 5,
@@ -521,10 +525,10 @@
       "roundsB": 2
     },
     "bigman|nyx": {
-      "matchesA": 20,
+      "matchesA": 24,
       "matchesB": 1,
-      "roundsA": 61,
-      "roundsB": 18
+      "roundsA": 73,
+      "roundsB": 22
     },
     "bigman|slashuur": {
       "matchesA": 2,
@@ -675,20 +679,20 @@
     "bigman": {
       "charUsage": {
         "bob": 42,
-        "heihachi": 55,
+        "heihachi": 57,
         "king": 1,
-        "kuma": 1475,
+        "kuma": 1484,
         "kunimitsu": 13,
         "nina": 8,
-        "panda": 281,
-        "paul": 3,
+        "panda": 291,
+        "paul": 6,
         "reina": 8
       },
-      "matchLosses": 939,
-      "matchWins": 947,
+      "matchLosses": 949,
+      "matchWins": 961,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 1886,
-      "winRate": 0.502
+      "totalMatches": 1910,
+      "winRate": 0.503
     },
     "burny": {
       "charUsage": {
@@ -775,14 +779,14 @@
     },
     "gnarlyidk": {
       "charUsage": {
-        "panda": 54,
+        "panda": 62,
         "xiaoyu": 1
       },
-      "matchLosses": 25,
-      "matchWins": 30,
+      "matchLosses": 31,
+      "matchWins": 32,
       "mostPlayedCharacter": "panda",
-      "totalMatches": 55,
-      "winRate": 0.545
+      "totalMatches": 63,
+      "winRate": 0.508
     },
     "jardjay": {
       "charUsage": {
@@ -815,6 +819,7 @@
         "armor_king": 311,
         "asuka": 46,
         "bob": 788,
+        "bryan": 28,
         "claudio": 98,
         "clive": 275,
         "dragunov": 107,
@@ -824,26 +829,27 @@
         "kunimitsu": 18,
         "victor": 58
       },
-      "matchLosses": 783,
-      "matchWins": 1205,
+      "matchLosses": 800,
+      "matchWins": 1216,
       "mostPlayedCharacter": "bob",
-      "totalMatches": 1988,
-      "winRate": 0.606
+      "totalMatches": 2016,
+      "winRate": 0.603
     },
     "nyx": {
       "charUsage": {
-        "bob": 244,
+        "bob": 258,
         "eddy": 1,
         "jin": 1,
         "kazuya": 1,
+        "kuma": 3,
         "paul": 7,
         "steve": 41
       },
-      "matchLosses": 192,
-      "matchWins": 103,
+      "matchLosses": 205,
+      "matchWins": 107,
       "mostPlayedCharacter": "bob",
-      "totalMatches": 295,
-      "winRate": 0.349
+      "totalMatches": 312,
+      "winRate": 0.343
     },
     "slashuur": {
       "charUsage": {
