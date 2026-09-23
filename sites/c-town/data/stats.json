@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 6876,
+  "basedOnMatchCount": 6932,
   "charMatchups": {
     "bigman:bob|fop:reina": {
       "matchesA": 1,
@@ -70,7 +70,7 @@
       "matchesB": 37
     },
     "bigman:kuma|gnarlyidk:panda": {
-      "matchesA": 1,
+      "matchesA": 7,
       "matchesB": 0
     },
     "bigman:kuma|jardjay:lili": {
@@ -474,7 +474,7 @@
       "matchesB": 1
     }
   },
-  "generatedAt": "2026-09-22T20:44:35.560Z",
+  "generatedAt": "2026-09-23T02:46:41.147Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 2,
@@ -501,10 +501,10 @@
       "roundsB": 231
     },
     "bigman|gnarlyidk": {
-      "matchesA": 3,
+      "matchesA": 9,
       "matchesB": 1,
-      "roundsA": 9,
-      "roundsB": 8
+      "roundsA": 27,
+      "roundsB": 14
     },
     "bigman|jardjay": {
       "matchesA": 5,
@@ -681,18 +681,18 @@
         "bob": 42,
         "heihachi": 60,
         "king": 3,
-        "kuma": 1501,
+        "kuma": 1511,
         "kunimitsu": 13,
         "nina": 8,
-        "panda": 304,
+        "panda": 312,
         "paul": 6,
         "reina": 8
       },
-      "matchLosses": 967,
-      "matchWins": 978,
+      "matchLosses": 977,
+      "matchWins": 986,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 1945,
-      "winRate": 0.503
+      "totalMatches": 1963,
+      "winRate": 0.502
     },
     "burny": {
       "charUsage": {
@@ -779,14 +779,14 @@
     },
     "gnarlyidk": {
       "charUsage": {
-        "panda": 73,
+        "panda": 79,
         "xiaoyu": 1
       },
-      "matchLosses": 39,
+      "matchLosses": 45,
       "matchWins": 35,
       "mostPlayedCharacter": "panda",
-      "totalMatches": 74,
-      "winRate": 0.473
+      "totalMatches": 80,
+      "winRate": 0.438
     },
     "jardjay": {
       "charUsage": {
@@ -818,7 +818,7 @@
       "charUsage": {
         "armor_king": 311,
         "asuka": 46,
-        "bob": 813,
+        "bob": 851,
         "bryan": 28,
         "claudio": 98,
         "clive": 275,
@@ -829,11 +829,11 @@
         "kunimitsu": 18,
         "victor": 58
       },
-      "matchLosses": 811,
-      "matchWins": 1230,
+      "matchLosses": 823,
+      "matchWins": 1256,
       "mostPlayedCharacter": "bob",
-      "totalMatches": 2041,
-      "winRate": 0.603
+      "totalMatches": 2079,
+      "winRate": 0.604
     },
     "nyx": {
       "charUsage": {
