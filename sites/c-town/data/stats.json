@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 7150,
+  "basedOnMatchCount": 7159,
   "charMatchups": {
     "bigman:bob|fop:reina": {
       "matchesA": 1,
@@ -269,6 +269,14 @@
       "matchesA": 3,
       "matchesB": 1
     },
+    "burny:victor|stone:fahkumram": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
+    "burny:victor|stone:kazuya": {
+      "matchesA": 1,
+      "matchesB": 0
+    },
     "burny:victor|stone:law": {
       "matchesA": 1,
       "matchesB": 0
@@ -490,7 +498,7 @@
       "matchesB": 0
     }
   },
-  "generatedAt": "2026-09-24T02:36:24.602Z",
+  "generatedAt": "2026-09-24T10:54:41.748Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 2,
@@ -589,10 +597,10 @@
       "roundsB": 94
     },
     "burny|stone": {
-      "matchesA": 18,
+      "matchesA": 20,
       "matchesB": 5,
-      "roundsA": 60,
-      "roundsB": 29
+      "roundsA": 66,
+      "roundsB": 30
     },
     "burny|sugarfree": {
       "matchesA": 270,
@@ -725,12 +733,12 @@
         "hwoarang": 50,
         "paul": 455,
         "shaheen": 1,
-        "victor": 234
+        "victor": 236
       },
       "matchLosses": 145,
-      "matchWins": 614,
+      "matchWins": 616,
       "mostPlayedCharacter": "paul",
-      "totalMatches": 759,
+      "totalMatches": 761,
       "winRate": 0.809
     },
     "chamk": {
@@ -888,19 +896,19 @@
     "stone": {
       "charUsage": {
         "armor_king": 1,
-        "dragunov": 71,
+        "dragunov": 77,
         "eddy": 4,
-        "fahkumram": 26,
-        "kazuya": 8,
+        "fahkumram": 27,
+        "kazuya": 10,
         "law": 109,
         "lee": 66,
         "victor": 5
       },
-      "matchLosses": 91,
-      "matchWins": 199,
+      "matchLosses": 93,
+      "matchWins": 206,
       "mostPlayedCharacter": "law",
-      "totalMatches": 290,
-      "winRate": 0.686
+      "totalMatches": 299,
+      "winRate": 0.689
     },
     "sugarfree": {
       "charUsage": {
