@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T16:16:40.174Z",
+  "generatedAt": "2026-09-25T20:57:16.551Z",
   "matches": [
     {
       "a": {
@@ -380257,6 +380257,75 @@
       "id": "06218ef138354a6e9c97f3c96aad5aa0",
       "playedAt": "2026-09-24T14:40:25.000Z",
       "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "kunimitsu",
+        "name": "CrimsoBlade★",
+        "playerId": null,
+        "polarisId": "2QbHEh7BH5Bf",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "2245f12cc1ac4283914339669d88c93c",
+      "playedAt": "2026-09-24T14:43:47.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kunimitsu",
+        "name": "CrimsoBlade★",
+        "playerId": null,
+        "polarisId": "2QbHEh7BH5Bf",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "3e8d8f578ef64cedbc7c352490b27d40",
+      "playedAt": "2026-09-24T14:46:45.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "kuma",
+        "name": "Skill lssue",
+        "playerId": null,
+        "polarisId": "3NLhLQFQf2Ta",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "94b6e16a80f54b9fab6b19417b1d6f1d",
+      "playedAt": "2026-09-24T14:51:31.000Z",
+      "roundsA": 1,
       "roundsB": 3,
       "winner": "b"
     },
