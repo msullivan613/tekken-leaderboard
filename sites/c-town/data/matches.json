@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 314,
-  "feedMatchCount": 254,
-  "generatedAt": "2026-09-29T03:38:50.696Z",
+  "feedMatchCount": 264,
+  "generatedAt": "2026-09-29T11:56:15.728Z",
   "matches": [
     {
       "a": {
@@ -13064,6 +13064,236 @@
       "id": "957b40cfb9124ad689da10cffd6edc86",
       "playedAt": "2026-09-29T01:58:21.000Z",
       "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "jack8",
+        "name": "JackR4PE",
+        "playerId": null,
+        "polarisId": "2rMJAh8Hbf4f",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "dragunov",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "82e88b0b1f0949278eb78b721d11805b",
+      "playedAt": "2026-09-29T04:08:22.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "victor",
+        "name": "OLD AURA MAN",
+        "playerId": null,
+        "polarisId": "2q2tQ948Ti54",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "dragunov",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "2d7d032bf34d4324b41f6956230d23ec",
+      "playedAt": "2026-09-29T04:13:15.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "victor",
+        "name": "OLD AURA MAN",
+        "playerId": null,
+        "polarisId": "2q2tQ948Ti54",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "dragunov",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "4944496312df454db5f4c0ada7b50cdd",
+      "playedAt": "2026-09-29T04:16:08.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "victor",
+        "name": "OLD AURA MAN",
+        "playerId": null,
+        "polarisId": "2q2tQ948Ti54",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "dragunov",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "1d4498baf2ee4397b0c5fabe586fb2a4",
+      "playedAt": "2026-09-29T04:18:25.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "victor",
+        "name": "OLD AURA MAN",
+        "playerId": null,
+        "polarisId": "2q2tQ948Ti54",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "dragunov",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "f818a066079b47acae81cb14e4ec2b74",
+      "playedAt": "2026-09-29T04:21:09.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "dragunov",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "hwoarang",
+        "name": "Partybyurself",
+        "playerId": null,
+        "polarisId": "4aTbJQ5tfbEj",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "8b1d0260d4fd4a92945f5c69c76e3f66",
+      "playedAt": "2026-09-29T04:25:47.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "dragunov",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "hwoarang",
+        "name": "Partybyurself",
+        "playerId": null,
+        "polarisId": "4aTbJQ5tfbEj",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "350f2ad373b54322bd3183c0e0f9869f",
+      "playedAt": "2026-09-29T04:29:31.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "dragunov",
+        "name": "Pl4nett",
+        "playerId": null,
+        "polarisId": "2M7QL5a3fQqG",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "law",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "tekken_god"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "3bfb47f0d1034eb28a0eacc2be8d7ad7",
+      "playedAt": "2026-09-29T04:34:51.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "dragunov",
+        "name": "Pl4nett",
+        "playerId": null,
+        "polarisId": "2M7QL5a3fQqG",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "law",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "tekken_god"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "f4a2596d5ac041aeb759c5c831f1da3d",
+      "playedAt": "2026-09-29T04:37:21.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "dragunov",
+        "name": "Pl4nett",
+        "playerId": null,
+        "polarisId": "2M7QL5a3fQqG",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "law",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "tekken_god"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "42f8f44b97174b52ab82d5c0d07bac0e",
+      "playedAt": "2026-09-29T04:39:10.000Z",
+      "roundsA": 0,
       "roundsB": 3,
       "winner": "b"
     }
