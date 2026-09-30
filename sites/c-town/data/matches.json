@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 307,
-  "feedMatchCount": 275,
-  "generatedAt": "2026-09-30T03:25:33.682Z",
+  "feedMatchCount": 279,
+  "generatedAt": "2026-09-30T11:43:57.033Z",
   "matches": [
     {
       "a": {
@@ -13388,6 +13388,98 @@
       "roundsA": 2,
       "roundsB": 3,
       "winner": "b"
+    },
+    {
+      "a": {
+        "character": "law",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "zafina",
+        "name": "Wilt",
+        "playerId": null,
+        "polarisId": "5E5j5i3gGM6T",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "4dfc6afc4ff147cebd16f651edc339c9",
+      "playedAt": "2026-09-30T03:26:38.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "law",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "zafina",
+        "name": "Wilt",
+        "playerId": null,
+        "polarisId": "5E5j5i3gGM6T",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "0ab4bac709af4856822c11a3ab872061",
+      "playedAt": "2026-09-30T03:29:33.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "law",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "zafina",
+        "name": "Wilt",
+        "playerId": null,
+        "polarisId": "5E5j5i3gGM6T",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "86ed1825df0f4e5482d96ff45db71de9",
+      "playedAt": "2026-09-30T03:32:11.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "law",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "zafina",
+        "name": "Wilt",
+        "playerId": null,
+        "polarisId": "5E5j5i3gGM6T",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "2b17b252c134450691b137cc9d07eb63",
+      "playedAt": "2026-09-30T03:34:48.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
     }
   ],
   "schemaVersion": 2,
