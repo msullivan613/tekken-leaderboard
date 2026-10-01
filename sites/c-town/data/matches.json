@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 307,
-  "feedMatchCount": 279,
-  "generatedAt": "2026-10-01T03:31:46.394Z",
+  "feedMatchCount": 283,
+  "generatedAt": "2026-10-01T12:12:48.920Z",
   "matches": [
     {
       "a": {
@@ -13478,6 +13478,98 @@
       "id": "246f4112a58a417d99fe9878714151dc",
       "playedAt": "2026-10-01T02:46:16.000Z",
       "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "dragunov",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "yoshimitsu",
+        "name": "AlphaSaves",
+        "playerId": null,
+        "polarisId": "66A9iAnE44fM",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "a451f1c781214d15984047057a09d6a3",
+      "playedAt": "2026-10-01T03:37:45.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "dragunov",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "yoshimitsu",
+        "name": "AlphaSaves",
+        "playerId": null,
+        "polarisId": "66A9iAnE44fM",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "fac63dd951c849d1a86ba4f38745af36",
+      "playedAt": "2026-10-01T03:41:30.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kazuya",
+        "name": "DarkECOsSj4",
+        "playerId": null,
+        "polarisId": "24FGqA7Gn6ff",
+        "rank": "god_of_destruction_i"
+      },
+      "b": {
+        "character": "dragunov",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "1fb8cbf524c64d0aa595d833d47c8f48",
+      "playedAt": "2026-10-01T03:44:16.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "kazuya",
+        "name": "DarkECOsSj4",
+        "playerId": null,
+        "polarisId": "24FGqA7Gn6ff",
+        "rank": "god_of_destruction_i"
+      },
+      "b": {
+        "character": "dragunov",
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "44d2e1185db747efbc6c51e9edbfe97b",
+      "playedAt": "2026-10-01T03:46:54.000Z",
+      "roundsA": 1,
       "roundsB": 3,
       "winner": "b"
     }
