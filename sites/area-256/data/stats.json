@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 18205,
+  "basedOnMatchCount": 18257,
   "charMatchups": {
     "afriking:armor_king|bigkuma:kuma": {
       "matchesA": 2,
@@ -10,7 +10,7 @@
       "matchesB": 20
     }
   },
-  "generatedAt": "2026-10-02T03:30:26.778Z",
+  "generatedAt": "2026-10-02T11:41:41.533Z",
   "headToHead": {
     "afriking|bigkuma": {
       "matchesA": 2,
@@ -63,13 +63,13 @@
     "eonexodus": {
       "charUsage": {
         "bryan": 56,
-        "heihachi": 304,
+        "heihachi": 311,
         "kazuya": 1470
       },
-      "matchLosses": 1109,
-      "matchWins": 721,
+      "matchLosses": 1113,
+      "matchWins": 724,
       "mostPlayedCharacter": "kazuya",
-      "totalMatches": 1830,
+      "totalMatches": 1837,
       "winRate": 0.394
     },
     "falsecrustacean": {
@@ -133,21 +133,22 @@
     },
     "kragsloor": {
       "charUsage": {
+        "anna": 2,
         "bob": 439,
-        "bryan": 85,
-        "dragunov": 123,
-        "fahkumram": 102,
+        "bryan": 89,
+        "dragunov": 130,
+        "fahkumram": 110,
         "kazuya": 3,
         "law": 3,
         "lidia": 21,
         "miary_zo": 2,
         "steve": 28
       },
-      "matchLosses": 256,
-      "matchWins": 550,
+      "matchLosses": 261,
+      "matchWins": 566,
       "mostPlayedCharacter": "bob",
-      "totalMatches": 806,
-      "winRate": 0.682
+      "totalMatches": 827,
+      "winRate": 0.684
     },
     "literally_kirby": {
       "charUsage": {
@@ -196,14 +197,15 @@
     },
     "omni": {
       "charUsage": {
+        "armor_king": 24,
         "bob": 20,
         "lars": 35
       },
-      "matchLosses": 13,
-      "matchWins": 42,
+      "matchLosses": 16,
+      "matchWins": 63,
       "mostPlayedCharacter": "lars",
-      "totalMatches": 55,
-      "winRate": 0.764
+      "totalMatches": 79,
+      "winRate": 0.797
     },
     "phine": {
       "charUsage": {
