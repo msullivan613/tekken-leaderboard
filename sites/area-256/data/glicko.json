@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T11:41:41.533Z",
+  "generatedAt": "2026-10-02T17:12:24.186Z",
   "pairs": [
     {
       "character": "leroy",
@@ -187,6 +187,17 @@
       "provisional": false,
       "rating": 1705,
       "sigmaSquared": 78
+    },
+    {
+      "character": "anna",
+      "confidence": "provisional",
+      "games": 56,
+      "lastUpdated": "2026-10-02T11:18:26.000Z",
+      "pairId": "3H47-D6Qb-FDBr:anna",
+      "playerId": "kragsloor",
+      "provisional": true,
+      "rating": 1707,
+      "sigmaSquared": 119
     },
     {
       "character": "armor_king",
