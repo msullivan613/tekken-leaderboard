@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T10:55:25.639Z",
+  "generatedAt": "2026-10-03T15:31:55.578Z",
   "matches": [
     {
       "a": {
@@ -399904,6 +399904,75 @@
     },
     {
       "a": {
+        "character": "fahkumram",
+        "name": "Kragsloor",
+        "playerId": "kragsloor",
+        "polarisId": "3H47D6QbFDBr",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "xiaoyu",
+        "name": "Ben!maru",
+        "playerId": null,
+        "polarisId": "4GA8TdAn7tGn",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "4af3e3a2ae6242e7bd281ad21a78a40a",
+      "playedAt": "2026-09-27T14:09:20.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "fahkumram",
+        "name": "Kragsloor",
+        "playerId": "kragsloor",
+        "polarisId": "3H47D6QbFDBr",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "dragunov",
+        "name": "GrumbleFunks",
+        "playerId": null,
+        "polarisId": "4iAF7bE4MDha",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "17a97e54b2614dde9fcb42f11951dd24",
+      "playedAt": "2026-09-27T14:12:10.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "fahkumram",
+        "name": "Kragsloor",
+        "playerId": "kragsloor",
+        "polarisId": "3H47D6QbFDBr",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "dragunov",
+        "name": "GrumbleFunks",
+        "playerId": null,
+        "polarisId": "4iAF7bE4MDha",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "4bae737efc5e41e6bdfab2b95b9c1f37",
+      "playedAt": "2026-09-27T14:14:17.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
         "character": "bryan",
         "name": "Nvus",
         "playerId": null,
@@ -401877,6 +401946,29 @@
       "id": "13346b7c546e471e8c07e9c17a69fc19",
       "playedAt": "2026-09-28T05:30:50.000Z",
       "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "fahkumram",
+        "name": "Nuke Toronto",
+        "playerId": null,
+        "polarisId": "2Q5iFFNLAdj2",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Kragsloor",
+        "playerId": "kragsloor",
+        "polarisId": "3H47D6QbFDBr",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "6dc05a5faa174051b47b84989e00045e",
+      "playedAt": "2026-09-28T07:43:33.000Z",
+      "roundsA": 1,
       "roundsB": 3,
       "winner": "b"
     },
