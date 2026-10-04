@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T16:16:00.014Z",
+  "generatedAt": "2026-10-04T20:45:47.598Z",
   "matches": [
     {
       "a": {
@@ -324188,6 +324188,29 @@
     },
     {
       "a": {
+        "character": "bob",
+        "name": "AWE | Omni",
+        "playerId": "omni",
+        "polarisId": "2fnGn5n5M7aG",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "anna",
+        "name": "Prince23",
+        "playerId": null,
+        "polarisId": "3N8jrjqdrHTE",
+        "rank": "tekken_god_supreme"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "28bbf4ffb53249f0ba671ce57868a92d",
+      "playedAt": "2026-09-08T07:34:19.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
         "character": "reina",
         "name": "oraa",
         "playerId": null,
@@ -412688,6 +412711,282 @@
       "playedAt": "2026-10-01T14:09:52.000Z",
       "roundsA": 3,
       "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "heihachi",
+        "name": "SubYB",
+        "playerId": null,
+        "polarisId": "2TBy8Tg6b5gh",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "AWE | Omni",
+        "playerId": "omni",
+        "polarisId": "2fnGn5n5M7aG",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "801ce46e426846b391d65b0af8078ed8",
+      "playedAt": "2026-10-02T02:40:45.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "heihachi",
+        "name": "SubYB",
+        "playerId": null,
+        "polarisId": "2TBy8Tg6b5gh",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "AWE | Omni",
+        "playerId": "omni",
+        "polarisId": "2fnGn5n5M7aG",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "bcd5b83db58e4e289b65afc3d5614d4d",
+      "playedAt": "2026-10-02T02:43:36.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "heihachi",
+        "name": "SubYB",
+        "playerId": null,
+        "polarisId": "2TBy8Tg6b5gh",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "AWE | Omni",
+        "playerId": "omni",
+        "polarisId": "2fnGn5n5M7aG",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "049e409685ab47e59294194b05e48229",
+      "playedAt": "2026-10-02T02:45:51.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "AWE | Omni",
+        "playerId": "omni",
+        "polarisId": "2fnGn5n5M7aG",
+        "rank": "tekken_emperor"
+      },
+      "b": {
+        "character": "feng",
+        "name": "Davinki",
+        "playerId": null,
+        "polarisId": "5Tg4QE5DyQar",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "79917b2004e943e9bcb8c94d652528de",
+      "playedAt": "2026-10-02T02:49:21.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "AWE | Omni",
+        "playerId": "omni",
+        "polarisId": "2fnGn5n5M7aG",
+        "rank": "tekken_emperor"
+      },
+      "b": {
+        "character": "feng",
+        "name": "Davinki",
+        "playerId": null,
+        "polarisId": "5Tg4QE5DyQar",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "df18f3c7be3840f9875cdc2fbc7be9f3",
+      "playedAt": "2026-10-02T02:52:08.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "AWE | Omni",
+        "playerId": "omni",
+        "polarisId": "2fnGn5n5M7aG",
+        "rank": "tekken_emperor"
+      },
+      "b": {
+        "character": "feng",
+        "name": "Davinki",
+        "playerId": null,
+        "polarisId": "5Tg4QE5DyQar",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "c61eea58d5754e3c9e5f0f4572f5fd41",
+      "playedAt": "2026-10-02T02:55:00.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "asuka",
+        "name": "almighty",
+        "playerId": null,
+        "polarisId": "2f3eM77R2qDT",
+        "rank": "tekken_emperor"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "AWE | Omni",
+        "playerId": "omni",
+        "polarisId": "2fnGn5n5M7aG",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "549cab7c074440939e33ec1564c276a9",
+      "playedAt": "2026-10-02T02:57:52.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "AWE | Omni",
+        "playerId": "omni",
+        "polarisId": "2fnGn5n5M7aG",
+        "rank": "tekken_emperor"
+      },
+      "b": {
+        "character": "reina",
+        "name": "Rell",
+        "playerId": null,
+        "polarisId": "4BYggAtDL5af",
+        "rank": "tekken_king"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "c923ab7caa964c80b6617c10f7f4e49d",
+      "playedAt": "2026-10-02T03:02:30.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "AWE | Omni",
+        "playerId": "omni",
+        "polarisId": "2fnGn5n5M7aG",
+        "rank": "tekken_emperor"
+      },
+      "b": {
+        "character": "yoshimitsu",
+        "name": "Kambeanie",
+        "playerId": null,
+        "polarisId": "4bQb8yQBNTT2",
+        "rank": "tekken_king"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "f0718dc43c43410cb917abc21cd18839",
+      "playedAt": "2026-10-02T03:05:46.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "AWE | Omni",
+        "playerId": "omni",
+        "polarisId": "2fnGn5n5M7aG",
+        "rank": "tekken_emperor"
+      },
+      "b": {
+        "character": "lili",
+        "name": "Rose007",
+        "playerId": null,
+        "polarisId": "3jAan4L3hbGr",
+        "rank": "tekken_emperor"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "bd847ab9b20c4ee2be0097178582c32e",
+      "playedAt": "2026-10-02T03:07:35.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "AWE | Omni",
+        "playerId": "omni",
+        "polarisId": "2fnGn5n5M7aG",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "dragunov",
+        "name": "Blackburn7307",
+        "playerId": null,
+        "polarisId": "64hhATymF5TQ",
+        "rank": "tekken_god"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "333a01a2f7834dd0be521b5ed69b0694",
+      "playedAt": "2026-10-02T03:11:25.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "armor_king",
+        "name": "AWE | Omni",
+        "playerId": "omni",
+        "polarisId": "2fnGn5n5M7aG",
+        "rank": "tekken_god"
+      },
+      "b": {
+        "character": "kazuya",
+        "name": "therinrik",
+        "playerId": null,
+        "polarisId": "68YjTHM8hHTr",
+        "rank": "tekken_god"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "0934a10aed20451a92bb1fe4b1de3077",
+      "playedAt": "2026-10-02T03:13:38.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
       "winner": "a"
     },
     {
