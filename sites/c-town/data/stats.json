@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 8126,
+  "basedOnMatchCount": 8187,
   "charMatchups": {
     "bigman:bob|fop:reina": {
       "matchesA": 1,
@@ -47,7 +47,7 @@
     },
     "bigman:kuma|burny:victor": {
       "matchesA": 1,
-      "matchesB": 7
+      "matchesB": 8
     },
     "bigman:kuma|code:leo": {
       "matchesA": 3,
@@ -284,6 +284,10 @@
     "burny:shaheen|mickrus:heihachi": {
       "matchesA": 0,
       "matchesB": 1
+    },
+    "burny:victor|fop:paul": {
+      "matchesA": 1,
+      "matchesB": 0
     },
     "burny:victor|fop:reina": {
       "matchesA": 23,
@@ -558,13 +562,13 @@
       "matchesB": 0
     }
   },
-  "generatedAt": "2026-10-03T20:27:10.239Z",
+  "generatedAt": "2026-10-04T03:44:01.718Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 2,
-      "matchesB": 13,
+      "matchesB": 14,
       "roundsA": 14,
-      "roundsB": 41
+      "roundsB": 44
     },
     "bigman|code": {
       "matchesA": 3,
@@ -633,9 +637,9 @@
       "roundsB": 85
     },
     "burny|fop": {
-      "matchesA": 55,
+      "matchesA": 56,
       "matchesB": 9,
-      "roundsA": 173,
+      "roundsA": 176,
       "roundsB": 80
     },
     "burny|gnarlyidk": {
@@ -789,17 +793,17 @@
         "bob": 42,
         "heihachi": 63,
         "king": 3,
-        "kuma": 1681,
+        "kuma": 1687,
         "kunimitsu": 13,
         "nina": 8,
-        "panda": 429,
+        "panda": 479,
         "paul": 6,
         "reina": 8
       },
-      "matchLosses": 1122,
-      "matchWins": 1131,
+      "matchLosses": 1151,
+      "matchWins": 1158,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 2253,
+      "totalMatches": 2309,
       "winRate": 0.502
     },
     "burny": {
@@ -811,12 +815,12 @@
         "hwoarang": 50,
         "paul": 487,
         "shaheen": 1,
-        "victor": 257
+        "victor": 259
       },
       "matchLosses": 150,
-      "matchWins": 664,
+      "matchWins": 666,
       "mostPlayedCharacter": "paul",
-      "totalMatches": 814,
+      "totalMatches": 816,
       "winRate": 0.816
     },
     "chamk": {
@@ -858,7 +862,7 @@
     },
     "fop": {
       "charUsage": {
-        "armor_king": 6,
+        "armor_king": 7,
         "asuka": 4,
         "claudio": 1,
         "devil_jin": 12,
@@ -873,17 +877,17 @@
         "leo": 1,
         "leroy": 8,
         "lili": 4,
-        "paul": 37,
-        "reina": 992,
+        "paul": 38,
+        "reina": 995,
         "shaheen": 5,
         "steve": 1,
         "xiaoyu": 1
       },
-      "matchLosses": 441,
-      "matchWins": 664,
+      "matchLosses": 442,
+      "matchWins": 668,
       "mostPlayedCharacter": "reina",
-      "totalMatches": 1105,
-      "winRate": 0.601
+      "totalMatches": 1110,
+      "winRate": 0.602
     },
     "gnarlyidk": {
       "charUsage": {
