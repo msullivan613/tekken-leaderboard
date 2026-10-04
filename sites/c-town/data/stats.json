@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 8187,
+  "basedOnMatchCount": 8245,
   "charMatchups": {
     "bigman:bob|fop:reina": {
       "matchesA": 1,
@@ -75,7 +75,7 @@
     },
     "bigman:kuma|fop:reina": {
       "matchesA": 27,
-      "matchesB": 42
+      "matchesB": 43
     },
     "bigman:kuma|gnarlyidk:alisa": {
       "matchesA": 0,
@@ -145,6 +145,10 @@
       "matchesA": 0,
       "matchesB": 1
     },
+    "bigman:panda|burny:paul": {
+      "matchesA": 2,
+      "matchesB": 3
+    },
     "bigman:panda|fop:armor_king": {
       "matchesA": 2,
       "matchesB": 0
@@ -158,8 +162,8 @@
       "matchesB": 1
     },
     "bigman:panda|fop:reina": {
-      "matchesA": 18,
-      "matchesB": 20
+      "matchesA": 20,
+      "matchesB": 21
     },
     "bigman:panda|gnarlyidk:panda": {
       "matchesA": 1,
@@ -246,8 +250,8 @@
       "matchesB": 0
     },
     "burny:paul|fop:reina": {
-      "matchesA": 30,
-      "matchesB": 2
+      "matchesA": 34,
+      "matchesB": 3
     },
     "burny:paul|mickrus:heihachi": {
       "matchesA": 4,
@@ -562,13 +566,13 @@
       "matchesB": 0
     }
   },
-  "generatedAt": "2026-10-04T03:44:01.718Z",
+  "generatedAt": "2026-10-04T11:38:30.562Z",
   "headToHead": {
     "bigman|burny": {
-      "matchesA": 2,
-      "matchesB": 14,
-      "roundsA": 14,
-      "roundsB": 44
+      "matchesA": 4,
+      "matchesB": 17,
+      "roundsA": 23,
+      "roundsB": 56
     },
     "bigman|code": {
       "matchesA": 3,
@@ -583,10 +587,10 @@
       "roundsB": 2
     },
     "bigman|fop": {
-      "matchesA": 55,
-      "matchesB": 77,
-      "roundsA": 229,
-      "roundsB": 294
+      "matchesA": 57,
+      "matchesB": 79,
+      "roundsA": 236,
+      "roundsB": 303
     },
     "bigman|gnarlyidk": {
       "matchesA": 14,
@@ -637,10 +641,10 @@
       "roundsB": 85
     },
     "burny|fop": {
-      "matchesA": 56,
-      "matchesB": 9,
-      "roundsA": 176,
-      "roundsB": 80
+      "matchesA": 60,
+      "matchesB": 10,
+      "roundsA": 190,
+      "roundsB": 87
     },
     "burny|gnarlyidk": {
       "matchesA": 1,
@@ -793,17 +797,17 @@
         "bob": 42,
         "heihachi": 63,
         "king": 3,
-        "kuma": 1687,
+        "kuma": 1688,
         "kunimitsu": 13,
         "nina": 8,
-        "panda": 479,
+        "panda": 489,
         "paul": 6,
         "reina": 8
       },
-      "matchLosses": 1151,
-      "matchWins": 1158,
+      "matchLosses": 1156,
+      "matchWins": 1164,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 2309,
+      "totalMatches": 2320,
       "winRate": 0.502
     },
     "burny": {
@@ -813,15 +817,15 @@
         "clive": 2,
         "dragunov": 1,
         "hwoarang": 50,
-        "paul": 487,
+        "paul": 502,
         "shaheen": 1,
-        "victor": 259
+        "victor": 260
       },
-      "matchLosses": 150,
-      "matchWins": 666,
+      "matchLosses": 155,
+      "matchWins": 677,
       "mostPlayedCharacter": "paul",
-      "totalMatches": 816,
-      "winRate": 0.816
+      "totalMatches": 832,
+      "winRate": 0.814
     },
     "chamk": {
       "charUsage": {
@@ -862,32 +866,33 @@
     },
     "fop": {
       "charUsage": {
-        "armor_king": 7,
+        "armor_king": 8,
         "asuka": 4,
+        "bryan": 1,
         "claudio": 1,
-        "devil_jin": 12,
+        "devil_jin": 15,
         "dragunov": 4,
         "fahkumram": 1,
-        "feng": 5,
+        "feng": 8,
         "heihachi": 3,
         "jack8": 3,
         "jun": 1,
-        "kunimitsu": 15,
+        "kunimitsu": 18,
         "lars": 1,
         "leo": 1,
-        "leroy": 8,
+        "leroy": 9,
         "lili": 4,
         "paul": 38,
-        "reina": 995,
+        "reina": 1028,
         "shaheen": 5,
         "steve": 1,
         "xiaoyu": 1
       },
-      "matchLosses": 442,
-      "matchWins": 668,
+      "matchLosses": 466,
+      "matchWins": 689,
       "mostPlayedCharacter": "reina",
-      "totalMatches": 1110,
-      "winRate": 0.602
+      "totalMatches": 1155,
+      "winRate": 0.597
     },
     "gnarlyidk": {
       "charUsage": {
