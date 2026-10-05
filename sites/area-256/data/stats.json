@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 18706,
+  "basedOnMatchCount": 18760,
   "charMatchups": {
     "afriking:armor_king|bigkuma:kuma": {
       "matchesA": 2,
@@ -10,7 +10,7 @@
       "matchesB": 20
     }
   },
-  "generatedAt": "2026-10-04T20:45:47.598Z",
+  "generatedAt": "2026-10-05T03:26:38.749Z",
   "headToHead": {
     "afriking|bigkuma": {
       "matchesA": 2,
@@ -63,27 +63,27 @@
     "eonexodus": {
       "charUsage": {
         "bryan": 56,
-        "heihachi": 319,
+        "heihachi": 325,
         "kazuya": 1470
       },
-      "matchLosses": 1117,
-      "matchWins": 728,
+      "matchLosses": 1122,
+      "matchWins": 729,
       "mostPlayedCharacter": "kazuya",
-      "totalMatches": 1845,
-      "winRate": 0.395
+      "totalMatches": 1851,
+      "winRate": 0.394
     },
     "falsecrustacean": {
       "charUsage": {
         "bob": 124,
-        "heihachi": 17,
-        "hwoarang": 497,
+        "heihachi": 20,
+        "hwoarang": 505,
         "jin": 16
       },
-      "matchLosses": 216,
-      "matchWins": 438,
+      "matchLosses": 218,
+      "matchWins": 447,
       "mostPlayedCharacter": "hwoarang",
-      "totalMatches": 654,
-      "winRate": 0.67
+      "totalMatches": 665,
+      "winRate": 0.672
     },
     "goul": {
       "charUsage": {
@@ -111,7 +111,7 @@
     },
     "kingbreadsticks": {
       "charUsage": {
-        "armor_king": 190,
+        "armor_king": 197,
         "azucena": 89,
         "bob": 334,
         "bryan": 35,
@@ -120,16 +120,16 @@
         "king": 141,
         "kunimitsu": 22,
         "lars": 61,
-        "leroy": 125,
+        "leroy": 130,
         "lidia": 40,
         "shaheen": 15,
         "victor": 12
       },
-      "matchLosses": 421,
-      "matchWins": 753,
+      "matchLosses": 427,
+      "matchWins": 759,
       "mostPlayedCharacter": "bob",
-      "totalMatches": 1174,
-      "winRate": 0.641
+      "totalMatches": 1186,
+      "winRate": 0.64
     },
     "kragsloor": {
       "charUsage": {
@@ -177,13 +177,14 @@
         "claudio": 260,
         "clive": 42,
         "dragunov": 10,
-        "fahkumram": 138
+        "fahkumram": 138,
+        "kazuya": 4
       },
-      "matchLosses": 797,
+      "matchLosses": 801,
       "matchWins": 874,
       "mostPlayedCharacter": "bob",
-      "totalMatches": 1671,
-      "winRate": 0.523
+      "totalMatches": 1675,
+      "winRate": 0.522
     },
     "oddlionss": {
       "charUsage": {
@@ -197,16 +198,16 @@
     },
     "omni": {
       "charUsage": {
-        "armor_king": 45,
+        "armor_king": 66,
         "bob": 20,
         "heihachi": 7,
         "lars": 35
       },
-      "matchLosses": 29,
-      "matchWins": 78,
+      "matchLosses": 37,
+      "matchWins": 91,
       "mostPlayedCharacter": "armor_king",
-      "totalMatches": 107,
-      "winRate": 0.729
+      "totalMatches": 128,
+      "winRate": 0.711
     },
     "phine": {
       "charUsage": {
