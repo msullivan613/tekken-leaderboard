@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T13:16:00.443Z",
+  "generatedAt": "2026-10-05T23:34:19.238Z",
   "pairs": [
     {
       "character": "lili",
@@ -235,24 +235,24 @@
     {
       "character": "bob",
       "confidence": "leaderboard",
-      "games": 823,
-      "lastUpdated": "2026-10-02T20:30:46.000Z",
+      "games": 842,
+      "lastUpdated": "2026-10-05T19:48:14.000Z",
       "pairId": "3JAY-QR5R-dNJh:bob",
       "playerId": "nullified",
       "provisional": false,
-      "rating": 1997,
+      "rating": 1942,
       "sigmaSquared": 63
     },
     {
       "character": "claudio",
       "confidence": "leaderboard",
-      "games": 6302,
-      "lastUpdated": "2026-10-05T04:10:04.000Z",
+      "games": 6306,
+      "lastUpdated": "2026-10-05T21:23:18.000Z",
       "pairId": "3JAY-QR5R-dNJh:claudio",
       "playerId": "nullified",
       "provisional": false,
-      "rating": 1945,
-      "sigmaSquared": 65
+      "rating": 1942,
+      "sigmaSquared": 64
     },
     {
       "character": "clive",
@@ -286,6 +286,28 @@
       "provisional": false,
       "rating": 1936,
       "sigmaSquared": 68
+    },
+    {
+      "character": "jack8",
+      "confidence": "unqualified",
+      "games": 1202,
+      "lastUpdated": "2026-10-05T23:30:12.000Z",
+      "pairId": "3JAY-QR5R-dNJh:jack8",
+      "playerId": "nullified",
+      "provisional": false,
+      "rating": 1700,
+      "sigmaSquared": 83
+    },
+    {
+      "character": "kazuya",
+      "confidence": "unqualified",
+      "games": 20,
+      "lastUpdated": "2026-10-05T18:48:51.000Z",
+      "pairId": "3JAY-QR5R-dNJh:kazuya",
+      "playerId": "nullified",
+      "provisional": false,
+      "rating": 1433,
+      "sigmaSquared": 90
     },
     {
       "character": "kunimitsu",
