@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T23:33:30.540Z",
+  "generatedAt": "2026-10-06T04:14:20.339Z",
   "pairs": [
     {
       "character": "leroy",
@@ -410,14 +410,14 @@
     },
     {
       "character": "panda",
-      "confidence": "unqualified",
-      "games": 5159,
-      "lastUpdated": "2026-10-05T05:28:47.000Z",
+      "confidence": "leaderboard",
+      "games": 5178,
+      "lastUpdated": "2026-10-06T02:07:45.000Z",
       "pairId": "3hBB-83gE-7EAG:panda",
       "playerId": "skrt",
       "provisional": false,
-      "rating": 1946,
-      "sigmaSquared": 76
+      "rating": 1977,
+      "sigmaSquared": 72
     },
     {
       "character": "yoshimitsu",
@@ -495,6 +495,17 @@
       "provisional": false,
       "rating": 1936,
       "sigmaSquared": 68
+    },
+    {
+      "character": "jack8",
+      "confidence": "leaderboard",
+      "games": 1221,
+      "lastUpdated": "2026-10-06T04:11:58.000Z",
+      "pairId": "3JAY-QR5R-dNJh:jack8",
+      "playerId": "nullified",
+      "provisional": false,
+      "rating": 1675,
+      "sigmaSquared": 70
     },
     {
       "character": "kazuya",
@@ -1071,12 +1082,12 @@
     {
       "character": "jun",
       "confidence": "leaderboard",
-      "games": 3452,
-      "lastUpdated": "2026-10-05T08:36:44.000Z",
+      "games": 3482,
+      "lastUpdated": "2026-10-06T04:07:48.000Z",
       "pairId": "5HyE-nHGe-rLJ8:jun",
       "playerId": "phine",
       "provisional": false,
-      "rating": 1991,
+      "rating": 1963,
       "sigmaSquared": 63
     },
     {
