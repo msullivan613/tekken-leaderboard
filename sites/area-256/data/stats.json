@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 19123,
+  "basedOnMatchCount": 19199,
   "charMatchups": {
     "afriking:armor_king|bigkuma:kuma": {
       "matchesA": 2,
@@ -10,7 +10,7 @@
       "matchesB": 20
     }
   },
-  "generatedAt": "2026-10-07T12:26:24.515Z",
+  "generatedAt": "2026-10-07T22:30:33.293Z",
   "headToHead": {
     "afriking|bigkuma": {
       "matchesA": 2,
@@ -28,14 +28,14 @@
   "players": {
     "afriking": {
       "charUsage": {
-        "armor_king": 893,
+        "armor_king": 922,
         "lars": 77
       },
-      "matchLosses": 454,
-      "matchWins": 516,
+      "matchLosses": 472,
+      "matchWins": 527,
       "mostPlayedCharacter": "armor_king",
-      "totalMatches": 970,
-      "winRate": 0.532
+      "totalMatches": 999,
+      "winRate": 0.528
     },
     "bard": {
       "charUsage": {
@@ -75,15 +75,16 @@
     "falsecrustacean": {
       "charUsage": {
         "bob": 124,
-        "heihachi": 20,
-        "hwoarang": 505,
-        "jin": 16
+        "heihachi": 45,
+        "hwoarang": 515,
+        "jin": 16,
+        "kazuya": 12
       },
-      "matchLosses": 218,
-      "matchWins": 447,
+      "matchLosses": 240,
+      "matchWins": 472,
       "mostPlayedCharacter": "hwoarang",
-      "totalMatches": 665,
-      "winRate": 0.672
+      "totalMatches": 712,
+      "winRate": 0.663
     },
     "goul": {
       "charUsage": {
