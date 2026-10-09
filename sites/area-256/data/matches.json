@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 0,
   "feedMatchCount": 474,
-  "generatedAt": "2026-10-08T22:43:22.343Z",
+  "generatedAt": "2026-10-09T04:00:19.705Z",
   "matches": [
     {
       "a": {
@@ -6667,29 +6667,6 @@
       },
       "battleType": "ranked",
       "crew": false,
-      "id": "514f610262ef452786f1069baf2c8504",
-      "playedAt": "2026-10-07T00:47:42.000Z",
-      "roundsA": 2,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Nullified",
-        "playerId": "nullified",
-        "polarisId": "3JAYQR5RdNJh",
-        "rank": "god_of_destruction_iv"
-      },
-      "b": {
-        "character": "leo",
-        "name": "52 bussywagyan",
-        "playerId": null,
-        "polarisId": "59rRnmi5rMB2",
-        "rank": "god_of_destruction_vi"
-      },
-      "battleType": "ranked",
-      "crew": false,
       "id": "c295fbfb8438419183b977d90421f137",
       "playedAt": "2026-10-07T00:52:13.000Z",
       "roundsA": 2,
@@ -10902,6 +10879,29 @@
       "id": "a086395d150f4344bb05b99aa3375572",
       "playedAt": "2026-10-08T22:40:58.000Z",
       "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Nullified",
+        "playerId": "nullified",
+        "polarisId": "3JAYQR5RdNJh",
+        "rank": "god_of_destruction_iv"
+      },
+      "b": {
+        "character": "hwoarang",
+        "name": "DK..",
+        "playerId": null,
+        "polarisId": "54JNhQqQfhG2",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "21b84b7acea94d7e9e2c2ac071edec2d",
+      "playedAt": "2026-10-08T22:44:10.000Z",
+      "roundsA": 1,
       "roundsB": 3,
       "winner": "b"
     }
