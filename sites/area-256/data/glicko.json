@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T11:42:33.017Z",
+  "generatedAt": "2026-10-10T16:44:26.859Z",
   "pairs": [
     {
       "character": "leroy",
@@ -928,13 +928,13 @@
     {
       "character": "bob",
       "confidence": "leaderboard",
-      "games": 329,
-      "lastUpdated": "2026-10-10T05:08:21.000Z",
+      "games": 341,
+      "lastUpdated": "2026-10-10T14:54:30.000Z",
       "pairId": "5Dd9-FT34-6q44:bob",
       "playerId": "kingbreadsticks",
       "provisional": false,
-      "rating": 2107,
-      "sigmaSquared": 65
+      "rating": 2078,
+      "sigmaSquared": 64
     },
     {
       "character": "bryan",
@@ -960,14 +960,14 @@
     },
     {
       "character": "feng",
-      "confidence": "provisional",
-      "games": 59,
-      "lastUpdated": "2026-08-18T03:07:47.000Z",
+      "confidence": "unqualified",
+      "games": 69,
+      "lastUpdated": "2026-10-10T15:22:05.000Z",
       "pairId": "5Dd9-FT34-6q44:feng",
       "playerId": "kingbreadsticks",
-      "provisional": true,
-      "rating": 1992,
-      "sigmaSquared": 131
+      "provisional": false,
+      "rating": 1919,
+      "sigmaSquared": 108
     },
     {
       "character": "king",
