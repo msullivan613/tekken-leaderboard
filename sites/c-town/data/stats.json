@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 8859,
+  "basedOnMatchCount": 8874,
   "charMatchups": {
     "bigman:bob|fop:reina": {
       "matchesA": 1,
@@ -566,7 +566,7 @@
       "matchesB": 0
     }
   },
-  "generatedAt": "2026-10-11T17:11:00.920Z",
+  "generatedAt": "2026-10-11T21:21:00.081Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 4,
@@ -797,17 +797,17 @@
         "bob": 42,
         "heihachi": 63,
         "king": 3,
-        "kuma": 1871,
+        "kuma": 1873,
         "kunimitsu": 13,
         "nina": 8,
         "panda": 538,
         "paul": 6,
         "reina": 8
       },
-      "matchLosses": 1294,
+      "matchLosses": 1296,
       "matchWins": 1258,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 2552,
+      "totalMatches": 2554,
       "winRate": 0.493
     },
     "burny": {
@@ -958,6 +958,7 @@
     },
     "nyx": {
       "charUsage": {
+        "armor_king": 8,
         "bob": 267,
         "eddy": 1,
         "jin": 1,
@@ -966,11 +967,11 @@
         "paul": 7,
         "steve": 41
       },
-      "matchLosses": 217,
-      "matchWins": 108,
+      "matchLosses": 222,
+      "matchWins": 111,
       "mostPlayedCharacter": "bob",
-      "totalMatches": 325,
-      "winRate": 0.332
+      "totalMatches": 333,
+      "winRate": 0.333
     },
     "slashuur": {
       "charUsage": {
@@ -988,18 +989,18 @@
       "charUsage": {
         "armor_king": 1,
         "dragunov": 113,
-        "eddy": 4,
+        "eddy": 7,
         "fahkumram": 27,
-        "kazuya": 13,
+        "kazuya": 15,
         "law": 121,
         "lee": 69,
         "victor": 5
       },
-      "matchLosses": 100,
-      "matchWins": 253,
+      "matchLosses": 101,
+      "matchWins": 257,
       "mostPlayedCharacter": "law",
-      "totalMatches": 353,
-      "winRate": 0.717
+      "totalMatches": 358,
+      "winRate": 0.718
     },
     "sugarfree": {
       "charUsage": {
