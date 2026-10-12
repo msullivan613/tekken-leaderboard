@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T21:21:00.081Z",
+  "generatedAt": "2026-10-12T03:42:12.146Z",
   "pairs": [
     {
       "character": "lili",
@@ -356,13 +356,13 @@
     {
       "character": "panda",
       "confidence": "leaderboard",
-      "games": 825,
-      "lastUpdated": "2026-10-11T02:37:08.000Z",
+      "games": 847,
+      "lastUpdated": "2026-10-12T02:02:47.000Z",
       "pairId": "4899-Drd8-678h:panda",
       "playerId": "bigman",
       "provisional": false,
-      "rating": 2085,
-      "sigmaSquared": 62
+      "rating": 2081,
+      "sigmaSquared": 61
     },
     {
       "character": "reina",
@@ -418,6 +418,17 @@
       "provisional": false,
       "rating": 1977,
       "sigmaSquared": 92
+    },
+    {
+      "character": "eddy",
+      "confidence": "provisional",
+      "games": 18,
+      "lastUpdated": "2025-02-20T23:27:14.000Z",
+      "pairId": "4TiQ-J6FA-rHJa:eddy",
+      "playerId": "stone",
+      "provisional": true,
+      "rating": 1895,
+      "sigmaSquared": 201
     },
     {
       "character": "fahkumram",
