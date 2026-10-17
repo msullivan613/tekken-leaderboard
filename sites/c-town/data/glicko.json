@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T20:23:03.744Z",
+  "generatedAt": "2026-10-17T02:30:14.875Z",
   "pairs": [
     {
       "character": "lili",
@@ -235,12 +235,12 @@
     {
       "character": "bob",
       "confidence": "leaderboard",
-      "games": 1084,
-      "lastUpdated": "2026-10-16T18:42:32.000Z",
+      "games": 1116,
+      "lastUpdated": "2026-10-17T00:32:41.000Z",
       "pairId": "3JAY-QR5R-dNJh:bob",
       "playerId": "nullified",
       "provisional": false,
-      "rating": 1897,
+      "rating": 1932,
       "sigmaSquared": 63
     },
     {
@@ -322,14 +322,14 @@
     },
     {
       "character": "heihachi",
-      "confidence": "provisional",
-      "games": 69,
-      "lastUpdated": "2026-10-13T02:06:58.000Z",
+      "confidence": "unqualified",
+      "games": 75,
+      "lastUpdated": "2026-10-16T23:59:21.000Z",
       "pairId": "4899-Drd8-678h:heihachi",
       "playerId": "bigman",
-      "provisional": true,
-      "rating": 1329,
-      "sigmaSquared": 111
+      "provisional": false,
+      "rating": 1375,
+      "sigmaSquared": 97
     },
     {
       "character": "kuma",
@@ -356,12 +356,12 @@
     {
       "character": "panda",
       "confidence": "leaderboard",
-      "games": 856,
-      "lastUpdated": "2026-10-13T00:53:13.000Z",
+      "games": 894,
+      "lastUpdated": "2026-10-17T02:25:17.000Z",
       "pairId": "4899-Drd8-678h:panda",
       "playerId": "bigman",
       "provisional": false,
-      "rating": 2058,
+      "rating": 2040,
       "sigmaSquared": 62
     },
     {
