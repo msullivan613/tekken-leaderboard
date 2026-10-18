@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 9502,
+  "basedOnMatchCount": 9585,
   "charMatchups": {
     "bigman:bob|fop:reina": {
       "matchesA": 1,
@@ -410,7 +410,7 @@
       "matchesB": 0
     },
     "fop:devil_jin|nyx:bob": {
-      "matchesA": 2,
+      "matchesA": 5,
       "matchesB": 0
     },
     "fop:devil_jin|sugarfree:bryan": {
@@ -454,7 +454,7 @@
       "matchesB": 0
     },
     "fop:reina|nyx:bob": {
-      "matchesA": 25,
+      "matchesA": 72,
       "matchesB": 0
     },
     "fop:reina|stone:dragunov": {
@@ -574,7 +574,7 @@
       "matchesB": 0
     }
   },
-  "generatedAt": "2026-10-18T02:30:27.376Z",
+  "generatedAt": "2026-10-18T10:12:14.991Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 4,
@@ -733,10 +733,10 @@
       "roundsB": 3
     },
     "fop|nyx": {
-      "matchesA": 66,
+      "matchesA": 116,
       "matchesB": 9,
-      "roundsA": 213,
-      "roundsB": 61
+      "roundsA": 363,
+      "roundsB": 83
     },
     "fop|stone": {
       "matchesA": 0,
@@ -878,7 +878,7 @@
         "asuka": 4,
         "bryan": 1,
         "claudio": 1,
-        "devil_jin": 15,
+        "devil_jin": 18,
         "dragunov": 4,
         "fahkumram": 1,
         "feng": 8,
@@ -891,16 +891,16 @@
         "leroy": 9,
         "lili": 4,
         "paul": 38,
-        "reina": 1108,
+        "reina": 1188,
         "shaheen": 5,
         "steve": 1,
         "xiaoyu": 1
       },
-      "matchLosses": 509,
-      "matchWins": 734,
+      "matchLosses": 515,
+      "matchWins": 811,
       "mostPlayedCharacter": "reina",
-      "totalMatches": 1243,
-      "winRate": 0.591
+      "totalMatches": 1326,
+      "winRate": 0.612
     },
     "gnarlyidk": {
       "charUsage": {
@@ -967,7 +967,7 @@
     "nyx": {
       "charUsage": {
         "armor_king": 18,
-        "bob": 355,
+        "bob": 405,
         "eddy": 1,
         "jin": 1,
         "kazuya": 1,
@@ -975,11 +975,11 @@
         "paul": 7,
         "steve": 41
       },
-      "matchLosses": 284,
+      "matchLosses": 334,
       "matchWins": 147,
       "mostPlayedCharacter": "bob",
-      "totalMatches": 431,
-      "winRate": 0.341
+      "totalMatches": 481,
+      "winRate": 0.306
     },
     "slashuur": {
       "charUsage": {
