@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T19:56:18.539Z",
+  "generatedAt": "2026-10-18T02:29:37.115Z",
   "matches": [
     {
       "a": {
@@ -448411,6 +448411,167 @@
     },
     {
       "a": {
+        "character": "kazuya",
+        "name": "RickMulaDrip",
+        "playerId": null,
+        "polarisId": "2fgjHaQ5nmtT",
+        "rank": "god_of_destruction_i"
+      },
+      "b": {
+        "character": "feng",
+        "name": "Kingbreadsticks",
+        "playerId": "kingbreadsticks",
+        "polarisId": "5Dd9FT346q44",
+        "rank": "god_of_destruction_ii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "3db1fdfe47b74d9889e98ea7e83396b8",
+      "playedAt": "2026-10-11T13:54:49.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kazuya",
+        "name": "RickMulaDrip",
+        "playerId": null,
+        "polarisId": "2fgjHaQ5nmtT",
+        "rank": "god_of_destruction_i"
+      },
+      "b": {
+        "character": "feng",
+        "name": "Kingbreadsticks",
+        "playerId": "kingbreadsticks",
+        "polarisId": "5Dd9FT346q44",
+        "rank": "god_of_destruction_ii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "e971c4dd604d49a9ab16db62cfcc2ab3",
+      "playedAt": "2026-10-11T13:57:45.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "feng",
+        "name": "Kingbreadsticks",
+        "playerId": "kingbreadsticks",
+        "polarisId": "5Dd9FT346q44",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "bryan",
+        "name": "Lord-Covid",
+        "playerId": null,
+        "polarisId": "5mMdRTHdy2GQ",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "63bfd82a72a44aba89cdb257662e4d9b",
+      "playedAt": "2026-10-11T14:00:42.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "feng",
+        "name": "Kingbreadsticks",
+        "playerId": "kingbreadsticks",
+        "polarisId": "5Dd9FT346q44",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Dragonfly Jones",
+        "playerId": null,
+        "polarisId": "5bYimajYGaMd",
+        "rank": "god_of_destruction_i"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "a7e41c13b36e425c928da1119c865a16",
+      "playedAt": "2026-10-11T14:03:50.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "feng",
+        "name": "Kingbreadsticks",
+        "playerId": "kingbreadsticks",
+        "polarisId": "5Dd9FT346q44",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Dragonfly Jones",
+        "playerId": null,
+        "polarisId": "5bYimajYGaMd",
+        "rank": "god_of_destruction_i"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "7ac1bad4c6a74e73938d7bbced4eb465",
+      "playedAt": "2026-10-11T14:07:11.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "feng",
+        "name": "Kingbreadsticks",
+        "playerId": "kingbreadsticks",
+        "polarisId": "5Dd9FT346q44",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "sethkip",
+        "playerId": null,
+        "polarisId": "5hBnhBRqE66B",
+        "rank": "god_of_destruction_i"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "f1262d85b6c744b7a5773179c6fc00b6",
+      "playedAt": "2026-10-11T14:09:30.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "feng",
+        "name": "Kingbreadsticks",
+        "playerId": "kingbreadsticks",
+        "polarisId": "5Dd9FT346q44",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "sethkip",
+        "playerId": null,
+        "polarisId": "5hBnhBRqE66B",
+        "rank": "god_of_destruction_i"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "5e4dacacc2b347f3abf3e5c6f2b38ef8",
+      "playedAt": "2026-10-11T14:11:53.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
         "character": "nina",
         "name": "huh?",
         "playerId": null,
@@ -449078,6 +449239,29 @@
     },
     {
       "a": {
+        "character": "xiaoyu",
+        "name": "doodoomayneswag",
+        "playerId": null,
+        "polarisId": "4TLRLLgjq6aB",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "feng",
+        "name": "Kingbreadsticks",
+        "playerId": "kingbreadsticks",
+        "polarisId": "5Dd9FT346q44",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "31cfd42c6761428b870909c6011c9ab2",
+      "playedAt": "2026-10-12T02:22:07.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
         "character": "azucena",
         "name": "Phine",
         "playerId": "phine",
@@ -449119,6 +449303,29 @@
       "id": "7e55f5c12fcd403886dc7c301793df0d",
       "playedAt": "2026-10-12T02:25:32.000Z",
       "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "xiaoyu",
+        "name": "doodoomayneswag",
+        "playerId": null,
+        "polarisId": "4TLRLLgjq6aB",
+        "rank": "god_of_destruction_v"
+      },
+      "b": {
+        "character": "feng",
+        "name": "Kingbreadsticks",
+        "playerId": "kingbreadsticks",
+        "polarisId": "5Dd9FT346q44",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "4bd59ed0f03743ffa8fcb773062c161c",
+      "playedAt": "2026-10-12T02:25:55.000Z",
+      "roundsA": 2,
       "roundsB": 3,
       "winner": "b"
     },

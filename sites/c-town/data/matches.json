@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 262,
   "feedMatchCount": 280,
-  "generatedAt": "2026-10-17T19:57:09.151Z",
+  "generatedAt": "2026-10-18T02:30:27.376Z",
   "matches": [
     {
       "a": {
@@ -955,52 +955,6 @@
         "rank": "warrior"
       },
       "b": {
-        "character": "lee",
-        "name": "RunYrPCUpdates",
-        "playerId": null,
-        "polarisId": "5NQM7jn2yN84",
-        "rank": "god_of_destruction"
-      },
-      "battleType": "player",
-      "crew": false,
-      "id": "ewgf:32JbyqQN3MMJ-5NQM7jn2yN84:1789866808",
-      "playedAt": "2026-09-20T01:13:28.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "lee",
-        "name": "RunYrPCUpdates",
-        "playerId": null,
-        "polarisId": "5NQM7jn2yN84",
-        "rank": "god_of_destruction"
-      },
-      "battleType": "player",
-      "crew": false,
-      "id": "ewgf:32JbyqQN3MMJ-5NQM7jn2yN84:1789866963",
-      "playedAt": "2026-09-20T01:16:03.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
         "character": "heihachi",
         "name": "BES | BigMan",
         "playerId": "bigman",
@@ -1034,75 +988,6 @@
       "crew": true,
       "id": "ewgf:32JbyqQN3MMJ-4899Drd8678h:1789868963",
       "playedAt": "2026-09-20T01:49:23.000Z",
-      "roundsA": 1,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "bob",
-        "name": "RK|KatarinaForS",
-        "playerId": null,
-        "polarisId": "4MGM3yd7bNa6",
-        "rank": "god_of_destruction"
-      },
-      "battleType": "player",
-      "crew": false,
-      "id": "ewgf:32JbyqQN3MMJ-4MGM3yd7bNa6:1789869661",
-      "playedAt": "2026-09-20T02:01:01.000Z",
-      "roundsA": 1,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "bob",
-        "name": "RK|KatarinaForS",
-        "playerId": null,
-        "polarisId": "4MGM3yd7bNa6",
-        "rank": "god_of_destruction"
-      },
-      "battleType": "player",
-      "crew": false,
-      "id": "ewgf:32JbyqQN3MMJ-4MGM3yd7bNa6:1789869877",
-      "playedAt": "2026-09-20T02:04:37.000Z",
-      "roundsA": 3,
-      "roundsB": 1,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "bob",
-        "name": "RK|KatarinaForS",
-        "playerId": null,
-        "polarisId": "4MGM3yd7bNa6",
-        "rank": "god_of_destruction"
-      },
-      "battleType": "player",
-      "crew": false,
-      "id": "ewgf:32JbyqQN3MMJ-4MGM3yd7bNa6:1789870120",
-      "playedAt": "2026-09-20T02:08:40.000Z",
       "roundsA": 1,
       "roundsB": 3,
       "winner": "b"
@@ -1155,190 +1040,6 @@
     },
     {
       "a": {
-        "character": "kuma",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "brawler"
-      },
-      "b": {
-        "character": "king",
-        "name": "Slay",
-        "playerId": null,
-        "polarisId": "4ymYQyeBf7rr",
-        "rank": "cavalry"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "4cacc34a58a049668866f1a8cfef99e2",
-      "playedAt": "2026-09-20T21:11:56.000Z",
-      "roundsA": 3,
-      "roundsB": 2,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "kuma",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "brawler"
-      },
-      "b": {
-        "character": "king",
-        "name": "Slay",
-        "playerId": null,
-        "polarisId": "4ymYQyeBf7rr",
-        "rank": "cavalry"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "dd27c2b65d924c7e9ffa0b81fa911814",
-      "playedAt": "2026-09-20T21:14:05.000Z",
-      "roundsA": 3,
-      "roundsB": 1,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "kuma",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "brawler"
-      },
-      "b": {
-        "character": "king",
-        "name": "Slay",
-        "playerId": null,
-        "polarisId": "4ymYQyeBf7rr",
-        "rank": "cavalry"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "e9d8e70960564e36809223e56c5974a8",
-      "playedAt": "2026-09-20T21:16:10.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "dragunov",
-        "name": "Marvelman999",
-        "playerId": null,
-        "polarisId": "45E5Ny48QHan",
-        "rank": "dominator"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "a08a01e9fac544e1bfba6b542051cee1",
-      "playedAt": "2026-09-20T21:33:25.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "dragunov",
-        "name": "Marvelman999",
-        "playerId": null,
-        "polarisId": "45E5Ny48QHan",
-        "rank": "dominator"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "dc488d81fbd34ca99cdd2ffaa3f21098",
-      "playedAt": "2026-09-20T21:36:43.000Z",
-      "roundsA": 3,
-      "roundsB": 2,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "dragunov",
-        "name": "Marvelman999",
-        "playerId": null,
-        "polarisId": "45E5Ny48QHan",
-        "rank": "dominator"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "abe53112e6394484a191a0795af639de",
-      "playedAt": "2026-09-20T21:39:34.000Z",
-      "roundsA": 2,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "nina",
-        "name": "Aizzary",
-        "playerId": null,
-        "polarisId": "4j4Y66aqj3G6",
-        "rank": "cavalry"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "70dd3806030148fa8e65219971ff078e",
-      "playedAt": "2026-09-20T21:42:19.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "nina",
-        "name": "Aizzary",
-        "playerId": null,
-        "polarisId": "4j4Y66aqj3G6",
-        "rank": "warrior"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "a82fdd85bc4346abb4c49ad3bf553fb0",
-      "playedAt": "2026-09-20T21:44:42.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
         "character": "panda",
         "name": "gnarlyidk",
         "playerId": "gnarlyidk",
@@ -1382,52 +1083,6 @@
       "roundsA": 3,
       "roundsB": 1,
       "winner": "a"
-    },
-    {
-      "a": {
-        "character": "kuma",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "brawler"
-      },
-      "b": {
-        "character": "kuma",
-        "name": "Deku_Ultra-TTV",
-        "playerId": null,
-        "polarisId": "3LFTe4QTedaM",
-        "rank": "god_of_destruction"
-      },
-      "battleType": "group",
-      "crew": false,
-      "id": "ewgf:32JbyqQN3MMJ-3LFTe4QTedaM:1789949682",
-      "playedAt": "2026-09-21T00:14:42.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "kuma",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "brawler"
-      },
-      "b": {
-        "character": "kuma",
-        "name": "Deku_Ultra-TTV",
-        "playerId": null,
-        "polarisId": "3LFTe4QTedaM",
-        "rank": "god_of_destruction"
-      },
-      "battleType": "group",
-      "crew": false,
-      "id": "ewgf:32JbyqQN3MMJ-3LFTe4QTedaM:1789949849",
-      "playedAt": "2026-09-21T00:17:29.000Z",
-      "roundsA": 1,
-      "roundsB": 3,
-      "winner": "b"
     },
     {
       "a": {
@@ -1494,52 +1149,6 @@
       "crew": false,
       "id": "ewgf:2GAa6T8RT3Ey-4Tibd7LhtFdf:1789950432",
       "playedAt": "2026-09-21T00:27:12.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "kuma",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "brawler"
-      },
-      "b": {
-        "character": "panda",
-        "name": "MDLGames",
-        "playerId": null,
-        "polarisId": "54TnLEdQR3nr",
-        "rank": "god_of_destruction_ii"
-      },
-      "battleType": "group",
-      "crew": false,
-      "id": "ewgf:32JbyqQN3MMJ-54TnLEdQR3nr:1789951153",
-      "playedAt": "2026-09-21T00:39:13.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "kuma",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "brawler"
-      },
-      "b": {
-        "character": "panda",
-        "name": "MDLGames",
-        "playerId": null,
-        "polarisId": "54TnLEdQR3nr",
-        "rank": "god_of_destruction_ii"
-      },
-      "battleType": "group",
-      "crew": false,
-      "id": "ewgf:32JbyqQN3MMJ-54TnLEdQR3nr:1789951286",
-      "playedAt": "2026-09-21T00:41:26.000Z",
       "roundsA": 0,
       "roundsB": 3,
       "winner": "b"
@@ -6261,52 +5870,6 @@
     },
     {
       "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "lili",
-        "name": "FearfulSymmetry",
-        "playerId": null,
-        "polarisId": "3FAGii4a3AB4",
-        "rank": "vanquisher"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "e3ddc24c2d5948b6a38961193047501b",
-      "playedAt": "2026-10-07T23:03:07.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "lili",
-        "name": "FearfulSymmetry",
-        "playerId": null,
-        "polarisId": "3FAGii4a3AB4",
-        "rank": "vanquisher"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "e0fe39dc870246b58a6292da8ef19ff6",
-      "playedAt": "2026-10-07T23:05:45.000Z",
-      "roundsA": 1,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
         "character": "reina",
         "name": "FopFopFop",
         "playerId": "fop",
@@ -6672,190 +6235,6 @@
       "roundsA": 3,
       "roundsB": 1,
       "winner": "a"
-    },
-    {
-      "a": {
-        "character": "armor_king",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "brawler"
-      },
-      "b": {
-        "character": "heihachi",
-        "name": "MaizeOHHHHHHHH!",
-        "playerId": null,
-        "polarisId": "3EALQr8gF9Ej",
-        "rank": "combatant"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "4e72ecde0ce448f58ce0296d2063a0a8",
-      "playedAt": "2026-10-11T17:22:38.000Z",
-      "roundsA": 2,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "armor_king",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "brawler"
-      },
-      "b": {
-        "character": "heihachi",
-        "name": "MaizeOHHHHHHHH!",
-        "playerId": null,
-        "polarisId": "3EALQr8gF9Ej",
-        "rank": "combatant"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "489fea001e36471e9aec902260705927",
-      "playedAt": "2026-10-11T17:26:00.000Z",
-      "roundsA": 2,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "armor_king",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "brawler"
-      },
-      "b": {
-        "character": "heihachi",
-        "name": "MaizeOHHHHHHHH!",
-        "playerId": null,
-        "polarisId": "3EALQr8gF9Ej",
-        "rank": "combatant"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "4856a8a755f34eacbfa5d14840d9c171",
-      "playedAt": "2026-10-11T17:28:04.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "armor_king",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "brawler"
-      },
-      "b": {
-        "character": "lili",
-        "name": "EvilChicken",
-        "playerId": null,
-        "polarisId": "44FbMTH82D8B",
-        "rank": "fighter"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "11fd0025c5454fbdab7f2824a65fde03",
-      "playedAt": "2026-10-11T17:31:01.000Z",
-      "roundsA": 3,
-      "roundsB": 0,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "armor_king",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "brawler"
-      },
-      "b": {
-        "character": "lili",
-        "name": "EvilChicken",
-        "playerId": null,
-        "polarisId": "44FbMTH82D8B",
-        "rank": "fighter"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "1920f8050395473699e6896d74b5e9a5",
-      "playedAt": "2026-10-11T17:33:50.000Z",
-      "roundsA": 3,
-      "roundsB": 1,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "armor_king",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "brawler"
-      },
-      "b": {
-        "character": "lili",
-        "name": "EvilChicken",
-        "playerId": null,
-        "polarisId": "44FbMTH82D8B",
-        "rank": "fighter"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "84fc6b24a3a64f05876d4a1a2f4c7308",
-      "playedAt": "2026-10-11T17:38:06.000Z",
-      "roundsA": 3,
-      "roundsB": 2,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "armor_king",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "brawler"
-      },
-      "b": {
-        "character": "lili",
-        "name": "EvilChicken",
-        "playerId": null,
-        "polarisId": "44FbMTH82D8B",
-        "rank": "fighter"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "70a5d6319fad4a5bb45c2d6d50459dbc",
-      "playedAt": "2026-10-11T17:40:52.000Z",
-      "roundsA": 1,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "armor_king",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "brawler"
-      },
-      "b": {
-        "character": "lili",
-        "name": "EvilChicken",
-        "playerId": null,
-        "polarisId": "44FbMTH82D8B",
-        "rank": "fighter"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "f576929213af4eda95d0f0114e59ab22",
-      "playedAt": "2026-10-11T17:43:24.000Z",
-      "roundsA": 1,
-      "roundsB": 3,
-      "winner": "b"
     },
     {
       "a": {
@@ -11781,75 +11160,6 @@
     },
     {
       "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "kunimitsu",
-        "name": "Talon Aoire",
-        "playerId": null,
-        "polarisId": "46t3t3dgNBaa",
-        "rank": "warrior"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "2b95bd12b8684491a7f2e69745621109",
-      "playedAt": "2026-10-17T03:13:39.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "kunimitsu",
-        "name": "Talon Aoire",
-        "playerId": null,
-        "polarisId": "46t3t3dgNBaa",
-        "rank": "warrior"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "0c1070d71f7e43acb2c63379258feb7a",
-      "playedAt": "2026-10-17T03:16:36.000Z",
-      "roundsA": 1,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "kunimitsu",
-        "name": "Talon Aoire",
-        "playerId": null,
-        "polarisId": "46t3t3dgNBaa",
-        "rank": "warrior"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "3ef6a7b04b3944f296f0897f64d5f37d",
-      "playedAt": "2026-10-17T03:18:21.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
         "character": "panda",
         "name": "BES | BigMan",
         "playerId": "bigman",
@@ -11893,52 +11203,6 @@
       "roundsA": 3,
       "roundsB": 2,
       "winner": "a"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "steve",
-        "name": "Travi",
-        "playerId": null,
-        "polarisId": "567FN7j7AhGh",
-        "rank": "vanquisher"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "7f5c13ab0d9a4d479b916b5f1a239b5b",
-      "playedAt": "2026-10-17T03:22:32.000Z",
-      "roundsA": 2,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "steve",
-        "name": "Travi",
-        "playerId": null,
-        "polarisId": "567FN7j7AhGh",
-        "rank": "vanquisher"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "c83d88f3f62c452d8f2775a53d691bbe",
-      "playedAt": "2026-10-17T03:25:45.000Z",
-      "roundsA": 2,
-      "roundsB": 3,
-      "winner": "b"
     },
     {
       "a": {
@@ -11988,29 +11252,6 @@
     },
     {
       "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "steve",
-        "name": "Travi",
-        "playerId": null,
-        "polarisId": "567FN7j7AhGh",
-        "rank": "vanquisher"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "52bbd2d89f2042cabeb938044c3e4d0d",
-      "playedAt": "2026-10-17T03:29:40.000Z",
-      "roundsA": 1,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
         "character": "steve",
         "name": "SIGNUM",
         "playerId": null,
@@ -12030,29 +11271,6 @@
       "playedAt": "2026-10-17T03:30:34.000Z",
       "roundsA": 3,
       "roundsB": 1,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "shaheen",
-        "name": "kai007",
-        "playerId": null,
-        "polarisId": "55AjDqnYGH4d",
-        "rank": "brawler"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "d47e041933be410285cb57dcbeabc1b0",
-      "playedAt": "2026-10-17T03:34:09.000Z",
-      "roundsA": 3,
-      "roundsB": 2,
       "winner": "a"
     },
     {
@@ -12080,29 +11298,6 @@
     },
     {
       "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "shaheen",
-        "name": "kai007",
-        "playerId": null,
-        "polarisId": "55AjDqnYGH4d",
-        "rank": "brawler"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "cdf415240fc146688890c88a61afd2fb",
-      "playedAt": "2026-10-17T03:36:05.000Z",
-      "roundsA": 3,
-      "roundsB": 0,
-      "winner": "a"
-    },
-    {
-      "a": {
         "character": "clive",
         "name": "Made0fClay",
         "playerId": null,
@@ -12126,29 +11321,6 @@
     },
     {
       "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "shaheen",
-        "name": "kai007",
-        "playerId": null,
-        "polarisId": "55AjDqnYGH4d",
-        "rank": "brawler"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "2766173d25c7444581687cadc180f389",
-      "playedAt": "2026-10-17T03:39:29.000Z",
-      "roundsA": 3,
-      "roundsB": 1,
-      "winner": "a"
-    },
-    {
-      "a": {
         "character": "clive",
         "name": "Made0fClay",
         "playerId": null,
@@ -12166,29 +11338,6 @@
       "crew": false,
       "id": "6362a8858d3f4bc9a7783093eb69dcab",
       "playedAt": "2026-10-17T03:41:19.000Z",
-      "roundsA": 3,
-      "roundsB": 2,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "shaheen",
-        "name": "kai007",
-        "playerId": null,
-        "polarisId": "55AjDqnYGH4d",
-        "rank": "brawler"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "d37c002283d04c8e919f381680268537",
-      "playedAt": "2026-10-17T03:43:24.000Z",
       "roundsA": 3,
       "roundsB": 2,
       "winner": "a"
@@ -12218,29 +11367,6 @@
     },
     {
       "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "shaheen",
-        "name": "kai007",
-        "playerId": null,
-        "polarisId": "55AjDqnYGH4d",
-        "rank": "brawler"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "f16b1376be4a45c0b5f705aeb748df2f",
-      "playedAt": "2026-10-17T03:47:24.000Z",
-      "roundsA": 3,
-      "roundsB": 2,
-      "winner": "a"
-    },
-    {
-      "a": {
         "character": "victor",
         "name": "HaRO3112",
         "playerId": null,
@@ -12264,29 +11390,6 @@
     },
     {
       "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "shaheen",
-        "name": "kai007",
-        "playerId": null,
-        "polarisId": "55AjDqnYGH4d",
-        "rank": "brawler"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "6f16a29759f948f589fcba4d25140956",
-      "playedAt": "2026-10-17T03:49:26.000Z",
-      "roundsA": 3,
-      "roundsB": 0,
-      "winner": "a"
-    },
-    {
-      "a": {
         "character": "panda",
         "name": "BES | BigMan",
         "playerId": "bigman",
@@ -12306,29 +11409,6 @@
       "playedAt": "2026-10-17T03:52:41.000Z",
       "roundsA": 3,
       "roundsB": 0,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "bob",
-        "name": "Thingama",
-        "playerId": "nyx",
-        "polarisId": "32JbyqQN3MMJ",
-        "rank": "warrior"
-      },
-      "b": {
-        "character": "shaheen",
-        "name": "kai007",
-        "playerId": null,
-        "polarisId": "55AjDqnYGH4d",
-        "rank": "brawler"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "fe6adaadadb7457dbe49d3b0b7ff3af5",
-      "playedAt": "2026-10-17T03:53:13.000Z",
-      "roundsA": 3,
-      "roundsB": 2,
       "winner": "a"
     },
     {
@@ -12467,6 +11547,926 @@
       "playedAt": "2026-10-17T04:11:20.000Z",
       "roundsA": 3,
       "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "b": {
+        "character": "armor_king",
+        "name": "EratoNyx",
+        "playerId": null,
+        "polarisId": "4EfdL6qHrY2Q",
+        "rank": "destroyer"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "fd7bacb324fb412b8ba0ca1882a312f5",
+      "playedAt": "2026-10-17T23:02:31.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "b": {
+        "character": "victor",
+        "name": "Monkey",
+        "playerId": null,
+        "polarisId": "5YaFFmnfY5ny",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "de360f8e60a846eaa9b7990f21ff5677",
+      "playedAt": "2026-10-17T23:05:09.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "b": {
+        "character": "victor",
+        "name": "Monkey",
+        "playerId": null,
+        "polarisId": "5YaFFmnfY5ny",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "3440e18445c04d9eae844f7c84fd6d80",
+      "playedAt": "2026-10-17T23:07:20.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "king",
+        "name": "prince",
+        "playerId": null,
+        "polarisId": "2Grg67RLFHTQ",
+        "rank": "vanquisher"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "b98d6509af7443ea9775e812ea16af33",
+      "playedAt": "2026-10-17T23:10:16.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "king",
+        "name": "prince",
+        "playerId": null,
+        "polarisId": "2Grg67RLFHTQ",
+        "rank": "vanquisher"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "f7201eaa579449bfb7636d83d8e33aef",
+      "playedAt": "2026-10-17T23:12:42.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "b": {
+        "character": "jack8",
+        "name": "Stank Monsta",
+        "playerId": null,
+        "polarisId": "3ETfB39Eqj68",
+        "rank": "dominator"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "6ad2e8eb3561433dbb7c095ee63a8978",
+      "playedAt": "2026-10-17T23:16:30.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "b": {
+        "character": "jack8",
+        "name": "Stank Monsta",
+        "playerId": null,
+        "polarisId": "3ETfB39Eqj68",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "84dd02d8db3146f38cd8dbcf10c7eadb",
+      "playedAt": "2026-10-17T23:18:35.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "b": {
+        "character": "jack8",
+        "name": "Stank Monsta",
+        "playerId": null,
+        "polarisId": "3ETfB39Eqj68",
+        "rank": "destroyer"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "a96795d3311c4fcf899a34375c17068a",
+      "playedAt": "2026-10-17T23:22:25.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "b": {
+        "character": "jack8",
+        "name": "Stank Monsta",
+        "playerId": null,
+        "polarisId": "3ETfB39Eqj68",
+        "rank": "destroyer"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "032e394de60a4394830c1b627c35c429",
+      "playedAt": "2026-10-17T23:24:13.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "b": {
+        "character": "jack8",
+        "name": "Stank Monsta",
+        "playerId": null,
+        "polarisId": "3ETfB39Eqj68",
+        "rank": "destroyer"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "db3482d811b2480087f93267c03ee4f1",
+      "playedAt": "2026-10-17T23:25:51.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "b": {
+        "character": "reina",
+        "name": "ScottishNinja",
+        "playerId": null,
+        "polarisId": "4T6i5Th4ANQa",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "550c6d913ca440c58ff50fcb273fd883",
+      "playedAt": "2026-10-17T23:28:16.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "b": {
+        "character": "reina",
+        "name": "ScottishNinja",
+        "playerId": null,
+        "polarisId": "4T6i5Th4ANQa",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "153e89abbab749ee9a971b4db9486140",
+      "playedAt": "2026-10-17T23:30:44.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "b": {
+        "character": "reina",
+        "name": "ScottishNinja",
+        "playerId": null,
+        "polarisId": "4T6i5Th4ANQa",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "c513a92de3864bc1be5d0b2ad487fce9",
+      "playedAt": "2026-10-17T23:33:29.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "eddy",
+        "name": "opsec1337",
+        "playerId": null,
+        "polarisId": "323gfNg8mjhE",
+        "rank": "vanquisher"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "4225399aa6d04209af6f10d069243a0f",
+      "playedAt": "2026-10-17T23:37:26.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "kazuya",
+        "name": "Critical",
+        "playerId": null,
+        "polarisId": "27Ei59Bimjeh",
+        "rank": "eliminator"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "4ba59bcb89e24976bcc23e00ba5fd874",
+      "playedAt": "2026-10-17T23:41:25.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kazuya",
+        "name": "Critical",
+        "playerId": null,
+        "polarisId": "27Ei59Bimjeh",
+        "rank": "eliminator"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "794667a0927c461a928c7873e54b0fd9",
+      "playedAt": "2026-10-17T23:43:23.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "vanquisher"
+      },
+      "b": {
+        "character": "leroy",
+        "name": "troy",
+        "playerId": null,
+        "polarisId": "5QhJti6arAJd",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "2d1e3603d0234ff0aa5acdbbd399022e",
+      "playedAt": "2026-10-17T23:46:58.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "leroy",
+        "name": "troy",
+        "playerId": null,
+        "polarisId": "5QhJti6arAJd",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "a0e9711a3534452fb9e92ee34f45fc2f",
+      "playedAt": "2026-10-17T23:49:40.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "law",
+        "name": "Day1'sh",
+        "playerId": null,
+        "polarisId": "5yETYyhg7qTT",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "e920292eac1348c99e82b74b7dae51be",
+      "playedAt": "2026-10-17T23:52:11.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "law",
+        "name": "Day1'sh",
+        "playerId": null,
+        "polarisId": "5yETYyhg7qTT",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "fe13543010c04b219504b7ab59f1f499",
+      "playedAt": "2026-10-17T23:54:49.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "law",
+        "name": "Day1'sh",
+        "playerId": null,
+        "polarisId": "5yETYyhg7qTT",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "a2cc8b197e48459f81bf2664bac4531c",
+      "playedAt": "2026-10-17T23:58:58.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "victor",
+        "name": "Billy",
+        "playerId": null,
+        "polarisId": "4nTAym3h7Jdr",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "40ca9cb1a388464cb496bf8bf79c5472",
+      "playedAt": "2026-10-18T00:05:18.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "victor",
+        "name": "Billy",
+        "playerId": null,
+        "polarisId": "4nTAym3h7Jdr",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "fb133095da144579af92ad4e31eaa553",
+      "playedAt": "2026-10-18T00:07:27.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "law",
+        "name": "Day1'sh",
+        "playerId": null,
+        "polarisId": "5yETYyhg7qTT",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "7d1ba496bde04b20ba192f44b899a16b",
+      "playedAt": "2026-10-18T00:10:22.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "law",
+        "name": "Day1'sh",
+        "playerId": null,
+        "polarisId": "5yETYyhg7qTT",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "eab6d67161b04a518a3d7813184cbce0",
+      "playedAt": "2026-10-18T00:13:06.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "law",
+        "name": "Day1'sh",
+        "playerId": null,
+        "polarisId": "5yETYyhg7qTT",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "61aac75a7465418ba932609ea1fe8e47",
+      "playedAt": "2026-10-18T00:17:05.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "yoshimitsu",
+        "name": "JelqGod720",
+        "playerId": null,
+        "polarisId": "5jHyitF7iR8T",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "6cc636d1c83f4b6ba47f54f09d318cf0",
+      "playedAt": "2026-10-18T00:21:57.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "yoshimitsu",
+        "name": "JelqGod720",
+        "playerId": null,
+        "polarisId": "5jHyitF7iR8T",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "28fb9177f7dd424b9aafe49d06fe3c37",
+      "playedAt": "2026-10-18T00:25:38.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "yoshimitsu",
+        "name": "JelqGod720",
+        "playerId": null,
+        "polarisId": "5jHyitF7iR8T",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "6015c442d3f94fac99bea9384a73b752",
+      "playedAt": "2026-10-18T00:28:24.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "yoshimitsu",
+        "name": "JelqGod720",
+        "playerId": null,
+        "polarisId": "5jHyitF7iR8T",
+        "rank": "destroyer"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "8d419d6070c8483d99033009a1a9aeab",
+      "playedAt": "2026-10-18T00:32:13.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "yoshimitsu",
+        "name": "JelqGod720",
+        "playerId": null,
+        "polarisId": "5jHyitF7iR8T",
+        "rank": "destroyer"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "85b97f8fc4c54178ae2846a19167817a",
+      "playedAt": "2026-10-18T00:33:59.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "leo",
+        "name": "dynabanana",
+        "playerId": null,
+        "polarisId": "5eTgfRaNhqdn",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "7f88b21d26dc4b7ebb886b2115ed3e90",
+      "playedAt": "2026-10-18T00:37:19.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "leo",
+        "name": "dynabanana",
+        "playerId": null,
+        "polarisId": "5eTgfRaNhqdn",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "78275c633bef46f0a2d4f34ff02e0094",
+      "playedAt": "2026-10-18T00:39:50.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "steve",
+        "name": "Trick Shots",
+        "playerId": null,
+        "polarisId": "3dDNdiMR6R78",
+        "rank": "destroyer"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "b97f1dad6c014dcfa45a6221c8c97c64",
+      "playedAt": "2026-10-18T00:43:24.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "steve",
+        "name": "Trick Shots",
+        "playerId": null,
+        "polarisId": "3dDNdiMR6R78",
+        "rank": "destroyer"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "8c3f20ab442a4438ab4bd195d2c7b3f1",
+      "playedAt": "2026-10-18T00:46:04.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "steve",
+        "name": "Trick Shots",
+        "playerId": null,
+        "polarisId": "3dDNdiMR6R78",
+        "rank": "destroyer"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "d688795c26a4497680bce1ca2a523c70",
+      "playedAt": "2026-10-18T00:48:07.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "kazuya",
+        "name": "EddiePantalones",
+        "playerId": null,
+        "polarisId": "2tqddtbBE5ty",
+        "rank": "garyu"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "327bfc847e0041dd894f44fec9d9b945",
+      "playedAt": "2026-10-18T00:50:57.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "kazuya",
+        "name": "EddiePantalones",
+        "playerId": null,
+        "polarisId": "2tqddtbBE5ty",
+        "rank": "garyu"
+      },
+      "b": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "1e23dea405c94748b606a3b4eaa7e366",
+      "playedAt": "2026-10-18T00:55:00.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "leroy",
+        "name": "troy",
+        "playerId": null,
+        "polarisId": "5QhJti6arAJd",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "1fd2e5019d1f4913aaa73d7677969a4e",
+      "playedAt": "2026-10-18T00:57:47.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "bob",
+        "name": "Thingama",
+        "playerId": "nyx",
+        "polarisId": "32JbyqQN3MMJ",
+        "rank": "destroyer"
+      },
+      "b": {
+        "character": "leroy",
+        "name": "troy",
+        "playerId": null,
+        "polarisId": "5QhJti6arAJd",
+        "rank": "vanquisher"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "cf7991a507f84408af2c7f924a187def",
+      "playedAt": "2026-10-18T01:00:35.000Z",
+      "roundsA": 3,
+      "roundsB": 0,
       "winner": "a"
     }
   ],
