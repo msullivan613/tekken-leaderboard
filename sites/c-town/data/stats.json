@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 9585,
+  "basedOnMatchCount": 9587,
   "charMatchups": {
     "bigman:bob|fop:reina": {
       "matchesA": 1,
@@ -574,7 +574,7 @@
       "matchesB": 0
     }
   },
-  "generatedAt": "2026-10-18T15:12:26.011Z",
+  "generatedAt": "2026-10-18T19:57:07.967Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 4,
@@ -802,6 +802,7 @@
   "players": {
     "bigman": {
       "charUsage": {
+        "armor_king": 2,
         "bob": 42,
         "heihachi": 83,
         "king": 3,
@@ -812,11 +813,11 @@
         "paul": 6,
         "reina": 8
       },
-      "matchLosses": 1422,
+      "matchLosses": 1424,
       "matchWins": 1353,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 2775,
-      "winRate": 0.488
+      "totalMatches": 2777,
+      "winRate": 0.487
     },
     "burny": {
       "charUsage": {
