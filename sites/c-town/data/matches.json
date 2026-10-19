@@ -1,7 +1,7 @@
 {
-  "crewMatchCount": 278,
+  "crewMatchCount": 280,
   "feedMatchCount": 284,
-  "generatedAt": "2026-10-19T11:47:17.962Z",
+  "generatedAt": "2026-10-19T18:07:35.317Z",
   "matches": [
     {
       "a": {
@@ -12882,6 +12882,52 @@
       "roundsA": 3,
       "roundsB": 2,
       "winner": "a"
+    },
+    {
+      "a": {
+        "character": "lee",
+        "name": "Mickrus",
+        "playerId": "mickrus",
+        "polarisId": "2tYaR4NBGJJr",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "paul",
+        "name": "Mahoraga",
+        "playerId": "burny",
+        "polarisId": "4fLe2B6Q34fJ",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "player",
+      "crew": true,
+      "id": "ewgf:2tYaR4NBGJJr-4fLe2B6Q34fJ:1792342253",
+      "playedAt": "2026-10-18T16:50:53.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "lee",
+        "name": "Mickrus",
+        "playerId": "mickrus",
+        "polarisId": "2tYaR4NBGJJr",
+        "rank": "god_of_destruction"
+      },
+      "b": {
+        "character": "paul",
+        "name": "Mahoraga",
+        "playerId": "burny",
+        "polarisId": "4fLe2B6Q34fJ",
+        "rank": "god_of_destruction"
+      },
+      "battleType": "player",
+      "crew": true,
+      "id": "ewgf:2tYaR4NBGJJr-4fLe2B6Q34fJ:1792342413",
+      "playedAt": "2026-10-18T16:53:33.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
     },
     {
       "a": {
