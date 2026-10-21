@@ -1,6 +1,10 @@
 {
-  "basedOnMatchCount": 9646,
+  "basedOnMatchCount": 9714,
   "charMatchups": {
+    "bigman:armor_king|fop:reina": {
+      "matchesA": 1,
+      "matchesB": 4
+    },
     "bigman:armor_king|nyx:bob": {
       "matchesA": 1,
       "matchesB": 0
@@ -346,16 +350,16 @@
       "matchesB": 2
     },
     "burny:victor|sugarfree:bryan": {
-      "matchesA": 93,
-      "matchesB": 28
+      "matchesA": 101,
+      "matchesB": 29
     },
     "burny:victor|sugarfree:jack8": {
       "matchesA": 10,
       "matchesB": 0
     },
     "burny:victor|sugarfree:yoshimitsu": {
-      "matchesA": 18,
-      "matchesB": 4
+      "matchesA": 21,
+      "matchesB": 6
     },
     "code:leo|nyx:steve": {
       "matchesA": 3,
@@ -582,7 +586,7 @@
       "matchesB": 0
     }
   },
-  "generatedAt": "2026-10-20T21:06:47.185Z",
+  "generatedAt": "2026-10-21T02:50:05.336Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 4,
@@ -603,10 +607,10 @@
       "roundsB": 2
     },
     "bigman|fop": {
-      "matchesA": 57,
-      "matchesB": 79,
-      "roundsA": 236,
-      "roundsB": 303
+      "matchesA": 58,
+      "matchesB": 83,
+      "roundsA": 243,
+      "roundsB": 317
     },
     "bigman|gnarlyidk": {
       "matchesA": 14,
@@ -687,10 +691,10 @@
       "roundsB": 30
     },
     "burny|sugarfree": {
-      "matchesA": 299,
-      "matchesB": 72,
-      "roundsA": 990,
-      "roundsB": 497
+      "matchesA": 310,
+      "matchesB": 75,
+      "roundsA": 1026,
+      "roundsB": 518
     },
     "code|nyx": {
       "matchesA": 3,
@@ -810,21 +814,21 @@
   "players": {
     "bigman": {
       "charUsage": {
-        "armor_king": 33,
+        "armor_king": 51,
         "bob": 42,
         "heihachi": 83,
         "king": 3,
-        "kuma": 1965,
+        "kuma": 1975,
         "kunimitsu": 13,
         "nina": 8,
         "panda": 647,
         "paul": 6,
         "reina": 8
       },
-      "matchLosses": 1446,
-      "matchWins": 1362,
+      "matchLosses": 1461,
+      "matchWins": 1375,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 2808,
+      "totalMatches": 2836,
       "winRate": 0.485
     },
     "burny": {
@@ -836,13 +840,13 @@
         "hwoarang": 60,
         "paul": 564,
         "shaheen": 1,
-        "victor": 332
+        "victor": 346
       },
-      "matchLosses": 177,
-      "matchWins": 799,
+      "matchLosses": 180,
+      "matchWins": 810,
       "mostPlayedCharacter": "paul",
-      "totalMatches": 976,
-      "winRate": 0.819
+      "totalMatches": 990,
+      "winRate": 0.818
     },
     "chamk": {
       "charUsage": {
@@ -900,28 +904,29 @@
         "leroy": 9,
         "lili": 4,
         "paul": 38,
-        "reina": 1197,
+        "reina": 1222,
         "shaheen": 5,
         "steve": 1,
         "xiaoyu": 1
       },
-      "matchLosses": 520,
-      "matchWins": 815,
+      "matchLosses": 522,
+      "matchWins": 838,
       "mostPlayedCharacter": "reina",
-      "totalMatches": 1335,
-      "winRate": 0.61
+      "totalMatches": 1360,
+      "winRate": 0.616
     },
     "gnarlyidk": {
       "charUsage": {
         "alisa": 4,
-        "panda": 87,
-        "xiaoyu": 1
+        "panda": 92,
+        "xiaoyu": 1,
+        "zafina": 1
       },
-      "matchLosses": 55,
-      "matchWins": 37,
+      "matchLosses": 59,
+      "matchWins": 39,
       "mostPlayedCharacter": "panda",
-      "totalMatches": 92,
-      "winRate": 0.402
+      "totalMatches": 98,
+      "winRate": 0.398
     },
     "jardjay": {
       "charUsage": {
@@ -1022,19 +1027,19 @@
     "sugarfree": {
       "charUsage": {
         "bob": 112,
-        "bryan": 371,
+        "bryan": 380,
         "fahkumram": 1,
         "jack8": 18,
         "kazuya": 5,
         "kuma": 2,
         "paul": 5,
-        "yoshimitsu": 163
+        "yoshimitsu": 168
       },
-      "matchLosses": 451,
-      "matchWins": 226,
+      "matchLosses": 462,
+      "matchWins": 229,
       "mostPlayedCharacter": "bryan",
-      "totalMatches": 677,
-      "winRate": 0.334
+      "totalMatches": 691,
+      "winRate": 0.331
     }
   },
   "schemaVersion": 2
