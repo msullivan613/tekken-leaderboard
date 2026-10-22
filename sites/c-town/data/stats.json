@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 9738,
+  "basedOnMatchCount": 9777,
   "charMatchups": {
     "bigman:armor_king|fop:reina": {
       "matchesA": 1,
@@ -586,7 +586,7 @@
       "matchesB": 0
     }
   },
-  "generatedAt": "2026-10-21T21:06:50.226Z",
+  "generatedAt": "2026-10-22T02:55:52.082Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 4,
@@ -814,21 +814,21 @@
   "players": {
     "bigman": {
       "charUsage": {
-        "armor_king": 51,
+        "armor_king": 56,
         "bob": 42,
         "heihachi": 83,
         "king": 3,
-        "kuma": 1975,
+        "kuma": 1977,
         "kunimitsu": 13,
         "nina": 8,
-        "panda": 647,
+        "panda": 649,
         "paul": 6,
         "reina": 8
       },
-      "matchLosses": 1461,
-      "matchWins": 1375,
+      "matchLosses": 1466,
+      "matchWins": 1379,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 2836,
+      "totalMatches": 2845,
       "winRate": 0.485
     },
     "burny": {
@@ -919,15 +919,16 @@
     "gnarlyidk": {
       "charUsage": {
         "alisa": 4,
-        "panda": 92,
+        "lili": 3,
+        "panda": 96,
         "xiaoyu": 1,
         "zafina": 1
       },
-      "matchLosses": 59,
-      "matchWins": 39,
+      "matchLosses": 63,
+      "matchWins": 42,
       "mostPlayedCharacter": "panda",
-      "totalMatches": 98,
-      "winRate": 0.398
+      "totalMatches": 105,
+      "winRate": 0.4
     },
     "jardjay": {
       "charUsage": {
@@ -1028,19 +1029,19 @@
     "sugarfree": {
       "charUsage": {
         "bob": 112,
-        "bryan": 380,
+        "bryan": 393,
         "fahkumram": 1,
         "jack8": 18,
         "kazuya": 5,
         "kuma": 2,
         "paul": 5,
-        "yoshimitsu": 168
+        "yoshimitsu": 178
       },
-      "matchLosses": 462,
-      "matchWins": 229,
+      "matchLosses": 468,
+      "matchWins": 246,
       "mostPlayedCharacter": "bryan",
-      "totalMatches": 691,
-      "winRate": 0.331
+      "totalMatches": 714,
+      "winRate": 0.345
     }
   },
   "schemaVersion": 2
