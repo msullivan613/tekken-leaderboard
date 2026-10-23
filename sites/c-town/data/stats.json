@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 9786,
+  "basedOnMatchCount": 9873,
   "charMatchups": {
     "bigman:armor_king|fop:reina": {
       "matchesA": 1,
@@ -586,7 +586,7 @@
       "matchesB": 0
     }
   },
-  "generatedAt": "2026-10-22T21:04:59.010Z",
+  "generatedAt": "2026-10-23T02:53:18.249Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 4,
@@ -818,18 +818,18 @@
         "bob": 42,
         "heihachi": 83,
         "king": 3,
-        "kuma": 1980,
+        "kuma": 1992,
         "kunimitsu": 13,
         "nina": 8,
-        "panda": 655,
+        "panda": 662,
         "paul": 6,
         "reina": 8
       },
-      "matchLosses": 1470,
-      "matchWins": 1384,
+      "matchLosses": 1477,
+      "matchWins": 1396,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 2854,
-      "winRate": 0.485
+      "totalMatches": 2873,
+      "winRate": 0.486
     },
     "burny": {
       "charUsage": {
@@ -887,7 +887,7 @@
     },
     "fop": {
       "charUsage": {
-        "armor_king": 16,
+        "armor_king": 24,
         "asuka": 4,
         "bryan": 1,
         "claudio": 1,
@@ -904,17 +904,17 @@
         "leroy": 9,
         "lili": 4,
         "paul": 39,
-        "reina": 1242,
+        "reina": 1276,
         "shaheen": 5,
         "steve": 1,
         "xiaoyu": 1,
         "zafina": 1
       },
-      "matchLosses": 524,
-      "matchWins": 860,
+      "matchLosses": 526,
+      "matchWins": 900,
       "mostPlayedCharacter": "reina",
-      "totalMatches": 1384,
-      "winRate": 0.621
+      "totalMatches": 1426,
+      "winRate": 0.631
     },
     "gnarlyidk": {
       "charUsage": {
@@ -983,7 +983,7 @@
     "nyx": {
       "charUsage": {
         "armor_king": 18,
-        "bob": 406,
+        "bob": 419,
         "eddy": 1,
         "jin": 1,
         "kazuya": 1,
@@ -991,11 +991,11 @@
         "paul": 7,
         "steve": 45
       },
-      "matchLosses": 339,
-      "matchWins": 147,
+      "matchLosses": 346,
+      "matchWins": 153,
       "mostPlayedCharacter": "bob",
-      "totalMatches": 486,
-      "winRate": 0.302
+      "totalMatches": 499,
+      "winRate": 0.307
     },
     "slashuur": {
       "charUsage": {
@@ -1029,19 +1029,19 @@
     "sugarfree": {
       "charUsage": {
         "bob": 112,
-        "bryan": 393,
+        "bryan": 399,
         "fahkumram": 1,
         "jack8": 18,
         "kazuya": 5,
         "kuma": 2,
         "paul": 5,
-        "yoshimitsu": 178
+        "yoshimitsu": 185
       },
-      "matchLosses": 468,
-      "matchWins": 246,
+      "matchLosses": 474,
+      "matchWins": 253,
       "mostPlayedCharacter": "bryan",
-      "totalMatches": 714,
-      "winRate": 0.345
+      "totalMatches": 727,
+      "winRate": 0.348
     }
   },
   "schemaVersion": 2
