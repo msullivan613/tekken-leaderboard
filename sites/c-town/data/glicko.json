@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T20:15:33.290Z",
+  "generatedAt": "2026-10-26T02:39:19.302Z",
   "pairs": [
     {
       "character": "lili",
@@ -321,6 +321,17 @@
       "sigmaSquared": 145
     },
     {
+      "character": "armor_king",
+      "confidence": "provisional",
+      "games": 11,
+      "lastUpdated": "2026-10-26T01:24:48.000Z",
+      "pairId": "4899-Drd8-678h:armor_king",
+      "playerId": "bigman",
+      "provisional": true,
+      "rating": 1525,
+      "sigmaSquared": 123
+    },
+    {
       "character": "heihachi",
       "confidence": "unqualified",
       "games": 75,
@@ -356,12 +367,12 @@
     {
       "character": "panda",
       "confidence": "leaderboard",
-      "games": 942,
-      "lastUpdated": "2026-10-23T20:36:07.000Z",
+      "games": 945,
+      "lastUpdated": "2026-10-26T01:37:00.000Z",
       "pairId": "4899-Drd8-678h:panda",
       "playerId": "bigman",
       "provisional": false,
-      "rating": 2076,
+      "rating": 2068,
       "sigmaSquared": 63
     },
     {
