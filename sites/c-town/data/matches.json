@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 193,
-  "feedMatchCount": 297,
-  "generatedAt": "2026-10-28T12:01:02.682Z",
+  "feedMatchCount": 300,
+  "generatedAt": "2026-10-28T17:50:46.822Z",
   "matches": [
     {
       "a": {
@@ -11270,6 +11270,75 @@
       "id": "5310fb9bcb9d4a5d96640376817f64d6",
       "playedAt": "2026-10-28T06:45:37.000Z",
       "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "panda",
+        "name": "gnarlyidk",
+        "playerId": "gnarlyidk",
+        "polarisId": "2GAa6T8RT3Ey",
+        "rank": "fujin"
+      },
+      "b": {
+        "character": "bob",
+        "name": "KINGSlayer72",
+        "playerId": null,
+        "polarisId": "4BeL9LLgFyQd",
+        "rank": "kishin"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "f215353968fd4bdfb7857669a54e3679",
+      "playedAt": "2026-10-28T17:42:09.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "panda",
+        "name": "gnarlyidk",
+        "playerId": "gnarlyidk",
+        "polarisId": "2GAa6T8RT3Ey",
+        "rank": "fujin"
+      },
+      "b": {
+        "character": "bob",
+        "name": "KINGSlayer72",
+        "playerId": null,
+        "polarisId": "4BeL9LLgFyQd",
+        "rank": "kishin"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "9535b15e8b3147498ef3a4da9f7a1c00",
+      "playedAt": "2026-10-28T17:45:05.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "panda",
+        "name": "gnarlyidk",
+        "playerId": "gnarlyidk",
+        "polarisId": "2GAa6T8RT3Ey",
+        "rank": "fujin"
+      },
+      "b": {
+        "character": "bob",
+        "name": "KINGSlayer72",
+        "playerId": null,
+        "polarisId": "4BeL9LLgFyQd",
+        "rank": "kishin"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "1e3862cd6e7744d582184d0d5d3695f6",
+      "playedAt": "2026-10-28T17:47:10.000Z",
+      "roundsA": 0,
       "roundsB": 3,
       "winner": "b"
     }
