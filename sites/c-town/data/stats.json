@@ -1,9 +1,13 @@
 {
-  "basedOnMatchCount": 10373,
+  "basedOnMatchCount": 10455,
   "charMatchups": {
     "bigman:armor_king|fop:reina": {
       "matchesA": 1,
       "matchesB": 4
+    },
+    "bigman:armor_king|gnarlyidk:panda": {
+      "matchesA": 2,
+      "matchesB": 0
     },
     "bigman:armor_king|nyx:bob": {
       "matchesA": 1,
@@ -586,7 +590,7 @@
       "matchesB": 0
     }
   },
-  "generatedAt": "2026-10-28T22:05:42.779Z",
+  "generatedAt": "2026-10-29T03:50:51.597Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 4,
@@ -613,10 +617,10 @@
       "roundsB": 317
     },
     "bigman|gnarlyidk": {
-      "matchesA": 14,
+      "matchesA": 16,
       "matchesB": 2,
-      "roundsA": 44,
-      "roundsB": 23
+      "roundsA": 50,
+      "roundsB": 25
     },
     "bigman|jardjay": {
       "matchesA": 5,
@@ -814,22 +818,22 @@
   "players": {
     "bigman": {
       "charUsage": {
-        "armor_king": 74,
+        "armor_king": 76,
         "bob": 42,
         "heihachi": 83,
         "king": 3,
-        "kuma": 1999,
+        "kuma": 2012,
         "kunimitsu": 13,
         "nina": 8,
-        "panda": 718,
+        "panda": 720,
         "paul": 6,
         "reina": 8
       },
-      "matchLosses": 1522,
-      "matchWins": 1432,
+      "matchLosses": 1527,
+      "matchWins": 1444,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 2954,
-      "winRate": 0.485
+      "totalMatches": 2971,
+      "winRate": 0.486
     },
     "burny": {
       "charUsage": {
@@ -893,44 +897,44 @@
         "bryan": 1,
         "claudio": 1,
         "devil_jin": 26,
-        "dragunov": 4,
+        "dragunov": 7,
         "fahkumram": 1,
-        "feng": 8,
+        "feng": 18,
         "heihachi": 3,
         "jack8": 3,
         "jun": 1,
-        "kunimitsu": 22,
+        "kunimitsu": 36,
         "lars": 1,
         "leo": 1,
         "leroy": 9,
         "lili": 8,
         "paul": 40,
-        "reina": 1400,
+        "reina": 1423,
         "shaheen": 5,
         "steve": 1,
         "xiaoyu": 1,
         "yoshimitsu": 1,
         "zafina": 1
       },
-      "matchLosses": 569,
-      "matchWins": 1001,
+      "matchLosses": 573,
+      "matchWins": 1047,
       "mostPlayedCharacter": "reina",
-      "totalMatches": 1570,
-      "winRate": 0.638
+      "totalMatches": 1620,
+      "winRate": 0.646
     },
     "gnarlyidk": {
       "charUsage": {
         "alisa": 4,
         "lili": 3,
-        "panda": 99,
+        "panda": 101,
         "xiaoyu": 1,
         "zafina": 1
       },
-      "matchLosses": 65,
+      "matchLosses": 67,
       "matchWins": 43,
       "mostPlayedCharacter": "panda",
-      "totalMatches": 108,
-      "winRate": 0.398
+      "totalMatches": 110,
+      "winRate": 0.391
     },
     "jardjay": {
       "charUsage": {
@@ -974,14 +978,14 @@
         "kazuya": 52,
         "kunimitsu": 18,
         "law": 18,
-        "lili": 92,
+        "lili": 107,
         "victor": 58
       },
-      "matchLosses": 1364,
-      "matchWins": 1972,
+      "matchLosses": 1366,
+      "matchWins": 1985,
       "mostPlayedCharacter": "bob",
-      "totalMatches": 3336,
-      "winRate": 0.591
+      "totalMatches": 3351,
+      "winRate": 0.592
     },
     "nyx": {
       "charUsage": {

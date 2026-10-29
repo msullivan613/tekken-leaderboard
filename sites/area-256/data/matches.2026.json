@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T22:04:39.114Z",
+  "generatedAt": "2026-10-29T03:49:58.354Z",
   "matches": [
     {
       "a": {
@@ -492634,6 +492634,29 @@
       "crew": false,
       "id": "b03c757346184247b74d6340d5ec52f4",
       "playedAt": "2026-10-27T01:09:25.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "king",
+        "name": "MakeMySnakeEdge",
+        "playerId": null,
+        "polarisId": "3rGa33HtB3JJ",
+        "rank": "god_of_destruction_iv"
+      },
+      "b": {
+        "character": "eddy",
+        "name": "Rev_Grizz",
+        "playerId": "rev_grizz",
+        "polarisId": "44egBAHA424E",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "66f4ca488514420f9e3fc140a4cbfc5b",
+      "playedAt": "2026-10-27T01:12:35.000Z",
       "roundsA": 3,
       "roundsB": 2,
       "winner": "a"
