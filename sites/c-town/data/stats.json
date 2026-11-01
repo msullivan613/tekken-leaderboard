@@ -1,9 +1,13 @@
 {
-  "basedOnMatchCount": 10823,
+  "basedOnMatchCount": 10861,
   "charMatchups": {
+    "bigman:armor_king|fop:kunimitsu": {
+      "matchesA": 3,
+      "matchesB": 0
+    },
     "bigman:armor_king|fop:reina": {
-      "matchesA": 2,
-      "matchesB": 11
+      "matchesA": 10,
+      "matchesB": 14
     },
     "bigman:armor_king|gnarlyidk:panda": {
       "matchesA": 2,
@@ -590,7 +594,7 @@
       "matchesB": 0
     }
   },
-  "generatedAt": "2026-11-01T03:43:43.739Z",
+  "generatedAt": "2026-11-01T12:29:28.950Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 4,
@@ -611,10 +615,10 @@
       "roundsB": 2
     },
     "bigman|fop": {
-      "matchesA": 61,
-      "matchesB": 94,
-      "roundsA": 259,
-      "roundsB": 354
+      "matchesA": 72,
+      "matchesB": 97,
+      "roundsA": 296,
+      "roundsB": 375
     },
     "bigman|gnarlyidk": {
       "matchesA": 16,
@@ -818,7 +822,7 @@
   "players": {
     "bigman": {
       "charUsage": {
-        "armor_king": 125,
+        "armor_king": 144,
         "bob": 42,
         "heihachi": 84,
         "king": 3,
@@ -829,11 +833,11 @@
         "paul": 7,
         "reina": 8
       },
-      "matchLosses": 1600,
-      "matchWins": 1519,
+      "matchLosses": 1606,
+      "matchWins": 1532,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 3119,
-      "winRate": 0.487
+      "totalMatches": 3138,
+      "winRate": 0.488
     },
     "burny": {
       "charUsage": {
@@ -903,24 +907,24 @@
         "heihachi": 3,
         "jack8": 3,
         "jun": 1,
-        "kunimitsu": 36,
+        "kunimitsu": 39,
         "lars": 1,
         "leo": 1,
         "leroy": 9,
         "lili": 8,
         "paul": 40,
-        "reina": 1522,
+        "reina": 1552,
         "shaheen": 5,
         "steve": 1,
         "xiaoyu": 1,
         "yoshimitsu": 1,
         "zafina": 1
       },
-      "matchLosses": 610,
-      "matchWins": 1115,
+      "matchLosses": 630,
+      "matchWins": 1128,
       "mostPlayedCharacter": "reina",
-      "totalMatches": 1725,
-      "winRate": 0.646
+      "totalMatches": 1758,
+      "winRate": 0.642
     },
     "gnarlyidk": {
       "charUsage": {
