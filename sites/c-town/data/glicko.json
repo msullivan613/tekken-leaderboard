@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T21:35:03.270Z",
+  "generatedAt": "2026-11-02T03:49:17.437Z",
   "pairs": [
     {
       "character": "lili",
@@ -33,6 +33,17 @@
       "provisional": false,
       "rating": 1453,
       "sigmaSquared": 93
+    },
+    {
+      "character": "feng",
+      "confidence": "provisional",
+      "games": 178,
+      "lastUpdated": "2026-02-12T00:36:32.000Z",
+      "pairId": "2tYa-R4NB-GJJr:feng",
+      "playerId": "mickrus",
+      "provisional": true,
+      "rating": 1894,
+      "sigmaSquared": 133
     },
     {
       "character": "heihachi",
@@ -323,13 +334,13 @@
     {
       "character": "armor_king",
       "confidence": "leaderboard",
-      "games": 47,
-      "lastUpdated": "2026-11-01T03:56:44.000Z",
+      "games": 65,
+      "lastUpdated": "2026-11-02T02:41:18.000Z",
       "pairId": "4899-Drd8-678h:armor_king",
       "playerId": "bigman",
       "provisional": false,
-      "rating": 1522,
-      "sigmaSquared": 67
+      "rating": 1497,
+      "sigmaSquared": 64
     },
     {
       "character": "heihachi",
