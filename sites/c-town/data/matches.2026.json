@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T13:37:32.281Z",
+  "generatedAt": "2026-11-04T23:04:53.066Z",
   "matches": [
     {
       "a": {
@@ -240629,6 +240629,29 @@
     },
     {
       "a": {
+        "character": "bob",
+        "name": "Nickken",
+        "playerId": null,
+        "polarisId": "3iqqr8HaEjtn",
+        "rank": "fujin"
+      },
+      "b": {
+        "character": "kuma",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3iqqr8HaEjtn-4899Drd8678h:1793674507",
+      "playedAt": "2026-11-03T02:55:07.000Z",
+      "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
         "character": "reina",
         "name": "FopFopFop",
         "playerId": "fop",
@@ -241454,6 +241477,52 @@
       "roundsA": 3,
       "roundsB": 0,
       "winner": "a"
+    },
+    {
+      "a": {
+        "character": "hwoarang",
+        "name": "Sinblock88",
+        "playerId": null,
+        "polarisId": "3m974RMM4MQ6",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "panda",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3m974RMM4MQ6-4899Drd8678h:1793718267",
+      "playedAt": "2026-11-03T15:04:27.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "hwoarang",
+        "name": "Sinblock88",
+        "playerId": null,
+        "polarisId": "3m974RMM4MQ6",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "kuma",
+        "name": "BES | BigMan",
+        "playerId": "bigman",
+        "polarisId": "4899Drd8678h",
+        "rank": "god_of_destruction_v"
+      },
+      "battleType": "player",
+      "crew": false,
+      "id": "ewgf:3m974RMM4MQ6-4899Drd8678h:1793718440",
+      "playedAt": "2026-11-03T15:07:20.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
     },
     {
       "a": {
