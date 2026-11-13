@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 0,
   "feedMatchCount": 438,
-  "generatedAt": "2026-11-13T13:44:55.314Z",
+  "generatedAt": "2026-11-13T23:06:30.735Z",
   "matches": [
     {
       "a": {
@@ -9174,29 +9174,6 @@
       },
       "battleType": "ranked",
       "crew": false,
-      "id": "5e1a270a66f54aca8f24db6b28b2b906",
-      "playedAt": "2026-11-13T07:32:40.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "alisa",
-        "name": "Edderall",
-        "playerId": null,
-        "polarisId": "2qgqiF4ny82B",
-        "rank": "god_of_destruction_v"
-      },
-      "b": {
-        "character": "azucena",
-        "name": "Phine",
-        "playerId": "phine",
-        "polarisId": "5HyEnHGerLJ8",
-        "rank": "god_of_destruction_vi"
-      },
-      "battleType": "ranked",
-      "crew": false,
       "id": "8fe0bf61c2304389abc0d4cdcbf53c93",
       "playedAt": "2026-11-13T07:35:38.000Z",
       "roundsA": 1,
@@ -10076,6 +10053,29 @@
       "roundsA": 3,
       "roundsB": 2,
       "winner": "a"
+    },
+    {
+      "a": {
+        "character": "feng",
+        "name": "SpiralCS",
+        "playerId": null,
+        "polarisId": "3D5TAJYJyD8a",
+        "rank": "god_of_destruction_vi"
+      },
+      "b": {
+        "character": "azucena",
+        "name": "Phine",
+        "playerId": "phine",
+        "polarisId": "5HyEnHGerLJ8",
+        "rank": "god_of_destruction_vi"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "df175808acc947069ce806e7b0d22efa",
+      "playedAt": "2026-11-13T23:05:19.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
     }
   ],
   "schemaVersion": 2,
