@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 11839,
+  "basedOnMatchCount": 11855,
   "charMatchups": {
     "bigman:armor_king|fop:kunimitsu": {
       "matchesA": 3,
@@ -122,7 +122,7 @@
       "matchesB": 0
     },
     "bigman:kuma|nyx:bob": {
-      "matchesA": 11,
+      "matchesA": 13,
       "matchesB": 1
     },
     "bigman:kuma|nyx:steve": {
@@ -598,7 +598,7 @@
       "matchesB": 0
     }
   },
-  "generatedAt": "2026-11-15T13:17:31.336Z",
+  "generatedAt": "2026-11-15T22:23:22.383Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 4,
@@ -649,10 +649,10 @@
       "roundsB": 2
     },
     "bigman|nyx": {
-      "matchesA": 40,
+      "matchesA": 42,
       "matchesB": 7,
-      "roundsA": 127,
-      "roundsB": 59
+      "roundsA": 133,
+      "roundsB": 60
     },
     "bigman|slashuur": {
       "matchesA": 2,
@@ -826,22 +826,22 @@
   "players": {
     "bigman": {
       "charUsage": {
-        "armor_king": 265,
+        "armor_king": 268,
         "bob": 42,
         "heihachi": 85,
         "king": 3,
-        "kuma": 2122,
+        "kuma": 2128,
         "kunimitsu": 13,
         "nina": 10,
-        "panda": 967,
+        "panda": 972,
         "paul": 7,
         "reina": 8
       },
-      "matchLosses": 1815,
-      "matchWins": 1707,
+      "matchLosses": 1819,
+      "matchWins": 1717,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 3522,
-      "winRate": 0.485
+      "totalMatches": 3536,
+      "winRate": 0.486
     },
     "burny": {
       "charUsage": {
@@ -1000,7 +1000,7 @@
     "nyx": {
       "charUsage": {
         "armor_king": 18,
-        "bob": 447,
+        "bob": 451,
         "eddy": 1,
         "jin": 1,
         "kazuya": 1,
@@ -1008,11 +1008,11 @@
         "paul": 7,
         "steve": 45
       },
-      "matchLosses": 371,
+      "matchLosses": 375,
       "matchWins": 156,
       "mostPlayedCharacter": "bob",
-      "totalMatches": 527,
-      "winRate": 0.296
+      "totalMatches": 531,
+      "winRate": 0.294
     },
     "slashuur": {
       "charUsage": {
