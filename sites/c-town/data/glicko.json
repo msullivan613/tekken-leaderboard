@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T04:13:27.388Z",
+  "generatedAt": "2026-11-16T14:29:30.034Z",
   "pairs": [
     {
       "character": "lili",
@@ -32,7 +32,7 @@
       "playerId": "code",
       "provisional": false,
       "rating": 1453,
-      "sigmaSquared": 95
+      "sigmaSquared": 96
     },
     {
       "character": "feng",
@@ -65,7 +65,7 @@
       "playerId": "mickrus",
       "provisional": false,
       "rating": 1806,
-      "sigmaSquared": 86
+      "sigmaSquared": 87
     },
     {
       "character": "bob",
@@ -76,7 +76,7 @@
       "playerId": "nyx",
       "provisional": false,
       "rating": 1331,
-      "sigmaSquared": 69
+      "sigmaSquared": 70
     },
     {
       "character": "steve",
@@ -109,7 +109,7 @@
       "playerId": "chamk",
       "provisional": false,
       "rating": 1539,
-      "sigmaSquared": 69
+      "sigmaSquared": 70
     },
     {
       "character": "jin",
@@ -153,7 +153,7 @@
       "playerId": "fop",
       "provisional": false,
       "rating": 1737,
-      "sigmaSquared": 66
+      "sigmaSquared": 67
     },
     {
       "character": "bob",
@@ -175,7 +175,7 @@
       "playerId": "sugarfree",
       "provisional": false,
       "rating": 1787,
-      "sigmaSquared": 72
+      "sigmaSquared": 73
     },
     {
       "character": "fahkumram",
@@ -197,7 +197,7 @@
       "playerId": "sugarfree",
       "provisional": false,
       "rating": 1415,
-      "sigmaSquared": 95
+      "sigmaSquared": 96
     },
     {
       "character": "jack8",
@@ -274,7 +274,7 @@
       "playerId": "nullified",
       "provisional": false,
       "rating": 1674,
-      "sigmaSquared": 75
+      "sigmaSquared": 76
     },
     {
       "character": "dragunov",
@@ -285,7 +285,7 @@
       "playerId": "nullified",
       "provisional": true,
       "rating": 1512,
-      "sigmaSquared": 127
+      "sigmaSquared": 128
     },
     {
       "character": "fahkumram",
@@ -307,7 +307,7 @@
       "playerId": "nullified",
       "provisional": false,
       "rating": 1622,
-      "sigmaSquared": 65
+      "sigmaSquared": 66
     },
     {
       "character": "jack8",
@@ -362,7 +362,7 @@
       "playerId": "bigman",
       "provisional": false,
       "rating": 1375,
-      "sigmaSquared": 100
+      "sigmaSquared": 101
     },
     {
       "character": "kuma",
@@ -410,12 +410,12 @@
     },
     {
       "character": "paul",
-      "confidence": "unqualified",
+      "confidence": "provisional",
       "games": 1289,
       "lastUpdated": "2026-09-19T18:30:52.000Z",
       "pairId": "4fLe-2B6Q-34fJ:paul",
       "playerId": "burny",
-      "provisional": false,
+      "provisional": true,
       "rating": 1947,
       "sigmaSquared": 110
     },
@@ -428,7 +428,7 @@
       "playerId": "burny",
       "provisional": false,
       "rating": 2046,
-      "sigmaSquared": 75
+      "sigmaSquared": 76
     },
     {
       "character": "dragunov",
@@ -483,7 +483,7 @@
       "playerId": "stone",
       "provisional": true,
       "rating": 1769,
-      "sigmaSquared": 116
+      "sigmaSquared": 117
     },
     {
       "character": "lee",
@@ -494,7 +494,7 @@
       "playerId": "stone",
       "provisional": true,
       "rating": 1738,
-      "sigmaSquared": 151
+      "sigmaSquared": 152
     }
   ],
   "schemaVersion": 1,
