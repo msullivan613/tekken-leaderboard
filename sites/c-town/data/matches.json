@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 154,
   "feedMatchCount": 336,
-  "generatedAt": "2026-11-15T22:23:22.383Z",
+  "generatedAt": "2026-11-16T04:13:27.388Z",
   "matches": [
     {
       "a": {
@@ -9412,75 +9412,6 @@
     },
     {
       "a": {
-        "character": null,
-        "name": "StoneG",
-        "playerId": "stone",
-        "polarisId": "4TiQJ6FArHJa",
-        "rank": "god_of_destruction"
-      },
-      "b": {
-        "character": "steve",
-        "name": "Ziggyman",
-        "playerId": null,
-        "polarisId": "62MNLN9D3yM8",
-        "rank": "tekken_god"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "821171a784684c82a676e7759f823c02",
-      "playedAt": "2026-11-14T02:26:16.000Z",
-      "roundsA": 3,
-      "roundsB": 1,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": null,
-        "name": "StoneG",
-        "playerId": "stone",
-        "polarisId": "4TiQJ6FArHJa",
-        "rank": "god_of_destruction"
-      },
-      "b": {
-        "character": "bryan",
-        "name": "Hakaishin",
-        "playerId": null,
-        "polarisId": "57m9DFdDMRhy",
-        "rank": "tekken_god_supreme"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "b26fc39338e349af91a16c8ba4381e8a",
-      "playedAt": "2026-11-14T02:28:54.000Z",
-      "roundsA": 3,
-      "roundsB": 0,
-      "winner": "a"
-    },
-    {
-      "a": {
-        "character": "lars",
-        "name": "Mr.Marvelous",
-        "playerId": null,
-        "polarisId": "4A7AdhhhEQMh",
-        "rank": "tekken_god"
-      },
-      "b": {
-        "character": null,
-        "name": "StoneG",
-        "playerId": "stone",
-        "polarisId": "4TiQJ6FArHJa",
-        "rank": "god_of_destruction"
-      },
-      "battleType": "ranked",
-      "crew": false,
-      "id": "ea722a8c17a741d58143534663bbb186",
-      "playedAt": "2026-11-14T02:31:57.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
         "character": "lars",
         "name": "Mr.Marvelous",
         "playerId": null,
@@ -11272,6 +11203,75 @@
       "roundsA": 2,
       "roundsB": 3,
       "winner": "b"
+    },
+    {
+      "a": {
+        "character": null,
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "alisa",
+        "name": "Neversendaaron",
+        "playerId": null,
+        "polarisId": "63nhRtaHLq4G",
+        "rank": "god_of_destruction_vi"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "d05affcf8fd74a52b1e5c8e1b725b9b6",
+      "playedAt": "2026-11-16T03:45:36.000Z",
+      "roundsA": 0,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": null,
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "miary_zo",
+        "name": "TemptDaBouncer",
+        "playerId": null,
+        "polarisId": "4hHyY9fnR6Ma",
+        "rank": "god_of_destruction_i"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "71f23f60d3a548808c2c6f4606ba66df",
+      "playedAt": "2026-11-16T03:50:00.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": null,
+        "name": "StoneG",
+        "playerId": "stone",
+        "polarisId": "4TiQJ6FArHJa",
+        "rank": "god_of_destruction_ii"
+      },
+      "b": {
+        "character": "alisa",
+        "name": "Neversendaaron",
+        "playerId": null,
+        "polarisId": "63nhRtaHLq4G",
+        "rank": "god_of_destruction_vi"
+      },
+      "battleType": "quick",
+      "crew": false,
+      "id": "eccc5bed31be4dfe9383f24b46aa2375",
+      "playedAt": "2026-11-16T03:54:01.000Z",
+      "roundsA": 3,
+      "roundsB": 2,
+      "winner": "a"
     }
   ],
   "schemaVersion": 2,
