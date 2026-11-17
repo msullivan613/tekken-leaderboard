@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 11884,
+  "basedOnMatchCount": 11932,
   "charMatchups": {
     "bigman:armor_king|fop:kunimitsu": {
       "matchesA": 3,
@@ -598,7 +598,7 @@
       "matchesB": 0
     }
   },
-  "generatedAt": "2026-11-17T01:25:23.068Z",
+  "generatedAt": "2026-11-17T15:20:31.287Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 4,
@@ -826,7 +826,7 @@
   "players": {
     "bigman": {
       "charUsage": {
-        "armor_king": 272,
+        "armor_king": 279,
         "bob": 42,
         "heihachi": 88,
         "king": 3,
@@ -837,10 +837,10 @@
         "paul": 7,
         "reina": 8
       },
-      "matchLosses": 1829,
-      "matchWins": 1730,
+      "matchLosses": 1834,
+      "matchWins": 1732,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 3559,
+      "totalMatches": 3566,
       "winRate": 0.486
     },
     "burny": {
@@ -863,16 +863,17 @@
     "chamk": {
       "charUsage": {
         "bryan": 6,
-        "devil_jin": 112,
+        "devil_jin": 113,
         "jin": 184,
         "kazuya": 34,
-        "kunimitsu": 129
+        "kunimitsu": 129,
+        "reina": 8
       },
-      "matchLosses": 204,
-      "matchWins": 261,
+      "matchLosses": 207,
+      "matchWins": 267,
       "mostPlayedCharacter": "jin",
-      "totalMatches": 465,
-      "winRate": 0.561
+      "totalMatches": 474,
+      "winRate": 0.563
     },
     "code": {
       "charUsage": {
@@ -917,18 +918,18 @@
         "leroy": 16,
         "lili": 8,
         "paul": 40,
-        "reina": 1676,
+        "reina": 1691,
         "shaheen": 5,
         "steve": 1,
         "xiaoyu": 1,
         "yoshimitsu": 1,
         "zafina": 1
       },
-      "matchLosses": 670,
-      "matchWins": 1219,
+      "matchLosses": 672,
+      "matchWins": 1239,
       "mostPlayedCharacter": "reina",
-      "totalMatches": 1889,
-      "winRate": 0.645
+      "totalMatches": 1911,
+      "winRate": 0.648
     },
     "gnarlyidk": {
       "charUsage": {
@@ -1037,11 +1038,11 @@
         "lee": 76,
         "victor": 5
       },
-      "matchLosses": 141,
-      "matchWins": 410,
+      "matchLosses": 142,
+      "matchWins": 419,
       "mostPlayedCharacter": "dragunov",
-      "totalMatches": 551,
-      "winRate": 0.744
+      "totalMatches": 561,
+      "winRate": 0.747
     },
     "sugarfree": {
       "charUsage": {
