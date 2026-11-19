@@ -1,7 +1,7 @@
 {
   "crewMatchCount": 0,
   "feedMatchCount": 406,
-  "generatedAt": "2026-11-18T23:46:42.301Z",
+  "generatedAt": "2026-11-19T05:26:00.940Z",
   "matches": [
     {
       "a": {
@@ -7733,75 +7733,6 @@
     },
     {
       "a": {
-        "character": "lili",
-        "name": "Nolan_",
-        "playerId": null,
-        "polarisId": "26Ddy3ErGnAn",
-        "rank": "god_of_destruction_i"
-      },
-      "b": {
-        "character": "azucena",
-        "name": "Phine",
-        "playerId": "phine",
-        "polarisId": "5HyEnHGerLJ8",
-        "rank": "god_of_destruction_vii"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "56856296706a450d816ca27b9ec1b54f",
-      "playedAt": "2026-11-18T07:13:02.000Z",
-      "roundsA": 0,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "azucena",
-        "name": "Phine",
-        "playerId": "phine",
-        "polarisId": "5HyEnHGerLJ8",
-        "rank": "god_of_destruction_vii"
-      },
-      "b": {
-        "character": "armor_king",
-        "name": "Mr_Default",
-        "playerId": null,
-        "polarisId": "62yiEL2YN8rQ",
-        "rank": "god_of_destruction_iii"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "329446fbc3ac412abe0d905c9ae371bc",
-      "playedAt": "2026-11-18T07:17:40.000Z",
-      "roundsA": 1,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
-        "character": "jun",
-        "name": "NOVA|Baeee",
-        "playerId": null,
-        "polarisId": "3rRdQ96y25h8",
-        "rank": "god_of_destruction_vi"
-      },
-      "b": {
-        "character": "azucena",
-        "name": "Phine",
-        "playerId": "phine",
-        "polarisId": "5HyEnHGerLJ8",
-        "rank": "god_of_destruction_vii"
-      },
-      "battleType": "quick",
-      "crew": false,
-      "id": "eb4516ffe2284aadb0265bae5d2687dd",
-      "playedAt": "2026-11-18T07:28:21.000Z",
-      "roundsA": 1,
-      "roundsB": 3,
-      "winner": "b"
-    },
-    {
-      "a": {
         "character": "jun",
         "name": "NOVA|Baeee",
         "playerId": null,
@@ -9338,6 +9269,75 @@
       "id": "e0267f5671a34b8694e611ef8bff5b32",
       "playedAt": "2026-11-18T10:56:40.000Z",
       "roundsA": 2,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "reina",
+        "name": "JV‎ ‎",
+        "playerId": null,
+        "polarisId": "3MjHjfjgAL2n",
+        "rank": "god_of_destruction_iv"
+      },
+      "b": {
+        "character": "kunimitsu",
+        "name": "Phine",
+        "playerId": "phine",
+        "polarisId": "5HyEnHGerLJ8",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "423473b98f1246acb899c3736b6c8005",
+      "playedAt": "2026-11-19T05:09:12.000Z",
+      "roundsA": 3,
+      "roundsB": 1,
+      "winner": "a"
+    },
+    {
+      "a": {
+        "character": "yoshimitsu",
+        "name": "Him Jon Un",
+        "playerId": null,
+        "polarisId": "5Gmq9BYbe9QE",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "kunimitsu",
+        "name": "Phine",
+        "playerId": "phine",
+        "polarisId": "5HyEnHGerLJ8",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "f1d42b7de064432fa13416849b1a1a78",
+      "playedAt": "2026-11-19T05:13:38.000Z",
+      "roundsA": 1,
+      "roundsB": 3,
+      "winner": "b"
+    },
+    {
+      "a": {
+        "character": "yoshimitsu",
+        "name": "Him Jon Un",
+        "playerId": null,
+        "polarisId": "5Gmq9BYbe9QE",
+        "rank": "god_of_destruction_iii"
+      },
+      "b": {
+        "character": "kunimitsu",
+        "name": "Phine",
+        "playerId": "phine",
+        "polarisId": "5HyEnHGerLJ8",
+        "rank": "god_of_destruction_iii"
+      },
+      "battleType": "ranked",
+      "crew": false,
+      "id": "80efb80bfd07464193f5dad8822195d5",
+      "playedAt": "2026-11-19T05:15:14.000Z",
+      "roundsA": 0,
       "roundsB": 3,
       "winner": "b"
     }
