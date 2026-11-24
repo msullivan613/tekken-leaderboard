@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T17:02:52.709Z",
+  "generatedAt": "2026-11-24T03:42:47.894Z",
   "pairs": [
     {
       "character": "lili",
@@ -91,14 +91,14 @@
     },
     {
       "character": "bryan",
-      "confidence": "provisional",
-      "games": 116,
-      "lastUpdated": "2026-06-14T09:25:57.000Z",
+      "confidence": "unqualified",
+      "games": 134,
+      "lastUpdated": "2026-11-24T00:52:39.000Z",
       "pairId": "37iF-Jy3H-YdTJ:bryan",
       "playerId": "chamk",
-      "provisional": true,
-      "rating": 1207,
-      "sigmaSquared": 125
+      "provisional": false,
+      "rating": 1289,
+      "sigmaSquared": 81
     },
     {
       "character": "devil_jin",
@@ -125,13 +125,13 @@
     {
       "character": "jin",
       "confidence": "leaderboard",
-      "games": 1082,
-      "lastUpdated": "2026-11-22T08:04:29.000Z",
+      "games": 1094,
+      "lastUpdated": "2026-11-23T23:18:41.000Z",
       "pairId": "37iF-Jy3H-YdTJ:jin",
       "playerId": "chamk",
       "provisional": false,
-      "rating": 1581,
-      "sigmaSquared": 62
+      "rating": 1537,
+      "sigmaSquared": 63
     },
     {
       "character": "kazuya",
@@ -158,13 +158,13 @@
     {
       "character": "reina",
       "confidence": "unqualified",
-      "games": 1316,
-      "lastUpdated": "2026-11-22T06:55:47.000Z",
+      "games": 1319,
+      "lastUpdated": "2026-11-23T23:28:03.000Z",
       "pairId": "37iF-Jy3H-YdTJ:reina",
       "playerId": "chamk",
       "provisional": false,
-      "rating": 1583,
-      "sigmaSquared": 82
+      "rating": 1575,
+      "sigmaSquared": 78
     },
     {
       "character": "reina",
@@ -367,12 +367,12 @@
     {
       "character": "armor_king",
       "confidence": "leaderboard",
-      "games": 264,
-      "lastUpdated": "2026-11-23T02:50:13.000Z",
+      "games": 298,
+      "lastUpdated": "2026-11-24T02:54:04.000Z",
       "pairId": "4899-Drd8-678h:armor_king",
       "playerId": "bigman",
       "provisional": false,
-      "rating": 1478,
+      "rating": 1561,
       "sigmaSquared": 63
     },
     {

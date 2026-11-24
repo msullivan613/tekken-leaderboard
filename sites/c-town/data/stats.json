@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 12474,
+  "basedOnMatchCount": 12558,
   "charMatchups": {
     "bigman:armor_king|fop:kunimitsu": {
       "matchesA": 3,
@@ -598,7 +598,7 @@
       "matchesB": 0
     }
   },
-  "generatedAt": "2026-11-23T17:02:52.709Z",
+  "generatedAt": "2026-11-24T03:42:47.894Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 4,
@@ -826,7 +826,7 @@
   "players": {
     "bigman": {
       "charUsage": {
-        "armor_king": 412,
+        "armor_king": 446,
         "bob": 42,
         "heihachi": 88,
         "king": 3,
@@ -837,11 +837,11 @@
         "paul": 7,
         "reina": 8
       },
-      "matchLosses": 1974,
-      "matchWins": 1855,
+      "matchLosses": 1989,
+      "matchWins": 1874,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 3829,
-      "winRate": 0.484
+      "totalMatches": 3863,
+      "winRate": 0.485
     },
     "burny": {
       "charUsage": {
@@ -862,19 +862,21 @@
     },
     "chamk": {
       "charUsage": {
-        "bryan": 6,
+        "bryan": 24,
         "devil_jin": 121,
+        "dragunov": 2,
         "heihachi": 69,
-        "jin": 262,
+        "jin": 274,
         "kazuya": 53,
         "kunimitsu": 129,
-        "reina": 16
+        "reina": 19,
+        "yoshimitsu": 4
       },
-      "matchLosses": 304,
-      "matchWins": 352,
+      "matchLosses": 332,
+      "matchWins": 363,
       "mostPlayedCharacter": "jin",
-      "totalMatches": 656,
-      "winRate": 0.537
+      "totalMatches": 695,
+      "winRate": 0.522
     },
     "code": {
       "charUsage": {
@@ -977,7 +979,7 @@
       "charUsage": {
         "armor_king": 361,
         "asuka": 46,
-        "bob": 1790,
+        "bob": 1801,
         "bryan": 37,
         "claudio": 349,
         "clive": 298,
@@ -993,10 +995,10 @@
         "lili": 107,
         "victor": 58
       },
-      "matchLosses": 1528,
-      "matchWins": 2215,
+      "matchLosses": 1533,
+      "matchWins": 2221,
       "mostPlayedCharacter": "bob",
-      "totalMatches": 3743,
+      "totalMatches": 3754,
       "winRate": 0.592
     },
     "nyx": {
