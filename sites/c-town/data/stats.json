@@ -1,5 +1,5 @@
 {
-  "basedOnMatchCount": 12569,
+  "basedOnMatchCount": 12619,
   "charMatchups": {
     "bigman:armor_king|fop:kunimitsu": {
       "matchesA": 3,
@@ -598,7 +598,7 @@
       "matchesB": 0
     }
   },
-  "generatedAt": "2026-11-25T01:50:07.637Z",
+  "generatedAt": "2026-11-25T16:38:35.444Z",
   "headToHead": {
     "bigman|burny": {
       "matchesA": 4,
@@ -826,7 +826,7 @@
   "players": {
     "bigman": {
       "charUsage": {
-        "armor_king": 448,
+        "armor_king": 475,
         "bob": 42,
         "heihachi": 88,
         "king": 3,
@@ -837,11 +837,11 @@
         "paul": 7,
         "reina": 8
       },
-      "matchLosses": 1991,
-      "matchWins": 1874,
+      "matchLosses": 2008,
+      "matchWins": 1884,
       "mostPlayedCharacter": "kuma",
-      "totalMatches": 3865,
-      "winRate": 0.485
+      "totalMatches": 3892,
+      "winRate": 0.484
     },
     "burny": {
       "charUsage": {
@@ -862,21 +862,22 @@
     },
     "chamk": {
       "charUsage": {
-        "bryan": 24,
+        "bryan": 28,
         "devil_jin": 121,
         "dragunov": 2,
-        "heihachi": 69,
-        "jin": 274,
-        "kazuya": 53,
+        "heihachi": 73,
+        "jin": 278,
+        "kazuya": 55,
         "kunimitsu": 129,
-        "reina": 19,
-        "yoshimitsu": 4
+        "paul": 3,
+        "reina": 22,
+        "yoshimitsu": 7
       },
-      "matchLosses": 332,
-      "matchWins": 363,
+      "matchLosses": 346,
+      "matchWins": 372,
       "mostPlayedCharacter": "jin",
-      "totalMatches": 695,
-      "winRate": 0.522
+      "totalMatches": 718,
+      "winRate": 0.518
     },
     "code": {
       "charUsage": {
